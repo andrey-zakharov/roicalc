@@ -1,0 +1,17 @@
+$secondary: rgb(200, 124, 13);
+
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+$outline-color: rgb(200, 124, 13);
+$bg: rgb(21, 21, 21);
+
+body {
+  font-family: 'Oswald', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color: #2c3e50;
+}
