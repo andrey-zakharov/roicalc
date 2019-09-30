@@ -123,15 +123,16 @@
 <script lang="ts">
     import {Component, Vue, Watch} from "vue-property-decorator";
     import appState, {Building, ProductDefinition, Result} from "@/store/app";
-    import {BButton} from "bootstrap-vue";
+    import {BButton, BDropdown, BDropdownItem, BFormInput, BInputGroup, BNavForm} from "bootstrap-vue";
     import ProductResult from "@/components/ProductResult.vue";
     import Fraction from 'fraction.js/fraction';
     import {costsFilter, periodFilter} from "@/utils";
+    import {TreeDataItem} from '@/../../tree-table-vue';
 
     @Component({
   components: {
     ProductResult,
-    BButton,
+    BButton, BNavForm, BInputGroup, BFormInput, BDropdown, BDropdownItem,
   },
 })
 export default class Home extends Vue {
@@ -143,16 +144,16 @@ export default class Home extends Vue {
   get targets() { return appState.targets; }
   get result() { return appState.result }
   get resultOf() { return (prodCat: string): Result => {
-      return Object.keys(appState.result)
-              .filter((ri) => appState.products[appState.recipes[ri].result[0].id].productCategory === prodCat)
-              .reduce<Result>((obj: Result, key): Result => { obj[key] = appState.result[key]; return obj }, {})
+      return Object.keys(appState.result).map((k) => parseInt(k))
+              .filter((ri: number) => appState.products[appState.recipes[ri].result[0].id].productCategory === prodCat)
+              .reduce<Result>((obj: Result, key: number): Result => { obj[key] = appState.result[key]; return obj }, {})
     }
   }
 
   get language() { return appState.language; }
   get languages() { return appState.languages; }
 
-  get productPrice() { return (prodId): number => Math.round(appState.productPrice(prodId)); }
+  get productPrice() { return (prodId: number): number => Math.round(appState.productPrice(prodId)); }
   get totalProductPrices() {
     return appState.targets.reduce((total, target) => {
       return total + appState.productPrice(target.id) * target.amount / target.days;
@@ -161,8 +162,8 @@ export default class Home extends Vue {
 
   get building() { return (recipeId: number): Building =>
       appState.recipes[recipeId].requiredModules.length ?
-        appState.buildingByName(appState.recipes[recipeId].requiredModules[0].buildingName) :
-        appState.buildings[appState.recipes[recipeId].building];
+        appState.buildingByName(appState.recipes[recipeId].requiredModules[0].buildingName)! :
+        appState.buildings[appState.recipes[recipeId].building]!;
   }
 
   get treeItems() {
@@ -176,7 +177,7 @@ export default class Home extends Vue {
         // categories
         const catId = res.push({
           name: this.tpc(pcat.name) || pcat.name,
-          children: Object.keys(resultOf).map((recipeId) => ({
+          children: Object.keys(resultOf).map((k) => parseInt(k)).map((recipeId: number) => ({
             // recipes
                 name: this.tr(this.recipes[recipeId]) || this.recipes[recipeId].displayName,
                 flow: resultOf[recipeId].toFraction(true),
@@ -204,7 +205,7 @@ export default class Home extends Vue {
 
       /// populate parent buildings  + modules
       const totalFlow = numRecipes.ceil().valueOf();
-      const moduleBld = appState.buildingByName(appState.recipes[recipeId].requiredModules[0].buildingName);
+      const moduleBld = appState.buildingByName(appState.recipes[recipeId].requiredModules[0].buildingName)!;
       const modulesPerBuild = appState.modulesCount(bld.name);
 
       const numParent = Math.floor(totalFlow / modulesPerBuild);
@@ -246,9 +247,9 @@ export default class Home extends Vue {
   get tr() { return appState.tr; }
   get tb() { return appState.tb; }
 
-  calcSummary(data, column, columnIndex: number) {
+  calcSummary(data: any, column: any, columnIndex: number) {
     if ( column.key === 'name') { return "Total"; }
-    const total = data.reduce((t, row) => t + (parseInt(row['cost']) || 0), 0);
+    const total = data.reduce((t: number, row: any) => t + (parseInt(row['cost']) || 0), 0);
     if ( column.key === 'cost') { return costsFilter(total); }
     if ( column.key === 'flow') {
       return periodFilter(total / this.totalProductPrices);
@@ -286,7 +287,7 @@ export default class Home extends Vue {
     // appState.recalculate();
   }
 
-  displayCost(scope) {
+  displayCost(scope: any) {
 
     if ( scope.row._isFold && scope.row.children.length > 0) { // collapsed
       return this.sumChildrenCosts(scope.row);
@@ -296,12 +297,13 @@ export default class Home extends Vue {
     return scope.row.cost;
   }
 
-  changeLocale(locale) {
+  changeLocale(locale: string) {
     appState.setLocale(locale);
   }
 
-  private sumChildrenCosts(item) {
-    return (parseInt(item.cost) || 0) + (item.children ? item.children.reduce((total, ch) => total += this.sumChildrenCosts(ch), 0) : 0);
+  private sumChildrenCosts(item: TreeDataItem): number {
+    return (parseInt(item.cost) || 0) + (item.children ? item.children
+            .reduce((total: number, ch: TreeDataItem) => total + this.sumChildrenCosts(ch), 0) : 0);
   }
 
   async setTarget(prod: ProductDefinition) {

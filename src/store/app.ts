@@ -40,6 +40,15 @@ export interface ProductDefinition {
     price: string; // formula
 }
 
+export interface ProductCategory {
+    name: string;
+    uiOrder: number;
+    categoryName: string;
+    parentCategory: string;
+    priceMultiplier: number;
+    growthMultiplier: number;
+}
+
 export interface Product {
     id: number;
     amount: number;
@@ -88,9 +97,9 @@ class AppState extends VuexModule implements IAppState {
     public recipes: Readonly<Recipe[]> = [];
     public buildings: Readonly<Building[]> = [];
     public locale: { [key: string]: string } = {};
-    public productCategories = [];
+    public productCategories: ProductCategory[] = [];
     public get productsWithOptions() { return this.products.filter((p) => p.recipes.length > 1); }
-    public language = navigator.language || navigator.userLanguage;
+    public language = languages.some((l) => l.keycode.toLowerCase() === navigator.language.toLowerCase()) ? navigator.language : 'en-us';
     get productCategory() { return (prodId: number) =>
         this.productCategories.find((cat) => cat.name === this.products[prodId].productCategory);
     }
@@ -204,13 +213,15 @@ class AppState extends VuexModule implements IAppState {
         const moduleUpkeep = recipe.requiredModules.length ?
             this.buildingByName(recipe.requiredModules[0].buildingName)!.moduleUpkeep || 0 : 0;
 
-        const upkeep = this.upkeep(this.buildings[recipe.building].upkeep.totalMonthlyUpkeep || 0, moduleUpkeep);
+        const upkeep = this.upkeep(
+            this.buildings[recipe.building].upkeep ? this.buildings[recipe.building].upkeep!.totalMonthlyUpkeep! : 0, moduleUpkeep
+        );
 
         const priceFunction = new Function('ingredientsValue', 'upkeep', 'recipeDays', 'recipeOutput', 'productOutput',
             'return ' + this.products[productId].price);
 
         return priceFunction(ingredientsValue, upkeep, recipe.gameDays, totalOutput, result.amount) *
-            this.productCategory(productId).priceMultiplier;
+            this.productCategory(productId)!.priceMultiplier;
     }}
 
     get ingredientsValue() { return (recipe: Recipe) =>
@@ -230,7 +241,8 @@ class AppState extends VuexModule implements IAppState {
         buildings.forEach((b, bid) => {
             (b as any as Building).id = bid;
             (b as any as Building).availableRecipes =
-                b.availableRecipes.map((recName: string): number => recipes.findIndex((r) => r.object.name === recName));
+                (b.availableRecipes as string[]).map((recName: string): number =>
+                    recipes.findIndex((r) => r.object.name === recName));
         });
 
         prods.map((o) => o.object).forEach((p, pid) => {
@@ -324,7 +336,7 @@ class AppState extends VuexModule implements IAppState {
 
         const res = await axios.get(path);
         const obj: {[key: string]: string} = {};
-        res.data.forEach((e) => obj[e.key] = e.value);
+        res.data.forEach((e: {key: string; value: string; } ) => obj[e.key] = e.value);
         this.SET_LOCALE(obj);
         this.SET_LANG(loc);
     }
@@ -352,8 +364,8 @@ class AppState extends VuexModule implements IAppState {
     @Mutation private SET_TARGET_AMOUNT([tid, n]: [number, number]) { this.targets[tid].amount = n; }
     @Mutation private SET_TARGET_DAYS([tid, n]: [number, number]) { this.targets[tid].days = n; }
 
-    @Mutation private SET_LOCALE(data) { this.locale = data; }
-    @Mutation private SET_LANG(lang) { this.language = lang; }
+    @Mutation private SET_LOCALE(data: {[key: string]: string}) { this.locale = data; }
+    @Mutation private SET_LANG(lang: string) { this.language = lang; }
 
 }
 

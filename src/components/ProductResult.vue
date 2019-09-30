@@ -36,20 +36,18 @@
         get int() { return this.flow.floor().n; }
         get frac() { return this.flow.sub(this.int).valueOf() }
 
-        get building(): Building { return this.recipe.requiredModules.length ?
-            this.buildingByName(this.recipe.requiredModules[0].buildingName) :
+        get building(): Building | undefined { return this.recipe.requiredModules.length ?
+            appState.buildingByName(this.recipe.requiredModules[0].buildingName) :
             appState.buildings[appState.recipes[this.recipeId].building];
         }
 
-        get buildingImage() { return (bld) => '/static/buildings/' + bld.constructionBarIcon.replace(/-/g, '_') + '.png'; }
+        get buildingImage() { return (bld: Building): string => '/static/buildings/' + bld.constructionBarIcon.replace(/-/g, '_') + '.png'; }
         get backgroundImage() {
-            return this.building.constructionBarIcon ?
-                `url( ${this.buildingImage(this.building)} )` :
+            return this.building!.constructionBarIcon ?
+                `url( ${this.buildingImage(this.building!)} )` :
                 'none';
         }
         get recipe() { return appState.recipes[this.recipeId]; }
-
-        get buildingByName() { return (name: string): Building => appState.buildings.find((b) => b.name === name); }
 
         get recipes() { return appState.recipes; }
         get products() { return appState.products; }
