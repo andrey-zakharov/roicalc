@@ -332,7 +332,7 @@ class AppState extends VuexModule implements IAppState {
     @Action({ rawError: true })
     public async setLocale(loc: string) {
         //lang-langdata_gamedata_it-it
-        const path = `/static/lang/lang-langdata_gamedata_${loc.toLowerCase()}.json`;
+        const path = `static/lang/lang-langdata_gamedata_${loc.toLowerCase()}.json`;
 
         const res = await axios.get(path);
         const obj: {[key: string]: string} = {};
