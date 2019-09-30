@@ -3,16 +3,29 @@
   <div>
     <!--<b-dropdown size="lg" :text="targetProduct">-->
     <b-navbar>
-      <b-nav-form>
-        <b-button variant="outline-secondary" v-b-toggle.recipe-select>{{targetProduct ? targetProduct.name : ''}}</b-button>
-        <b-input-group append="items">
-          <b-form-input class="input-number mr-sm-2" placeholder="amount" v-model.number="targetAmount" type="number"></b-form-input>
+      <b-nav-form class="flex-fill">
+        <b-button size="lg" variant="outline-secondary" v-b-toggle.recipe-select>+</b-button>
+        <b-input-group size="lg" class="ml-1" append="items">
+          <b-form-input class="input-number" placeholder="amount" v-model.number="targetAmount" type="number"></b-form-input>
         </b-input-group>
-        <b-input-group prepend="per" append="days">
-          <b-form-input class="input-number" placeholder="days" v-model.number="targetDays" type="number"></b-form-input>
+        <b-input-group size="lg" class="ml-1" prepend="per">
+          <b-form-input ref="input-days-new" class="input-number" placeholder="days" v-model.number="targetDays" type="number"></b-form-input>
+          <template #append>
+            <b-dropdown text="" variant="outline-secondary">
+              <b-dropdown-item v-for="d in [10, 15, 20, 30, 60, 120]" @click="targetDays=d">{{d}}</b-dropdown-item>
+            </b-dropdown>
+            <b-input-group-append><b-input-group-text>days</b-input-group-text></b-input-group-append>
+          </template>
         </b-input-group>
 
-        <b-button v-b-toggle.recipe-options variant="outline-secondary">o</b-button>
+        <b-button v-b-toggle.recipe-options  size="lg"  class="ml-1" variant="outline-secondary">o</b-button>
+      </b-nav-form>
+      <b-nav-form>
+        <b-form-select :value="language.toLowerCase()"
+                       :options="languages.map((l) => ({text: l.displayName, value: l.keycode.toLowerCase()}))"
+                       @input="changeLocale"
+        >
+        </b-form-select>
       </b-nav-form>
     </b-navbar>
 
@@ -27,12 +40,35 @@
     <b-collapse id="recipe-select" v-model="showSelect">
       <b-nav>
         <b-nav-item v-for="(c, i) in productCategories" :key="c.name" >
-          <b-dropdown :text="c" variant="outline-secondary">
-            <b-dropdown-item v-for="(p, ip) in productsOf(i)" :key="p.name" @click="setTarget(p)">{{p.name}}</b-dropdown-item>
+          <b-dropdown :text="tpc(c.name) || c.categoryName" variant="outline-secondary" lazy menu-class="columns">
+            <b-dropdown-item v-for="(p, ip) in productsOf(c.name)" :key="p.name" @click="setTarget(p)">{{tp(p)}}</b-dropdown-item>
           </b-dropdown>
         </b-nav-item>
       </b-nav>
     </b-collapse>
+
+    <h3>targets</h3>
+    <b-list-group>
+      <b-list-group-item v-for="(t, i) in targets">
+        <b-button-group class="d-flex">
+          <b-button variant="light" class="flex-fill w-100">{{tp(products[t.id])}}</b-button>
+
+          <b-input-group append="items" class="ml-1">
+            <b-form-input type="number" class="input-number" :value="t.amount" @input="changeTargetAmount(i, $event)"></b-form-input>
+          </b-input-group>
+
+          <b-input-group prepend="per" append="days" class="ml-1">
+            <b-form-input type="number" class="input-number" :value="t.days" @input="changeTargetDays(i, $event)"></b-form-input>
+          </b-input-group>
+
+          <b-form-input readonly :value="productPrice(t.id) | cost"></b-form-input>
+
+        <b-button-close variant="danger" size="lg" @click="removeTarget(i)"></b-button-close>
+        </b-button-group>
+      </b-list-group-item>
+    </b-list-group>
+
+
       <!--<option v-for="(p, i) in products" :key="i">{{p.name}}</option>-->
     <!--</b-dropdown>-->
     <!--select>
@@ -47,27 +83,54 @@
     <ul>
       <li v-for="p in products">{{p}}</li>
     </ul-->
-    <h3>result</h3>
-    <ul>
-      <li v-for="(v, k) in result" :key="k">{{products[k].name}}: {{v}}</li>
-    </ul>
-    <h3>productCategory</h3>
-    {{productCategories}}
+    <h1>result</h1>
+    <tree-table
+          :data = "treeItems"
+          :columns="[
+            { title: 'name', key:'name' },
+            // { title: 'recipes', key: 'flow', width: '100px' },
+            { title: 'buildings', key: 'flow' },
+            { title: 'cost, $', key: 'cost', type: 'template', template: 'cost' },
+          ]"
+          :is-fold="false"
+          :selectable="false" :expand-type="false"
+          :show-summary = "true"
+          :summary-method="calcSummary"
+          empty-text="no results"
+          sum-text="Total"
+    >
+      <template slot="cost" scope="scope">
+        {{displayCost(scope) | cost}}
+      </template>
+    </tree-table>
+    <!--ul>
+      <li v-for="(c, ci) in productCategories" v-if="Object.keys(resultOf(c.name)).length > 0" :key="c.name">
+        <h2>{{c.categoryName}}</h2>
+        <ul>
+          <li v-for="(v, k) in resultOf(c.name)" :key="k"><ProductResult :recipeId="k" :flow="v"></ProductResult> = 1</li>
+        </ul>
+      </li>
 
-    <h3>opts</h3>
-    {{options}}
+    </ul-->
+
+    <!--h3>opts</h3>
+    {{options}}-->
 </div>
 
 
 </template>
 
 <script lang="ts">
-  import {Component, Vue, Watch} from "vue-property-decorator";
-import appState from '@/store/app';
-import {BButton} from 'bootstrap-vue';
+    import {Component, Vue, Watch} from "vue-property-decorator";
+    import appState, {Building, ProductDefinition, Result} from "@/store/app";
+    import {BButton} from "bootstrap-vue";
+    import ProductResult from "@/components/ProductResult.vue";
+    import Fraction from 'fraction.js/fraction';
+    import {costsFilter, periodFilter} from "@/utils";
 
-@Component({
+    @Component({
   components: {
+    ProductResult,
     BButton,
   },
 })
@@ -75,30 +138,147 @@ export default class Home extends Vue {
   get recipes() { return appState.recipes; }
   get products() { return appState.products; }
   get options() { return appState.productOptions; }
-  get categories() { return appState.categories; }
-  get productsOf() { return (cat) => appState.products.filter((p) => p.productCategory === cat); }
+  get productsOf() { return (cat: string) => appState.products.filter((p) => p.productCategory === cat); }
   get productCategories() { return appState.productCategories; }
-  get result() { return appState.result; }
+  get targets() { return appState.targets; }
+  get result() { return appState.result }
+  get resultOf() { return (prodCat: string): Result => {
+      return Object.keys(appState.result)
+              .filter((ri) => appState.products[appState.recipes[ri].result[0].id].productCategory === prodCat)
+              .reduce<Result>((obj: Result, key): Result => { obj[key] = appState.result[key]; return obj }, {})
+    }
+  }
 
-  get targetProduct() { return appState.target.id != -1 ? appState.products[appState.target.id] : undefined; }
+  get language() { return appState.language; }
+  get languages() { return appState.languages; }
+
+  get productPrice() { return (prodId): number => Math.round(appState.productPrice(prodId)); }
+  get totalProductPrices() {
+    return appState.targets.reduce((total, target) => {
+      return total + appState.productPrice(target.id) * target.amount / target.days;
+    }, 0);
+  }
+
+  get building() { return (recipeId: number): Building =>
+      appState.recipes[recipeId].requiredModules.length ?
+        appState.buildingByName(appState.recipes[recipeId].requiredModules[0].buildingName) :
+        appState.buildings[appState.recipes[recipeId].building];
+  }
+
+  get treeItems() {
+
+    const res = [];
+
+    for( const pcat of this.productCategories ) {
+      const resultOf = this.resultOf(pcat.name);
+
+      if ( Object.keys(resultOf).length > 0 ) {
+        // categories
+        const catId = res.push({
+          name: this.tpc(pcat.name) || pcat.name,
+          children: Object.keys(resultOf).map((recipeId) => ({
+            // recipes
+                name: this.tr(this.recipes[recipeId]) || this.recipes[recipeId].displayName,
+                flow: resultOf[recipeId].toFraction(true),
+                children: this.resultRecipeBuildingsTree(recipeId, resultOf[recipeId])
+          })),
+        });
+      }
+    }
+
+    return res;
+  }
+
+  get resultRecipeBuildingsTree() { return (recipeId: number, numRecipes: Fraction) => {
+
+      const bld = appState.buildings[appState.recipes[recipeId].building];
+
+      if ( !appState.recipes[recipeId].requiredModules.length ) { // simple buildings
+          return Array.from(Array(numRecipes.ceil().valueOf()), () => ({
+            name: this.tb(bld) || bld.displayName,
+            cost: bld.baseCost,
+          }));
+      }
+
+      // moduled building, like field in farms
+
+      /// populate parent buildings  + modules
+      const totalFlow = numRecipes.ceil().valueOf();
+      const moduleBld = appState.buildingByName(appState.recipes[recipeId].requiredModules[0].buildingName);
+      const modulesPerBuild = appState.modulesCount(bld.name);
+
+      const numParent = Math.floor(totalFlow / modulesPerBuild);
+      const remain = totalFlow - (numParent * modulesPerBuild);
+
+      const res = Array.from(Array(numParent)).map(() => ({
+        name: this.tb(bld) || bld.displayName,
+        cost: bld.baseCost,
+        _isFold: true,
+        children: [...Array(modulesPerBuild)].map(() => ({
+          // full modules
+          name: this.tb(moduleBld) || moduleBld.displayName,
+          cost: moduleBld.baseCost,
+          _isHide: true,
+        })),
+      }));
+
+      if ( remain > 0 ) {
+        //remainder
+        res.push({
+          name: this.tb(bld) || bld.displayName,
+          cost: bld.baseCost,
+          _isFold: true,
+          children: Array.from(Array(remain)).map(() => ({
+            name: this.tb(moduleBld) || moduleBld.displayName,
+            cost: moduleBld.baseCost,
+            _isHide: true,
+          })),
+        });
+      }
+
+      return res;
 
 
-  get targetAmount() { return appState.target.amount }; // per 15 days?
-  set targetAmount(v) { appState.setTargetAmount(v); }
+  }}
 
-  get targetDays() { return appState.target.days; }
-  set targetDays(v) { appState.setTargetDays(v); }
+  get tp() { return appState.tp; }
+  get tpc() { return appState.tpc; }
+  get tr() { return appState.tr; }
+  get tb() { return appState.tb; }
 
-  setProductRecipe(pid, recid) {
+  calcSummary(data, column, columnIndex: number) {
+    if ( column.key === 'name') { return "Total"; }
+    const total = data.reduce((t, row) => t + (parseInt(row['cost']) || 0), 0);
+    if ( column.key === 'cost') { return costsFilter(total); }
+    if ( column.key === 'flow') {
+      return periodFilter(total / this.totalProductPrices);
+    }
+
+  }
+
+      // get targetProduct() { return appState.target.id != -1 ? appState.products[appState.target.id] : undefined; }
+
+
+  // get targetAmount() { return appState.target.amount }; // per 15 days?
+  // set targetAmount(v) { appState.setTargetAmount(v); }
+  //
+  // get targetDays() { return appState.target.days; }
+  // set targetDays(v) { appState.setTargetDays(v); }
+
+  setProductRecipe(pid: number, recid: number) {
     appState.setProductOptions([pid, recid]);
     // appState.recalculate();
   }
+
+  targetAmount: number = 2;
+  targetDays: number = 15;
 
   showSelect: boolean = false;
   showOptions: boolean = false;
 
   async created() {
     await appState.loadAssets();
+    await appState.setLocale(appState.language);
   }
 
   mounted() {
@@ -106,14 +286,54 @@ export default class Home extends Vue {
     // appState.recalculate();
   }
 
-  async setTarget(prod) {
-    await appState.setTarget(prod);
+  displayCost(scope) {
+
+    if ( scope.row._isFold && scope.row.children.length > 0) { // collapsed
+      return this.sumChildrenCosts(scope.row);
+    }
+
+
+    return scope.row.cost;
+  }
+
+  changeLocale(locale) {
+    appState.setLocale(locale);
+  }
+
+  private sumChildrenCosts(item) {
+    return (parseInt(item.cost) || 0) + (item.children ? item.children.reduce((total, ch) => total += this.sumChildrenCosts(ch), 0) : 0);
+  }
+
+  async setTarget(prod: ProductDefinition) {
+    await appState.addTarget([prod, this.targetAmount, this.targetDays]);
     // await appState.setTargetAmount(this.targetAmount); // per 15 days
     this.showSelect = false;
     // appState.recalculate();
   }
+
+  removeTarget(i: number) {
+    appState.removeTarget(i);
+  }
+
+  changeTargetAmount(tid: number, amount: string) {
+    appState.setTargetAmount([tid, parseInt(amount)]);
+  }
+
+  changeTargetDays(tid: number, amount: string) {
+    appState.setTargetDays([tid, parseInt(amount)]);
+  }
+
 }
 </script>
 <style lang="scss">
   .input-number { max-width: 4em;}
+  table { font-size: 150%; }
+  /*.columns.show {*/
+    /*display: flex;*/
+    /*flex-flow: wrap column;*/
+    /*max-height: 75vh;*/
+    /*align-content: start;*/
+    /*position: static;*/
+    /*& li { flex: 1 }*/
+  /*}*/
 </style>
