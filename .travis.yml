@@ -1,4 +1,4 @@
-language: nodejs
+language: node_js
 node_js:
   - "8"
 
@@ -6,9 +6,8 @@ cache:
   directories:
     - node_modules
 
-before_script:
-  - npm run setup
-  - npm run build
+install: npm run setup
+script: npm run build
 
 deploy:
   - provider: pages
