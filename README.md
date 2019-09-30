@@ -1,4 +1,6 @@
-# Rise Of Industry Calculator
+# [Rise Of Industry Calculator](https://andrey-zakharov.github.io/roicalc/)
+
+Live: https://andrey-zakharov.github.io/roicalc/
 
 ## What is it
 Yet another [Rise Of Industry](https://store.steampowered.com/app/671440/Rise_of_Industry/) calculator. You could add several targets to achieve and this tool will 
