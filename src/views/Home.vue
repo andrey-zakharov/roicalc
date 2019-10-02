@@ -346,7 +346,7 @@ export default class Home extends Vue {
     appState.setTargetDays([tid, parseInt(amount)]);
   }
 
-  onTechSwitch(tech, value) {
+  onTechSwitch(tech: string, value: boolean) {
      appState.switchTech([tech, value]);
   }
 
