@@ -92,6 +92,19 @@ type ProductRecipeMap = { [prodid: number]: number };
 @Module( { dynamic: true, store, name: 'app' } )
 class AppState extends VuexModule implements IAppState {
 
+    private static readonly TechsForBuilding: { [name: string]: string } = {
+        CropFarm: '+2cropfields',
+        LivestockFarm: 'deforestation',
+        OrchardFarm: '+2orchardfields',
+        PlantationFarm: '+2plantationfields',
+    };
+
+    private static readonly TechsForCats: { [name: string]: string } = {
+        CoastalGatherers: '+2coastalharvesters',
+        LandGatherers: '+2landharvesters',
+        OffshoreGatherers: '+2offshoreharvesters',
+    };
+
     public targets: Target[] = [{ id: 1, amount: 2, days: 15 }];
     public products: Readonly<ProductDefinition[]> = [];
     public recipes: Readonly<Recipe[]> = [];
@@ -108,6 +121,8 @@ class AppState extends VuexModule implements IAppState {
 
     get localeKey() { return (key: string) => key.toLowerCase().replace(/ /g, ''); }
 
+    get t() { return (key: string) => this.locale[key] ? this.locale[key].replace(/{.*?}/g, '') : undefined; }
+
     get tp() { return (obj: ProductDefinition) =>
         this.locale[`productdefinition.${this.localeKey(obj.name)}.productname`] || obj.displayName;
     }
@@ -115,7 +130,7 @@ class AppState extends VuexModule implements IAppState {
     /// product category
     ///
     get tpc() { return (obj: string) =>
-        this.locale[`productcategory.${this.localeKey(obj)}.categoryname`];
+        this.locale[`datacategory.${this.localeKey(obj)}.categoryname`];
     }
 
     ///
@@ -127,13 +142,33 @@ class AppState extends VuexModule implements IAppState {
         this.locale[`building.${this.localeKey(b.name)}.buildingname`];
     }
 
+    get ttech() { return (tech: string) => this.t(`techtreegenericunlock.${this.localeKey(tech)}.unlockname`) || tech; }
+
     get buildingByName() { return (name: string): Building | undefined => this.buildings.find((b) => b.name === name); }
 
     //options
     public productOptions: ProductRecipeMap = {};
     public useSimpleRecipes = false;
-    public technologies = []; // for +2 field, +2 harvester, etc.
-    public get modulesCount() { return (buildingName: string) => 5; }
+    public technologies: { [t: string]: boolean } = {
+        '+2coastalharvesters': true,
+        '+2landharvesters': true,
+        '+2offshoreharvesters': true,
+        '+2cropfields': true,
+        '+2orchardfields': true,
+        '+2plantationfields': true,
+        'deforestation': true,
+        // 'factoryefficiencyl1': false, // 25%
+        // 'factoryefficiencyl2': false, // 50%
+        // 'factoryefficiencyl3_l5': false, // 75%
+        // 'factoryefficiencyl6': false,
+        // 'factoryefficiencyl7': false,
+    }; // for +2 field, +2 harvester, etc.
+
+    public get modulesCount() { return (building: Building) =>
+        ( building.name in AppState.TechsForBuilding && this.technologies[AppState.TechsForBuilding[building.name]] ) ||
+        ( building.category in AppState.TechsForCats && this.technologies[AppState.TechsForCats[building.category]] )
+            ? 5 : 3;
+    }
     // product id: target productivity
     // public result: { [key: number]: number } = {};
 
@@ -340,6 +375,9 @@ class AppState extends VuexModule implements IAppState {
         this.SET_LOCALE(obj);
         this.SET_LANG(loc);
     }
+
+    @Action({commit: 'SET_TECH'})
+    switchTech([tech, v]: [string, boolean]) { return [tech, v]; }
     // M U T A T I O N S
 
     @Mutation private SET_PRODS(v: ProductDefinition[]) { this.products = Object.freeze(v); }
@@ -366,6 +404,7 @@ class AppState extends VuexModule implements IAppState {
 
     @Mutation private SET_LOCALE(data: {[key: string]: string}) { this.locale = data; }
     @Mutation private SET_LANG(lang: string) { this.language = lang; }
+    @Mutation private SET_TECH([tech, v]: [string, boolean]) { Vue.set(this.technologies, tech, v); }
 
 }
 

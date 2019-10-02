@@ -1,1 +1,2994 @@
-[ {"key":"building.tailerstore.buildingname","value":"Clothing Store"}, {"key":"building.fishharvester.buildingname","value":"FISHERMAN PIER"}, {"key":"sdatacategory.endproducts.categoryname","value":"End Products"}, {"key":"datacategory.components.categoryname","value":"Components"}, {"key":"datacategory.endproducts.categoryname","value":"End Products"}, {"key":"datacategory.farmproduce.categoryname","value":"Farm Produce"}, {"key":"datacategory.livestock.categoryname","value":"Livestock"}, {"key":"datacategory.prototypeproducts.categoryname","value":"Prototypes"}, {"key":"datacategory.row1.categoryname","value":"Tier1"}, {"key":"datacategory.row2.categoryname","value":"Tier2"}, {"key":"datacategory.row3.categoryname","value":"Tier3"}, {"key":"datacategory.boatdepot.categoryname","value":"Boat Depot"}, {"key":"datacategory.coastalgatherers.categoryname","value":"Coastal Gatherers"}, {"key":"datacategory.commercial.categoryname","value":"Commercial"}, {"key":"datacategory.factories.categoryname","value":"Factories"}, {"key":"datacategory.farms.categoryname","value":"Farms"}, {"key":"datacategory.field.categoryname","value":"Field"}, {"key":"datacategory.gathererbuildings.categoryname","value":"GATHERERS"}, {"key":"datacategory.harvester.categoryname","value":"Harvester"}, {"key":"datacategory.headquarters.categoryname","value":"Headquarters"}, {"key":"datacategory.heavyindustry.categoryname","value":"Heavy Industry"}, {"key":"datacategory.landgatherers.categoryname","value":"Land-Based Gatherers"}, {"key":"datacategory.lightindustry.categoryname","value":"Light Industry"}, {"key":"datacategory.logisticbuildings.categoryname","value":"Logistic Buildings"}, {"key":"datacategory.logisticsbuildings.categoryname","value":"Logistics Buildings"}, {"key":"datacategory.offshoregatherers.categoryname","value":"Offshore Gatherers"}, {"key":"datacategory.prototypefactories.categoryname","value":"Prototype Factories"}, {"key":"datacategory.residential.categoryname","value":"Residential"}, {"key":"datacategory.ruralindustry.categoryname","value":"Rural Industry"}, {"key":"datacategory.state.categoryname","value":"State"}, {"key":"datacategory.towncenter.categoryname","value":"Town Center"}, {"key":"datacategory.trainterminal.categoryname","value":"Train Terminal"}, {"key":"datacategory.truckdepot.categoryname","value":"Truck Depot"}, {"key":"datacategory.warehouse.categoryname","value":"Warehouse"}, {"key":"datacategory.zeppelinstation.categoryname","value":"Zeppelin Station"}, {"key":"techtreegenericunlock.boatcapacity+6.description","value":"Add 6 Capacity to Boats."}, {"key":"techtreegenericunlock.boatcapacity+6.unlockname","value":"+6 Boat Capacity"}, {"key":"techtreegenericunlock.traincapacity+3.description","value":"Add 3 to Train capacity."}, {"key":"techtreegenericunlock.traincapacity+3.unlockname","value":"+3 Train Capacity"}, {"key":"techtreegenericunlock.zeppelincapacity+2.description","value":"Add 2 Capacity to Zeppelins."}, {"key":"techtreegenericunlock.zeppelincapacity+2.unlockname","value":"+2 Zeppelin Capacity"}, {"key":"ui.fullscreenpanels.buildingproductionoverview.productinfo.viewport.content.productinfo.infoarea.columntitles.lastyearconsumption","value":"Total Cost"}, {"key":"ui.fullscreenpanels.buildingproductionoverview.productinfo.viewport.content.productinfo.infoarea.columntitles.lastyearsales","value":"Price Sold"}, {"key":"ui.fullscreenpanels.buildingproductionoverview.productinfo.viewport.content.productinfo.infoarea.columntitles.marketvalue","value":"Produced Amount"}, {"key":"ui.windows._static_recipebookpanel.recipepanelarea.backbutton.tooltip","value":"BACK"}, {"key":"ui.windows._static_recipebookpanel.recipepanelarea.recipediagramarea.buildingtitlearea.buildicon.buildinglocked.buildicon.tooltip","value":"Can be unlocked in the tech tree"}, {"key":"ui.windows._static_recipebookpanel.recipepanelarea.recipediagramarea.buildingtitlearea.buildicon.tooltip","value":"BUILD THIS BUILDING"}, {"key":"ui.windows._static_recipebookpanel.recipepanelarea.recipediagramarea.recipeproductiontimearea.producetimeamount","value":"{days} days"}, {"key":"ui.windows._static_recipebookpanel.recipepanelarea.recipediagramarea.recipeproductiontimearea.producetimetitle","value":"TIME TO PRODUCE:"}, {"key":"ui.windows._static_recipebookpanel.titlepanel.panelcontrols.closebuttonarea.tooltip","value":"CLOSE"}, {"key":"ui.windows._static_recipebookpanel.titlepanel.searchfield.placeholder","value":"Search recipes..."}, {"key":"ui.windows._static_recipebookpanel.titlepanel.searchfield.text","value":"ÔÇï"}, {"key":"techtreegenericunlock.boatcapacity+3.description","value":"Add 3 Capacity to Boats."}, {"key":"techtreegenericunlock.boatcapacity+3.unlockname","value":"+3 Boat Capacity"}, {"key":"techtreegenericunlock.traincapacity+2.description","value":"Add 2 to Train capacity."}, {"key":"techtreegenericunlock.traincapacity+2.unlockname","value":"+2 Train Capacity"}, {"key":"techtreegenericunlock.truckcapacity+1.description","value":"Add 1 to Trade Truck Capacity"}, {"key":"techtreegenericunlock.truckcapacity+1.unlockname","value":"+1 Truck Capacity"}, {"key":"techtreegenericunlock.zeppelincapacity+1.description","value":"Add 1 Capacity to Zeppelins."}, {"key":"techtreegenericunlock.zeppelincapacity+1.unlockname","value":"+1 Zeppelin Capacity"}, {"key":"mainmenu.wrapper.views.settingsscreen.keybindingsoptions.content.scrollview.viewport.options.category.header.categoryname","value":"Dev Created scenarios"}, {"key":"mainmenu.wrapper.webbuttonsleft.recipebooklink.tooltip","value":"RECIPE BOOK"}, {"key":"totalsalesviewmodel.budgetpanel.productcollectionname","value":"Wanted Products"}, {"key":"ui.fullscreenpanels.budgetpanel.sidebar.scrollviewfilterarea.viewport.content.buildings.title.active.filtertext","value":"Buildings"}, {"key":"ui.fullscreenpanels.budgetpanel.sidebar.scrollviewfilterarea.viewport.content.buildings.title.inactive.filtertext","value":"Buildings"}, {"key":"ui.fullscreenpanels.budgetpanel.sidebar.scrollviewfilterarea.viewport.content.totalbudget.category.active.filtertext","value":"Total Budget"}, {"key":"ui.fullscreenpanels.budgetpanel.sidebar.scrollviewfilterarea.viewport.content.totalbudget.category.inactive.filtertext","value":"Total Budget"}, {"key":"ui.mainui.lockedmodeui.mainui.mainmenutoolspanel.mainmenutoolsarea.recipebook.tooltip","value":"RECIPE BOOK"}, {"key":"ui.windows._static_recipebookpanel.panel.helpbutton(1).tooltip","value":"Help"}, {"key":"ui.windows._static_recipebookpanel.panel.recipepanelarea.backbutton.tooltip","value":"BACK"}, {"key":"ui.windows._static_recipebookpanel.panel.recipepanelarea.recipediagramarea.buildingtitlearea.buildicon.buildinglocked.buildicon.tooltip","value":"Can be unlocked in the tech tree"}, {"key":"ui.windows._static_recipebookpanel.panel.recipepanelarea.recipediagramarea.buildingtitlearea.buildicon.tooltip","value":"BUILD THIS BUILDING"}, {"key":"ui.windows._static_recipebookpanel.panel.recipepanelarea.recipediagramarea.recipeproductiontimearea.producetimeamount","value":"{days} days"}, {"key":"ui.windows._static_recipebookpanel.panel.recipepanelarea.recipediagramarea.recipeproductiontimearea.producetimetitle","value":"TIME TO PRODUCE:"}, {"key":"ui.windows._static_recipebookpanel.titlepanel.icontitlearea(5).titletext","value":"RECIPE BOOK"}, {"key":"ui.windows._static_recipebookpanel.panel.titlepanel.panelcontrols.closebuttonarea.tooltip","value":"CLOSE"}, {"key":"ui.windows._static_recipebookpanel.panel.searchfield.placeholder","value":"Search recipes..."}, {"key":"worldeventeffectui.recipeproductioneffectformat","value":"{0} production {1:+0;-#}%"}, {"key":"scenariooptionsui.scenariooptions.localizations.eventscategoryname","value":"Events"}, {"key":"ui.windows._static_maplayerswindow.buildingnames.button1inactive.buttontext","value":"Show Building Names ({button})"}, {"key":"ui.windows._static_maplayerswindow.buildingnames.button1active.buttontext","value":"Show Building Names ({button})"}, {"key":"ui.windows._static_recipebookpanel.panel.titlepanel.panelcontrols(1).closebuttonarea.tooltip","value":"CLOSE"}, {"key":"ui.windows._static_recipebookpanel.panel.titlepanel.panelcontrols(1).pinbuttonarea.tooltip","value":"TOGGLE PIN PANEL"}, {"key":"ui.windows._static_recipebookpanel.panel.titlepanel.text(1)","value":"Recipe book"}, {"key":"ui.windows._static_recipebookpanel.panel.recipepanelarea.recipediagramarea.buildingtitlearea.techicon.tooltip","value":"OPEN TECH TREE"}, {"key":"building.shippinglogistical.buildingname","value":"Boat Depot"}, {"key":"building.breweryfactory.buildingname","value":"BREWERY & DISTILLERY"}, {"key":"building.furniturefactory.buildingname","value":"CARPENTRY CENTER"}, {"key":"building.coalgatherer.buildingname","value":"COAL MINE"}, {"key":"building.constructionstore.buildingname","value":"Construction Goods"}, {"key":"building.coppergatherer.buildingname","value":"COPPER MINE"}, {"key":"building.dinerstore.buildingname","value":"Diner"}, {"key":"building.farmersstore.buildingname","value":"Farmers Market"}, {"key":"building.gasgatherer.buildingname","value":"GAS PUMP"}, {"key":"building.furniturestore.buildingname","value":"Home Goods"}, {"key":"building.electronicsfactory.buildingname","value":"Home Goods Factory"}, {"key":"building.irongatherer.buildingname","value":"IRON MINE"}, {"key":"building.ironmongerystore.buildingname","value":"Ironmongery"}, {"key":"building.lumberyardgatherer.buildingname","value":"LUMBERYARD"}, {"key":"building.oilseagatherer.buildingname","value":"OFFSHORE OIL DRILL"}, {"key":"building.oilgatherer.buildingname","value":"OIL DRILL"}, {"key":"building.orchardfarm.buildingname","value":"ORCHARD"}, {"key":"building.paperfactory.buildingname","value":"PAPERMILL"}, {"key":"building.petrochemicalfactory.buildingname","value":"PETROCHEMICAL PLANT"}, {"key":"building.plantationfarm.buildingname","value":"PLANTATION"}, {"key":"building.sandgatherer.buildingname","value":"SAND COLLECTOR"}, {"key":"building.trainlogistical.buildingname","value":"Train Terminal"}, {"key":"building.truckdepotlogistical.buildingname","value":"Truck Depot"}, {"key":"building.warehouselogistical.buildingname","value":"WAREHOUSE"}, {"key":"building.watergatherer.buildingname","value":"WATER SIPHON"}, {"key":"building.zeppelinlogistical.buildingname","value":"Zeppelin Field"}, {"key":"building.t1towncentre.buildingname","value":"Region Center"}, {"key":"productcategory.rawresources.categoryname","value":"Raw Resources"}, {"key":"building.t2towncentre.buildingname","value":"Town Center"}, {"key":"building.t3towncentre.buildingname","value":"Town Center"}, {"key":"helpinfo.openrecipebook.info","value":"An organized list of every Recipe in the game. Clicking a Product in the sidebar filter or clicking an Icon will open that Recipe."}, {"key":"gamemode.career.categoryname","value":"Career"}, {"key":"gamemode.scenario.categoryname","value":"Scenario"}, {"key":"gamemode.freeplay.categoryname","value":"Freeplay"}, {"key":"techtreegenericunlock.warehousecollectionradius.description","value":"Add 10 tiles to Collection Radius of Warehouses."}, {"key":"techtreegenericunlock.warehousecollectionradius.unlockname","value":"+10 Tiles Collection Radius"}, {"key":"techtreegenericunlock.warehousestorage.description","value":"Add 25 Storage Capacity to Warehouses."}, {"key":"techtreegenericunlock.warehousestorage.unlockname","value":"+25 Warehouse Storage"}, {"key":"building.airpurifier.buildingname","value":"Air Purifier"}, {"key":"building.applesfield.buildingname","value":"APPLE FIELD"}, {"key":"building.assemblyfactory.buildingname","value":"AUTOMOBILE MEGAFACTORY"}, {"key":"building.automotivefactory.buildingname","value":"AUTOMOTIVE FACTORY"}, {"key":"building.berryfield.buildingname","value":"BERRY FIELD"}, {"key":"building.boatdepot.buildingname","value":"Boat Depot"}, {"key":"building.bookstore.buildingname","value":"Bookstore"}, {"key":"building.breweryanddistillery.buildingname","value":"BREWERY & DISTILLERY"}, {"key":"building.carpentry.buildingname","value":"CARPENTRY CENTER"}, {"key":"building.carprototypefacility.buildingname","value":"CAR PROTOTYPE FACILITY"}, {"key":"building.carshop.buildingname","value":"Car Parts Shop"}, {"key":"building.carstore.buildingname","value":"PARTS SHOP"}, {"key":"building.chemicalscrubber.buildingname","value":"Chemical Scrubber"}, {"key":"building.chickenfield.buildingname","value":"CHICKEN FIELD"}, {"key":"building.chocolatefield.buildingname","value":"CHOCOLATE FIELD"}, {"key":"building.clothingstore.buildingname","value":"Clothing Store"}, {"key":"building.coalmine.buildingname","value":"COAL MINE"}, {"key":"building.coalmineharvester.buildingname","value":"COAL MINE HARVESTER"}, {"key":"building.computerfactory.buildingname","value":"COMPUTER MEGAFACTORY"}, {"key":"building.constructiongoods.buildingname","value":"Construction Goods"}, {"key":"building.coppermine.buildingname","value":"COPPER MINE"}, {"key":"building.coppermineharvester.buildingname","value":"COPPER MINE HARVESTER"}, {"key":"building.cottonfield.buildingname","value":"COTTON FIELD"}, {"key":"building.cowfield.buildingname","value":"COW FIELD"}, {"key":"building.cropfarm.buildingname","value":"CROP FARM"}, {"key":"building.diner.buildingname","value":"Diner"}, {"key":"building.dinnerfactory.buildingname","value":"MEAL MEGAFACTORY"}, {"key":"building.drinksfactory.buildingname","value":"DRINKS FACTORY"}, {"key":"building.farmersmarket.buildingname","value":"Farmers Market"}, {"key":"building.firestation.buildingname","value":"Fire Station"}, {"key":"building.fishermanpier.buildingname","value":"FISHERMAN PIER"}, {"key":"building.fishinggatherer.buildingname","value":"FISHERMAN PIER"}, {"key":"building.fishnetharvester.buildingname","value":"FISHERMAN PIER"}, {"key":"building.foodfactory.buildingname","value":"FOOD FACTORY"}, {"key":"building.gaspump.buildingname","value":"GAS PUMP"}, {"key":"building.gaspumpharvester.buildingname","value":"GAS PUMP HARVESTER"}, {"key":"building.gasstation.buildingname","value":"Gas Station"}, {"key":"building.glassworkssmelter.buildingname","value":"GLASSWORKS & SMELTER"}, {"key":"building.grapefield.buildingname","value":"VINEYARD"}, {"key":"building.grocerystore.buildingname","value":"Grocery Store"}, {"key":"building.hardwarestore.buildingname","value":"Hardware Store"}, {"key":"building.headquarters.buildingname","value":"Headquarters"}, {"key":"building.homegoods.buildingname","value":"Home Goods"}, {"key":"building.homegoodsfactory.buildingname","value":"Home Goods Factory"}, {"key":"building.hopsfield.buildingname","value":"HOPS FIELD"}, {"key":"building.ironmine.buildingname","value":"IRON MINE"}, {"key":"building.ironmineharvester.buildingname","value":"IRON MINE HARVESTER"}, {"key":"building.ironmongery.buildingname","value":"Ironmongery"}, {"key":"building.liquorstore.buildingname","value":"Liquor Store"}, {"key":"building.livestockfarm.buildingname","value":"LIVESTOCK FARM"}, {"key":"building.lumberyard.buildingname","value":"LUMBERYARD"}, {"key":"building.lumberyardharvester.buildingname","value":"LUMBERYARD HARVESTER"}, {"key":"building.offshoreoilgatherer.buildingname","value":"OFFSHORE OIL DRILL"}, {"key":"building.oildrill.buildingname","value":"OIL DRILL"}, {"key":"building.oildrillharvester.buildingname","value":"OIL DRILL HARVESTER"}, {"key":"building.oilseaharvester.buildingname","value":"OFFSHORE OIL HARVESTER"}, {"key":"building.olivefield.buildingname","value":"OLIVE FIELD"}, {"key":"building.orangesfield.buildingname","value":"ORANGES FIELD"}, {"key":"building.orchard.buildingname","value":"ORCHARD"}, {"key":"building.papermill.buildingname","value":"PAPERMILL"}, {"key":"building.park1.buildingname","value":"Park"}, {"key":"building.park2.buildingname","value":"Park"}, {"key":"building.park3.buildingname","value":"Park"}, {"key":"building.park4.buildingname","value":"Park"}, {"key":"building.park5.buildingname","value":"Park"}, {"key":"building.park6.buildingname","value":"Park"}, {"key":"building.park7.buildingname","value":"Park"}, {"key":"building.park8.buildingname","value":"Park"}, {"key":"building.park9.buildingname","value":"Park"}, {"key":"building.petrochemicalplant.buildingname","value":"PETROCHEMICAL PLANT"}, {"key":"building.plantation.buildingname","value":"PLANTATION"}, {"key":"building.policestation.buildingname","value":"Police Station"}, {"key":"building.potatofield.buildingname","value":"POTATO FIELD"}, {"key":"building.preservationfactory.buildingname","value":"PRESERVATION FACTORY"}, {"key":"building.publiclibrary.buildingname","value":"Public Library"}, {"key":"building.regioncenter.buildingname","value":"Region Center"}, {"key":"building.residential1x1.buildingname","value":"Residential1x1"}, {"key":"building.rubberfield.buildingname","value":"RUBBER TREE FIELD"}, {"key":"building.ruralschool.buildingname","value":"School"}, {"key":"building.sandcollector.buildingname","value":"SAND COLLECTOR"}, {"key":"building.sandharvester.buildingname","value":"SAND HARVESTER"}, {"key":"building.sheepfield.buildingname","value":"SHEEP FIELD"}, {"key":"building.showroomstore.buildingname","value":"Showroom"}, {"key":"building.state.buildingname","value":"State"}, {"key":"building.sugarfield.buildingname","value":"SUGAR FIELD"}, {"key":"building.textilefactory.buildingname","value":"TEXTILE FACTORY"}, {"key":"building.tradingcenter_t1.buildingname","value":"Town Center"}, {"key":"building.tradingcenter_t2.buildingname","value":"Town Center"}, {"key":"building.trainterminal.buildingname","value":"Train Terminal"}, {"key":"building.truckdepot.buildingname","value":"Truck Depot"}, {"key":"building.vegetablefield.buildingname","value":"VEGETABLE FIELD"}, {"key":"building.warehouse.buildingname","value":"WAREHOUSE"}, {"key":"building.waterharvester.buildingname","value":"WATER PUMP"}, {"key":"building.watersiphon.buildingname","value":"WATER SIPHON"}, {"key":"building.watertreatmentplant.buildingname","value":"WATER TREATMENT PLANT"}, {"key":"building.waterwell.buildingname","value":"WATER WELL"}, {"key":"building.waterwellharvester.buildingname","value":"WATER WELL HARVESTER"}, {"key":"building.wheatfield.buildingname","value":"WHEAT FIELD"}, {"key":"building.wholesaler.buildingname","value":"Wholesaler"}, {"key":"building.zeppelinfield.buildingname","value":"Zeppelin Field"}, {"key":"buildingcategory.boatdepot.categoryname","value":"Boat Depot"}, {"key":"buildingcategory.coastalgatherers.categoryname","value":"Coastal Gatherers"}, {"key":"buildingcategory.commercial.categoryname","value":"Commercial"}, {"key":"buildingcategory.factories.categoryname","value":"Factories"}, {"key":"buildingcategory.farms.categoryname","value":"Farms"}, {"key":"buildingcategory.field.categoryname","value":"Field"}, {"key":"buildingcategory.gathererbuildings.categoryname","value":"GATHERERS"}, {"key":"buildingcategory.harvester.categoryname","value":"Harvester"}, {"key":"buildingcategory.headquarters.categoryname","value":"Headquarters"}, {"key":"buildingcategory.heavyindustry.categoryname","value":"Heavy Industry"}, {"key":"buildingcategory.landgatherers.categoryname","value":"Land-Based Gatherers"}, {"key":"buildingcategory.lightindustry.categoryname","value":"Light Industry"}, {"key":"buildingcategory.logisticbuildings.categoryname","value":"Logistic Buildings"}, {"key":"buildingcategory.logisticsbuildings.categoryname","value":"Logistics Buildings"}, {"key":"buildingcategory.offshoregatherers.categoryname","value":"Offshore Gatherers"}, {"key":"buildingcategory.pollutionmanagement.categoryname","value":"Pollution Management"}, {"key":"buildingcategory.prototypefactories.categoryname","value":"Prototype Factories"}, {"key":"buildingcategory.residential.categoryname","value":"Residential"}, {"key":"buildingcategory.ruralindustry.categoryname","value":"Rural Industry"}, {"key":"buildingcategory.state.categoryname","value":"State"}, {"key":"buildingcategory.towncenter.categoryname","value":"Town Center"}, {"key":"buildingcategory.trainterminal.categoryname","value":"Train Terminal"}, {"key":"buildingcategory.truckdepot.categoryname","value":"Truck Depot"}, {"key":"buildingcategory.warehouse.categoryname","value":"Warehouse"}, {"key":"buildingcategory.zeppelinstation.categoryname","value":"Zeppelin Station"}, {"key":"buildingpanel.titlepanel.buildingname.text","value":"​"}, {"key":"buildingpanel.titlepanel.buildingnametext.text","value":"{PARAM}"}, {"key":"buttoncategory.camera.categoryname","value":"Camera"}, {"key":"buttoncategory.flybycamera.categoryname","value":"Flyby Camera"}, {"key":"buttoncategory.functionhotkeys.categoryname","value":"Function Hotkeys"}, {"key":"buttoncategory.gameplayhotkeys.categoryname","value":"Gameplay Hotkeys"}, {"key":"buttoncategory.modifiers.categoryname","value":"Modifiers"}, {"key":"buttoncategory.other.categoryname","value":"Other"}, {"key":"buttoncategory.ui.categoryname","value":"User Interface"}, {"key":"datacategory.rawresources.categoryname","value":"Raw Resources"}, {"key":"datacategory.recipeeffect.categoryname","value":"Recipes"}, {"key":"datacategory.worldeventeffectbuildingcost.categoryname","value":"Building Cost"}, {"key":"datacategory.worldeventeffectdemand.categoryname","value":"Demand"}, {"key":"datacategory.worldeventeffectproduction.categoryname","value":"Production"}, {"key":"datacategory.worldeventeffectproductprice.categoryname","value":"Product Price"}, {"key":"datacategory.worldeventeffectrecipeproduction.categoryname","value":"Recipe Production"}, {"key":"datacategory.worldeventeffectupkeep.categoryname","value":"Demand"}, {"key":"factoryoverviewmodule.recipediagramarea.inputarea.input1area.active.inputiconbox","value":"{PARAM}"}, {"key":"factoryoverviewmodule.recipediagramarea.inputarea.input1area.active.inputiconbox.inputicon","value":"{PARAM}"}, {"key":"factoryoverviewmodule.recipediagramarea.inputarea.input1area(3).active.inputiconbox","value":"{PARAM}"}, {"key":"factoryoverviewmodule.recipediagramarea.inputarea.input1area(3).active.inputiconbox.inputicon","value":"{PARAM}"}, {"key":"factoryoverviewmodule.recipediagramarea.inputarea.input1area(4).active.inputiconbox","value":"{PARAM}"}, {"key":"factoryoverviewmodule.recipediagramarea.inputarea.input1area(4).active.inputiconbox.inputicon","value":"{PARAM}"}, {"key":"factoryoverviewmodule.recipediagramarea.outputarea.output1area.inputiconbox.inputicon","value":"{PARAM}"}, {"key":"factoryoverviewmodule.recipediagramarea.outputarea.output1area.recipenametext","value":"{NAME} - <color=#C87C0DFF>{DAYS} DAYS</color>"}, {"key":"farmoverviewmodule.recipediagramarea.inputarea.input1area.active.inputiconbox.inputicon","value":"{PARAM}"}, {"key":"farmoverviewmodule.recipediagramarea.inputarea.input1area(3).active.inputiconbox.inputicon","value":"{PARAM}"}, {"key":"farmoverviewmodule.recipediagramarea.inputarea.input1area(4).active.inputiconbox.inputicon","value":"{PARAM}"}, {"key":"farmoverviewmodule.recipediagramarea.outputarea.output1area.active.inputiconbox.inputicon","value":"{PARAM}"}, {"key":"farmoverviewmodule.recipediagramarea.outputarea.output1area(3).active.inputiconbox.inputicon","value":"{PARAM}"}, {"key":"farmoverviewmodule.recipediagramarea.outputarea.output1area(4).active.inputiconbox.inputicon","value":"{PARAM}"}, {"key":"farmoverviewmodule.recipediagramarea.recipearea.output1area.recipenametext","value":"{NAME} - <color=#C87C0DFF>{DAYS} DAYS</color>"}, {"key":"hqloansmodule.view1.upgradepermitbutton(1).setrecipebuttontext","value":"TAKE OUT A LOAN"}, {"key":"hqresearchmodule.upgradepermitbutton(1).setrecipebuttontext","value":"GO TO THE TECH TREE"}, {"key":"inputbutton.producttooltipusedinrecipes.description","value":"Hold to show whether recipes the product is used in should be visible."}, {"key":"inputbutton.producttooltipusedinrecipes.displayname","value":"Product Tooltips Used In Recipes"}, {"key":"moneybillcategory.buildingbuyout.categoryname","value":"Building Buyout"}, {"key":"moneybillcategory.buildingconstruction.categoryname","value":"Building construction"}, {"key":"moneybillcategory.buildingrefund.categoryname","value":"Building refund"}, {"key":"moneybillcategory.changehqvisuals.categoryname","value":"Change HQ Visuals"}, {"key":"moneybillcategory.cheatcategory.categoryname","value":"Cheating"}, {"key":"moneybillcategory.contracts.categoryname","value":"Contracts"}, {"key":"moneybillcategory.demolish.categoryname","value":"Demolish"}, {"key":"moneybillcategory.finesandgrants.categoryname","value":"Fines/Grants"}, {"key":"moneybillcategory.infrastructureconstruction.categoryname","value":"Infrastructure construction"}, {"key":"moneybillcategory.loanpayments.categoryname","value":"Loan Payments"}, {"key":"moneybillcategory.loansonetimepayments.categoryname","value":"Loans Taken Or Paid In Full"}, {"key":"moneybillcategory.loanstaken.categoryname","value":"Loans Taken"}, {"key":"moneybillcategory.permitpurchase.categoryname","value":"Permit Purchase"}, {"key":"moneybillcategory.producttrade.categoryname","value":"Product trade"}, {"key":"moneybillcategory.renting.categoryname","value":"Renting"}, {"key":"moneybillcategory.researchcosts.categoryname","value":"R&D Expenses"}, {"key":"moneybillcategory.researchrefund.categoryname","value":"R&D Refund"}, {"key":"moneybillcategory.routevehicleupkeep.categoryname","value":"Route Vehicle Upkeep"}, {"key":"moneybillcategory.terraformingbillcategory.categoryname","value":"Terraforming"}, {"key":"moneybillcategory.upkeep.categoryname","value":"Renting"}, {"key":"moneybillcategory.vehicles.categoryname","value":"Vehicles"}, {"key":"moneybillcategory.vehicleupkeep.categoryname","value":"Vehicle Upkeep"}, {"key":"outputmodule.chooseoutputlist.viewport.content.recipe.locked.buildingtitlearea.tooltip","value":"UNLOCK THIS RECIPE USING THE TECH TREE"}, {"key":"outputmodule.chooseoutputlist.viewport.content.recipe.unlockedactive.setrecipebutton.setrecipebuttontext","value":"SET"}, {"key":"outputmodule.chooseoutputlist.viewport.content.recipe.unlockedinactive.setrecipebutton.setrecipebuttontext","value":"SET"}, {"key":"outputmodule.recipediagramarea.inputarea.input1area.active.amountneededtextarea.farmamountneededtext","value":"{amount}x/Field"}, {"key":"outputmodule.recipediagramarea.inputarea.input1area(3).active.amountneededtextarea.farmamountneededtext","value":"{amount}x/Field"}, {"key":"outputmodule.recipediagramarea.inputarea.input1area(4).active.amountneededtextarea.farmamountneededtext","value":"{amount}x/Field"}, {"key":"outputmodule.recipediagramarea.outputarea.output1area.active.farmamountoutputtext","value":"{amount}x/Field"}, {"key":"outputmodule.recipediagramarea.outputarea.output1area(3).active.farmamountoutputtext(1)","value":"{amount}x/Field"}, {"key":"outputmodule.recipediagramarea.outputarea.output1area(4).active.farmamountoutputtext(2)","value":"{amount}x/Field"}, {"key":"outputmodule.recipediagramarea.recipearea.output1area.recipenametext","value":"{NAME} - <color=#C87C0DFF>{DAYS} DAYS</color>"}, {"key":"outputmodule.recipediagramarea.recipearea.progressbar(1).tooltip","value":"PRODUCT PROGRESS"}, {"key":"pollutionmodule.diagramarea.outputarea.output1area.recipenametext","value":"{name} - <color=#C87C0DFF>{days} DAYS</color>"}, {"key":"productcategory.components.categoryname","value":"Components"}, {"key":"productcategory.endproducts.categoryname","value":"End Products"}, {"key":"productcategory.farmproduce.categoryname","value":"Farm Produce"}, {"key":"productcategory.livestock.categoryname","value":"Livestock"}, {"key":"productcategory.prototypeproducts.categoryname","value":"Prototypes"}, {"key":"productcategory.row1.categoryname","value":"Tier1"}, {"key":"productcategory.row2.categoryname","value":"Tier2"}, {"key":"productcategory.row3.categoryname","value":"Tier3"}, {"key":"productdefinition.adhesive.productname","value":"Adhesive"}, {"key":"productdefinition.alternator.productname","value":"Alternator"}, {"key":"productdefinition.apples.productname","value":"Apples"}, {"key":"productdefinition.applesmoothie.productname","value":"Apple Smoothie"}, {"key":"productdefinition.axles.productname","value":"Axles"}, {"key":"productdefinition.bagofchips.productname","value":"Bag Of Chips"}, {"key":"productdefinition.barleywhiskey.productname","value":"Grain Whiskey"}, {"key":"productdefinition.beef.productname","value":"Beef"}, {"key":"productdefinition.beefstew.productname","value":"Beef Stew"}, {"key":"productdefinition.beer.productname","value":"Beer"}, {"key":"productdefinition.berries.productname","value":"Berries"}, {"key":"productdefinition.berrypie.productname","value":"Berry Pie"}, {"key":"productdefinition.berrysmoothie.productname","value":"Berry Smoothie"}, {"key":"productdefinition.binaryswitcher.productname","value":"Binary Switcher"}, {"key":"productdefinition.biofuel.productname","value":"Biofuel"}, {"key":"productdefinition.bodychassis.productname","value":"Body Chassis"}, {"key":"productdefinition.books.productname","value":"Books"}, {"key":"productdefinition.bottles.productname","value":"Bottles"}, {"key":"productdefinition.brandy.productname","value":"Brandy"}, {"key":"productdefinition.bricks.productname","value":"Bricks"}, {"key":"productdefinition.burgers.productname","value":"Burgers"}, {"key":"productdefinition.buttons.productname","value":"Buttons"}, {"key":"productdefinition.cannedfish.productname","value":"Canned Fish"}, {"key":"productdefinition.cannedmutton.productname","value":"Canned Mutton"}, {"key":"productdefinition.cans.productname","value":"Cans"}, {"key":"productdefinition.capacitors.productname","value":"Capacitors"}, {"key":"productdefinition.car.productname","value":"Car Prototype"}, {"key":"productdefinition.cardboard.productname","value":"Cardboard"}, {"key":"productdefinition.cardboardpanels.productname","value":"Cardboard Panels"}, {"key":"productdefinition.carradiator.productname","value":"Car Radiator"}, {"key":"productdefinition.carseat.productname","value":"Car Seat"}, {"key":"productdefinition.ceramics.productname","value":"Ceramics"}, {"key":"productdefinition.cheese.productname","value":"Cheese"}, {"key":"productdefinition.chemicals.productname","value":"Chemicals"}, {"key":"productdefinition.chickendinner.productname","value":"Chicken Dinner"}, {"key":"productdefinition.chickenmeat.productname","value":"Chicken Meat"}, {"key":"productdefinition.chickensoup.productname","value":"Chicken Soup"}, {"key":"productdefinition.chocolatebar.productname","value":"Chocolate Bar"}, {"key":"productdefinition.chocolatecake.productname","value":"Chocolate Cake"}, {"key":"productdefinition.coal.productname","value":"Coal"}, {"key":"productdefinition.cocoa.productname","value":"Cocoa"}, {"key":"productdefinition.combustionengine.productname","value":"Combustion Engine"}, {"key":"productdefinition.computermemory.productname","value":"Computer Memory"}, {"key":"productdefinition.concrete.productname","value":"Concrete"}, {"key":"productdefinition.cookedvegetables.productname","value":"Cooked Vegetables"}, {"key":"productdefinition.copper.productname","value":"Copper"}, {"key":"productdefinition.coppertubing.productname","value":"Copper Tubing"}, {"key":"productdefinition.copperwire.productname","value":"Copper Wire"}, {"key":"productdefinition.cotton.productname","value":"Cotton"}, {"key":"productdefinition.deluxebooks.productname","value":"Deluxe Books"}, {"key":"productdefinition.dinnercontainer.productname","value":"Dinner Container"}, {"key":"productdefinition.diodes.productname","value":"Diodes"}, {"key":"productdefinition.dough.productname","value":"Dough"}, {"key":"productdefinition.dye.productname","value":"Dye"}, {"key":"productdefinition.eggs.productname","value":"Eggs"}, {"key":"productdefinition.engineblock.productname","value":"Engine Block"}, {"key":"productdefinition.exteriorbody.productname","value":"Exterior Body"}, {"key":"productdefinition.fibers.productname","value":"Fibers"}, {"key":"productdefinition.firstcomputer.productname","value":"First Computer"}, {"key":"productdefinition.fish.productname","value":"Fish"}, {"key":"productdefinition.fishandchips.productname","value":"Fish and Chips"}, {"key":"productdefinition.flour.productname","value":"Flour"}, {"key":"productdefinition.friedchicken.productname","value":"Fried Chicken"}, {"key":"productdefinition.furniturebase(l).productname","value":"Furniture Base (L)"}, {"key":"productdefinition.furniturebase(s).productname","value":"Furniture Base (S)"}, {"key":"productdefinition.gas.productname","value":"Gas"}, {"key":"productdefinition.glass.productname","value":"Glass"}, {"key":"productdefinition.glasstubes.productname","value":"Glass Tubes"}, {"key":"productdefinition.grainwhiskey.productname","value":"Grain Whiskey"}, {"key":"productdefinition.grapejuice.productname","value":"Grape Juice"}, {"key":"productdefinition.grapes.productname","value":"Grapes"}, {"key":"productdefinition.hardcider.productname","value":"Hard Cider"}, {"key":"productdefinition.headlights.productname","value":"Headlights"}, {"key":"productdefinition.heavyfabric.productname","value":"Heavy Fabric"}, {"key":"productdefinition.heavypulp.productname","value":"Heavy Pulp"}, {"key":"productdefinition.hops.productname","value":"Hops"}, {"key":"productdefinition.ink.productname","value":"Ink"}, {"key":"productdefinition.interface.productname","value":"Interface"}, {"key":"productdefinition.interiorbody.productname","value":"Interior Body"}, {"key":"productdefinition.interiorlining.productname","value":"Interior Lining"}, {"key":"productdefinition.ironore.productname","value":"Iron Ore"}, {"key":"productdefinition.leather.productname","value":"Leather"}, {"key":"productdefinition.leatherfurniture.productname","value":"Leather Furniture"}, {"key":"productdefinition.lightbulb.productname","value":"Light Bulbs"}, {"key":"productdefinition.lightfabric.productname","value":"Light Fabric"}, {"key":"productdefinition.milk.productname","value":"Milk"}, {"key":"productdefinition.mutton.productname","value":"Mutton"}, {"key":"productdefinition.napkins.productname","value":"Napkins"}, {"key":"productdefinition.newspapers.productname","value":"Newspapers"}, {"key":"productdefinition.officefurniture.productname","value":"Office Furniture"}, {"key":"productdefinition.oil.productname","value":"Oil"}, {"key":"productdefinition.oliveoil.productname","value":"Olive Oil"}, {"key":"productdefinition.olives.productname","value":"Olives"}, {"key":"productdefinition.orangejuice.productname","value":"Orange Juice"}, {"key":"productdefinition.oranges.productname","value":"Oranges"}, {"key":"productdefinition.orangesoda.productname","value":"Orange Soda"}, {"key":"productdefinition.oven.productname","value":"Oven"}, {"key":"productdefinition.paint.productname","value":"Paint"}, {"key":"productdefinition.paperroll.productname","value":"Paper Roll"}, {"key":"productdefinition.parchment.productname","value":"Parchment"}, {"key":"productdefinition.pizza.productname","value":"Pizza"}, {"key":"productdefinition.plastic.productname","value":"Plastic"}, {"key":"productdefinition.plasticcutlery.productname","value":"Plastic Cutlery"}, {"key":"productdefinition.plasticfurniture.productname","value":"Plastic Furniture"}, {"key":"productdefinition.potato.productname","value":"Potato"}, {"key":"productdefinition.premadedinner.productname","value":"Premade Dinner"}, {"key":"productdefinition.printedpaper.productname","value":"Printed Paper"}, {"key":"productdefinition.processor.productname","value":"Processor"}, {"key":"productdefinition.punchcards.productname","value":"Punch Cards"}, {"key":"productdefinition.radiator.productname","value":"Radiator"}, {"key":"productdefinition.radioreceiver.productname","value":"Radio Receiver"}, {"key":"productdefinition.rawrubber.productname","value":"Raw Rubber"}, {"key":"productdefinition.refinedoil.productname","value":"Refined Oil"}, {"key":"productdefinition.refrigerator.productname","value":"Refrigerator"}, {"key":"productdefinition.reinforcedwall.productname","value":"Reinforced Wall"}, {"key":"productdefinition.rollingchassis.productname","value":"Rolling Chassis"}, {"key":"productdefinition.rubber.productname","value":"Rubber"}, {"key":"productdefinition.rubbertubes.productname","value":"Rubber Tubes"}, {"key":"productdefinition.sand.productname","value":"Sand"}, {"key":"productdefinition.sodawater.productname","value":"Soda Water"}, {"key":"productdefinition.soup.productname","value":"Soup"}, {"key":"productdefinition.steel.productname","value":"Steel"}, {"key":"productdefinition.steelbarrel.productname","value":"Steel Barrel"}, {"key":"productdefinition.steelframe.productname","value":"Steel Frame"}, {"key":"productdefinition.stovetop.productname","value":"Stovetop"}, {"key":"productdefinition.sugar.productname","value":"Sugar"}, {"key":"productdefinition.summerclothes.productname","value":"Summer Clothes"}, {"key":"productdefinition.telephone.productname","value":"Telephone"}, {"key":"productdefinition.thincardboard.productname","value":"Thin Cardboard"}, {"key":"productdefinition.tire.productname","value":"Tire"}, {"key":"productdefinition.vegetables.productname","value":"Vegetables"}, {"key":"productdefinition.vodka.productname","value":"Vodka"}, {"key":"productdefinition.waffles.productname","value":"Waffles"}, {"key":"productdefinition.wallpanels.productname","value":"Wall Panels"}, {"key":"productdefinition.water.productname","value":"Water"}, {"key":"productdefinition.wheat.productname","value":"Wheat"}, {"key":"productdefinition.windows.productname","value":"Windows"}, {"key":"productdefinition.wine.productname","value":"Wine"}, {"key":"productdefinition.winterclothes.productname","value":"Winter Clothes"}, {"key":"productdefinition.wood.productname","value":"Wood"}, {"key":"productdefinition.woodenbarrel.productname","value":"Wooden Barrels"}, {"key":"productdefinition.woodenplanks.productname","value":"Wooden Planks"}, {"key":"productdefinition.wool.productname","value":"Wool"}, {"key":"productdefinition.workclothes.productname","value":"Work Clothes"}, {"key":"productdefinition.yeast.productname","value":"Yeast"}, {"key":"recipe.adhesive.title","value":"Adhesive"}, {"key":"recipe.alternator.title","value":"Alternator"}, {"key":"recipe.apples.title","value":"Apples"}, {"key":"recipe.applesmoothie.title","value":"Apple Smoothie"}, {"key":"recipe.axles.title","value":"Axles"}, {"key":"recipe.bagofchips.title","value":"Bag of Chips"}, {"key":"recipe.barleywhiskey.title","value":"Barley Whiskey"}, {"key":"recipe.beefstew.title","value":"Beef Stew"}, {"key":"recipe.beer.title","value":"Beer"}, {"key":"recipe.berries.title","value":"Berries"}, {"key":"recipe.berrypie.title","value":"Berry Pie"}, {"key":"recipe.berrysmoothie.title","value":"Berry Smoothie"}, {"key":"recipe.binaryswitcher.title","value":"Binary Switcher"}, {"key":"recipe.biofuel.title","value":"Biofuel"}, {"key":"recipe.bodychassis.title","value":"Body Chassis"}, {"key":"recipe.books.title","value":"Books"}, {"key":"recipe.bottles.title","value":"Bottles"}, {"key":"recipe.brandy.title","value":"Brandy"}, {"key":"recipe.bricks.title","value":"Bricks"}, {"key":"recipe.burgers.title","value":"Burgers"}, {"key":"recipe.buttons.title","value":"Buttons"}, {"key":"recipe.cannedfish.title","value":"Canned Fish"}, {"key":"recipe.cannedmutton.title","value":"Canned Mutton"}, {"key":"recipe.cans.title","value":"Cans"}, {"key":"recipe.capacitors.title","value":"Capacitors"}, {"key":"recipe.cardboard.title","value":"Cardboard"}, {"key":"recipe.cardboardpanels.title","value":"Cardboard Panels"}, {"key":"recipe.carprototype.title","value":"Car Prototype"}, {"key":"recipe.carradiator.title","value":"Car Radiator"}, {"key":"recipe.carseat.title","value":"Car Seat"}, {"key":"recipe.ceramics.title","value":"Ceramics"}, {"key":"recipe.cheese.title","value":"Cheese"}, {"key":"recipe.chemicals.title","value":"Chemicals"}, {"key":"recipe.chickendinner.title","value":"Chicken Dinner"}, {"key":"recipe.chickens.title","value":"Chickens"}, {"key":"recipe.chickensoup.title","value":"Chicken Soup"}, {"key":"recipe.chocolatebar.title","value":"Chocolate Bar"}, {"key":"recipe.chocolatecake.title","value":"Chocolate Cake"}, {"key":"recipe.coalmine.title","value":"Coal"}, {"key":"recipe.cocoas.title","value":"Cocoas"}, {"key":"recipe.combustionengine.title","value":"Combustion Engine"}, {"key":"recipe.computermemory.title","value":"Computer Memory"}, {"key":"recipe.concrete.title","value":"Concrete"}, {"key":"recipe.cookedvegetables.title","value":"Cooked Vegetables"}, {"key":"recipe.coppermine.title","value":"Copper"}, {"key":"recipe.coppertubing.title","value":"Copper Tubing"}, {"key":"recipe.copperwire.title","value":"Copper Wire"}, {"key":"recipe.cotton.title","value":"Cotton"}, {"key":"recipe.cows.title","value":"Cows"}, {"key":"recipe.deluxebooks.title","value":"Deluxe Books"}, {"key":"recipe.dinnercontainer.title","value":"Dinner Container"}, {"key":"recipe.diodes.title","value":"Diodes"}, {"key":"recipe.dough.title","value":"Dough"}, {"key":"recipe.dye.title","value":"Dye"}, {"key":"recipe.engineblock.title","value":"Engine Block"}, {"key":"recipe.exteriorbody.title","value":"Exterior Body"}, {"key":"recipe.fibers.title","value":"Fibers"}, {"key":"recipe.firstcomputer.title","value":"First Computer"}, {"key":"recipe.fish.title","value":"Fish"}, {"key":"recipe.fishandchips.title","value":"Fish and Chips"}, {"key":"recipe.flour.title","value":"Flour"}, {"key":"recipe.friedchicken.title","value":"Fried Chicken"}, {"key":"recipe.furniturebase(l).title","value":"Furniture Base (L)"}, {"key":"recipe.furniturebase(s).title","value":"Furniture Base (S)"}, {"key":"recipe.gaspump.title","value":"Gas"}, {"key":"recipe.glass.title","value":"Glass"}, {"key":"recipe.glasstubes.title","value":"Glass Tubes"}, {"key":"recipe.grainwhiskey.title","value":"Grain Whiskey"}, {"key":"recipe.grapejuice.title","value":"Grape Juice"}, {"key":"recipe.grapes.title","value":"Grapes"}, {"key":"recipe.hardcider.title","value":"Hard Cider"}, {"key":"recipe.headlights.title","value":"Headlights"}, {"key":"recipe.heavyfabric.title","value":"Heavy Fabric"}, {"key":"recipe.heavypulp.title","value":"Heavy Pulp"}, {"key":"recipe.hops.title","value":"Hops"}, {"key":"recipe.ink.title","value":"Ink"}, {"key":"recipe.interface.title","value":"Interface"}, {"key":"recipe.interiorbody.title","value":"Interior Body"}, {"key":"recipe.interiorlining.title","value":"Interior Lining"}, {"key":"recipe.ironmine.title","value":"Iron"}, {"key":"recipe.leatherfurniture.title","value":"Leather Furniture"}, {"key":"recipe.lightbulb.title","value":"Light Bulbs"}, {"key":"recipe.lightfabric.title","value":"Light Fabric"}, {"key":"recipe.lumberyard.title","value":"Wood"}, {"key":"recipe.napkins.title","value":"Napkins"}, {"key":"recipe.newspapers.title","value":"Newspapers"}, {"key":"recipe.officefurniture.title","value":"Office Furniture"}, {"key":"recipe.oildrill.title","value":"Oil"}, {"key":"recipe.oildrilloffshore.title","value":"Oil"}, {"key":"recipe.oliveoil.title","value":"Olive Oil"}, {"key":"recipe.olives.title","value":"Olives"}, {"key":"recipe.orangejuice.title","value":"Orange Juice"}, {"key":"recipe.oranges.title","value":"Oranges"}, {"key":"recipe.orangesoda.title","value":"Orange Soda"}, {"key":"recipe.oven.title","value":"Oven"}, {"key":"recipe.paints.title","value":"Paints"}, {"key":"recipe.paperroll.title","value":"Paper Roll"}, {"key":"recipe.parchment.title","value":"Parchment"}, {"key":"recipe.pizza.title","value":"Pizza"}, {"key":"recipe.plastic.title","value":"Plastic"}, {"key":"recipe.plasticcutlery.title","value":"Plastic Cutlery"}, {"key":"recipe.plasticfurniture.title","value":"Plastic Furniture"}, {"key":"recipe.potatoes.title","value":"Potatoes"}, {"key":"recipe.premadedinner.title","value":"Premade Dinner"}, {"key":"recipe.printedpaper.title","value":"Printed Paper"}, {"key":"recipe.processor.title","value":"Processor"}, {"key":"recipe.punchcards.title","value":"Punch Cards"}, {"key":"recipe.radiator.title","value":"Radiator"}, {"key":"recipe.radioreceiver.title","value":"Radio Receiver"}, {"key":"recipe.rawrubber.title","value":"Raw Rubber"}, {"key":"recipe.refinedoil.title","value":"Refined Oil"}, {"key":"recipe.refrigerator.title","value":"Refrigerator"}, {"key":"recipe.reinforcedwall.title","value":"Reinforced Wall"}, {"key":"recipe.rollingchassis.title","value":"Rolling Chassis"}, {"key":"recipe.rubber.title","value":"Rubber"}, {"key":"recipe.rubbertubes.title","value":"Rubber Tubes"}, {"key":"recipe.sand.title","value":"Sand"}, {"key":"recipe.sheep.title","value":"Sheep"}, {"key":"recipe.sodawater.title","value":"Soda Water"}, {"key":"recipe.soup.title","value":"Soup"}, {"key":"recipe.steel.title","value":"Steel"}, {"key":"recipe.steelbarrels.title","value":"Steel Barrels"}, {"key":"recipe.steelframe.title","value":"Steel Frame"}, {"key":"recipe.stovetop.title","value":"Stovetop"}, {"key":"recipe.sugarcane.title","value":"Sugarcane"}, {"key":"recipe.summerclothes.title","value":"Summer Clothes"}, {"key":"recipe.telephone.title","value":"Telephone"}, {"key":"recipe.thincardboard.title","value":"Thin Cardboard"}, {"key":"recipe.tire.title","value":"Tire"}, {"key":"recipe.vegetables.title","value":"Vegetables"}, {"key":"recipe.vodka.title","value":"Vodka"}, {"key":"recipe.waffles.title","value":"Waffles"}, {"key":"recipe.wallpanels.title","value":"Wall Panels"}, {"key":"recipe.water.title","value":"Water"}, {"key":"recipe.waterwell.title","value":"Water"}, {"key":"recipe.wheat.title","value":"Wheat"}, {"key":"recipe.windows.title","value":"Windows"}, {"key":"recipe.wine.title","value":"Wine"}, {"key":"recipe.winterclothes.title","value":"Winter Clothes"}, {"key":"recipe.woodenbarrel.title","value":"Wooden Barrels"}, {"key":"recipe.woodenplanks.title","value":"Wooden Planks"}, {"key":"recipe.workclothes.title","value":"Work Clothes"}, {"key":"recipe.yeast.title","value":"Yeast"}, {"key":"regionoverviewmodule.purchasepermitarea.purchasefullpermitbutton.setrecipebuttontext","value":"BUY FULL BUILD PERMIT"}, {"key":"regionoverviewmodule.purchasepermitarea.purchaselogisticalpermitbutton.setrecipebuttontext","value":"BUY LOGISTICAL PERMIT"}, {"key":"regionoverviewmodule.purchasepermitarea.upgradepermitbutton.setrecipebuttontext","value":"UPGRADE TO FULL BUILD PERMIT"}, {"key":"scenariocategory.devcreatedscenarioscategory.categoryname","value":"Dev Created Scenarios"}, {"key":"scenariocategory.eventcategory.categoryname","value":"Permanent Events"}, {"key":"scenariocategory.optionalobjectivecategory.categoryname","value":"Optional Objectives"}, {"key":"scenariocategory.productcategory.categoryname","value":"Product Generation"}, {"key":"scenariocategory.profitcategory.categoryname","value":"Asset Generation"}, {"key":"scenariocategory.timecategory.categoryname","value":"Time"}, {"key":"scenariocategory.usercreatedscenarioscategory.categoryname","value":"User Created Scenarios"}, {"key":"techtreecategory.auxiliary.categoryname","value":"Auxiliary"}, {"key":"techtreecategory.heavyindustry.categoryname","value":"Heavy Industry"}, {"key":"techtreecategory.lightindustry.categoryname","value":"Light Industry"}, {"key":"techtreecategory.prototypes.categoryname","value":"Prototypes"}, {"key":"techtreecategory.rural.categoryname","value":"Rural"}, {"key":"techtreegenericunlock.-25%tunnelsandbridgescost.description","value":"Subtract 25% from Tunnels & Bridges cost"}, {"key":"techtreegenericunlock.-25%tunnelsandbridgescost.unlockname","value":"-25% Tunnels and Bridges Cost"}, {"key":"techtreegenericunlock.-25%urbanroadcost.description","value":"Subtract 25% from Urban Roads cost"}, {"key":"techtreegenericunlock.-25%urbanroadcost.unlockname","value":"-25% Urban Road Cost"}, {"key":"techtreegenericunlock.+10factorystorage.description","value":"Add 10 additional storage units to Factories."}, {"key":"techtreegenericunlock.+10factorystorage.unlockname","value":"+10 Factory Storage"}, {"key":"techtreegenericunlock.+10farmstorage.description","value":"Add 10 additional storage units to Farms."}, {"key":"techtreegenericunlock.+10farmstorage.unlockname","value":"+10 Farm Storage"}, {"key":"techtreegenericunlock.+10gathererstorage.description","value":"Add 10 additional storage units to Gatherers."}, {"key":"techtreegenericunlock.+10gathererstorage.unlockname","value":"+10 Gatherer Storage"}, {"key":"techtreegenericunlock.+25%speedtunnelsandbridges.description","value":"Add 25% speed to Tunnels and Bridges"}, {"key":"techtreegenericunlock.+25%speedtunnelsandbridges.unlockname","value":"+25% Speed Tunnels and Bridges"}, {"key":"techtreegenericunlock.+25%urbanroadspeed.description","value":"Add 25% speed to Urban Roads"}, {"key":"techtreegenericunlock.+25%urbanroadspeed.unlockname","value":"+25% Urban Road Speed"}, {"key":"techtreegenericunlock.+2coastalharvesters.description","value":"Able to Place 2 additional coastal based Harvesters"}, {"key":"techtreegenericunlock.+2coastalharvesters.unlockname","value":"+2 Coastal Harvesters"}, {"key":"techtreegenericunlock.+2cropfields.description","value":"Able to place 2 additional Crop Farm Fields"}, {"key":"techtreegenericunlock.+2cropfields.unlockname","value":"+2 Crop Fields"}, {"key":"techtreegenericunlock.+2landharvesters.description","value":"Able to Place 2 additional land based Harvesters"}, {"key":"techtreegenericunlock.+2landharvesters.unlockname","value":"+2 Land Harvesters"}, {"key":"techtreegenericunlock.+2offshoreharvesters.description","value":"Able to Place 2 additional offshore based Harvesters"}, {"key":"techtreegenericunlock.+2offshoreharvesters.unlockname","value":"+2 Offshore Harvesters"}, {"key":"techtreegenericunlock.+2orchardfields.description","value":"Able to place 2 additional Orchard Fields"}, {"key":"techtreegenericunlock.+2orchardfields.unlockname","value":"+2 Orchard Fields"}, {"key":"techtreegenericunlock.+2plantationfields.description","value":"Able to place 2 additional Plantation Fields"}, {"key":"techtreegenericunlock.+2plantationfields.unlockname","value":"+2 Plantation Fields"}, {"key":"techtreegenericunlock.+5logitrucksa.description","value":"Unlocks 5 additional Destination Trucks for Logistic Buildings"}, {"key":"techtreegenericunlock.+5logitrucksa.unlockname","value":"+5 Trucks"}, {"key":"techtreegenericunlock.+5logitrucksb.description","value":"Unlocks 5 additional Destination Trucks for Logistic Buildings"}, {"key":"techtreegenericunlock.+5logitrucksb.unlockname","value":"+5 Trucks"}, {"key":"techtreegenericunlock.+5trucksnonlogi.description","value":"Unlocks 5 additional Trucks for Farms, Gatherers, and Factories."}, {"key":"techtreegenericunlock.+5trucksnonlogi.unlockname","value":"+5 Trucks"}, {"key":"techtreegenericunlock.boatcapacity.description","value":"Add 5 Capacity to Boats."}, {"key":"techtreegenericunlock.boatcapacity.unlockname","value":"+5 Boat Capacity"}, {"key":"techtreegenericunlock.boatdepotdestinations+3a.description","value":"Add 3 Destination Slots to Boat Depots."}, {"key":"techtreegenericunlock.boatdepotdestinations+3a.unlockname","value":"+3 Destination Slots"}, {"key":"techtreegenericunlock.boatdepotdestinations+3b.description","value":"Add 3 Destination Slots to Boat Depots."}, {"key":"techtreegenericunlock.boatdepotdestinations+3b.unlockname","value":"+3 Destination Slots"}, {"key":"techtreegenericunlock.boatspeed+25%.description","value":"Add 25% Speed to Boats."}, {"key":"techtreegenericunlock.boatspeed+25%.unlockname","value":"+25% Boat Speed"}, {"key":"techtreegenericunlock.cleanerefficiencyl3_l5.description","value":"Allows to set Pollution Cleaners Salary to 75% and 125%."}, {"key":"techtreegenericunlock.cleanerefficiencyl3_l5.unlockname","value":"Pollution Cleaners HR"}, {"key":"techtreegenericunlock.cleanerefficiencyl6.description","value":"Allows to set Pollution Cleaners Salary to 50% and 150%."}, {"key":"techtreegenericunlock.cleanerefficiencyl6.unlockname","value":"Pollution Cleaners HR"}, {"key":"techtreegenericunlock.cleanerefficiencyl7.description","value":"Allows to set Pollution Cleaners Salary to 25% and 200%."}, {"key":"techtreegenericunlock.cleanerefficiencyl7.unlockname","value":"Pollution Cleaners HR"}, {"key":"techtreegenericunlock.deforestation.description","value":"Able to place 2 additional Livestock Fields"}, {"key":"techtreegenericunlock.deforestation.unlockname","value":"+2 Livestock Field"}, {"key":"techtreegenericunlock.destinations+3a.description","value":"Unlocks 3 additional Destination Slots for Farms, Gatherers, and Factories."}, {"key":"techtreegenericunlock.destinations+3a.unlockname","value":"+3 Destination Slots"}, {"key":"techtreegenericunlock.destinations+3b.description","value":"Unlocks 3 additional Destination Slots for Farms, Gatherers, and Factories."}, {"key":"techtreegenericunlock.destinations+3b.unlockname","value":"+3 Destination Slots"}, {"key":"techtreegenericunlock.dirtroads.description","value":"Can build Dirt Roads"}, {"key":"techtreegenericunlock.dirtroads.unlockname","value":"Build Dirt Roads"}, {"key":"techtreegenericunlock.factoryefficiencyl1.description","value":"Allows to set Factories Salary to 25%."}, {"key":"techtreegenericunlock.factoryefficiencyl1.unlockname","value":"Factories HR"}, {"key":"techtreegenericunlock.factoryefficiencyl2.description","value":"Allows to set Factories Salary to 50%."}, {"key":"techtreegenericunlock.factoryefficiencyl2.unlockname","value":"Factories HR"}, {"key":"techtreegenericunlock.factoryefficiencyl3_l5.description","value":"Allows to set Factories Salary to 75% and 125%."}, {"key":"techtreegenericunlock.factoryefficiencyl3_l5.unlockname","value":"Factories HR"}, {"key":"techtreegenericunlock.factoryefficiencyl6.description","value":"Allows to set Factories Salary to 50% and 150%."}, {"key":"techtreegenericunlock.factoryefficiencyl6.unlockname","value":"Factories HR"}, {"key":"techtreegenericunlock.factoryefficiencyl7.description","value":"Allows to set Factories Salary to 25% and 200%."}, {"key":"techtreegenericunlock.factoryefficiencyl7.unlockname","value":"Factories HR"}, {"key":"techtreegenericunlock.farmefficiencyl1.description","value":"Allows to set Farms Salary to 25%."}, {"key":"techtreegenericunlock.farmefficiencyl1.unlockname","value":"Farms HR"}, {"key":"techtreegenericunlock.farmefficiencyl2.description","value":"Allows to set Farms Salary to 50%."}, {"key":"techtreegenericunlock.farmefficiencyl2.unlockname","value":"Farms HR"}, {"key":"techtreegenericunlock.farmefficiencyl3_l5.description","value":"Allows to set Farms Salary to 75% and 125%."}, {"key":"techtreegenericunlock.farmefficiencyl3_l5.unlockname","value":"Farms HR"}, {"key":"techtreegenericunlock.farmefficiencyl6.description","value":"Allows to set Farms Salary to 50% and 150%."}, {"key":"techtreegenericunlock.farmefficiencyl6.unlockname","value":"Farms HR"}, {"key":"techtreegenericunlock.farmefficiencyl7.description","value":"Allows to set Farms Salary to 25% and 200%."}, {"key":"techtreegenericunlock.farmefficiencyl7.unlockname","value":"Farms HR"}, {"key":"techtreegenericunlock.gathererefficiencyl1.description","value":"Allows to set Gatherers Salary to 25%."}, {"key":"techtreegenericunlock.gathererefficiencyl1.unlockname","value":"Gatherers HR"}, {"key":"techtreegenericunlock.gathererefficiencyl2.description","value":"Allows to set Gatherers Salary to 50%."}, {"key":"techtreegenericunlock.gathererefficiencyl2.unlockname","value":"Gatherers HR"}, {"key":"techtreegenericunlock.gathererefficiencyl3_l5.description","value":"Allows to set Gatherers Salary to 75% and 125%."}, {"key":"techtreegenericunlock.gathererefficiencyl3_l5.unlockname","value":"Gatherers HR"}, {"key":"techtreegenericunlock.gathererefficiencyl6.description","value":"Allows to set Gatherers Salary to 50% and 150%."}, {"key":"techtreegenericunlock.gathererefficiencyl6.unlockname","value":"Gatherers HR"}, {"key":"techtreegenericunlock.gathererefficiencyl7.description","value":"Allows to set Gatherers Salary to 25% and 200%."}, {"key":"techtreegenericunlock.gathererefficiencyl7.unlockname","value":"Gatherers HR"}, {"key":"techtreegenericunlock.highways.description","value":"NOT AVAILABLE YET"}, {"key":"techtreegenericunlock.highways.unlockname","value":"Build Highways"}, {"key":"techtreegenericunlock.highwayscost.description","value":"NOT AVAILABLE YET"}, {"key":"techtreegenericunlock.highwayscost.unlockname","value":"Highways Cost"}, {"key":"techtreegenericunlock.highwaysspeed.description","value":"NOT AVAILABLE YET"}, {"key":"techtreegenericunlock.highwaysspeed.unlockname","value":"Highways Speed"}, {"key":"techtreegenericunlock.onewayroads.description","value":"Can build One Way Roads"}, {"key":"techtreegenericunlock.onewayroads.unlockname","value":"One Way Roads"}, {"key":"techtreegenericunlock.researchefficiencyl2.description","value":"Allows to set R&D Monthly Investment to $250k."}, {"key":"techtreegenericunlock.researchefficiencyl2.unlockname","value":"R&D Monthly Investment"}, {"key":"techtreegenericunlock.researchefficiencyl3.description","value":"Allows to set R&D Monthly Investment to $1M."}, {"key":"techtreegenericunlock.researchefficiencyl3.unlockname","value":"R&D Monthly Investment"}, {"key":"techtreegenericunlock.researchefficiencyl4.description","value":"Allows to set R&D Monthly Investment to $2.5M."}, {"key":"techtreegenericunlock.researchefficiencyl4.unlockname","value":"R&D Monthly Investment"}, {"key":"techtreegenericunlock.researchefficiencyl5.description","value":"Allows to set R&D Monthly Investment to $5M."}, {"key":"techtreegenericunlock.researchefficiencyl5.unlockname","value":"R&D Monthly Investment"}, {"key":"techtreegenericunlock.traincapacity.description","value":"Add 4 to Train capacity."}, {"key":"techtreegenericunlock.traincapacity.unlockname","value":"+4 Train Capacity"}, {"key":"techtreegenericunlock.trainspeed+25%.description","value":"Add 25% to Train speed."}, {"key":"techtreegenericunlock.trainspeed+25%.unlockname","value":"+25% Train Speed"}, {"key":"techtreegenericunlock.trainterminaldestinations+3a.description","value":"Add 3 Destination Slots to Train Terminals."}, {"key":"techtreegenericunlock.trainterminaldestinations+3a.unlockname","value":"+3 Destination Slots"}, {"key":"techtreegenericunlock.trainterminaldestinations+3b.description","value":"Add 3 Destination Slots to Train Terminals."}, {"key":"techtreegenericunlock.trainterminaldestinations+3b.unlockname","value":"+3 Destination Slots"}, {"key":"techtreegenericunlock.truckcapacity.description","value":"Increases the capacity of Warehouse trucks by 1"}, {"key":"techtreegenericunlock.truckcapacity.unlockname","value":"+1 Truck Capacity"}, {"key":"techtreegenericunlock.truckdepotdestinations+3a.description","value":"Add 3 additional Destination Slots to Truck Depots."}, {"key":"techtreegenericunlock.truckdepotdestinations+3a.unlockname","value":"+3 Destination Slots"}, {"key":"techtreegenericunlock.truckdepotdestinations+3b.description","value":"Add 3 additional Destination Slots to Truck Depots."}, {"key":"techtreegenericunlock.truckdepotdestinations+3b.unlockname","value":"+3 Destination Slots"}, {"key":"techtreegenericunlock.truckspeed+25%.description","value":"Add 25% to Trade Truck Speed."}, {"key":"techtreegenericunlock.truckspeed+25%.unlockname","value":"+25% Truck Speed"}, {"key":"techtreegenericunlock.tunnels&bridges.description","value":"Can build Tunnels & Bridges"}, {"key":"techtreegenericunlock.tunnels&bridges.unlockname","value":"Tunnels & Bridges"}, {"key":"techtreegenericunlock.urbanroads.description","value":"Can build Urban Roads"}, {"key":"techtreegenericunlock.urbanroads.unlockname","value":"Build Urban Roads"}, {"key":"techtreegenericunlock.warehousecollectionradiusa.unlockname","value":"+5 Tiles Collection Radius"}, {"key":"techtreegenericunlock.warehousecollectionradiusa.description","value":"Add 5 tiles to Collection Radius of Warehouses."}, {"key":"techtreegenericunlock.warehousecollectionradiusb.description","value":"Add 5 tiles to Collection Radius of Warehouses."}, {"key":"techtreegenericunlock.warehousecollectionradiusb.unlockname","value":"+5 Tiles Collection Radius"}, {"key":"techtreegenericunlock.warehousedestinations+3a.description","value":"Add 3 Destination Slots to Warehouses."}, {"key":"techtreegenericunlock.warehousedestinations+3a.unlockname","value":"+3 Destination Slots"}, {"key":"techtreegenericunlock.warehousedestinations+3b.description","value":"Add 3 Destination Slots to Warehouses."}, {"key":"techtreegenericunlock.warehousedestinations+3b.unlockname","value":"+3 Destination Slots"}, {"key":"techtreegenericunlock.warehousestoragea.unlockname","value":"+10 Warehouse Storage"}, {"key":"techtreegenericunlock.warehousestoragea.description","value":"Add 10 Storage Capacity to Warehouses."}, {"key":"techtreegenericunlock.warehousestorageb.unlockname","value":"+15 Warehouse Storage"}, {"key":"techtreegenericunlock.warehousestorageb.description","value":"Add 15 Storage Capacity to Warehouses."}, {"key":"techtreegenericunlock.watertoweraoe.unlockname","value":"+10 Tiles Irrigation Radius"}, {"key":"techtreegenericunlock.zeppelincapacity.description","value":"Add 3 Capacity to Zeppelins."}, {"key":"techtreegenericunlock.zeppelincapacity.unlockname","value":"+3 Zeppelin Capacity"}, {"key":"techtreegenericunlock.zeppelinfielddestinations+3a.description","value":"Add 3 Destination Slots to Zeppelin Fields."}, {"key":"techtreegenericunlock.zeppelinfielddestinations+3a.unlockname","value":"+3 Destination Slots"}, {"key":"techtreegenericunlock.zeppelinfielddestinations+3b.description","value":"Add 3 Destination Slots to Zeppelin Fields."}, {"key":"techtreegenericunlock.zeppelinfielddestinations+3b.unlockname","value":"+3 Destination Slots"}, {"key":"techtreegenericunlock.zeppelinspeed+25%.description","value":"Add 25% Speed to Zeppelins."}, {"key":"techtreegenericunlock.zeppelinspeed+25%.unlockname","value":"+25% Zeppelin Speed"}, {"key":"techtreerecipeunlock.adhesive.description","value":"Able to produce Adhesive at Petrochemical Plant."}, {"key":"techtreerecipeunlock.adhesive.unlockname","value":"Adhesive"}, {"key":"techtreerecipeunlock.alternator.description","value":"Able to produce Alternator at Home Goods Factory."}, {"key":"techtreerecipeunlock.alternator.unlockname","value":"Alternator"}, {"key":"techtreerecipeunlock.apples.description","value":"Able to produce Apples at Orchard."}, {"key":"techtreerecipeunlock.apples.unlockname","value":"Apples"}, {"key":"techtreerecipeunlock.applesmoothie.description","value":"Able to produce Apple Smoothie at Drinks Factory."}, {"key":"techtreerecipeunlock.applesmoothie.unlockname","value":"Apple Smoothie"}, {"key":"techtreerecipeunlock.axles.description","value":"Able to produce Axles at Automotive Factory."}, {"key":"techtreerecipeunlock.axles.unlockname","value":"Axles"}, {"key":"techtreerecipeunlock.bagofchips.description","value":"Able to produce Bag Of Chips at Preservation Factory."}, {"key":"techtreerecipeunlock.bagofchips.unlockname","value":"Bag of Chips"}, {"key":"techtreerecipeunlock.barleywhiskey.description","value":"Able to produce Barley Whiskey at Brewery & Distillery."}, {"key":"techtreerecipeunlock.barleywhiskey.unlockname","value":"Barley Whiskey"}, {"key":"techtreerecipeunlock.beefstew.description","value":"Able to produce Beef Stew at Food Factory."}, {"key":"techtreerecipeunlock.beefstew.unlockname","value":"Beef Stew"}, {"key":"techtreerecipeunlock.beer.description","value":"Able to produce Beer at Brewery & Distillery."}, {"key":"techtreerecipeunlock.beer.unlockname","value":"Beer"}, {"key":"techtreerecipeunlock.berries.description","value":"Able to produce Berries at Plantation."}, {"key":"techtreerecipeunlock.berries.unlockname","value":"Berries"}, {"key":"techtreerecipeunlock.berrypie.description","value":"Able to produce Berry Pie at Food Factory."}, {"key":"techtreerecipeunlock.berrypie.unlockname","value":"Berry Pie"}, {"key":"techtreerecipeunlock.berrysmoothie.description","value":"Able to produce Berry Smoothie at Drinks Factory."}, {"key":"techtreerecipeunlock.berrysmoothie.unlockname","value":"Berry Smoothie"}, {"key":"techtreerecipeunlock.binaryswitcher.description","value":"Able to produce Binary Switcher at Home Goods Factory."}, {"key":"techtreerecipeunlock.binaryswitcher.unlockname","value":"Binary Switcher"}, {"key":"techtreerecipeunlock.biofuel.description","value":"Able to produce Biofuel at Brewery & Distillery."}, {"key":"techtreerecipeunlock.biofuel.unlockname","value":"Biofuel"}, {"key":"techtreerecipeunlock.bodychassis.description","value":"Able to produce Body Chassis at Automotive Factory."}, {"key":"techtreerecipeunlock.bodychassis.unlockname","value":"Body Chassis"}, {"key":"techtreerecipeunlock.books.description","value":"Able to produce Books at Papermill."}, {"key":"techtreerecipeunlock.books.unlockname","value":"Books"}, {"key":"techtreerecipeunlock.bottles.description","value":"Able to produce Bottles at Glassworks & Smelter."}, {"key":"techtreerecipeunlock.bottles.unlockname","value":"Bottles"}, {"key":"techtreerecipeunlock.brandy.description","value":"Able to produce Brandy at Brewery & Distillery."}, {"key":"techtreerecipeunlock.brandy.unlockname","value":"Brandy"}, {"key":"techtreerecipeunlock.bricks.description","value":"Able to produce Bricks at Glassworks & Smelter."}, {"key":"techtreerecipeunlock.bricks.unlockname","value":"Bricks"}, {"key":"techtreerecipeunlock.burgers.description","value":"Able to produce Burgers at Food Factory."}, {"key":"techtreerecipeunlock.burgers.unlockname","value":"Burgers"}, {"key":"techtreerecipeunlock.buttons.description","value":"Able to produce Buttons at Petrochemical Plant."}, {"key":"techtreerecipeunlock.buttons.unlockname","value":"Buttons"}, {"key":"techtreerecipeunlock.cannedfish.description","value":"Able to produce Canned Fish at Preservation Factory."}, {"key":"techtreerecipeunlock.cannedfish.unlockname","value":"Canned Fish"}, {"key":"techtreerecipeunlock.cannedmutton.description","value":"Able to produce Canned Mutton at Preservation Factory."}, {"key":"techtreerecipeunlock.cannedmutton.unlockname","value":"Canned Mutton"}, {"key":"techtreerecipeunlock.cans.description","value":"Able to produce Cans at Glassworks & Smelter."}, {"key":"techtreerecipeunlock.cans.unlockname","value":"Cans"}, {"key":"techtreerecipeunlock.capacitors.description","value":"Able to produce Capacitors at Home Goods Factory."}, {"key":"techtreerecipeunlock.capacitors.unlockname","value":"Capacitors"}, {"key":"techtreerecipeunlock.cardboard.description","value":"Able to produce Cardboard at Papermill."}, {"key":"techtreerecipeunlock.cardboard.unlockname","value":"Cardboard"}, {"key":"techtreerecipeunlock.cardboardpanels.description","value":"Able to produce Cardboard Panels at Papermill."}, {"key":"techtreerecipeunlock.cardboardpanels.unlockname","value":"Cardboard Panels"}, {"key":"techtreerecipeunlock.carprototype.description","value":"Able to produce Car Prototype at Prototype Factory."}, {"key":"techtreerecipeunlock.carprototype.unlockname","value":"Car Prototype"}, {"key":"techtreerecipeunlock.carradiator.description","value":"Able to produce Car Radiator at Home Goods Factory."}, {"key":"techtreerecipeunlock.carradiator.unlockname","value":"Car Radiator"}, {"key":"techtreerecipeunlock.carseat.description","value":"Able to produce Car Seat at Carpentry."}, {"key":"techtreerecipeunlock.carseat.unlockname","value":"Car Seat"}, {"key":"techtreerecipeunlock.ceramics.description","value":"Able to produce Ceramics at Glassworks & Smelter."}, {"key":"techtreerecipeunlock.ceramics.unlockname","value":"Ceramics"}, {"key":"techtreerecipeunlock.cheese.description","value":"Able to produce Cheese at Food Factory."}, {"key":"techtreerecipeunlock.cheese.unlockname","value":"Cheese"}, {"key":"techtreerecipeunlock.chemicals.description","value":"Able to produce Chemicals at Petrochemical Plant."}, {"key":"techtreerecipeunlock.chemicals.unlockname","value":"Chemicals"}, {"key":"techtreerecipeunlock.chickendinner.description","value":"Able to produce Chicken Dinner at Food Factory."}, {"key":"techtreerecipeunlock.chickendinner.unlockname","value":"Chicken Dinner"}, {"key":"techtreerecipeunlock.chickens.description","value":"Able to produce Chicken Meat and Eggs at Livestock Farm."}, {"key":"techtreerecipeunlock.chickens.unlockname","value":"Chickens"}, {"key":"techtreerecipeunlock.chickensoup.description","value":"Able to produce Chicken Soup at Preservation Factory."}, {"key":"techtreerecipeunlock.chickensoup.unlockname","value":"Chicken Soup"}, {"key":"techtreerecipeunlock.chips.description","value":"Able to produce Bag Of Chips at Preservation Factory."}, {"key":"techtreerecipeunlock.chips.unlockname","value":"Bag Of Chips"}, {"key":"techtreerecipeunlock.chocolatebar.description","value":"Able to produce Chocolate Bars at Food Factory."}, {"key":"techtreerecipeunlock.chocolatebar.unlockname","value":"Chocolate Bars"}, {"key":"techtreerecipeunlock.chocolatecake.description","value":"Able to produce Chocolate Cakes at Food Factory."}, {"key":"techtreerecipeunlock.chocolatecake.unlockname","value":"Chocolate Cakes"}, {"key":"techtreerecipeunlock.coal.description","value":"Able to produce Coal at Coal Mine."}, {"key":"techtreerecipeunlock.coal.unlockname","value":"Coal Mine"}, {"key":"techtreerecipeunlock.cocoa.description","value":"Able to produce Cocoas at Plantation."}, {"key":"techtreerecipeunlock.cocoa.unlockname","value":"Cocoas"}, {"key":"techtreerecipeunlock.combustionengine.description","value":"Able to produce Combustion Engine at Automotive Factory."}, {"key":"techtreerecipeunlock.combustionengine.unlockname","value":"Combustion Engine"}, {"key":"techtreerecipeunlock.computermemory.description","value":"Able to produce Computer Memory at Glassworks & Smelter."}, {"key":"techtreerecipeunlock.computermemory.unlockname","value":"Computer Memory"}, {"key":"techtreerecipeunlock.concrete.description","value":"Able to produce Concrete at Glassworks & Smelter."}, {"key":"techtreerecipeunlock.concrete.unlockname","value":"Concrete"}, {"key":"techtreerecipeunlock.cookedvegetables.description","value":"Able to produce Cooked Vegetables at Food Factory."}, {"key":"techtreerecipeunlock.cookedvegetables.unlockname","value":"Cooked Vegetables"}, {"key":"techtreerecipeunlock.copper.description","value":"Able to produce Copper at Copper Mine."}, {"key":"techtreerecipeunlock.copper.unlockname","value":"Copper"}, {"key":"techtreerecipeunlock.coppertubing.description","value":"Able to produce Copper Tubing at Glassworks & Smelter."}, {"key":"techtreerecipeunlock.coppertubing.unlockname","value":"Copper Tubing"}, {"key":"techtreerecipeunlock.copperwire.description","value":"Able to produce Copper Wires at Glassworks & Smelter."}, {"key":"techtreerecipeunlock.copperwire.unlockname","value":"Copper Wires"}, {"key":"techtreerecipeunlock.cotton.description","value":"Able to produce Cotton at Plantation."}, {"key":"techtreerecipeunlock.cotton.unlockname","value":"Cotton Field"}, {"key":"techtreerecipeunlock.cows.description","value":"Able to produce Beef, Leather and Milk at Livestock Farm."}, {"key":"techtreerecipeunlock.cows.unlockname","value":"Cows"}, {"key":"techtreerecipeunlock.deluxebooks.description","value":"Able to produce Deluxe Books at Papermill."}, {"key":"techtreerecipeunlock.deluxebooks.unlockname","value":"Deluxe Books"}, {"key":"techtreerecipeunlock.dinnercontainer.description","value":"Able to produce Dinner Container at Papermill."}, {"key":"techtreerecipeunlock.dinnercontainer.unlockname","value":"Dinner Container"}, {"key":"techtreerecipeunlock.diodes.description","value":"Able to produce Diodes at Home Goods Factory."}, {"key":"techtreerecipeunlock.diodes.unlockname","value":"Diodes"}, {"key":"techtreerecipeunlock.dough.description","value":"Able to produce Dough at Food Factory."}, {"key":"techtreerecipeunlock.dough.unlockname","value":"Dough"}, {"key":"techtreerecipeunlock.dye.description","value":"Able to produce Dye at Textile Factory."}, {"key":"techtreerecipeunlock.dye.unlockname","value":"Dye"}, {"key":"techtreerecipeunlock.engineblock.description","value":"Able to produce Engine Block at Home Goods Factory."}, {"key":"techtreerecipeunlock.engineblock.unlockname","value":"Engine Block"}, {"key":"techtreerecipeunlock.exteriorbody.description","value":"Able to produce Exterior Body at Automotive Factory."}, {"key":"techtreerecipeunlock.exteriorbody.unlockname","value":"Exterior Body"}, {"key":"techtreerecipeunlock.fibers.description","value":"Able to produce Fibers at Textile Factory."}, {"key":"techtreerecipeunlock.fibers.unlockname","value":"Fibers"}, {"key":"techtreerecipeunlock.firstcomputer.description","value":"Able to produce First Computer at Prototype Factory."}, {"key":"techtreerecipeunlock.firstcomputer.unlockname","value":"First Computer"}, {"key":"techtreerecipeunlock.fish.description","value":"Able to produce Fish at Fisherman Pier."}, {"key":"techtreerecipeunlock.fish.unlockname","value":"Fish Harvester"}, {"key":"techtreerecipeunlock.fishandchips.description","value":"Able to produce Fish and Chips at Food Factory."}, {"key":"techtreerecipeunlock.fishandchips.unlockname","value":"Fish and Chips"}, {"key":"techtreerecipeunlock.flour.description","value":"Able to produce Flour at Food Factory."}, {"key":"techtreerecipeunlock.flour.unlockname","value":"Flour"}, {"key":"techtreerecipeunlock.friedchicken.description","value":"Able to produce Fried Chicken at Food Factory."}, {"key":"techtreerecipeunlock.friedchicken.unlockname","value":"Fried Chicken"}, {"key":"techtreerecipeunlock.furniturebase(l).description","value":"Able to produce Furniture Base (L) at Carpentry."}, {"key":"techtreerecipeunlock.furniturebase(l).unlockname","value":"Furniture Base (L)"}, {"key":"techtreerecipeunlock.furniturebases(s).description","value":"Able to produce Furniture Bases (S) at Carpentry."}, {"key":"techtreerecipeunlock.furniturebases(s).unlockname","value":"Furniture Bases (S)"}, {"key":"techtreerecipeunlock.gas.description","value":"Able to produce Gas at Gas Pump."}, {"key":"techtreerecipeunlock.gas.unlockname","value":"Gas"}, {"key":"techtreerecipeunlock.glass.description","value":"Able to produce Glass at Glassworks & Smelter."}, {"key":"techtreerecipeunlock.glass.unlockname","value":"Glass"}, {"key":"techtreerecipeunlock.glasstubes.description","value":"Able to produce Glass Tubes at Glassworks & Smelter."}, {"key":"techtreerecipeunlock.glasstubes.unlockname","value":"Glass Tubes"}, {"key":"techtreerecipeunlock.grainwhiskey.description","value":"Able to produce Grain Whiskey at Brewery & Distillery."}, {"key":"techtreerecipeunlock.grainwhiskey.unlockname","value":"Grain Whiskey"}, {"key":"techtreerecipeunlock.grapejuice.description","value":"Able to produce Grape Juice at Drinks Factory."}, {"key":"techtreerecipeunlock.grapejuice.unlockname","value":"Grape Juice"}, {"key":"techtreerecipeunlock.grapes.description","value":"Able to produce Grapes at Orchard."}, {"key":"techtreerecipeunlock.grapes.unlockname","value":"Grapes"}, {"key":"techtreerecipeunlock.hardcider.description","value":"Able to produce Hard Cider at Brewery & Distillery."}, {"key":"techtreerecipeunlock.hardcider.unlockname","value":"Hard Cider"}, {"key":"techtreerecipeunlock.headlights.description","value":"Able to produce Headlights at Home Goods Factory."}, {"key":"techtreerecipeunlock.headlights.unlockname","value":"Headlights"}, {"key":"techtreerecipeunlock.heavyfabric.description","value":"Able to produce Heavy Fabric at Textile Factory."}, {"key":"techtreerecipeunlock.heavyfabric.unlockname","value":"Heavy Fabric"}, {"key":"techtreerecipeunlock.heavypulp.description","value":"Able to produce Heavy Pulp at Papermill."}, {"key":"techtreerecipeunlock.heavypulp.unlockname","value":"Heavy Pulp"}, {"key":"techtreerecipeunlock.hops.description","value":"Able to produce Hops at Crop Farm."}, {"key":"techtreerecipeunlock.hops.unlockname","value":"Hops"}, {"key":"techtreerecipeunlock.ink.description","value":"Able to produce Ink at Papermill."}, {"key":"techtreerecipeunlock.ink.unlockname","value":"Ink"}, {"key":"techtreerecipeunlock.interface.description","value":"Able to produce Interface at Petrochemical Plant."}, {"key":"techtreerecipeunlock.interface.unlockname","value":"Interface"}, {"key":"techtreerecipeunlock.interiorbody.description","value":"Able to produce Interior Body at Automotive Factory."}, {"key":"techtreerecipeunlock.interiorbody.unlockname","value":"Interior Body"}, {"key":"techtreerecipeunlock.interiorlining.description","value":"Able to produce Interior Lining at Textile Factory."}, {"key":"techtreerecipeunlock.interiorlining.unlockname","value":"Interior Lining"}, {"key":"techtreerecipeunlock.iron.description","value":"Able to produce Iron at Iron Mine."}, {"key":"techtreerecipeunlock.iron.unlockname","value":"Iron"}, {"key":"techtreerecipeunlock.leatherfurniture.description","value":"Able to produce Leather Furniture at Carpentry."}, {"key":"techtreerecipeunlock.leatherfurniture.unlockname","value":"Leather Furniture"}, {"key":"techtreerecipeunlock.lightbulb.description","value":"Able to produce Light Bulbs at Home Goods Factory."}, {"key":"techtreerecipeunlock.lightbulb.unlockname","value":"Light Bulbs"}, {"key":"techtreerecipeunlock.lightfabric.description","value":"Able to produce Light Fabric at Textile Factory."}, {"key":"techtreerecipeunlock.lightfabric.unlockname","value":"Light Fabric"}, {"key":"techtreerecipeunlock.napkins.description","value":"Able to produce Napkins at Textile Factory."}, {"key":"techtreerecipeunlock.napkins.unlockname","value":"Napkins"}, {"key":"techtreerecipeunlock.newspapers.description","value":"Able to produce Newspapers at Papermill."}, {"key":"techtreerecipeunlock.newspapers.unlockname","value":"Newspapers"}, {"key":"techtreerecipeunlock.officefurniture.description","value":"Able to produce Office Furniture at Carpentry."}, {"key":"techtreerecipeunlock.officefurniture.unlockname","value":"Office Furniture"}, {"key":"techtreerecipeunlock.oil.description","value":"Able to produce Oil at Oil Drill and Offshore Oil Drill."}, {"key":"techtreerecipeunlock.oil.unlockname","value":"Oil"}, {"key":"techtreerecipeunlock.oliveoil.description","value":"Able to produce Olive Oil at Food Factory."}, {"key":"techtreerecipeunlock.oliveoil.unlockname","value":"Olive Oil"}, {"key":"techtreerecipeunlock.olives.description","value":"Able to produce Olives at Orchard."}, {"key":"techtreerecipeunlock.olives.unlockname","value":"Olives"}, {"key":"techtreerecipeunlock.orangejuice.description","value":"Able to produce Orange Juice at Drinks Factory."}, {"key":"techtreerecipeunlock.orangejuice.unlockname","value":"Orange Juice"}, {"key":"techtreerecipeunlock.oranges.description","value":"Able to produce Oranges at Orchard."}, {"key":"techtreerecipeunlock.oranges.unlockname","value":"Orange Field"}, {"key":"techtreerecipeunlock.orangesoda.description","value":"Able to produce Orange Soda at Drinks Factory."}, {"key":"techtreerecipeunlock.orangesoda.unlockname","value":"Orange Soda"}, {"key":"techtreerecipeunlock.oven.description","value":"Able to produce Ovens at Home Goods Factory."}, {"key":"techtreerecipeunlock.oven.unlockname","value":"Ovens"}, {"key":"techtreerecipeunlock.paint.description","value":"Able to produce Paint at Petrochemical Plant."}, {"key":"techtreerecipeunlock.paint.unlockname","value":"Paint"}, {"key":"techtreerecipeunlock.paperroll.description","value":"Able to produce Paper Roll at Papermill."}, {"key":"techtreerecipeunlock.paperroll.unlockname","value":"Paper Roll"}, {"key":"techtreerecipeunlock.parchment.description","value":"Able to produce Parchments at Papermill."}, {"key":"techtreerecipeunlock.parchment.unlockname","value":"Parchments"}, {"key":"techtreerecipeunlock.pizza.description","value":"Able to produce Pizza at Food Factory."}, {"key":"techtreerecipeunlock.pizza.unlockname","value":"Pizza"}, {"key":"techtreerecipeunlock.plastic.description","value":"Able to produce Plastic at Petrochemical Plant."}, {"key":"techtreerecipeunlock.plastic.unlockname","value":"Plastic"}, {"key":"techtreerecipeunlock.plasticcutlery.description","value":"Able to produce Plastic Cutlery at Petrochemical Plant."}, {"key":"techtreerecipeunlock.plasticcutlery.unlockname","value":"Plastic Cutlery"}, {"key":"techtreerecipeunlock.plasticfurniture.description","value":"Able to produce Plastic Furniture at Carpentry."}, {"key":"techtreerecipeunlock.plasticfurniture.unlockname","value":"Plastic Furniture"}, {"key":"techtreerecipeunlock.potatoes.description","value":"Able to produce Potato at Crop Farm."}, {"key":"techtreerecipeunlock.potatoes.unlockname","value":"Potato"}, {"key":"techtreerecipeunlock.premadedinner.description","value":"Able to produce Premade Dinner at Prototype Factory."}, {"key":"techtreerecipeunlock.premadedinner.unlockname","value":"Premade Dinner"}, {"key":"techtreerecipeunlock.printedpaper.description","value":"Able to produce Printed Paper at Papermill."}, {"key":"techtreerecipeunlock.printedpaper.unlockname","value":"Printed Paper"}, {"key":"techtreerecipeunlock.processor.description","value":"Able to produce Processor at Home Goods Factory."}, {"key":"techtreerecipeunlock.processor.unlockname","value":"Processor"}, {"key":"techtreerecipeunlock.punchcards.description","value":"Able to produce Punch Cards at Papermill."}, {"key":"techtreerecipeunlock.punchcards.unlockname","value":"Punch Cards"}, {"key":"techtreerecipeunlock.radiator.description","value":"Able to produce Radiator at Home Goods Factory."}, {"key":"techtreerecipeunlock.radiator.unlockname","value":"Radiator"}, {"key":"techtreerecipeunlock.radioreceiver.description","value":"Able to produce Radio Receivers at Home Goods Factory."}, {"key":"techtreerecipeunlock.radioreceiver.unlockname","value":"Radio Receivers"}, {"key":"techtreerecipeunlock.rawrubber.description","value":"Able to produce Raw Rubber at Orchard."}, {"key":"techtreerecipeunlock.rawrubber.unlockname","value":"Raw Rubber"}, {"key":"techtreerecipeunlock.refinedoil.description","value":"Able to produce Refined Oil at Petrochemical Plant."}, {"key":"techtreerecipeunlock.refinedoil.unlockname","value":"Refined Oil"}, {"key":"techtreerecipeunlock.refrigerator.description","value":"Able to produce Refrigerators at Home Goods Factory."}, {"key":"techtreerecipeunlock.refrigerator.unlockname","value":"Refrigerators"}, {"key":"techtreerecipeunlock.reinforcedwall.description","value":"Able to produce Reinforced Wall at Carpentry."}, {"key":"techtreerecipeunlock.reinforcedwall.unlockname","value":"Reinforced Wall"}, {"key":"techtreerecipeunlock.rollingchassis.description","value":"Able to produce Rolling Chassis at Automotive Factory."}, {"key":"techtreerecipeunlock.rollingchassis.unlockname","value":"Rolling Chassis"}, {"key":"techtreerecipeunlock.rubber.description","value":"Able to produce Rubber at Petrochemical Plant."}, {"key":"techtreerecipeunlock.rubber.unlockname","value":"Rubber"}, {"key":"techtreerecipeunlock.rubbertubes.description","value":"Able to produce Rubber Tubes at Petrochemical Plant."}, {"key":"techtreerecipeunlock.rubbertubes.unlockname","value":"Rubber Tubes"}, {"key":"techtreerecipeunlock.sand.description","value":"Able to produce Sand at Sand Collector."}, {"key":"techtreerecipeunlock.sand.unlockname","value":"Sand"}, {"key":"techtreerecipeunlock.sheep.description","value":"Able to produce Mutton and Wool at Livestock Farm."}, {"key":"techtreerecipeunlock.sheep.unlockname","value":"Sheep"}, {"key":"techtreerecipeunlock.sodawater.description","value":"Able to produce Soda Water at Drinks Factory."}, {"key":"techtreerecipeunlock.sodawater.unlockname","value":"Soda Water"}, {"key":"techtreerecipeunlock.soup.description","value":"Able to produce Soup at Preservation Factory."}, {"key":"techtreerecipeunlock.soup.unlockname","value":"Soup"}, {"key":"techtreerecipeunlock.steel.description","value":"Able to produce Steel at Glassworks & Smelter."}, {"key":"techtreerecipeunlock.steel.unlockname","value":"Steel"}, {"key":"techtreerecipeunlock.steelbarrels.description","value":"Able to produce Steel Barrels at Glassworks & Smelter."}, {"key":"techtreerecipeunlock.steelbarrels.unlockname","value":"Steel Barrels"}, {"key":"techtreerecipeunlock.steelframe.description","value":"Able to produce Steel Frame at Glassworks & Smelter."}, {"key":"techtreerecipeunlock.steelframe.unlockname","value":"Steel Frame"}, {"key":"techtreerecipeunlock.stovetop.description","value":"Able to produce Stovetops at Home Goods Factory."}, {"key":"techtreerecipeunlock.stovetop.unlockname","value":"Stovetops"}, {"key":"techtreerecipeunlock.sugar.description","value":"Able to produce Sugar at Plantation."}, {"key":"techtreerecipeunlock.sugar.unlockname","value":"Sugarcane Field"}, {"key":"techtreerecipeunlock.summerclothes.description","value":"Able to produce Summer Clothes at Textile Factory."}, {"key":"techtreerecipeunlock.summerclothes.unlockname","value":"Summer Clothes"}, {"key":"techtreerecipeunlock.telephone.description","value":"Able to produce Telephones at Home Goods Factory."}, {"key":"techtreerecipeunlock.telephone.unlockname","value":"Telephones"}, {"key":"techtreerecipeunlock.thincardboard.description","value":"Able to produce Thin Cardboard at Papermill."}, {"key":"techtreerecipeunlock.thincardboard.unlockname","value":"Thin Cardboard"}, {"key":"techtreerecipeunlock.tire.description","value":"Able to produce Tire at Petrochemical Plant."}, {"key":"techtreerecipeunlock.tire.unlockname","value":"Tire"}, {"key":"techtreerecipeunlock.vegetables.description","value":"Able to produce Vegetables at Crop Farm."}, {"key":"techtreerecipeunlock.vegetables.unlockname","value":"Vegetable Field"}, {"key":"techtreerecipeunlock.vodka.description","value":"Able to produce Vodka at Brewery & Distillery."}, {"key":"techtreerecipeunlock.vodka.unlockname","value":"Vodka"}, {"key":"techtreerecipeunlock.waffles.description","value":"Able to produce Waffles at Food Factory."}, {"key":"techtreerecipeunlock.waffles.unlockname","value":"Waffles"}, {"key":"techtreerecipeunlock.wallpanels.description","value":"Able to produce Wall Panels at Carpentry."}, {"key":"techtreerecipeunlock.wallpanels.unlockname","value":"Wall Panels"}, {"key":"techtreerecipeunlock.water.description","value":"Able to produce Water at Water Siphon."}, {"key":"techtreerecipeunlock.water.unlockname","value":"Water Pump"}, {"key":"techtreerecipeunlock.wheat.description","value":"Able to produce Wheat at Crop Farm."}, {"key":"techtreerecipeunlock.wheat.unlockname","value":"Wheat Field"}, {"key":"techtreerecipeunlock.windows.description","value":"Able to produce Windows at Glassworks & Smelter."}, {"key":"techtreerecipeunlock.windows.unlockname","value":"Windows"}, {"key":"techtreerecipeunlock.wine.description","value":"Able to produce Wine at Brewery & Distillery."}, {"key":"techtreerecipeunlock.wine.unlockname","value":"Wine"}, {"key":"techtreerecipeunlock.winterclothes.description","value":"Able to produce Winter Clothes at Textile Factory."}, {"key":"techtreerecipeunlock.winterclothes.unlockname","value":"Winter Clothes"}, {"key":"techtreerecipeunlock.wood.description","value":"Able to produce Wood at Lumberyard."}, {"key":"techtreerecipeunlock.wood.unlockname","value":"Wood"}, {"key":"techtreerecipeunlock.woodenbarrels.description","value":"Able to produce Wooden Barrels at Carpentry."}, {"key":"techtreerecipeunlock.woodenbarrels.unlockname","value":"Wooden Barrels"}, {"key":"techtreerecipeunlock.woodenplanks.description","value":"Able to produce Wooden Planks at Carpentry."}, {"key":"techtreerecipeunlock.woodenplanks.unlockname","value":"Wooden Planks"}, {"key":"techtreerecipeunlock.workclothes.description","value":"Able to produce Work Clothes at Textile Factory."}, {"key":"techtreerecipeunlock.workclothes.unlockname","value":"Work Clothes"}, {"key":"techtreerecipeunlock.yeast.description","value":"Able to produce Yeast at Brewery & Distillery."}, {"key":"techtreerecipeunlock.yeast.unlockname","value":"Yeast"}, {"key":"totalbudgetcategoryinfo.income.categoryname","value":"Income"}, {"key":"totalbudgetcategoryinfo.onetimeexpenses.categoryname","value":"One Time Expenses"}, {"key":"totalbudgetcategoryinfo.reocurringexpenses.categoryname","value":"Recurring Expenses"}, {"key":"totalbudgetcategoryinfo.totalbudget.categoryname","value":"Total Budget"}, {"key":"totalbudgetentry.buildingupkeep.entryname","value":"Building Upkeep"}, {"key":"totalbudgetentry.construction.entryname","value":"Construction"}, {"key":"totalbudgetentry.contracts.entryname","value":"Contracts Completed"}, {"key":"totalbudgetentry.contractsfailed.entryname","value":"Contracts Failed"}, {"key":"totalbudgetentry.demolition.entryname","value":"Demolition"}, {"key":"totalbudgetentry.loanpayments.entryname","value":"Loan Payments"}, {"key":"totalbudgetentry.loanstaken.entryname","value":"Loans Taken"}, {"key":"totalbudgetentry.loaspaidinfull.entryname","value":"Loans Paid In Full"}, {"key":"totalbudgetentry.productspurchased.entryname","value":"Total Income"}, {"key":"totalbudgetentry.productssold.entryname","value":"Products Sold"}, {"key":"totalbudgetentry.r&dexpenses.entryname","value":"R&D Expenses"}, {"key":"totalbudgetentry.totalexpenses.entryname","value":"Total Expenses"}, {"key":"totalbudgetentry.totalincome.entryname","value":"Total Income"}, {"key":"totalbudgetentry.vehicleupkeep.entryname","value":"Vehicle Upkeep"}, {"key":"building.house_heavyindustrial_t2_1x1.buildingname","value":"Residential Building"}, {"key":"building.toyfactory.buildingname","value":"TOY FACTORY"}, {"key":"building.toystore.buildingname","value":"Toy Store"}, {"key":"helpcategory.criticalhelp.categoryname","value":"Critical"}, {"key":"helpcategory.normalhelp.categoryname","value":"Normal"}, {"key":"productdefinition.doll.productname","value":"Doll"}, {"key":"productdefinition.dollhouse.productname","value":"Dollhouse"}, {"key":"productdefinition.fluff.productname","value":"Stuffing"}, {"key":"productdefinition.marbles.productname","value":"Marbles"}, {"key":"productdefinition.teddybear.productname","value":"Teddy Bear"}, {"key":"productdefinition.toyfurniture.productname","value":"Toy Furniture"}, {"key":"productdefinition.toytrainset.productname","value":"Toy Train Set"}, {"key":"productdefinition.woodentrain.productname","value":"Wooden Train"}, {"key":"recipe.doll.title","value":"Doll"}, {"key":"recipe.dollhouse.title","value":"Doll House"}, {"key":"recipe.fluff.title","value":"Stuffing"}, {"key":"recipe.marbles.title","value":"Marbles"}, {"key":"recipe.teddybear.title","value":"Teddy Bear"}, {"key":"recipe.toyfurniture.title","value":"Toy Furniture"}, {"key":"recipe.toytrainset.title","value":"Toy Train Set"}, {"key":"recipe.woodentrain.title","value":"Wooden Train"}, {"key":"techtreerecipeunlock.doll.description","value":"Able to produce Toy Doll at the Toy Factory."}, {"key":"techtreerecipeunlock.doll.unlockname","value":"Doll"}, {"key":"techtreerecipeunlock.dollhouse.description","value":"Able to produce Dollhouse at the Toy Factory."}, {"key":"techtreerecipeunlock.dollhouse.unlockname","value":"Dollhouse"}, {"key":"techtreerecipeunlock.fluff.description","value":"Able to produce Stuffing at the Toy Factory."}, {"key":"techtreerecipeunlock.fluff.unlockname","value":"Stuffing"}, {"key":"techtreerecipeunlock.marbles.description","value":"Able to produce Marbles at the Toy Factory."}, {"key":"techtreerecipeunlock.marbles.unlockname","value":"Marbles"}, {"key":"techtreerecipeunlock.teddybear.description","value":"Able to produce Teddy Bear at the Toy Factory."}, {"key":"techtreerecipeunlock.teddybear.unlockname","value":"Teddy Bear"}, {"key":"techtreerecipeunlock.toyfurniture.description","value":"Able to produce Toy Furniture at the Toy Factory."}, {"key":"techtreerecipeunlock.toyfurniture.unlockname","value":"Toy Furniture"}, {"key":"techtreerecipeunlock.toytrainset.description","value":"Able to produce Toy Train Set at the Toy Factory."}, {"key":"techtreerecipeunlock.toytrainset.unlockname","value":"Toy Train Set"}, {"key":"techtreerecipeunlock.woodentrain.description","value":"Able to produce Wooden Train at the Toy Factory."}, {"key":"techtreerecipeunlock.woodentrain.unlockname","value":"Wooden Train"}, {"key":"building.house_heavyindustrial_t3_3x3.buildingname","value":"Residential Building"}, {"key":"building.house_heavyindustrial_t3_2x2.buildingname","value":"Residential Building"}, {"key":"building.house_heavyindustrial_t3_2x1.buildingname","value":"Residential Building"}, {"key":"building.house_heavyindustrial_t3_3x2.buildingname","value":"Residential Building"}, {"key":"building.house_lightindustrial_t1_1x1.buildingname","value":"Residential Building"}, {"key":"building.house_lightindustrial_t2_1x1.buildingname","value":"Residential Building"}, {"key":"building.house_lightindustrial_t3_2x1.buildingname","value":"Residential Building"}, {"key":"building.house_lightindustrial_t3_2x2.buildingname","value":"Residential Building"}, {"key":"building.house_lightindustrial_t3_3x2.buildingname","value":"Residential Building"}, {"key":"building.house_lightindustrial_t3_3x3.buildingname","value":"Residential Building"}, {"key":"building.house_rural_t1_1x1.buildingname","value":"Residential Building"}, {"key":"building.house_rural_t2_1x1.buildingname","value":"Residential Building"}, {"key":"building.house_rural_t3_2x2.buildingname","value":"Residential Building"}, {"key":"building.house_rural_t3_2x3.buildingname","value":"Residential Building"}, {"key":"building.house_rural_t3_3x2.buildingname","value":"Residential Building"}, {"key":"building.house_rural_t3_3x3.buildingname","value":"Residential Building"}, {"key":"building.house_heavyindustrial_t1_1x1.buildingname","value":"Residential Building"}, {"key":"building.house_heavyindustrial_t2_2x2.buildingname","value":"Residential Building"}, {"key":"building.house_heavyindustrial_t2_2x1.buildingname","value":"Residential Building"}, {"key":"building.house_lightindustrial_t2_2x2.buildingname","value":"Residential Building"}, {"key":"building.house_lightindustrial_t2_2x1.buildingname","value":"Residential Building"}, {"key":"notificationcategoryspecification.construction.categoryname","value":"CONSTRUCTION"}, {"key":"notificationcategoryspecification.gameplay.categoryname","value":"GAMEPLAY"}, {"key":"notificationcategoryspecification.logistics.categoryname","value":"LOGISTICS"}, {"key":"notificationcategoryspecification.pathing.categoryname","value":"PATHING"}, {"key":"notificationcategoryspecification.production.categoryname","value":"PRODUCTION"}, {"key":"notificationcategoryspecification.r&d.categoryname","value":"R&D"}, {"key":"notificationcategoryspecification.scenarios.categoryname","value":"SCENARIOS"}, {"key":"moneybillcategory.stockspurchase.categoryname","value":"Stocks Purchase"}, {"key":"building.watertower.buildingname","value":"IRRIGATION TOWER"}, {"key":"techtreegenericunlock.watertoweraoe.description","value":"Add 10 tiles to Collection Radius of Irrigation Tower."}, {"key":"moneybillcategory.starterloanbillcategory.categoryname","value":"Starter Loan"}] 
+[
+   {
+      "value" : "Clothing Store",
+      "key" : "building.tailerstore.buildingname"
+   },
+   {
+      "key" : "building.fishharvester.buildingname",
+      "value" : "FISHERMAN PIER"
+   },
+   {
+      "key" : "sdatacategory.endproducts.categoryname",
+      "value" : "End Products"
+   },
+   {
+      "value" : "Components",
+      "key" : "datacategory.components.categoryname"
+   },
+   {
+      "value" : "End Products",
+      "key" : "datacategory.endproducts.categoryname"
+   },
+   {
+      "key" : "datacategory.farmproduce.categoryname",
+      "value" : "Farm Produce"
+   },
+   {
+      "key" : "datacategory.livestock.categoryname",
+      "value" : "Livestock"
+   },
+   {
+      "key" : "datacategory.prototypeproducts.categoryname",
+      "value" : "Prototypes"
+   },
+   {
+      "key" : "datacategory.row1.categoryname",
+      "value" : "Tier1"
+   },
+   {
+      "value" : "Tier2",
+      "key" : "datacategory.row2.categoryname"
+   },
+   {
+      "key" : "datacategory.row3.categoryname",
+      "value" : "Tier3"
+   },
+   {
+      "key" : "datacategory.boatdepot.categoryname",
+      "value" : "Boat Depot"
+   },
+   {
+      "value" : "Coastal Gatherers",
+      "key" : "datacategory.coastalgatherers.categoryname"
+   },
+   {
+      "key" : "datacategory.commercial.categoryname",
+      "value" : "Commercial"
+   },
+   {
+      "key" : "datacategory.factories.categoryname",
+      "value" : "Factories"
+   },
+   {
+      "value" : "Farms",
+      "key" : "datacategory.farms.categoryname"
+   },
+   {
+      "value" : "Field",
+      "key" : "datacategory.field.categoryname"
+   },
+   {
+      "key" : "datacategory.gathererbuildings.categoryname",
+      "value" : "GATHERERS"
+   },
+   {
+      "value" : "Harvester",
+      "key" : "datacategory.harvester.categoryname"
+   },
+   {
+      "value" : "Headquarters",
+      "key" : "datacategory.headquarters.categoryname"
+   },
+   {
+      "value" : "Heavy Industry",
+      "key" : "datacategory.heavyindustry.categoryname"
+   },
+   {
+      "key" : "datacategory.landgatherers.categoryname",
+      "value" : "Land-Based Gatherers"
+   },
+   {
+      "value" : "Light Industry",
+      "key" : "datacategory.lightindustry.categoryname"
+   },
+   {
+      "value" : "Logistic Buildings",
+      "key" : "datacategory.logisticbuildings.categoryname"
+   },
+   {
+      "value" : "Logistics Buildings",
+      "key" : "datacategory.logisticsbuildings.categoryname"
+   },
+   {
+      "value" : "Offshore Gatherers",
+      "key" : "datacategory.offshoregatherers.categoryname"
+   },
+   {
+      "value" : "Prototype Factories",
+      "key" : "datacategory.prototypefactories.categoryname"
+   },
+   {
+      "key" : "datacategory.residential.categoryname",
+      "value" : "Residential"
+   },
+   {
+      "key" : "datacategory.ruralindustry.categoryname",
+      "value" : "Rural Industry"
+   },
+   {
+      "value" : "State",
+      "key" : "datacategory.state.categoryname"
+   },
+   {
+      "key" : "datacategory.towncenter.categoryname",
+      "value" : "Town Center"
+   },
+   {
+      "value" : "Train Terminal",
+      "key" : "datacategory.trainterminal.categoryname"
+   },
+   {
+      "value" : "Truck Depot",
+      "key" : "datacategory.truckdepot.categoryname"
+   },
+   {
+      "key" : "datacategory.warehouse.categoryname",
+      "value" : "Warehouse"
+   },
+   {
+      "key" : "datacategory.zeppelinstation.categoryname",
+      "value" : "Zeppelin Station"
+   },
+   {
+      "value" : "Add 6 Capacity to Boats.",
+      "key" : "techtreegenericunlock.boatcapacity+6.description"
+   },
+   {
+      "value" : "+6 Boat Capacity",
+      "key" : "techtreegenericunlock.boatcapacity+6.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.traincapacity+3.description",
+      "value" : "Add 3 to Train capacity."
+   },
+   {
+      "value" : "+3 Train Capacity",
+      "key" : "techtreegenericunlock.traincapacity+3.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.zeppelincapacity+2.description",
+      "value" : "Add 2 Capacity to Zeppelins."
+   },
+   {
+      "key" : "techtreegenericunlock.zeppelincapacity+2.unlockname",
+      "value" : "+2 Zeppelin Capacity"
+   },
+   {
+      "value" : "Total Cost",
+      "key" : "ui.fullscreenpanels.buildingproductionoverview.productinfo.viewport.content.productinfo.infoarea.columntitles.lastyearconsumption"
+   },
+   {
+      "value" : "Price Sold",
+      "key" : "ui.fullscreenpanels.buildingproductionoverview.productinfo.viewport.content.productinfo.infoarea.columntitles.lastyearsales"
+   },
+   {
+      "value" : "Produced Amount",
+      "key" : "ui.fullscreenpanels.buildingproductionoverview.productinfo.viewport.content.productinfo.infoarea.columntitles.marketvalue"
+   },
+   {
+      "key" : "ui.windows._static_recipebookpanel.recipepanelarea.recipediagramarea.recipeproductiontimearea.producetimeamount",
+      "value" : "{days} days"
+   },
+   {
+      "value" : "Add 3 Capacity to Boats.",
+      "key" : "techtreegenericunlock.boatcapacity+3.description"
+   },
+   {
+      "key" : "techtreegenericunlock.boatcapacity+3.unlockname",
+      "value" : "+3 Boat Capacity"
+   },
+   {
+      "key" : "techtreegenericunlock.traincapacity+2.description",
+      "value" : "Add 2 to Train capacity."
+   },
+   {
+      "value" : "+2 Train Capacity",
+      "key" : "techtreegenericunlock.traincapacity+2.unlockname"
+   },
+   {
+      "value" : "Add 1 to Trade Truck Capacity",
+      "key" : "techtreegenericunlock.truckcapacity+1.description"
+   },
+   {
+      "key" : "techtreegenericunlock.truckcapacity+1.unlockname",
+      "value" : "+1 Truck Capacity"
+   },
+   {
+      "key" : "techtreegenericunlock.zeppelincapacity+1.description",
+      "value" : "Add 1 Capacity to Zeppelins."
+   },
+   {
+      "key" : "techtreegenericunlock.zeppelincapacity+1.unlockname",
+      "value" : "+1 Zeppelin Capacity"
+   },
+   {
+      "value" : "<color=#C87C0D>{efficiencyValue}%</color>\nBuilding Upkeep <color=#C87C0D>{upkeep} ({upkeepModifier}%)</color>\nProduction Time <color=#C87C0D>{productionTime} Days ({productionTimeModifier}%)</color>\nPollution <color=#C87C0D>{pollution} / Day ({pollutionModifier}%)</color>",
+      "key" : "buildingefficiency.buttonarea.value.background"
+   },
+   {
+      "value" : "<color=#C87C0D>{efficiencyValue}%</color>\nBuilding Upkeep <color=#C87C0D>No Upkeep</color>\nProduction Time <color=#C87C0D>No Production</color>\nPollution <color=#C87C0D>No Pollution</color>",
+      "key" : "buildingefficiency.buttonarea.value.background1"
+   },
+   {
+      "value" : "Help",
+      "key" : "buildingefficiency.helpbutton.tooltip"
+   },
+   {
+      "key" : "buildingefficiency.titletext",
+      "value" : "Building Efficiency"
+   },
+   {
+      "key" : "gameoptionsuiconfig.currencyformat.description",
+      "value" : "Applies a minimal value to the money indicators (for example 2M instead of 2,000,000)"
+   },
+   {
+      "key" : "gameoptionsuiconfig.currencyformat.name",
+      "value" : "Minimal Money"
+   },
+   {
+      "key" : "gameoptionsuiconfig.languageoption.description",
+      "value" : "Change the game language."
+   },
+   {
+      "value" : "Language",
+      "key" : "gameoptionsuiconfig.languageoption.name"
+   },
+   {
+      "value" : "On Off",
+      "key" : "gameoptionsuiconfig.onoffoption.description"
+   },
+   {
+      "value" : "On Off",
+      "key" : "gameoptionsuiconfig.onoffoption.name"
+   },
+   {
+      "value" : "Off",
+      "key" : "gameoptionsuiconfig.onoffoption.value0"
+   },
+   {
+      "value" : "On",
+      "key" : "gameoptionsuiconfig.onoffoption.value1"
+   },
+   {
+      "key" : "tooltipcanvas.producttooltip.content.amountneeded",
+      "value" : "Amount Needed: {amount}"
+   },
+   {
+      "key" : "totalsalesviewmodel.budgetpanel.productcollectionname",
+      "value" : "Wanted Products"
+   },
+   {
+      "key" : "ui.fullscreenpanels.budgetpanel.sidebar.scrollviewfilterarea.viewport.content.buildings.title.active.filtertext",
+      "value" : "Buildings"
+   },
+   {
+      "key" : "ui.fullscreenpanels.budgetpanel.sidebar.scrollviewfilterarea.viewport.content.buildings.title.inactive.filtertext",
+      "value" : "Buildings"
+   },
+   {
+      "key" : "ui.fullscreenpanels.budgetpanel.sidebar.scrollviewfilterarea.viewport.content.totalbudget.category.active.filtertext",
+      "value" : "Total Budget"
+   },
+   {
+      "value" : "Total Budget",
+      "key" : "ui.fullscreenpanels.budgetpanel.sidebar.scrollviewfilterarea.viewport.content.totalbudget.category.inactive.filtertext"
+   },
+   {
+      "value" : "{days} days",
+      "key" : "ui.windows._static_recipebookpanel.panel.recipepanelarea.recipediagramarea.recipeproductiontimearea.producetimeamount"
+   },
+   {
+      "key" : "ui.windows._static_maplayerswindow.buildingnames.button1inactive.buttontext",
+      "value" : "Show Building Names ({button})"
+   },
+   {
+      "key" : "ui.windows._static_maplayerswindow.buildingnames.button1active.buttontext",
+      "value" : "Show Building Names ({button})"
+   },
+   {
+      "key" : "building.shippinglogistical.buildingname",
+      "value" : "Boat Depot"
+   },
+   {
+      "key" : "building.breweryfactory.buildingname",
+      "value" : "BREWERY & DISTILLERY"
+   },
+   {
+      "key" : "building.furniturefactory.buildingname",
+      "value" : "CARPENTRY CENTER"
+   },
+   {
+      "value" : "COAL MINE",
+      "key" : "building.coalgatherer.buildingname"
+   },
+   {
+      "value" : "Construction Goods",
+      "key" : "building.constructionstore.buildingname"
+   },
+   {
+      "key" : "building.coppergatherer.buildingname",
+      "value" : "COPPER MINE"
+   },
+   {
+      "value" : "Diner",
+      "key" : "building.dinerstore.buildingname"
+   },
+   {
+      "value" : "Farmers Market",
+      "key" : "building.farmersstore.buildingname"
+   },
+   {
+      "value" : "GAS PUMP",
+      "key" : "building.gasgatherer.buildingname"
+   },
+   {
+      "key" : "building.furniturestore.buildingname",
+      "value" : "Home Goods"
+   },
+   {
+      "value" : "Home Goods Factory",
+      "key" : "building.electronicsfactory.buildingname"
+   },
+   {
+      "key" : "building.irongatherer.buildingname",
+      "value" : "IRON MINE"
+   },
+   {
+      "key" : "building.ironmongerystore.buildingname",
+      "value" : "Ironmongery"
+   },
+   {
+      "value" : "LUMBERYARD",
+      "key" : "building.lumberyardgatherer.buildingname"
+   },
+   {
+      "key" : "building.oilseagatherer.buildingname",
+      "value" : "OFFSHORE OIL DRILL"
+   },
+   {
+      "key" : "building.oilgatherer.buildingname",
+      "value" : "OIL DRILL"
+   },
+   {
+      "key" : "building.orchardfarm.buildingname",
+      "value" : "ORCHARD"
+   },
+   {
+      "key" : "building.paperfactory.buildingname",
+      "value" : "PAPERMILL"
+   },
+   {
+      "key" : "building.petrochemicalfactory.buildingname",
+      "value" : "PETROCHEMICAL PLANT"
+   },
+   {
+      "value" : "PLANTATION",
+      "key" : "building.plantationfarm.buildingname"
+   },
+   {
+      "value" : "SAND COLLECTOR",
+      "key" : "building.sandgatherer.buildingname"
+   },
+   {
+      "value" : "Train Terminal",
+      "key" : "building.trainlogistical.buildingname"
+   },
+   {
+      "key" : "building.truckdepotlogistical.buildingname",
+      "value" : "Truck Depot"
+   },
+   {
+      "value" : "WAREHOUSE",
+      "key" : "building.warehouselogistical.buildingname"
+   },
+   {
+      "key" : "building.watergatherer.buildingname",
+      "value" : "WATER SIPHON"
+   },
+   {
+      "key" : "building.zeppelinlogistical.buildingname",
+      "value" : "Zeppelin Field"
+   },
+   {
+      "key" : "building.t1towncentre.buildingname",
+      "value" : "Region Center"
+   },
+   {
+      "value" : "Town Center",
+      "key" : "building.t2towncentre.buildingname"
+   },
+   {
+      "key" : "building.t3towncentre.buildingname",
+      "value" : "Town Center"
+   },
+   {
+      "value" : "Add 10 tiles to Collection Radius of Warehouses.",
+      "key" : "techtreegenericunlock.warehousecollectionradius.description"
+   },
+   {
+      "value" : "+10 Tiles Collection Radius",
+      "key" : "techtreegenericunlock.warehousecollectionradius.unlockname"
+   },
+   {
+      "value" : "Add 25 Storage Capacity to Warehouses.",
+      "key" : "techtreegenericunlock.warehousestorage.description"
+   },
+   {
+      "value" : "+25 Warehouse Storage",
+      "key" : "techtreegenericunlock.warehousestorage.unlockname"
+   },
+   {
+      "key" : "analysisitemdefinition.buildingefficiency.uilabel",
+      "value" : "Building Efficiency"
+   },
+   {
+      "key" : "building.airpurifier.buildingname",
+      "value" : "Air Purifier"
+   },
+   {
+      "key" : "building.applesfield.buildingname",
+      "value" : "APPLE FIELD"
+   },
+   {
+      "key" : "building.assemblyfactory.buildingname",
+      "value" : "AUTOMOBILE MEGAFACTORY"
+   },
+   {
+      "value" : "AUTOMOTIVE FACTORY",
+      "key" : "building.automotivefactory.buildingname"
+   },
+   {
+      "key" : "building.berryfield.buildingname",
+      "value" : "BERRY FIELD"
+   },
+   {
+      "key" : "building.boatdepot.buildingname",
+      "value" : "Boat Depot"
+   },
+   {
+      "key" : "building.bookstore.buildingname",
+      "value" : "Bookstore"
+   },
+   {
+      "value" : "BREWERY & DISTILLERY",
+      "key" : "building.breweryanddistillery.buildingname"
+   },
+   {
+      "key" : "building.carpentry.buildingname",
+      "value" : "CARPENTRY CENTER"
+   },
+   {
+      "value" : "CAR PROTOTYPE FACILITY",
+      "key" : "building.carprototypefacility.buildingname"
+   },
+   {
+      "key" : "building.carshop.buildingname",
+      "value" : "Car Parts Shop"
+   },
+   {
+      "value" : "PARTS SHOP",
+      "key" : "building.carstore.buildingname"
+   },
+   {
+      "key" : "building.chemicalscrubber.buildingname",
+      "value" : "Chemical Scrubber"
+   },
+   {
+      "value" : "CHICKEN FIELD",
+      "key" : "building.chickenfield.buildingname"
+   },
+   {
+      "value" : "CHOCOLATE FIELD",
+      "key" : "building.chocolatefield.buildingname"
+   },
+   {
+      "value" : "Clothing Store",
+      "key" : "building.clothingstore.buildingname"
+   },
+   {
+      "value" : "COAL MINE",
+      "key" : "building.coalmine.buildingname"
+   },
+   {
+      "key" : "building.coalmineharvester.buildingname",
+      "value" : "COAL MINE HARVESTER"
+   },
+   {
+      "value" : "COMPUTER MEGAFACTORY",
+      "key" : "building.computerfactory.buildingname"
+   },
+   {
+      "value" : "Construction Goods",
+      "key" : "building.constructiongoods.buildingname"
+   },
+   {
+      "value" : "COPPER MINE",
+      "key" : "building.coppermine.buildingname"
+   },
+   {
+      "key" : "building.coppermineharvester.buildingname",
+      "value" : "COPPER MINE HARVESTER"
+   },
+   {
+      "value" : "COTTON FIELD",
+      "key" : "building.cottonfield.buildingname"
+   },
+   {
+      "key" : "building.cowfield.buildingname",
+      "value" : "COW FIELD"
+   },
+   {
+      "value" : "CROP FARM",
+      "key" : "building.cropfarm.buildingname"
+   },
+   {
+      "value" : "Diner",
+      "key" : "building.diner.buildingname"
+   },
+   {
+      "key" : "building.dinnerfactory.buildingname",
+      "value" : "MEAL MEGAFACTORY"
+   },
+   {
+      "value" : "DRINKS FACTORY",
+      "key" : "building.drinksfactory.buildingname"
+   },
+   {
+      "key" : "building.farmersmarket.buildingname",
+      "value" : "Farmers Market"
+   },
+   {
+      "key" : "building.firestation.buildingname",
+      "value" : "Fire Station"
+   },
+   {
+      "key" : "building.fishermanpier.buildingname",
+      "value" : "FISHERMAN PIER"
+   },
+   {
+      "value" : "FISHERMAN PIER",
+      "key" : "building.fishinggatherer.buildingname"
+   },
+   {
+      "key" : "building.fishnetharvester.buildingname",
+      "value" : "FISHERMAN PIER"
+   },
+   {
+      "key" : "building.foodfactory.buildingname",
+      "value" : "FOOD FACTORY"
+   },
+   {
+      "key" : "building.gaspump.buildingname",
+      "value" : "GAS PUMP"
+   },
+   {
+      "value" : "GAS PUMP HARVESTER",
+      "key" : "building.gaspumpharvester.buildingname"
+   },
+   {
+      "value" : "Gas Station",
+      "key" : "building.gasstation.buildingname"
+   },
+   {
+      "value" : "GLASSWORKS & SMELTER",
+      "key" : "building.glassworkssmelter.buildingname"
+   },
+   {
+      "key" : "building.grapefield.buildingname",
+      "value" : "VINEYARD"
+   },
+   {
+      "key" : "building.grocerystore.buildingname",
+      "value" : "Grocery Store"
+   },
+   {
+      "value" : "Hardware Store",
+      "key" : "building.hardwarestore.buildingname"
+   },
+   {
+      "value" : "Headquarters",
+      "key" : "building.headquarters.buildingname"
+   },
+   {
+      "value" : "Home Goods",
+      "key" : "building.homegoods.buildingname"
+   },
+   {
+      "value" : "Home Goods Factory",
+      "key" : "building.homegoodsfactory.buildingname"
+   },
+   {
+      "key" : "building.hopsfield.buildingname",
+      "value" : "HOPS FIELD"
+   },
+   {
+      "key" : "building.ironmine.buildingname",
+      "value" : "IRON MINE"
+   },
+   {
+      "value" : "IRON MINE HARVESTER",
+      "key" : "building.ironmineharvester.buildingname"
+   },
+   {
+      "value" : "Ironmongery",
+      "key" : "building.ironmongery.buildingname"
+   },
+   {
+      "key" : "building.liquorstore.buildingname",
+      "value" : "Liquor Store"
+   },
+   {
+      "key" : "building.livestockfarm.buildingname",
+      "value" : "LIVESTOCK FARM"
+   },
+   {
+      "key" : "building.lumberyard.buildingname",
+      "value" : "LUMBERYARD"
+   },
+   {
+      "key" : "building.lumberyardharvester.buildingname",
+      "value" : "LUMBERYARD HARVESTER"
+   },
+   {
+      "key" : "building.offshoreoilgatherer.buildingname",
+      "value" : "OFFSHORE OIL DRILL"
+   },
+   {
+      "key" : "building.oildrill.buildingname",
+      "value" : "OIL DRILL"
+   },
+   {
+      "value" : "OIL DRILL HARVESTER",
+      "key" : "building.oildrillharvester.buildingname"
+   },
+   {
+      "key" : "building.oilseaharvester.buildingname",
+      "value" : "OFFSHORE OIL HARVESTER"
+   },
+   {
+      "value" : "OLIVE FIELD",
+      "key" : "building.olivefield.buildingname"
+   },
+   {
+      "value" : "ORANGES FIELD",
+      "key" : "building.orangesfield.buildingname"
+   },
+   {
+      "value" : "ORCHARD",
+      "key" : "building.orchard.buildingname"
+   },
+   {
+      "key" : "building.papermill.buildingname",
+      "value" : "PAPERMILL"
+   },
+   {
+      "key" : "building.park1.buildingname",
+      "value" : "Park"
+   },
+   {
+      "value" : "Park",
+      "key" : "building.park2.buildingname"
+   },
+   {
+      "value" : "Park",
+      "key" : "building.park3.buildingname"
+   },
+   {
+      "key" : "building.park4.buildingname",
+      "value" : "Park"
+   },
+   {
+      "key" : "building.park5.buildingname",
+      "value" : "Park"
+   },
+   {
+      "key" : "building.park6.buildingname",
+      "value" : "Park"
+   },
+   {
+      "key" : "building.park7.buildingname",
+      "value" : "Park"
+   },
+   {
+      "key" : "building.park8.buildingname",
+      "value" : "Park"
+   },
+   {
+      "key" : "building.park9.buildingname",
+      "value" : "Park"
+   },
+   {
+      "key" : "building.petrochemicalplant.buildingname",
+      "value" : "PETROCHEMICAL PLANT"
+   },
+   {
+      "key" : "building.plantation.buildingname",
+      "value" : "PLANTATION"
+   },
+   {
+      "value" : "Police Station",
+      "key" : "building.policestation.buildingname"
+   },
+   {
+      "value" : "POTATO FIELD",
+      "key" : "building.potatofield.buildingname"
+   },
+   {
+      "key" : "building.preservationfactory.buildingname",
+      "value" : "PRESERVATION FACTORY"
+   },
+   {
+      "value" : "Public Library",
+      "key" : "building.publiclibrary.buildingname"
+   },
+   {
+      "value" : "Region Center",
+      "key" : "building.regioncenter.buildingname"
+   },
+   {
+      "key" : "building.residential1x1.buildingname",
+      "value" : "Residential1x1"
+   },
+   {
+      "value" : "RUBBER TREE FIELD",
+      "key" : "building.rubberfield.buildingname"
+   },
+   {
+      "key" : "building.ruralschool.buildingname",
+      "value" : "School"
+   },
+   {
+      "value" : "SAND COLLECTOR",
+      "key" : "building.sandcollector.buildingname"
+   },
+   {
+      "value" : "SAND HARVESTER",
+      "key" : "building.sandharvester.buildingname"
+   },
+   {
+      "key" : "building.sheepfield.buildingname",
+      "value" : "SHEEP FIELD"
+   },
+   {
+      "key" : "building.showroomstore.buildingname",
+      "value" : "Showroom"
+   },
+   {
+      "value" : "State",
+      "key" : "building.state.buildingname"
+   },
+   {
+      "value" : "SUGAR FIELD",
+      "key" : "building.sugarfield.buildingname"
+   },
+   {
+      "key" : "building.textilefactory.buildingname",
+      "value" : "TEXTILE FACTORY"
+   },
+   {
+      "key" : "building.tradingcenter_t1.buildingname",
+      "value" : "Town Center"
+   },
+   {
+      "value" : "Town Center",
+      "key" : "building.tradingcenter_t2.buildingname"
+   },
+   {
+      "value" : "Train Terminal",
+      "key" : "building.trainterminal.buildingname"
+   },
+   {
+      "value" : "Truck Depot",
+      "key" : "building.truckdepot.buildingname"
+   },
+   {
+      "key" : "building.vegetablefield.buildingname",
+      "value" : "VEGETABLE FIELD"
+   },
+   {
+      "key" : "building.warehouse.buildingname",
+      "value" : "WAREHOUSE"
+   },
+   {
+      "key" : "building.waterharvester.buildingname",
+      "value" : "WATER PUMP"
+   },
+   {
+      "value" : "WATER SIPHON",
+      "key" : "building.watersiphon.buildingname"
+   },
+   {
+      "key" : "building.watertreatmentplant.buildingname",
+      "value" : "WATER TREATMENT PLANT"
+   },
+   {
+      "value" : "WATER WELL",
+      "key" : "building.waterwell.buildingname"
+   },
+   {
+      "value" : "WATER WELL HARVESTER",
+      "key" : "building.waterwellharvester.buildingname"
+   },
+   {
+      "key" : "building.wheatfield.buildingname",
+      "value" : "WHEAT FIELD"
+   },
+   {
+      "value" : "Wholesaler",
+      "key" : "building.wholesaler.buildingname"
+   },
+   {
+      "key" : "building.zeppelinfield.buildingname",
+      "value" : "Zeppelin Field"
+   },
+   {
+      "value" : "Boat Depot",
+      "key" : "buildingcategory.boatdepot.categoryname"
+   },
+   {
+      "key" : "buildingcategory.coastalgatherers.categoryname",
+      "value" : "Coastal Gatherers"
+   },
+   {
+      "key" : "buildingcategory.commercial.categoryname",
+      "value" : "Commercial"
+   },
+   {
+      "key" : "buildingcategory.factories.categoryname",
+      "value" : "Factories"
+   },
+   {
+      "key" : "buildingcategory.farms.categoryname",
+      "value" : "Farms"
+   },
+   {
+      "value" : "Field",
+      "key" : "buildingcategory.field.categoryname"
+   },
+   {
+      "key" : "buildingcategory.gathererbuildings.categoryname",
+      "value" : "GATHERERS"
+   },
+   {
+      "key" : "buildingcategory.harvester.categoryname",
+      "value" : "Harvester"
+   },
+   {
+      "value" : "Headquarters",
+      "key" : "buildingcategory.headquarters.categoryname"
+   },
+   {
+      "value" : "Heavy Industry",
+      "key" : "buildingcategory.heavyindustry.categoryname"
+   },
+   {
+      "key" : "buildingcategory.landgatherers.categoryname",
+      "value" : "Land-Based Gatherers"
+   },
+   {
+      "key" : "buildingcategory.lightindustry.categoryname",
+      "value" : "Light Industry"
+   },
+   {
+      "value" : "Logistic Buildings",
+      "key" : "buildingcategory.logisticbuildings.categoryname"
+   },
+   {
+      "key" : "buildingcategory.logisticsbuildings.categoryname",
+      "value" : "Logistics Buildings"
+   },
+   {
+      "value" : "Offshore Gatherers",
+      "key" : "buildingcategory.offshoregatherers.categoryname"
+   },
+   {
+      "value" : "Pollution Management",
+      "key" : "buildingcategory.pollutionmanagement.categoryname"
+   },
+   {
+      "key" : "buildingcategory.prototypefactories.categoryname",
+      "value" : "Prototype Factories"
+   },
+   {
+      "value" : "Residential",
+      "key" : "buildingcategory.residential.categoryname"
+   },
+   {
+      "key" : "buildingcategory.ruralindustry.categoryname",
+      "value" : "Rural Industry"
+   },
+   {
+      "value" : "State",
+      "key" : "buildingcategory.state.categoryname"
+   },
+   {
+      "value" : "Town Center",
+      "key" : "buildingcategory.towncenter.categoryname"
+   },
+   {
+      "key" : "buildingcategory.trainterminal.categoryname",
+      "value" : "Train Terminal"
+   },
+   {
+      "key" : "buildingcategory.truckdepot.categoryname",
+      "value" : "Truck Depot"
+   },
+   {
+      "value" : "Warehouse",
+      "key" : "buildingcategory.warehouse.categoryname"
+   },
+   {
+      "value" : "Zeppelin Station",
+      "key" : "buildingcategory.zeppelinstation.categoryname"
+   },
+   {
+      "value" : "​",
+      "key" : "buildingpanel.titlepanel.buildingname.text"
+   },
+   {
+      "value" : "{PARAM}",
+      "key" : "buildingpanel.titlepanel.buildingnametext.text"
+   },
+   {
+      "key" : "datacategory.rawresources.categoryname",
+      "value" : "Raw Resources"
+   },
+   {
+      "key" : "datacategory.recipeeffect.categoryname",
+      "value" : "Recipes"
+   },
+   {
+      "value" : "Building Cost",
+      "key" : "datacategory.worldeventeffectbuildingcost.categoryname"
+   },
+   {
+      "value" : "Demand",
+      "key" : "datacategory.worldeventeffectdemand.categoryname"
+   },
+   {
+      "value" : "Production",
+      "key" : "datacategory.worldeventeffectproduction.categoryname"
+   },
+   {
+      "value" : "Product Price",
+      "key" : "datacategory.worldeventeffectproductprice.categoryname"
+   },
+   {
+      "value" : "Recipe Production",
+      "key" : "datacategory.worldeventeffectrecipeproduction.categoryname"
+   },
+   {
+      "key" : "datacategory.worldeventeffectupkeep.categoryname",
+      "value" : "Demand"
+   },
+   {
+      "value" : "LOAN AMOUNT: <color=#C87C0D>{amount}</color>",
+      "key" : "hqloansmodule.view2.loanareawrapper.scrollview.viewport.content.loansettlemententry.textarea(1).amounts.amount"
+   },
+   {
+      "key" : "hqloansmodule.view2.loanareawrapper.scrollview.viewport.content.loansettlemententry.textarea(1).amounts.apr",
+      "value" : "Interest %: <color=#C87C0D>{apr}%</color>"
+   },
+   {
+      "key" : "hqloansmodule.view2.loanareawrapper.scrollview.viewport.content.loansettlemententry.textarea(1).amounts.payments",
+      "value" : "LOAN LENGTH: <color=#C87C0D>{duration} MONTHS</color>"
+   },
+   {
+      "value" : "UNLOCK THIS RECIPE USING THE TECH TREE",
+      "key" : "outputmodule.chooseoutputlist.viewport.content.recipe.locked.buildingtitlearea.tooltip"
+   },
+   {
+      "key" : "outputmodule.chooseoutputlist.viewport.content.recipe.unlockedactive.setrecipebutton.setrecipebuttontext",
+      "value" : "SET"
+   },
+   {
+      "key" : "outputmodule.chooseoutputlist.viewport.content.recipe.unlockedinactive.setrecipebutton.setrecipebuttontext",
+      "value" : "SET"
+   },
+   {
+      "key" : "outputmodule.recipediagramarea.inputarea.input1area.active.amountneededtextarea.farmamountneededtext",
+      "value" : "{amount}x/Field"
+   },
+   {
+      "value" : "{amount}x/Field",
+      "key" : "outputmodule.recipediagramarea.inputarea.input1area(3).active.amountneededtextarea.farmamountneededtext"
+   },
+   {
+      "key" : "outputmodule.recipediagramarea.inputarea.input1area(4).active.amountneededtextarea.farmamountneededtext",
+      "value" : "{amount}x/Field"
+   },
+   {
+      "value" : "Workers Salary",
+      "key" : "pollutionmodule.buildingefficiencyarea.buildingefficiency.titletext"
+   },
+   {
+      "key" : "productdefinition.adhesive.productname",
+      "value" : "Adhesive"
+   },
+   {
+      "value" : "Alternator",
+      "key" : "productdefinition.alternator.productname"
+   },
+   {
+      "value" : "Apples",
+      "key" : "productdefinition.apples.productname"
+   },
+   {
+      "key" : "productdefinition.applesmoothie.productname",
+      "value" : "Apple Smoothie"
+   },
+   {
+      "key" : "productdefinition.axles.productname",
+      "value" : "Axles"
+   },
+   {
+      "key" : "productdefinition.bagofchips.productname",
+      "value" : "Bag Of Chips"
+   },
+   {
+      "key" : "productdefinition.barleywhiskey.productname",
+      "value" : "Grain Whiskey"
+   },
+   {
+      "value" : "Beef",
+      "key" : "productdefinition.beef.productname"
+   },
+   {
+      "value" : "Beef Stew",
+      "key" : "productdefinition.beefstew.productname"
+   },
+   {
+      "value" : "Beer",
+      "key" : "productdefinition.beer.productname"
+   },
+   {
+      "value" : "Berries",
+      "key" : "productdefinition.berries.productname"
+   },
+   {
+      "value" : "Berry Pie",
+      "key" : "productdefinition.berrypie.productname"
+   },
+   {
+      "value" : "Berry Smoothie",
+      "key" : "productdefinition.berrysmoothie.productname"
+   },
+   {
+      "value" : "Binary Switcher",
+      "key" : "productdefinition.binaryswitcher.productname"
+   },
+   {
+      "key" : "productdefinition.biofuel.productname",
+      "value" : "Biofuel"
+   },
+   {
+      "value" : "Body Chassis",
+      "key" : "productdefinition.bodychassis.productname"
+   },
+   {
+      "value" : "Books",
+      "key" : "productdefinition.books.productname"
+   },
+   {
+      "value" : "Bottles",
+      "key" : "productdefinition.bottles.productname"
+   },
+   {
+      "value" : "Brandy",
+      "key" : "productdefinition.brandy.productname"
+   },
+   {
+      "value" : "Bricks",
+      "key" : "productdefinition.bricks.productname"
+   },
+   {
+      "key" : "productdefinition.burgers.productname",
+      "value" : "Burgers"
+   },
+   {
+      "value" : "Buttons",
+      "key" : "productdefinition.buttons.productname"
+   },
+   {
+      "key" : "productdefinition.cannedfish.productname",
+      "value" : "Canned Fish"
+   },
+   {
+      "value" : "Canned Mutton",
+      "key" : "productdefinition.cannedmutton.productname"
+   },
+   {
+      "value" : "Cans",
+      "key" : "productdefinition.cans.productname"
+   },
+   {
+      "key" : "productdefinition.capacitors.productname",
+      "value" : "Capacitors"
+   },
+   {
+      "value" : "Car Prototype",
+      "key" : "productdefinition.car.productname"
+   },
+   {
+      "key" : "productdefinition.cardboard.productname",
+      "value" : "Cardboard"
+   },
+   {
+      "key" : "productdefinition.cardboardpanels.productname",
+      "value" : "Cardboard Panels"
+   },
+   {
+      "key" : "productdefinition.carradiator.productname",
+      "value" : "Car Radiator"
+   },
+   {
+      "value" : "Car Seat",
+      "key" : "productdefinition.carseat.productname"
+   },
+   {
+      "value" : "Ceramics",
+      "key" : "productdefinition.ceramics.productname"
+   },
+   {
+      "value" : "Cheese",
+      "key" : "productdefinition.cheese.productname"
+   },
+   {
+      "value" : "Chemicals",
+      "key" : "productdefinition.chemicals.productname"
+   },
+   {
+      "value" : "Chicken Dinner",
+      "key" : "productdefinition.chickendinner.productname"
+   },
+   {
+      "key" : "productdefinition.chickenmeat.productname",
+      "value" : "Chicken Meat"
+   },
+   {
+      "value" : "Chicken Soup",
+      "key" : "productdefinition.chickensoup.productname"
+   },
+   {
+      "key" : "productdefinition.chocolatebar.productname",
+      "value" : "Chocolate Bar"
+   },
+   {
+      "key" : "productdefinition.chocolatecake.productname",
+      "value" : "Chocolate Cake"
+   },
+   {
+      "key" : "productdefinition.coal.productname",
+      "value" : "Coal"
+   },
+   {
+      "value" : "Cocoa",
+      "key" : "productdefinition.cocoa.productname"
+   },
+   {
+      "key" : "productdefinition.combustionengine.productname",
+      "value" : "Combustion Engine"
+   },
+   {
+      "key" : "productdefinition.computermemory.productname",
+      "value" : "Computer Memory"
+   },
+   {
+      "key" : "productdefinition.concrete.productname",
+      "value" : "Concrete"
+   },
+   {
+      "key" : "productdefinition.cookedvegetables.productname",
+      "value" : "Cooked Vegetables"
+   },
+   {
+      "key" : "productdefinition.copper.productname",
+      "value" : "Copper"
+   },
+   {
+      "value" : "Copper Tubing",
+      "key" : "productdefinition.coppertubing.productname"
+   },
+   {
+      "value" : "Copper Wire",
+      "key" : "productdefinition.copperwire.productname"
+   },
+   {
+      "value" : "Cotton",
+      "key" : "productdefinition.cotton.productname"
+   },
+   {
+      "value" : "Deluxe Books",
+      "key" : "productdefinition.deluxebooks.productname"
+   },
+   {
+      "key" : "productdefinition.dinnercontainer.productname",
+      "value" : "Dinner Container"
+   },
+   {
+      "value" : "Diodes",
+      "key" : "productdefinition.diodes.productname"
+   },
+   {
+      "key" : "productdefinition.dough.productname",
+      "value" : "Dough"
+   },
+   {
+      "key" : "productdefinition.dye.productname",
+      "value" : "Dye"
+   },
+   {
+      "key" : "productdefinition.eggs.productname",
+      "value" : "Eggs"
+   },
+   {
+      "value" : "Engine Block",
+      "key" : "productdefinition.engineblock.productname"
+   },
+   {
+      "key" : "productdefinition.exteriorbody.productname",
+      "value" : "Exterior Body"
+   },
+   {
+      "value" : "Fibers",
+      "key" : "productdefinition.fibers.productname"
+   },
+   {
+      "value" : "First Computer",
+      "key" : "productdefinition.firstcomputer.productname"
+   },
+   {
+      "key" : "productdefinition.fish.productname",
+      "value" : "Fish"
+   },
+   {
+      "key" : "productdefinition.fishandchips.productname",
+      "value" : "Fish and Chips"
+   },
+   {
+      "value" : "Flour",
+      "key" : "productdefinition.flour.productname"
+   },
+   {
+      "key" : "productdefinition.friedchicken.productname",
+      "value" : "Fried Chicken"
+   },
+   {
+      "key" : "productdefinition.furniturebase(l).productname",
+      "value" : "Furniture Base (L)"
+   },
+   {
+      "key" : "productdefinition.furniturebase(s).productname",
+      "value" : "Furniture Base (S)"
+   },
+   {
+      "value" : "Gas",
+      "key" : "productdefinition.gas.productname"
+   },
+   {
+      "key" : "productdefinition.glass.productname",
+      "value" : "Glass"
+   },
+   {
+      "value" : "Glass Tubes",
+      "key" : "productdefinition.glasstubes.productname"
+   },
+   {
+      "value" : "Grain Whiskey",
+      "key" : "productdefinition.grainwhiskey.productname"
+   },
+   {
+      "key" : "productdefinition.grapejuice.productname",
+      "value" : "Grape Juice"
+   },
+   {
+      "value" : "Grapes",
+      "key" : "productdefinition.grapes.productname"
+   },
+   {
+      "value" : "Hard Cider",
+      "key" : "productdefinition.hardcider.productname"
+   },
+   {
+      "value" : "Headlights",
+      "key" : "productdefinition.headlights.productname"
+   },
+   {
+      "key" : "productdefinition.heavyfabric.productname",
+      "value" : "Heavy Fabric"
+   },
+   {
+      "key" : "productdefinition.heavypulp.productname",
+      "value" : "Heavy Pulp"
+   },
+   {
+      "value" : "Hops",
+      "key" : "productdefinition.hops.productname"
+   },
+   {
+      "value" : "Ink",
+      "key" : "productdefinition.ink.productname"
+   },
+   {
+      "key" : "productdefinition.interface.productname",
+      "value" : "Interface"
+   },
+   {
+      "value" : "Interior Body",
+      "key" : "productdefinition.interiorbody.productname"
+   },
+   {
+      "value" : "Interior Lining",
+      "key" : "productdefinition.interiorlining.productname"
+   },
+   {
+      "key" : "productdefinition.ironore.productname",
+      "value" : "Iron Ore"
+   },
+   {
+      "value" : "Leather",
+      "key" : "productdefinition.leather.productname"
+   },
+   {
+      "value" : "Leather Furniture",
+      "key" : "productdefinition.leatherfurniture.productname"
+   },
+   {
+      "value" : "Light Bulbs",
+      "key" : "productdefinition.lightbulb.productname"
+   },
+   {
+      "value" : "Light Fabric",
+      "key" : "productdefinition.lightfabric.productname"
+   },
+   {
+      "key" : "productdefinition.milk.productname",
+      "value" : "Milk"
+   },
+   {
+      "key" : "productdefinition.mutton.productname",
+      "value" : "Mutton"
+   },
+   {
+      "key" : "productdefinition.napkins.productname",
+      "value" : "Napkins"
+   },
+   {
+      "value" : "Newspapers",
+      "key" : "productdefinition.newspapers.productname"
+   },
+   {
+      "key" : "productdefinition.officefurniture.productname",
+      "value" : "Office Furniture"
+   },
+   {
+      "key" : "productdefinition.oil.productname",
+      "value" : "Oil"
+   },
+   {
+      "key" : "productdefinition.oliveoil.productname",
+      "value" : "Olive Oil"
+   },
+   {
+      "key" : "productdefinition.olives.productname",
+      "value" : "Olives"
+   },
+   {
+      "value" : "Orange Juice",
+      "key" : "productdefinition.orangejuice.productname"
+   },
+   {
+      "key" : "productdefinition.oranges.productname",
+      "value" : "Oranges"
+   },
+   {
+      "value" : "Orange Soda",
+      "key" : "productdefinition.orangesoda.productname"
+   },
+   {
+      "value" : "Oven",
+      "key" : "productdefinition.oven.productname"
+   },
+   {
+      "value" : "Paint",
+      "key" : "productdefinition.paint.productname"
+   },
+   {
+      "key" : "productdefinition.paperroll.productname",
+      "value" : "Paper Roll"
+   },
+   {
+      "value" : "Parchment",
+      "key" : "productdefinition.parchment.productname"
+   },
+   {
+      "key" : "productdefinition.pizza.productname",
+      "value" : "Pizza"
+   },
+   {
+      "key" : "productdefinition.plastic.productname",
+      "value" : "Plastic"
+   },
+   {
+      "key" : "productdefinition.plasticcutlery.productname",
+      "value" : "Plastic Cutlery"
+   },
+   {
+      "key" : "productdefinition.plasticfurniture.productname",
+      "value" : "Plastic Furniture"
+   },
+   {
+      "value" : "Potato",
+      "key" : "productdefinition.potato.productname"
+   },
+   {
+      "key" : "productdefinition.premadedinner.productname",
+      "value" : "Premade Dinner"
+   },
+   {
+      "key" : "productdefinition.printedpaper.productname",
+      "value" : "Printed Paper"
+   },
+   {
+      "value" : "Processor",
+      "key" : "productdefinition.processor.productname"
+   },
+   {
+      "value" : "Punch Cards",
+      "key" : "productdefinition.punchcards.productname"
+   },
+   {
+      "key" : "productdefinition.radiator.productname",
+      "value" : "Radiator"
+   },
+   {
+      "key" : "productdefinition.radioreceiver.productname",
+      "value" : "Radio Receiver"
+   },
+   {
+      "key" : "productdefinition.rawrubber.productname",
+      "value" : "Raw Rubber"
+   },
+   {
+      "key" : "productdefinition.refinedoil.productname",
+      "value" : "Refined Oil"
+   },
+   {
+      "key" : "productdefinition.refrigerator.productname",
+      "value" : "Refrigerator"
+   },
+   {
+      "key" : "productdefinition.reinforcedwall.productname",
+      "value" : "Reinforced Wall"
+   },
+   {
+      "value" : "Rolling Chassis",
+      "key" : "productdefinition.rollingchassis.productname"
+   },
+   {
+      "key" : "productdefinition.rubber.productname",
+      "value" : "Rubber"
+   },
+   {
+      "key" : "productdefinition.rubbertubes.productname",
+      "value" : "Rubber Tubes"
+   },
+   {
+      "value" : "Sand",
+      "key" : "productdefinition.sand.productname"
+   },
+   {
+      "key" : "productdefinition.sodawater.productname",
+      "value" : "Soda Water"
+   },
+   {
+      "key" : "productdefinition.soup.productname",
+      "value" : "Soup"
+   },
+   {
+      "value" : "Steel",
+      "key" : "productdefinition.steel.productname"
+   },
+   {
+      "value" : "Steel Barrel",
+      "key" : "productdefinition.steelbarrel.productname"
+   },
+   {
+      "key" : "productdefinition.steelframe.productname",
+      "value" : "Steel Frame"
+   },
+   {
+      "key" : "productdefinition.stovetop.productname",
+      "value" : "Stovetop"
+   },
+   {
+      "key" : "productdefinition.sugar.productname",
+      "value" : "Sugar"
+   },
+   {
+      "value" : "Summer Clothes",
+      "key" : "productdefinition.summerclothes.productname"
+   },
+   {
+      "value" : "Telephone",
+      "key" : "productdefinition.telephone.productname"
+   },
+   {
+      "key" : "productdefinition.thincardboard.productname",
+      "value" : "Thin Cardboard"
+   },
+   {
+      "value" : "Tire",
+      "key" : "productdefinition.tire.productname"
+   },
+   {
+      "key" : "productdefinition.vegetables.productname",
+      "value" : "Vegetables"
+   },
+   {
+      "key" : "productdefinition.vodka.productname",
+      "value" : "Vodka"
+   },
+   {
+      "value" : "Waffles",
+      "key" : "productdefinition.waffles.productname"
+   },
+   {
+      "value" : "Wall Panels",
+      "key" : "productdefinition.wallpanels.productname"
+   },
+   {
+      "key" : "productdefinition.water.productname",
+      "value" : "Water"
+   },
+   {
+      "key" : "productdefinition.wheat.productname",
+      "value" : "Wheat"
+   },
+   {
+      "value" : "Windows",
+      "key" : "productdefinition.windows.productname"
+   },
+   {
+      "key" : "productdefinition.wine.productname",
+      "value" : "Wine"
+   },
+   {
+      "key" : "productdefinition.winterclothes.productname",
+      "value" : "Winter Clothes"
+   },
+   {
+      "key" : "productdefinition.wood.productname",
+      "value" : "Wood"
+   },
+   {
+      "key" : "productdefinition.woodenbarrel.productname",
+      "value" : "Wooden Barrels"
+   },
+   {
+      "value" : "Wooden Planks",
+      "key" : "productdefinition.woodenplanks.productname"
+   },
+   {
+      "value" : "Wool",
+      "key" : "productdefinition.wool.productname"
+   },
+   {
+      "key" : "productdefinition.workclothes.productname",
+      "value" : "Work Clothes"
+   },
+   {
+      "key" : "productdefinition.yeast.productname",
+      "value" : "Yeast"
+   },
+   {
+      "key" : "recipe.adhesive.title",
+      "value" : "Adhesive"
+   },
+   {
+      "value" : "Alternator",
+      "key" : "recipe.alternator.title"
+   },
+   {
+      "value" : "Apples",
+      "key" : "recipe.apples.title"
+   },
+   {
+      "key" : "recipe.applesmoothie.title",
+      "value" : "Apple Smoothie"
+   },
+   {
+      "value" : "Axles",
+      "key" : "recipe.axles.title"
+   },
+   {
+      "value" : "Bag of Chips",
+      "key" : "recipe.bagofchips.title"
+   },
+   {
+      "key" : "recipe.barleywhiskey.title",
+      "value" : "Barley Whiskey"
+   },
+   {
+      "key" : "recipe.beefstew.title",
+      "value" : "Beef Stew"
+   },
+   {
+      "value" : "Beer",
+      "key" : "recipe.beer.title"
+   },
+   {
+      "value" : "Berries",
+      "key" : "recipe.berries.title"
+   },
+   {
+      "key" : "recipe.berrypie.title",
+      "value" : "Berry Pie"
+   },
+   {
+      "key" : "recipe.berrysmoothie.title",
+      "value" : "Berry Smoothie"
+   },
+   {
+      "value" : "Binary Switcher",
+      "key" : "recipe.binaryswitcher.title"
+   },
+   {
+      "key" : "recipe.biofuel.title",
+      "value" : "Biofuel"
+   },
+   {
+      "key" : "recipe.bodychassis.title",
+      "value" : "Body Chassis"
+   },
+   {
+      "key" : "recipe.books.title",
+      "value" : "Books"
+   },
+   {
+      "value" : "Bottles",
+      "key" : "recipe.bottles.title"
+   },
+   {
+      "value" : "Brandy",
+      "key" : "recipe.brandy.title"
+   },
+   {
+      "key" : "recipe.bricks.title",
+      "value" : "Bricks"
+   },
+   {
+      "key" : "recipe.burgers.title",
+      "value" : "Burgers"
+   },
+   {
+      "key" : "recipe.buttons.title",
+      "value" : "Buttons"
+   },
+   {
+      "value" : "Canned Fish",
+      "key" : "recipe.cannedfish.title"
+   },
+   {
+      "key" : "recipe.cannedmutton.title",
+      "value" : "Canned Mutton"
+   },
+   {
+      "value" : "Cans",
+      "key" : "recipe.cans.title"
+   },
+   {
+      "key" : "recipe.capacitors.title",
+      "value" : "Capacitors"
+   },
+   {
+      "key" : "recipe.cardboard.title",
+      "value" : "Cardboard"
+   },
+   {
+      "key" : "recipe.cardboardpanels.title",
+      "value" : "Cardboard Panels"
+   },
+   {
+      "value" : "Car Prototype",
+      "key" : "recipe.carprototype.title"
+   },
+   {
+      "value" : "Car Radiator",
+      "key" : "recipe.carradiator.title"
+   },
+   {
+      "key" : "recipe.carseat.title",
+      "value" : "Car Seat"
+   },
+   {
+      "key" : "recipe.ceramics.title",
+      "value" : "Ceramics"
+   },
+   {
+      "key" : "recipe.cheese.title",
+      "value" : "Cheese"
+   },
+   {
+      "key" : "recipe.chemicals.title",
+      "value" : "Chemicals"
+   },
+   {
+      "value" : "Chicken Dinner",
+      "key" : "recipe.chickendinner.title"
+   },
+   {
+      "value" : "Chickens",
+      "key" : "recipe.chickens.title"
+   },
+   {
+      "value" : "Chicken Soup",
+      "key" : "recipe.chickensoup.title"
+   },
+   {
+      "key" : "recipe.chocolatebar.title",
+      "value" : "Chocolate Bar"
+   },
+   {
+      "key" : "recipe.chocolatecake.title",
+      "value" : "Chocolate Cake"
+   },
+   {
+      "value" : "Coal",
+      "key" : "recipe.coalmine.title"
+   },
+   {
+      "key" : "recipe.cocoas.title",
+      "value" : "Cocoas"
+   },
+   {
+      "key" : "recipe.combustionengine.title",
+      "value" : "Combustion Engine"
+   },
+   {
+      "value" : "Computer Memory",
+      "key" : "recipe.computermemory.title"
+   },
+   {
+      "key" : "recipe.concrete.title",
+      "value" : "Concrete"
+   },
+   {
+      "key" : "recipe.cookedvegetables.title",
+      "value" : "Cooked Vegetables"
+   },
+   {
+      "key" : "recipe.coppermine.title",
+      "value" : "Copper"
+   },
+   {
+      "key" : "recipe.coppertubing.title",
+      "value" : "Copper Tubing"
+   },
+   {
+      "value" : "Copper Wire",
+      "key" : "recipe.copperwire.title"
+   },
+   {
+      "key" : "recipe.cotton.title",
+      "value" : "Cotton"
+   },
+   {
+      "value" : "Cows",
+      "key" : "recipe.cows.title"
+   },
+   {
+      "key" : "recipe.deluxebooks.title",
+      "value" : "Deluxe Books"
+   },
+   {
+      "key" : "recipe.dinnercontainer.title",
+      "value" : "Dinner Container"
+   },
+   {
+      "key" : "recipe.diodes.title",
+      "value" : "Diodes"
+   },
+   {
+      "key" : "recipe.dough.title",
+      "value" : "Dough"
+   },
+   {
+      "key" : "recipe.dye.title",
+      "value" : "Dye"
+   },
+   {
+      "key" : "recipe.engineblock.title",
+      "value" : "Engine Block"
+   },
+   {
+      "key" : "recipe.exteriorbody.title",
+      "value" : "Exterior Body"
+   },
+   {
+      "value" : "Fibers",
+      "key" : "recipe.fibers.title"
+   },
+   {
+      "key" : "recipe.firstcomputer.title",
+      "value" : "First Computer"
+   },
+   {
+      "value" : "Fish",
+      "key" : "recipe.fish.title"
+   },
+   {
+      "key" : "recipe.fishandchips.title",
+      "value" : "Fish and Chips"
+   },
+   {
+      "value" : "Flour",
+      "key" : "recipe.flour.title"
+   },
+   {
+      "key" : "recipe.friedchicken.title",
+      "value" : "Fried Chicken"
+   },
+   {
+      "value" : "Furniture Base (L)",
+      "key" : "recipe.furniturebase(l).title"
+   },
+   {
+      "key" : "recipe.furniturebase(s).title",
+      "value" : "Furniture Base (S)"
+   },
+   {
+      "value" : "Gas",
+      "key" : "recipe.gaspump.title"
+   },
+   {
+      "key" : "recipe.glass.title",
+      "value" : "Glass"
+   },
+   {
+      "value" : "Glass Tubes",
+      "key" : "recipe.glasstubes.title"
+   },
+   {
+      "value" : "Grain Whiskey",
+      "key" : "recipe.grainwhiskey.title"
+   },
+   {
+      "key" : "recipe.grapejuice.title",
+      "value" : "Grape Juice"
+   },
+   {
+      "key" : "recipe.grapes.title",
+      "value" : "Grapes"
+   },
+   {
+      "value" : "Hard Cider",
+      "key" : "recipe.hardcider.title"
+   },
+   {
+      "key" : "recipe.headlights.title",
+      "value" : "Headlights"
+   },
+   {
+      "value" : "Heavy Fabric",
+      "key" : "recipe.heavyfabric.title"
+   },
+   {
+      "key" : "recipe.heavypulp.title",
+      "value" : "Heavy Pulp"
+   },
+   {
+      "value" : "Hops",
+      "key" : "recipe.hops.title"
+   },
+   {
+      "value" : "Ink",
+      "key" : "recipe.ink.title"
+   },
+   {
+      "key" : "recipe.interface.title",
+      "value" : "Interface"
+   },
+   {
+      "key" : "recipe.interiorbody.title",
+      "value" : "Interior Body"
+   },
+   {
+      "value" : "Interior Lining",
+      "key" : "recipe.interiorlining.title"
+   },
+   {
+      "value" : "Iron",
+      "key" : "recipe.ironmine.title"
+   },
+   {
+      "value" : "Leather Furniture",
+      "key" : "recipe.leatherfurniture.title"
+   },
+   {
+      "key" : "recipe.lightbulb.title",
+      "value" : "Light Bulbs"
+   },
+   {
+      "key" : "recipe.lightfabric.title",
+      "value" : "Light Fabric"
+   },
+   {
+      "value" : "Wood",
+      "key" : "recipe.lumberyard.title"
+   },
+   {
+      "value" : "Napkins",
+      "key" : "recipe.napkins.title"
+   },
+   {
+      "value" : "Newspapers",
+      "key" : "recipe.newspapers.title"
+   },
+   {
+      "key" : "recipe.officefurniture.title",
+      "value" : "Office Furniture"
+   },
+   {
+      "value" : "Oil",
+      "key" : "recipe.oildrill.title"
+   },
+   {
+      "key" : "recipe.oildrilloffshore.title",
+      "value" : "Oil"
+   },
+   {
+      "value" : "Olive Oil",
+      "key" : "recipe.oliveoil.title"
+   },
+   {
+      "value" : "Olives",
+      "key" : "recipe.olives.title"
+   },
+   {
+      "key" : "recipe.orangejuice.title",
+      "value" : "Orange Juice"
+   },
+   {
+      "value" : "Oranges",
+      "key" : "recipe.oranges.title"
+   },
+   {
+      "value" : "Orange Soda",
+      "key" : "recipe.orangesoda.title"
+   },
+   {
+      "value" : "Oven",
+      "key" : "recipe.oven.title"
+   },
+   {
+      "key" : "recipe.paints.title",
+      "value" : "Paints"
+   },
+   {
+      "key" : "recipe.paperroll.title",
+      "value" : "Paper Roll"
+   },
+   {
+      "key" : "recipe.parchment.title",
+      "value" : "Parchment"
+   },
+   {
+      "value" : "Pizza",
+      "key" : "recipe.pizza.title"
+   },
+   {
+      "key" : "recipe.plastic.title",
+      "value" : "Plastic"
+   },
+   {
+      "value" : "Plastic Cutlery",
+      "key" : "recipe.plasticcutlery.title"
+   },
+   {
+      "key" : "recipe.plasticfurniture.title",
+      "value" : "Plastic Furniture"
+   },
+   {
+      "key" : "recipe.potatoes.title",
+      "value" : "Potatoes"
+   },
+   {
+      "key" : "recipe.premadedinner.title",
+      "value" : "Premade Dinner"
+   },
+   {
+      "value" : "Printed Paper",
+      "key" : "recipe.printedpaper.title"
+   },
+   {
+      "key" : "recipe.processor.title",
+      "value" : "Processor"
+   },
+   {
+      "value" : "Punch Cards",
+      "key" : "recipe.punchcards.title"
+   },
+   {
+      "value" : "Radiator",
+      "key" : "recipe.radiator.title"
+   },
+   {
+      "key" : "recipe.radioreceiver.title",
+      "value" : "Radio Receiver"
+   },
+   {
+      "key" : "recipe.rawrubber.title",
+      "value" : "Raw Rubber"
+   },
+   {
+      "value" : "Refined Oil",
+      "key" : "recipe.refinedoil.title"
+   },
+   {
+      "value" : "Refrigerator",
+      "key" : "recipe.refrigerator.title"
+   },
+   {
+      "value" : "Reinforced Wall",
+      "key" : "recipe.reinforcedwall.title"
+   },
+   {
+      "value" : "Rolling Chassis",
+      "key" : "recipe.rollingchassis.title"
+   },
+   {
+      "value" : "Rubber",
+      "key" : "recipe.rubber.title"
+   },
+   {
+      "value" : "Rubber Tubes",
+      "key" : "recipe.rubbertubes.title"
+   },
+   {
+      "value" : "Sand",
+      "key" : "recipe.sand.title"
+   },
+   {
+      "key" : "recipe.sheep.title",
+      "value" : "Sheep"
+   },
+   {
+      "key" : "recipe.sodawater.title",
+      "value" : "Soda Water"
+   },
+   {
+      "value" : "Soup",
+      "key" : "recipe.soup.title"
+   },
+   {
+      "value" : "Steel",
+      "key" : "recipe.steel.title"
+   },
+   {
+      "key" : "recipe.steelbarrels.title",
+      "value" : "Steel Barrels"
+   },
+   {
+      "value" : "Steel Frame",
+      "key" : "recipe.steelframe.title"
+   },
+   {
+      "key" : "recipe.stovetop.title",
+      "value" : "Stovetop"
+   },
+   {
+      "value" : "Sugarcane",
+      "key" : "recipe.sugarcane.title"
+   },
+   {
+      "key" : "recipe.summerclothes.title",
+      "value" : "Summer Clothes"
+   },
+   {
+      "key" : "recipe.telephone.title",
+      "value" : "Telephone"
+   },
+   {
+      "value" : "Thin Cardboard",
+      "key" : "recipe.thincardboard.title"
+   },
+   {
+      "value" : "Tire",
+      "key" : "recipe.tire.title"
+   },
+   {
+      "key" : "recipe.vegetables.title",
+      "value" : "Vegetables"
+   },
+   {
+      "key" : "recipe.vodka.title",
+      "value" : "Vodka"
+   },
+   {
+      "key" : "recipe.waffles.title",
+      "value" : "Waffles"
+   },
+   {
+      "value" : "Wall Panels",
+      "key" : "recipe.wallpanels.title"
+   },
+   {
+      "key" : "recipe.water.title",
+      "value" : "Water"
+   },
+   {
+      "value" : "Water",
+      "key" : "recipe.waterwell.title"
+   },
+   {
+      "key" : "recipe.wheat.title",
+      "value" : "Wheat"
+   },
+   {
+      "value" : "Windows",
+      "key" : "recipe.windows.title"
+   },
+   {
+      "value" : "Wine",
+      "key" : "recipe.wine.title"
+   },
+   {
+      "key" : "recipe.winterclothes.title",
+      "value" : "Winter Clothes"
+   },
+   {
+      "key" : "recipe.woodenbarrel.title",
+      "value" : "Wooden Barrels"
+   },
+   {
+      "value" : "Wooden Planks",
+      "key" : "recipe.woodenplanks.title"
+   },
+   {
+      "value" : "Work Clothes",
+      "key" : "recipe.workclothes.title"
+   },
+   {
+      "value" : "Yeast",
+      "key" : "recipe.yeast.title"
+   },
+   {
+      "value" : "UNITS",
+      "key" : "scenariocategory.productcategory.objectivemeasure"
+   },
+   {
+      "key" : "shopmodule.titletext",
+      "value" : "REQUESTED GOODS"
+   },
+   {
+      "key" : "storagemodule.capacitytext.amounttext",
+      "value" : "<color=#F1EBDC>{capacity} units</color>"
+   },
+   {
+      "key" : "techtreegenericunlock.-25%tunnelsandbridgescost.description",
+      "value" : "Subtract 25% from Tunnels & Bridges cost"
+   },
+   {
+      "value" : "-25% Tunnels and Bridges Cost",
+      "key" : "techtreegenericunlock.-25%tunnelsandbridgescost.unlockname"
+   },
+   {
+      "value" : "Subtract 25% from Urban Roads cost",
+      "key" : "techtreegenericunlock.-25%urbanroadcost.description"
+   },
+   {
+      "value" : "-25% Urban Road Cost",
+      "key" : "techtreegenericunlock.-25%urbanroadcost.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.+10factorystorage.description",
+      "value" : "Add 10 additional storage units to Factories."
+   },
+   {
+      "value" : "+10 Factory Storage",
+      "key" : "techtreegenericunlock.+10factorystorage.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.+10farmstorage.description",
+      "value" : "Add 10 additional storage units to Farms."
+   },
+   {
+      "value" : "+10 Farm Storage",
+      "key" : "techtreegenericunlock.+10farmstorage.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.+10gathererstorage.description",
+      "value" : "Add 10 additional storage units to Gatherers."
+   },
+   {
+      "value" : "+10 Gatherer Storage",
+      "key" : "techtreegenericunlock.+10gathererstorage.unlockname"
+   },
+   {
+      "value" : "Add 25% speed to Tunnels and Bridges",
+      "key" : "techtreegenericunlock.+25%speedtunnelsandbridges.description"
+   },
+   {
+      "key" : "techtreegenericunlock.+25%speedtunnelsandbridges.unlockname",
+      "value" : "+25% Speed Tunnels and Bridges"
+   },
+   {
+      "key" : "techtreegenericunlock.+25%urbanroadspeed.description",
+      "value" : "Add 25% speed to Urban Roads"
+   },
+   {
+      "value" : "+25% Urban Road Speed",
+      "key" : "techtreegenericunlock.+25%urbanroadspeed.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.+2coastalharvesters.description",
+      "value" : "Able to Place 2 additional coastal based Harvesters"
+   },
+   {
+      "value" : "+2 Coastal Harvesters",
+      "key" : "techtreegenericunlock.+2coastalharvesters.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.+2cropfields.description",
+      "value" : "Able to place 2 additional Crop Farm Fields"
+   },
+   {
+      "value" : "+2 Crop Fields",
+      "key" : "techtreegenericunlock.+2cropfields.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.+2landharvesters.description",
+      "value" : "Able to Place 2 additional land based Harvesters"
+   },
+   {
+      "value" : "+2 Land Harvesters",
+      "key" : "techtreegenericunlock.+2landharvesters.unlockname"
+   },
+   {
+      "value" : "Able to Place 2 additional offshore based Harvesters",
+      "key" : "techtreegenericunlock.+2offshoreharvesters.description"
+   },
+   {
+      "value" : "+2 Offshore Harvesters",
+      "key" : "techtreegenericunlock.+2offshoreharvesters.unlockname"
+   },
+   {
+      "value" : "Able to place 2 additional Orchard Fields",
+      "key" : "techtreegenericunlock.+2orchardfields.description"
+   },
+   {
+      "key" : "techtreegenericunlock.+2orchardfields.unlockname",
+      "value" : "+2 Orchard Fields"
+   },
+   {
+      "key" : "techtreegenericunlock.+2plantationfields.description",
+      "value" : "Able to place 2 additional Plantation Fields"
+   },
+   {
+      "value" : "+2 Plantation Fields",
+      "key" : "techtreegenericunlock.+2plantationfields.unlockname"
+   },
+   {
+      "value" : "Unlocks 5 additional Destination Trucks for Logistic Buildings",
+      "key" : "techtreegenericunlock.+5logitrucksa.description"
+   },
+   {
+      "value" : "+5 Trucks",
+      "key" : "techtreegenericunlock.+5logitrucksa.unlockname"
+   },
+   {
+      "value" : "Unlocks 5 additional Destination Trucks for Logistic Buildings",
+      "key" : "techtreegenericunlock.+5logitrucksb.description"
+   },
+   {
+      "value" : "+5 Trucks",
+      "key" : "techtreegenericunlock.+5logitrucksb.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.+5trucksnonlogi.description",
+      "value" : "Unlocks 5 additional Trucks for Farms, Gatherers, and Factories."
+   },
+   {
+      "key" : "techtreegenericunlock.+5trucksnonlogi.unlockname",
+      "value" : "+5 Trucks"
+   },
+   {
+      "key" : "techtreegenericunlock.boatcapacity.description",
+      "value" : "Add 5 Capacity to Boats."
+   },
+   {
+      "key" : "techtreegenericunlock.boatcapacity.unlockname",
+      "value" : "+5 Boat Capacity"
+   },
+   {
+      "key" : "techtreegenericunlock.boatdepotdestinations+3a.description",
+      "value" : "Add 3 Destination Slots to Boat Depots."
+   },
+   {
+      "key" : "techtreegenericunlock.boatdepotdestinations+3a.unlockname",
+      "value" : "+3 Destination Slots"
+   },
+   {
+      "key" : "techtreegenericunlock.boatdepotdestinations+3b.description",
+      "value" : "Add 3 Destination Slots to Boat Depots."
+   },
+   {
+      "value" : "+3 Destination Slots",
+      "key" : "techtreegenericunlock.boatdepotdestinations+3b.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.boatspeed+25%.description",
+      "value" : "Add 25% Speed to Boats."
+   },
+   {
+      "value" : "+25% Boat Speed",
+      "key" : "techtreegenericunlock.boatspeed+25%.unlockname"
+   },
+   {
+      "value" : "Allows to set Pollution Cleaners Salary to 75% and 125%.",
+      "key" : "techtreegenericunlock.cleanerefficiencyl3_l5.description"
+   },
+   {
+      "value" : "Pollution Cleaners HR",
+      "key" : "techtreegenericunlock.cleanerefficiencyl3_l5.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.cleanerefficiencyl6.description",
+      "value" : "Allows to set Pollution Cleaners Salary to 50% and 150%."
+   },
+   {
+      "key" : "techtreegenericunlock.cleanerefficiencyl6.unlockname",
+      "value" : "Pollution Cleaners HR"
+   },
+   {
+      "value" : "Allows to set Pollution Cleaners Salary to 25% and 200%.",
+      "key" : "techtreegenericunlock.cleanerefficiencyl7.description"
+   },
+   {
+      "value" : "Pollution Cleaners HR",
+      "key" : "techtreegenericunlock.cleanerefficiencyl7.unlockname"
+   },
+   {
+      "value" : "Able to place 2 additional Livestock Fields",
+      "key" : "techtreegenericunlock.deforestation.description"
+   },
+   {
+      "value" : "+2 Livestock Field",
+      "key" : "techtreegenericunlock.deforestation.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.destinations+3a.description",
+      "value" : "Unlocks 3 additional Destination Slots for Farms, Gatherers, and Factories."
+   },
+   {
+      "value" : "+3 Destination Slots",
+      "key" : "techtreegenericunlock.destinations+3a.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.destinations+3b.description",
+      "value" : "Unlocks 3 additional Destination Slots for Farms, Gatherers, and Factories."
+   },
+   {
+      "key" : "techtreegenericunlock.destinations+3b.unlockname",
+      "value" : "+3 Destination Slots"
+   },
+   {
+      "value" : "Can build Dirt Roads",
+      "key" : "techtreegenericunlock.dirtroads.description"
+   },
+   {
+      "key" : "techtreegenericunlock.dirtroads.unlockname",
+      "value" : "Build Dirt Roads"
+   },
+   {
+      "key" : "techtreegenericunlock.factoryefficiencyl1.description",
+      "value" : "Allows to set Factories Salary to 25%."
+   },
+   {
+      "key" : "techtreegenericunlock.factoryefficiencyl1.unlockname",
+      "value" : "Factories HR"
+   },
+   {
+      "value" : "Allows to set Factories Salary to 50%.",
+      "key" : "techtreegenericunlock.factoryefficiencyl2.description"
+   },
+   {
+      "value" : "Factories HR",
+      "key" : "techtreegenericunlock.factoryefficiencyl2.unlockname"
+   },
+   {
+      "value" : "Allows to set Factories Salary to 75% and 125%.",
+      "key" : "techtreegenericunlock.factoryefficiencyl3_l5.description"
+   },
+   {
+      "key" : "techtreegenericunlock.factoryefficiencyl3_l5.unlockname",
+      "value" : "Factories HR"
+   },
+   {
+      "key" : "techtreegenericunlock.factoryefficiencyl6.description",
+      "value" : "Allows to set Factories Salary to 50% and 150%."
+   },
+   {
+      "value" : "Factories HR",
+      "key" : "techtreegenericunlock.factoryefficiencyl6.unlockname"
+   },
+   {
+      "value" : "Allows to set Factories Salary to 25% and 200%.",
+      "key" : "techtreegenericunlock.factoryefficiencyl7.description"
+   },
+   {
+      "key" : "techtreegenericunlock.factoryefficiencyl7.unlockname",
+      "value" : "Factories HR"
+   },
+   {
+      "value" : "Allows to set Farms Salary to 25%.",
+      "key" : "techtreegenericunlock.farmefficiencyl1.description"
+   },
+   {
+      "key" : "techtreegenericunlock.farmefficiencyl1.unlockname",
+      "value" : "Farms HR"
+   },
+   {
+      "value" : "Allows to set Farms Salary to 50%.",
+      "key" : "techtreegenericunlock.farmefficiencyl2.description"
+   },
+   {
+      "value" : "Farms HR",
+      "key" : "techtreegenericunlock.farmefficiencyl2.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.farmefficiencyl3_l5.description",
+      "value" : "Allows to set Farms Salary to 75% and 125%."
+   },
+   {
+      "value" : "Farms HR",
+      "key" : "techtreegenericunlock.farmefficiencyl3_l5.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.farmefficiencyl6.description",
+      "value" : "Allows to set Farms Salary to 50% and 150%."
+   },
+   {
+      "key" : "techtreegenericunlock.farmefficiencyl6.unlockname",
+      "value" : "Farms HR"
+   },
+   {
+      "value" : "Allows to set Farms Salary to 25% and 200%.",
+      "key" : "techtreegenericunlock.farmefficiencyl7.description"
+   },
+   {
+      "value" : "Farms HR",
+      "key" : "techtreegenericunlock.farmefficiencyl7.unlockname"
+   },
+   {
+      "value" : "Allows to set Gatherers Salary to 25%.",
+      "key" : "techtreegenericunlock.gathererefficiencyl1.description"
+   },
+   {
+      "key" : "techtreegenericunlock.gathererefficiencyl1.unlockname",
+      "value" : "Gatherers HR"
+   },
+   {
+      "value" : "Allows to set Gatherers Salary to 50%.",
+      "key" : "techtreegenericunlock.gathererefficiencyl2.description"
+   },
+   {
+      "key" : "techtreegenericunlock.gathererefficiencyl2.unlockname",
+      "value" : "Gatherers HR"
+   },
+   {
+      "value" : "Allows to set Gatherers Salary to 75% and 125%.",
+      "key" : "techtreegenericunlock.gathererefficiencyl3_l5.description"
+   },
+   {
+      "value" : "Gatherers HR",
+      "key" : "techtreegenericunlock.gathererefficiencyl3_l5.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.gathererefficiencyl6.description",
+      "value" : "Allows to set Gatherers Salary to 50% and 150%."
+   },
+   {
+      "value" : "Gatherers HR",
+      "key" : "techtreegenericunlock.gathererefficiencyl6.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.gathererefficiencyl7.description",
+      "value" : "Allows to set Gatherers Salary to 25% and 200%."
+   },
+   {
+      "value" : "Gatherers HR",
+      "key" : "techtreegenericunlock.gathererefficiencyl7.unlockname"
+   },
+   {
+      "value" : "NOT AVAILABLE YET",
+      "key" : "techtreegenericunlock.highways.description"
+   },
+   {
+      "key" : "techtreegenericunlock.highways.unlockname",
+      "value" : "Build Highways"
+   },
+   {
+      "key" : "techtreegenericunlock.highwayscost.description",
+      "value" : "NOT AVAILABLE YET"
+   },
+   {
+      "value" : "Highways Cost",
+      "key" : "techtreegenericunlock.highwayscost.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.highwaysspeed.description",
+      "value" : "NOT AVAILABLE YET"
+   },
+   {
+      "key" : "techtreegenericunlock.highwaysspeed.unlockname",
+      "value" : "Highways Speed"
+   },
+   {
+      "key" : "techtreegenericunlock.onewayroads.description",
+      "value" : "Can build One Way Roads"
+   },
+   {
+      "key" : "techtreegenericunlock.onewayroads.unlockname",
+      "value" : "One Way Roads"
+   },
+   {
+      "key" : "techtreegenericunlock.researchefficiencyl2.description",
+      "value" : "Allows to set R&D Monthly Investment to $250k."
+   },
+   {
+      "value" : "R&D Monthly Investment",
+      "key" : "techtreegenericunlock.researchefficiencyl2.unlockname"
+   },
+   {
+      "value" : "Allows to set R&D Monthly Investment to $1M.",
+      "key" : "techtreegenericunlock.researchefficiencyl3.description"
+   },
+   {
+      "value" : "R&D Monthly Investment",
+      "key" : "techtreegenericunlock.researchefficiencyl3.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.researchefficiencyl4.description",
+      "value" : "Allows to set R&D Monthly Investment to $2.5M."
+   },
+   {
+      "key" : "techtreegenericunlock.researchefficiencyl4.unlockname",
+      "value" : "R&D Monthly Investment"
+   },
+   {
+      "key" : "techtreegenericunlock.researchefficiencyl5.description",
+      "value" : "Allows to set R&D Monthly Investment to $5M."
+   },
+   {
+      "value" : "R&D Monthly Investment",
+      "key" : "techtreegenericunlock.researchefficiencyl5.unlockname"
+   },
+   {
+      "value" : "Add 4 to Train capacity.",
+      "key" : "techtreegenericunlock.traincapacity.description"
+   },
+   {
+      "key" : "techtreegenericunlock.traincapacity.unlockname",
+      "value" : "+4 Train Capacity"
+   },
+   {
+      "value" : "Add 25% to Train speed.",
+      "key" : "techtreegenericunlock.trainspeed+25%.description"
+   },
+   {
+      "value" : "+25% Train Speed",
+      "key" : "techtreegenericunlock.trainspeed+25%.unlockname"
+   },
+   {
+      "value" : "Add 3 Destination Slots to Train Terminals.",
+      "key" : "techtreegenericunlock.trainterminaldestinations+3a.description"
+   },
+   {
+      "value" : "+3 Destination Slots",
+      "key" : "techtreegenericunlock.trainterminaldestinations+3a.unlockname"
+   },
+   {
+      "value" : "Add 3 Destination Slots to Train Terminals.",
+      "key" : "techtreegenericunlock.trainterminaldestinations+3b.description"
+   },
+   {
+      "key" : "techtreegenericunlock.trainterminaldestinations+3b.unlockname",
+      "value" : "+3 Destination Slots"
+   },
+   {
+      "key" : "techtreegenericunlock.truckcapacity.description",
+      "value" : "Increases the capacity of Warehouse trucks by 1"
+   },
+   {
+      "key" : "techtreegenericunlock.truckcapacity.unlockname",
+      "value" : "+1 Truck Capacity"
+   },
+   {
+      "key" : "techtreegenericunlock.truckdepotdestinations+3a.description",
+      "value" : "Add 3 additional Destination Slots to Truck Depots."
+   },
+   {
+      "value" : "+3 Destination Slots",
+      "key" : "techtreegenericunlock.truckdepotdestinations+3a.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.truckdepotdestinations+3b.description",
+      "value" : "Add 3 additional Destination Slots to Truck Depots."
+   },
+   {
+      "value" : "+3 Destination Slots",
+      "key" : "techtreegenericunlock.truckdepotdestinations+3b.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.truckspeed+25%.description",
+      "value" : "Add 25% to Trade Truck Speed."
+   },
+   {
+      "value" : "+25% Truck Speed",
+      "key" : "techtreegenericunlock.truckspeed+25%.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.tunnels&bridges.description",
+      "value" : "Can build Tunnels & Bridges"
+   },
+   {
+      "value" : "Tunnels & Bridges",
+      "key" : "techtreegenericunlock.tunnels&bridges.unlockname"
+   },
+   {
+      "value" : "Can build Urban Roads",
+      "key" : "techtreegenericunlock.urbanroads.description"
+   },
+   {
+      "value" : "Build Urban Roads",
+      "key" : "techtreegenericunlock.urbanroads.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.warehousecollectionradiusa.unlockname",
+      "value" : "+5 Tiles Collection Radius"
+   },
+   {
+      "key" : "techtreegenericunlock.warehousecollectionradiusa.description",
+      "value" : "Add 5 tiles to Collection Radius of Warehouses."
+   },
+   {
+      "value" : "Add 5 tiles to Collection Radius of Warehouses.",
+      "key" : "techtreegenericunlock.warehousecollectionradiusb.description"
+   },
+   {
+      "value" : "+5 Tiles Collection Radius",
+      "key" : "techtreegenericunlock.warehousecollectionradiusb.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.warehousedestinations+3a.description",
+      "value" : "Add 3 Destination Slots to Warehouses."
+   },
+   {
+      "value" : "+3 Destination Slots",
+      "key" : "techtreegenericunlock.warehousedestinations+3a.unlockname"
+   },
+   {
+      "value" : "Add 3 Destination Slots to Warehouses.",
+      "key" : "techtreegenericunlock.warehousedestinations+3b.description"
+   },
+   {
+      "key" : "techtreegenericunlock.warehousedestinations+3b.unlockname",
+      "value" : "+3 Destination Slots"
+   },
+   {
+      "key" : "techtreegenericunlock.warehousestoragea.unlockname",
+      "value" : "+10 Warehouse Storage"
+   },
+   {
+      "key" : "techtreegenericunlock.warehousestoragea.description",
+      "value" : "Add 10 Storage Capacity to Warehouses."
+   },
+   {
+      "value" : "+15 Warehouse Storage",
+      "key" : "techtreegenericunlock.warehousestorageb.unlockname"
+   },
+   {
+      "value" : "Add 15 Storage Capacity to Warehouses.",
+      "key" : "techtreegenericunlock.warehousestorageb.description"
+   },
+   {
+      "value" : "+10 Tiles Irrigation Radius",
+      "key" : "techtreegenericunlock.watertoweraoe.unlockname"
+   },
+   {
+      "value" : "Add 3 Capacity to Zeppelins.",
+      "key" : "techtreegenericunlock.zeppelincapacity.description"
+   },
+   {
+      "key" : "techtreegenericunlock.zeppelincapacity.unlockname",
+      "value" : "+3 Zeppelin Capacity"
+   },
+   {
+      "value" : "Add 3 Destination Slots to Zeppelin Fields.",
+      "key" : "techtreegenericunlock.zeppelinfielddestinations+3a.description"
+   },
+   {
+      "value" : "+3 Destination Slots",
+      "key" : "techtreegenericunlock.zeppelinfielddestinations+3a.unlockname"
+   },
+   {
+      "key" : "techtreegenericunlock.zeppelinfielddestinations+3b.description",
+      "value" : "Add 3 Destination Slots to Zeppelin Fields."
+   },
+   {
+      "value" : "+3 Destination Slots",
+      "key" : "techtreegenericunlock.zeppelinfielddestinations+3b.unlockname"
+   },
+   {
+      "value" : "Add 25% Speed to Zeppelins.",
+      "key" : "techtreegenericunlock.zeppelinspeed+25%.description"
+   },
+   {
+      "key" : "techtreegenericunlock.zeppelinspeed+25%.unlockname",
+      "value" : "+25% Zeppelin Speed"
+   },
+   {
+      "key" : "totalbudgetcategoryinfo.income.categoryname",
+      "value" : "Income"
+   },
+   {
+      "key" : "totalbudgetcategoryinfo.onetimeexpenses.categoryname",
+      "value" : "One Time Expenses"
+   },
+   {
+      "key" : "totalbudgetcategoryinfo.reocurringexpenses.categoryname",
+      "value" : "Recurring Expenses"
+   },
+   {
+      "key" : "totalbudgetcategoryinfo.totalbudget.categoryname",
+      "value" : "Total Budget"
+   },
+   {
+      "value" : "Building Upkeep",
+      "key" : "totalbudgetentry.buildingupkeep.entryname"
+   },
+   {
+      "value" : "Construction",
+      "key" : "totalbudgetentry.construction.entryname"
+   },
+   {
+      "key" : "totalbudgetentry.contracts.entryname",
+      "value" : "Contracts Completed"
+   },
+   {
+      "key" : "totalbudgetentry.contractsfailed.entryname",
+      "value" : "Contracts Failed"
+   },
+   {
+      "value" : "Demolition",
+      "key" : "totalbudgetentry.demolition.entryname"
+   },
+   {
+      "key" : "totalbudgetentry.loanpayments.entryname",
+      "value" : "Loan Payments"
+   },
+   {
+      "key" : "totalbudgetentry.loanstaken.entryname",
+      "value" : "Loans Taken"
+   },
+   {
+      "value" : "Loans Paid In Full",
+      "key" : "totalbudgetentry.loaspaidinfull.entryname"
+   },
+   {
+      "key" : "totalbudgetentry.productspurchased.entryname",
+      "value" : "Total Income"
+   },
+   {
+      "key" : "totalbudgetentry.productssold.entryname",
+      "value" : "Products Sold"
+   },
+   {
+      "key" : "totalbudgetentry.r&dexpenses.entryname",
+      "value" : "R&D Expenses"
+   },
+   {
+      "key" : "totalbudgetentry.totalexpenses.entryname",
+      "value" : "Total Expenses"
+   },
+   {
+      "value" : "Total Income",
+      "key" : "totalbudgetentry.totalincome.entryname"
+   },
+   {
+      "key" : "totalbudgetentry.vehicleupkeep.entryname",
+      "value" : "Vehicle Upkeep"
+   },
+   {
+      "value" : "Residential Building",
+      "key" : "building.house_heavyindustrial_t2_1x1.buildingname"
+   },
+   {
+      "value" : "TOY FACTORY",
+      "key" : "building.toyfactory.buildingname"
+   },
+   {
+      "value" : "Toy Store",
+      "key" : "building.toystore.buildingname"
+   },
+   {
+      "value" : "Doll",
+      "key" : "productdefinition.doll.productname"
+   },
+   {
+      "value" : "Dollhouse",
+      "key" : "productdefinition.dollhouse.productname"
+   },
+   {
+      "key" : "productdefinition.fluff.productname",
+      "value" : "Stuffing"
+   },
+   {
+      "key" : "productdefinition.marbles.productname",
+      "value" : "Marbles"
+   },
+   {
+      "key" : "productdefinition.teddybear.productname",
+      "value" : "Teddy Bear"
+   },
+   {
+      "value" : "Toy Furniture",
+      "key" : "productdefinition.toyfurniture.productname"
+   },
+   {
+      "key" : "productdefinition.toytrainset.productname",
+      "value" : "Toy Train Set"
+   },
+   {
+      "key" : "productdefinition.woodentrain.productname",
+      "value" : "Wooden Train"
+   },
+   {
+      "key" : "recipe.doll.title",
+      "value" : "Doll"
+   },
+   {
+      "value" : "Doll House",
+      "key" : "recipe.dollhouse.title"
+   },
+   {
+      "value" : "Stuffing",
+      "key" : "recipe.fluff.title"
+   },
+   {
+      "value" : "Marbles",
+      "key" : "recipe.marbles.title"
+   },
+   {
+      "value" : "Teddy Bear",
+      "key" : "recipe.teddybear.title"
+   },
+   {
+      "key" : "recipe.toyfurniture.title",
+      "value" : "Toy Furniture"
+   },
+   {
+      "value" : "Toy Train Set",
+      "key" : "recipe.toytrainset.title"
+   },
+   {
+      "key" : "recipe.woodentrain.title",
+      "value" : "Wooden Train"
+   },
+   {
+      "key" : "building.house_heavyindustrial_t3_3x3.buildingname",
+      "value" : "Residential Building"
+   },
+   {
+      "key" : "building.house_heavyindustrial_t3_2x2.buildingname",
+      "value" : "Residential Building"
+   },
+   {
+      "key" : "building.house_heavyindustrial_t3_2x1.buildingname",
+      "value" : "Residential Building"
+   },
+   {
+      "key" : "building.house_heavyindustrial_t3_3x2.buildingname",
+      "value" : "Residential Building"
+   },
+   {
+      "value" : "Residential Building",
+      "key" : "building.house_lightindustrial_t1_1x1.buildingname"
+   },
+   {
+      "value" : "Residential Building",
+      "key" : "building.house_lightindustrial_t2_1x1.buildingname"
+   },
+   {
+      "key" : "building.house_lightindustrial_t3_2x1.buildingname",
+      "value" : "Residential Building"
+   },
+   {
+      "value" : "Residential Building",
+      "key" : "building.house_lightindustrial_t3_2x2.buildingname"
+   },
+   {
+      "key" : "building.house_lightindustrial_t3_3x2.buildingname",
+      "value" : "Residential Building"
+   },
+   {
+      "value" : "Residential Building",
+      "key" : "building.house_lightindustrial_t3_3x3.buildingname"
+   },
+   {
+      "key" : "building.house_rural_t1_1x1.buildingname",
+      "value" : "Residential Building"
+   },
+   {
+      "value" : "Residential Building",
+      "key" : "building.house_rural_t2_1x1.buildingname"
+   },
+   {
+      "key" : "building.house_rural_t3_2x2.buildingname",
+      "value" : "Residential Building"
+   },
+   {
+      "value" : "Residential Building",
+      "key" : "building.house_rural_t3_2x3.buildingname"
+   },
+   {
+      "key" : "building.house_rural_t3_3x2.buildingname",
+      "value" : "Residential Building"
+   },
+   {
+      "value" : "Residential Building",
+      "key" : "building.house_rural_t3_3x3.buildingname"
+   },
+   {
+      "key" : "building.house_heavyindustrial_t1_1x1.buildingname",
+      "value" : "Residential Building"
+   },
+   {
+      "key" : "building.house_heavyindustrial_t2_2x2.buildingname",
+      "value" : "Residential Building"
+   },
+   {
+      "value" : "Residential Building",
+      "key" : "building.house_heavyindustrial_t2_2x1.buildingname"
+   },
+   {
+      "value" : "Residential Building",
+      "key" : "building.house_lightindustrial_t2_2x2.buildingname"
+   },
+   {
+      "key" : "building.house_lightindustrial_t2_2x1.buildingname",
+      "value" : "Residential Building"
+   },
+   {
+      "key" : "buildingefficiencydynamiceventobjective.lowereffiencyofbuildings.descriptiontext",
+      "value" : "Lower Efficiency of every %b in %s"
+   },
+   {
+      "value" : "Rounds every production time to 15 days.",
+      "key" : "difficultyoptionbool.easychains.description"
+   },
+   {
+      "value" : "Simplified Production Chains",
+      "key" : "difficultyoptionbool.easychains.displayname"
+   },
+   {
+      "value" : "IRRIGATION TOWER",
+      "key" : "building.watertower.buildingname"
+   },
+   {
+      "key" : "techtreegenericunlock.watertoweraoe.description",
+      "value" : "Add 10 tiles to Collection Radius of Irrigation Tower."
+   }
+]

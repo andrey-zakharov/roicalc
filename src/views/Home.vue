@@ -4,8 +4,8 @@
     <!--<b-dropdown size="lg" :text="targetProduct">-->
     <b-navbar>
       <b-nav-form class="flex-fill">
-        <b-button size="lg" variant="outline-secondary" v-b-toggle.recipe-select>+</b-button>
-        <b-input-group size="lg" class="ml-1" append="items">
+        <b-button size="lg" variant="secondary" v-b-toggle.recipe-select>+</b-button>
+        <b-input-group size="lg" class="ml-1" :prepend="tt(LANG_AMOUNT)">
           <b-form-input class="input-number" placeholder="amount" v-model.number="targetAmount" type="number"></b-form-input>
         </b-input-group>
         <b-input-group size="lg" class="ml-1" prepend="per">
@@ -14,7 +14,7 @@
             <b-dropdown text="" variant="outline-secondary">
               <b-dropdown-item v-for="d in [10, 15, 20, 30, 60, 120]" @click="targetDays=d">{{d}}</b-dropdown-item>
             </b-dropdown>
-            <b-input-group-append><b-input-group-text>days</b-input-group-text></b-input-group-append>
+            <b-input-group-append><b-input-group-text>{{tt(LANG_DAYS)}}</b-input-group-text></b-input-group-append>
           </template>
         </b-input-group>
 
@@ -30,11 +30,16 @@
     </b-navbar>
 
     <b-collapse id="recipe-options" v-model="showOptions">
-      <b-form-group v-for="(recid, pid) in options" :label="products[pid].displayName" :key="pid">
+      <b-form-group v-for="(recid, pid) in options" :label="tp(products[pid])" :key="pid">
         <b-form-radio-group buttons button-variant="outline-secondary" :checked="recid" @input="setProductRecipe(pid, $event)">
-          <b-form-radio v-for="rid in products[pid].recipes" :value="rid">{{recipes[rid].name}}</b-form-radio>
+          <b-form-radio v-for="rid in products[pid].recipes" :value="rid">{{tb(buildings[recipes[rid].building])}}</b-form-radio>
         </b-form-radio-group>
       </b-form-group>
+
+      <b-form-checkbox v-for="(tech, id) in techs" :key="id" :checked="tech"
+                       switch size="lg" button-variant="secondary"
+        @input="onTechSwitch(id, $event)"
+      >{{ttech(id)}}</b-form-checkbox>
     </b-collapse>
 
     <b-collapse id="recipe-select" v-model="showSelect">
@@ -47,21 +52,24 @@
       </b-nav>
     </b-collapse>
 
-    <h3>targets</h3>
+    <h3>{{tt(LANG_TARGETS)}}</h3>
     <b-list-group>
       <b-list-group-item v-for="(t, i) in targets">
         <b-button-group class="d-flex">
           <b-button variant="light" class="flex-fill w-100">{{tp(products[t.id])}}</b-button>
 
-          <b-input-group append="items" class="ml-1">
+          <b-input-group :prepend="tt(LANG_AMOUNT)" class="ml-1">
             <b-form-input type="number" class="input-number" :value="t.amount" @input="changeTargetAmount(i, $event)"></b-form-input>
           </b-input-group>
 
-          <b-input-group prepend="per" append="days" class="ml-1">
+          <b-input-group prepend="per" :append="tt(LANG_DAYS)" class="ml-1">
             <b-form-input type="number" class="input-number" :value="t.days" @input="changeTargetDays(i, $event)"></b-form-input>
           </b-input-group>
 
-          <b-form-input readonly :value="productPrice(t.id) | cost"></b-form-input>
+
+          <b-input-group :prepend="tt(LANG_SALEPRICE)" append="$">
+            <b-form-input readonly :value="productPrice(t.id) | cost"></b-form-input>
+          </b-input-group>
 
         <b-button-close variant="danger" size="lg" @click="removeTarget(i)"></b-button-close>
         </b-button-group>
@@ -87,10 +95,10 @@
     <tree-table
           :data = "treeItems"
           :columns="[
-            { title: 'name', key:'name' },
+            { title: tt(LANG_BUILDINGS), key:'name' },
             // { title: 'recipes', key: 'flow', width: '100px' },
-            { title: 'buildings', key: 'flow' },
-            { title: 'cost, $', key: 'cost', type: 'template', template: 'cost' },
+            { title: tt(LANG_MARKETVALUE), key: 'flow' },
+            { title: tt(LANG_BUILDINGCOST) + ', $', key: 'cost', type: 'template', template: 'cost' },
           ]"
           :is-fold="false"
           :selectable="false" :expand-type="false"
@@ -136,8 +144,18 @@
   },
 })
 export default class Home extends Vue {
+  readonly LANG_TOTAL = 'ui.fullscreenpanels.buildingproductionoverview.productinfo.viewport.content.productinfo.infoarea.columntitles.lastyearconsumption';
+  readonly LANG_SALEPRICE = 'datacategory.worldeventeffectproductprice.categoryname';
+  readonly LANG_DAYS = 'ui.windows._static_recipebookpanel.recipepanelarea.recipediagramarea.recipeproductiontimearea.producetimeamount';
+  readonly LANG_TARGETS = 'totalsalesviewmodel.budgetpanel.productcollectionname';
+  readonly LANG_BUILDINGS = 'ui.fullscreenpanels.budgetpanel.sidebar.scrollviewfilterarea.viewport.content.buildings.title.active.filtertext';
+  readonly LANG_BUILDINGCOST = 'datacategory.worldeventeffectbuildingcost.categoryname';
+  readonly LANG_MARKETVALUE = 'ui.fullscreenpanels.buildingproductionoverview.productinfo.viewport.content.productinfo.infoarea.columntitles.marketvalue';
+  // readonly LANG_DAYS = 'ui.windows._static_recipebookpanel.panel.recipepanelarea.recipediagramarea.recipeproductiontimearea.producetimeamount';
+  readonly LANG_AMOUNT = 'tooltipcanvas.producttooltip.content.amountneeded';
   get recipes() { return appState.recipes; }
   get products() { return appState.products; }
+  get buildings() { return appState.buildings; }
   get options() { return appState.productOptions; }
   get productsOf() { return (cat: string) => appState.products.filter((p) => p.productCategory === cat); }
   get productCategories() { return appState.productCategories; }
@@ -149,6 +167,7 @@ export default class Home extends Vue {
               .reduce<Result>((obj: Result, key: number): Result => { obj[key] = appState.result[key]; return obj }, {})
     }
   }
+  get techs() { return appState.technologies; }
 
   get language() { return appState.language; }
   get languages() { return appState.languages; }
@@ -206,7 +225,7 @@ export default class Home extends Vue {
       /// populate parent buildings  + modules
       const totalFlow = numRecipes.ceil().valueOf();
       const moduleBld = appState.buildingByName(appState.recipes[recipeId].requiredModules[0].buildingName)!;
-      const modulesPerBuild = appState.modulesCount(bld.name);
+      const modulesPerBuild = appState.modulesCount(bld);
 
       const numParent = Math.floor(totalFlow / modulesPerBuild);
       const remain = totalFlow - (numParent * modulesPerBuild);
@@ -242,13 +261,15 @@ export default class Home extends Vue {
 
   }}
 
+  get tt() { return appState.t; }
   get tp() { return appState.tp; }
   get tpc() { return appState.tpc; }
   get tr() { return appState.tr; }
   get tb() { return appState.tb; }
+  get ttech() { return appState.ttech; }
 
   calcSummary(data: any, column: any, columnIndex: number) {
-    if ( column.key === 'name') { return "Total"; }
+    if ( column.key === 'name') { return appState.t(this.LANG_TOTAL); }
     const total = data.reduce((t: number, row: any) => t + (parseInt(row['cost']) || 0), 0);
     if ( column.key === 'cost') { return costsFilter(total); }
     if ( column.key === 'flow') {
@@ -323,6 +344,10 @@ export default class Home extends Vue {
 
   changeTargetDays(tid: number, amount: string) {
     appState.setTargetDays([tid, parseInt(amount)]);
+  }
+
+  onTechSwitch(tech, value) {
+     appState.switchTech([tech, value]);
   }
 
 }
