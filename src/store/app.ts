@@ -418,6 +418,7 @@ class AppState extends VuexModule implements IAppState {
 
     @Mutation private SET_TARGET_AMOUNT([tid, n]: [number, number]) { this.targets[tid].amount = n; }
     @Mutation private SET_TARGET_DAYS([tid, n]: [number, number]) { this.targets[tid].days = n; }
+    @Mutation private SET_TARGET_DEMAND([tid, d]: [number, number]) { this.targets[tid].demand = d; }
 
     @Mutation private SET_LOCALE(data: {[key: string]: string}) { this.locale = data; }
     @Mutation private SET_LANG(lang: string) { this.language = lang; }
