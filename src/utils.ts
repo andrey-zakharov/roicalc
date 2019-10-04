@@ -1,11 +1,15 @@
 export function costsFilter(value: number) {
     if (!value) { return ''; }
     // m
-    const m = Math.floor(value / 1000000);
-    const k  = Math.floor( value % 1000000 / 1000);
-    const u = Math.floor(value % 1000);
+    if ( value >= 1e6 ) {
+        return Math.round( value / 1e4 ) / 100 + 'M';
+    }
 
-    return `${ m ? m + 'M ' : '' }${ k ? k + 'k ' : '' }${u ? u : ''}`;
+    if ( value >= 1e4 ) {
+        return Math.round( value / 10 ) / 100 + 'k';
+    }
+
+    return `${Math.round(value * 100) / 100}`;
 }
 
 export function periodFilter(value: number) {
