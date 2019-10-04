@@ -242,7 +242,9 @@ class AppState extends VuexModule implements IAppState {
     // economics
     // got formulas from game
     get upkeep() { return (hubUpkeep: number, moduleUpkeep: number) => hubUpkeep + (moduleUpkeep * 3); }
-    get productPrice() { return (productId: number): number => {
+
+    // without category multiplier
+    get productPrice() { return (productId: number, onlyValue: boolean = false): number => {
         const recipe = this.productRecipe(productId);
         const ingredientsValue = this.ingredientsValue(recipe);
         const totalOutput = recipe.result.reduce((total, res) => total + res.amount, 0);
@@ -259,11 +261,11 @@ class AppState extends VuexModule implements IAppState {
             'return ' + this.products[productId].price);
 
         return priceFunction(ingredientsValue, upkeep, recipe.gameDays, totalOutput, result.amount) *
-            this.productCategory(productId)!.priceMultiplier;
+            (onlyValue ? 1 : this.productCategory(productId)!.priceMultiplier);
     }}
 
     get ingredientsValue() { return (recipe: Recipe) =>
-        recipe.ingredients.reduce((sum, ingr) => sum + this.productPrice(ingr.id) * ingr.amount, 0);
+        recipe.ingredients.reduce((sum, ingr) => sum + this.productPrice(ingr.id, true) * ingr.amount, 0);
     }
     // A C T I O N S
 
