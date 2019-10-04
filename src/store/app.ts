@@ -74,6 +74,7 @@ export interface Target {
     id: number; // product
     amount: number;
     days: number;
+    demand: number; // relative to 1.0
 }
 
 export interface Result {
@@ -108,7 +109,7 @@ class AppState extends VuexModule implements IAppState {
 
     public theme = 'dark';
 
-    public targets: Target[] = [{ id: 1, amount: 2, days: 15 }];
+    public targets: Target[] = [{id: 1, amount: 2, days: 15, demand: 1.5}];
     public products: Readonly<ProductDefinition[]> = [];
     public recipes: Readonly<Recipe[]> = [];
     public buildings: Readonly<Building[]> = [];
@@ -365,6 +366,12 @@ class AppState extends VuexModule implements IAppState {
     public setTargetDays([id, am]: [number, number]) {
         return [id, am > 1 ? am : 1];
     }
+
+    @Action({commit: 'SET_TARGET_DEMAND', rawError: true})
+    public setTargetDemand([id, d]: [number, number]) {
+        return [id, d > 0.01 ? d : 0.01];
+    }
+
 
     @Action({commit: 'SET_PRODUCTOPTIONS'})
     public setProductOptions(args: [number, number]) { return args; }
