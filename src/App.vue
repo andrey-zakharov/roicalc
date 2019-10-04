@@ -1,22 +1,26 @@
+<style lang="scss">
+  @import './app.scss';
+  @import './light.scss';
+  @import './dark.scss';
+</style>
 <template>
   <div id="app">
     <router-view />
   </div>
 </template>
+<script lang="ts">
+  import {Component, Vue, Watch} from "vue-property-decorator";
+  import appState from "@/store/app";
 
-<style lang="scss">
-    @import './app.scss';
-#app {
-
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
+  @Component
+  export default class App extends Vue {
+    get theme() { return appState.theme; }
+    @Watch('theme')
+    updateTheme() {
+      document.documentElement.className = appState.theme;
+    }
+    created() {
+      this.updateTheme();
     }
   }
-}
-</style>
+</script>

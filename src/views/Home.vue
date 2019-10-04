@@ -4,23 +4,25 @@
     <!--<b-dropdown size="lg" :text="targetProduct">-->
     <b-navbar>
       <b-nav-form class="flex-fill">
-        <b-button size="lg" variant="secondary" v-b-toggle.recipe-select>+</b-button>
+        <b-button size="lg" variant="primary" v-b-toggle.recipe-select>+</b-button>
         <b-input-group size="lg" class="ml-1" :prepend="tt(LANG_AMOUNT)">
           <b-form-input class="input-number" placeholder="amount" v-model.number="targetAmount" type="number"></b-form-input>
         </b-input-group>
         <b-input-group size="lg" class="ml-1" prepend="per">
           <b-form-input ref="input-days-new" class="input-number" placeholder="days" v-model.number="targetDays" type="number"></b-form-input>
           <template #append>
-            <b-dropdown text="" variant="outline-secondary">
+            <b-dropdown text="" variant="outline-primary">
               <b-dropdown-item v-for="d in [10, 15, 20, 30, 60, 120]" @click="targetDays=d">{{d}}</b-dropdown-item>
             </b-dropdown>
             <b-input-group-append><b-input-group-text>{{tt(LANG_DAYS)}}</b-input-group-text></b-input-group-append>
           </template>
         </b-input-group>
 
-        <b-button v-b-toggle.recipe-options  size="lg"  class="ml-1" variant="outline-secondary">o</b-button>
+        <b-button v-b-toggle.recipe-options  size="lg"  class="ml-1" variant="outline-primary">o</b-button>
       </b-nav-form>
       <b-nav-form>
+        <b-radio-group :options="['light', 'dark']" buttons button-variant="outline-primary"
+                       :checked="theme" @input="themeChanged"></b-radio-group>
         <b-form-select :value="language.toLowerCase()"
                        :options="languages.map((l) => ({text: l.displayName, value: l.keycode.toLowerCase()}))"
                        @input="changeLocale"
@@ -31,13 +33,13 @@
 
     <b-collapse id="recipe-options" v-model="showOptions">
       <b-form-group v-for="(recid, pid) in options" :label="tp(products[pid])" :key="pid">
-        <b-form-radio-group buttons button-variant="outline-secondary" :checked="recid" @input="setProductRecipe(pid, $event)">
+        <b-form-radio-group buttons button-variant="outline-primary" :checked="recid" @input="setProductRecipe(pid, $event)">
           <b-form-radio v-for="rid in products[pid].recipes" :value="rid">{{tb(buildings[recipes[rid].building])}}</b-form-radio>
         </b-form-radio-group>
       </b-form-group>
 
       <b-form-checkbox v-for="(tech, id) in techs" :key="id" :checked="tech"
-                       switch size="lg" button-variant="secondary"
+                       switch size="lg" button-variant="primary"
         @input="onTechSwitch(id, $event)"
       >{{ttech(id)}}</b-form-checkbox>
     </b-collapse>
@@ -45,7 +47,7 @@
     <b-collapse id="recipe-select" v-model="showSelect">
       <b-nav>
         <b-nav-item v-for="(c, i) in productCategories" :key="c.name" >
-          <b-dropdown :text="tpc(c.name) || c.categoryName" variant="outline-secondary" lazy menu-class="columns">
+          <b-dropdown :text="tpc(c.name) || c.categoryName" variant="outline-primary" lazy menu-class="columns">
             <b-dropdown-item v-for="(p, ip) in productsOf(c.name)" :key="p.name" @click="setTarget(p)">{{tp(p)}}</b-dropdown-item>
           </b-dropdown>
         </b-nav-item>
@@ -56,7 +58,7 @@
     <b-list-group>
       <b-list-group-item v-for="(t, i) in targets">
         <b-button-group class="d-flex">
-          <b-button variant="light" class="flex-fill w-100">{{tp(products[t.id])}}</b-button>
+          <b-button class="flex-fill w-100">{{tp(products[t.id])}}</b-button>
 
           <b-input-group :prepend="tt(LANG_AMOUNT)" class="ml-1">
             <b-form-input type="number" class="input-number" :value="t.amount" @input="changeTargetAmount(i, $event)"></b-form-input>
@@ -100,8 +102,9 @@
             { title: tt(LANG_MARKETVALUE), key: 'flow' },
             { title: tt(LANG_BUILDINGCOST) + ', $', key: 'cost', type: 'template', template: 'cost' },
           ]"
-          :is-fold="false"
-          :selectable="false" :expand-type="false"
+          :is-fold="true"
+          :selectable="false"
+          :expand-type="false"
           :show-summary = "true"
           :summary-method="calcSummary"
           empty-text="no results"
@@ -153,6 +156,7 @@ export default class Home extends Vue {
   readonly LANG_MARKETVALUE = 'ui.fullscreenpanels.buildingproductionoverview.productinfo.viewport.content.productinfo.infoarea.columntitles.marketvalue';
   // readonly LANG_DAYS = 'ui.windows._static_recipebookpanel.panel.recipepanelarea.recipediagramarea.recipeproductiontimearea.producetimeamount';
   readonly LANG_AMOUNT = 'tooltipcanvas.producttooltip.content.amountneeded';
+  get theme() { return appState.theme; }
   get recipes() { return appState.recipes; }
   get products() { return appState.products; }
   get buildings() { return appState.buildings; }
@@ -233,25 +237,22 @@ export default class Home extends Vue {
       const res = Array.from(Array(numParent)).map(() => ({
         name: this.tb(bld) || bld.displayName,
         cost: bld.baseCost,
-        _isFold: true,
+
         children: [...Array(modulesPerBuild)].map(() => ({
           // full modules
           name: this.tb(moduleBld) || moduleBld.displayName,
           cost: moduleBld.baseCost,
-          _isHide: true,
         })),
       }));
 
       if ( remain > 0 ) {
-        //remainder
+        // remainder
         res.push({
           name: this.tb(bld) || bld.displayName,
           cost: bld.baseCost,
-          _isFold: true,
           children: Array.from(Array(remain)).map(() => ({
             name: this.tb(moduleBld) || moduleBld.displayName,
             cost: moduleBld.baseCost,
-            _isHide: true,
           })),
         });
       }
@@ -310,7 +311,7 @@ export default class Home extends Vue {
 
   displayCost(scope: any) {
 
-    if ( scope.row._isFold && scope.row.children.length > 0) { // collapsed
+    if ( scope.row._isFold && scope.row.children && scope.row.children.length > 0) { // collapsed
       return this.sumChildrenCosts(scope.row);
     }
 
@@ -348,6 +349,10 @@ export default class Home extends Vue {
 
   onTechSwitch(tech: string, value: boolean) {
      appState.switchTech([tech, value]);
+  }
+
+  themeChanged(v: string) {
+    appState.setTheme(v);
   }
 
 }

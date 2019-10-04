@@ -1,4 +1,4 @@
-import {Action, getModule, Module, Mutation, VuexModule} from 'vuex-module-decorators';
+import {Action, getModule, Module, Mutation, MutationAction, VuexModule} from 'vuex-module-decorators';
 import store from './index';
 import prods from '@/assets/prods.json';
 import recipes from '@/assets/recipes.json';
@@ -81,6 +81,7 @@ export interface Result {
 }
 
 export interface IAppState {
+    theme: string;
     targets: Product[]; // target
     products: Readonly<ProductDefinition[]>;
     recipes: Readonly<Recipe[]>;
@@ -104,6 +105,8 @@ class AppState extends VuexModule implements IAppState {
         LandGatherers: '+2landharvesters',
         OffshoreGatherers: '+2offshoreharvesters',
     };
+
+    public theme = 'dark';
 
     public targets: Target[] = [{ id: 1, amount: 2, days: 15 }];
     public products: Readonly<ProductDefinition[]> = [];
@@ -378,6 +381,11 @@ class AppState extends VuexModule implements IAppState {
 
     @Action({commit: 'SET_TECH'})
     switchTech([tech, v]: [string, boolean]) { return [tech, v]; }
+
+    @Action({commit: 'SET_THEME', rawError: true})
+    setTheme(theme: string) {
+        return theme;
+    }
     // M U T A T I O N S
 
     @Mutation private SET_PRODS(v: ProductDefinition[]) { this.products = Object.freeze(v); }
@@ -405,6 +413,7 @@ class AppState extends VuexModule implements IAppState {
     @Mutation private SET_LOCALE(data: {[key: string]: string}) { this.locale = data; }
     @Mutation private SET_LANG(lang: string) { this.language = lang; }
     @Mutation private SET_TECH([tech, v]: [string, boolean]) { Vue.set(this.technologies, tech, v); }
+    @Mutation private SET_THEME(v: string) { this.theme = v; }
 
 }
 

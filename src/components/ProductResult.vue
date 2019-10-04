@@ -69,18 +69,18 @@
         background: no-repeat center;
         background-size: cover;
         & span { transform: rotate(45deg);
-            color: $light;
+            color: var(--light);
             text-shadow:
-            1px 1px 1px $text-muted,
-            1px -1px $text-muted,
-            -1px -1px $text-muted,
-            -1px 1px $text-muted
+            1px 1px 1px var(--text-muted),
+            1px -1px var(--text-muted),
+            -1px -1px var(--text-muted),
+            -1px 1px var(--text-muted)
         ;
         }
     }
 
     .frac-building-mask { position: absolute; right: 0; top: 0; bottom: 100%; min-height: 100%;
-        background: $body-bg;
+        background: var(--body-bg);
         opacity: 0.8;
     }
 
