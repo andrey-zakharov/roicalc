@@ -348,8 +348,8 @@ class AppState extends VuexModule implements IAppState {
     }
 
     @Action({commit: 'ADD_TARGET', rawError: true})
-    public addTarget([prod, amount, days]: [ProductDefinition, number, number]) {
-        return { id: this.products.findIndex((p) => p.name === prod.name), amount, days };
+    public addTarget([prod, amount, days, demand]: [ProductDefinition, number, number, number]) {
+        return { id: this.products.findIndex((p) => p.name === prod.name), amount, days, demand };
     }
 
     @Action({commit: 'REMOVE_TARGET', rawError: true})

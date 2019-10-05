@@ -18,7 +18,11 @@
           </template>
         </b-input-group>
 
-        <b-button v-b-toggle.recipe-options  size="lg"  class="ml-1" variant="outline-primary">o</b-button>
+        <b-input-group size="lg" append="%" class="ml-1">
+          <b-form-input type="number" v-model="targetDemand" min="0" class="input-number"></b-form-input>
+        </b-input-group>
+
+        <b-button v-b-toggle.recipe-options  size="lg"  class="ml-1" variant="outline-primary">options</b-button>
       </b-nav-form>
       <b-nav-form>
         <b-radio-group :options="['light', 'dark']" buttons button-variant="outline-primary"
@@ -186,7 +190,7 @@ export default class Home extends Vue {
   get productPrice() { return (prodId: number): number => Math.round(appState.productPrice(prodId)); }
   get totalProductPrices() {
     return appState.targets.reduce((total, target) => {
-      return total + appState.productPrice(target.id) * target.amount / target.days;
+      return total + appState.productPrice(target.id) * target.demand * target.amount / target.days;
     }, 0);
   }
 
@@ -302,6 +306,7 @@ export default class Home extends Vue {
 
   targetAmount: number = 2;
   targetDays: number = 15;
+  targetDemand: number = 150;
 
   showSelect: boolean = false;
   showOptions: boolean = false;
@@ -336,7 +341,7 @@ export default class Home extends Vue {
   }
 
   async setTarget(prod: ProductDefinition) {
-    await appState.addTarget([prod, this.targetAmount, this.targetDays]);
+    await appState.addTarget([prod, this.targetAmount, this.targetDays, this.targetDemand / 100]);
     // await appState.setTargetAmount(this.targetAmount); // per 15 days
     this.showSelect = false;
     // appState.recalculate();
