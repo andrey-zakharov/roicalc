@@ -4,23 +4,8 @@
     <!--<b-dropdown size="lg" :text="targetProduct">-->
     <b-navbar>
       <b-nav-form class="flex-fill">
-        <b-button size="lg" variant="primary" v-b-toggle.recipe-select>+</b-button>
-        <b-input-group size="lg" class="ml-1" :prepend="tt(LANG_AMOUNT)">
-          <b-form-input class="input-number" placeholder="amount" v-model.number="targetAmount" type="number"></b-form-input>
-        </b-input-group>
-        <b-input-group size="lg" class="ml-1" prepend="per">
-          <b-form-input ref="input-days-new" class="input-number" placeholder="days" v-model.number="targetDays" type="number"></b-form-input>
-          <template #append>
-            <b-dropdown text="" variant="outline-primary">
-              <b-dropdown-item v-for="d in [10, 15, 20, 30, 60, 120]" @click="targetDays=d">{{d}}</b-dropdown-item>
-            </b-dropdown>
-            <b-input-group-append><b-input-group-text>{{tt(LANG_DAYS)}}</b-input-group-text></b-input-group-append>
-          </template>
-        </b-input-group>
 
-        <b-input-group size="lg" append="%" class="ml-1">
-          <b-form-input type="number" v-model="targetDemand" min="0" class="input-number"></b-form-input>
-        </b-input-group>
+        <ProductForm size="lg" v-model="newTarget"></ProductForm>
 
         <b-button v-b-toggle.recipe-options  size="lg"  class="ml-1" variant="outline-primary">options</b-button>
       </b-nav-form>
@@ -52,7 +37,7 @@
       <b-nav>
         <b-nav-item v-for="(c, i) in productCategories" :key="c.name" >
           <b-dropdown :text="tpc(c.name) || c.categoryName" variant="outline-primary" lazy menu-class="columns">
-            <b-dropdown-item v-for="(p, ip) in productsOf(c.name)" :key="p.name" @click="setTarget(p)">{{tp(p)}}</b-dropdown-item>
+            <b-dropdown-item v-for="(p, ip) in productsOf(c.name)" :key="p.name" @click="addTarget(p)">{{tp(p)}}</b-dropdown-item>
           </b-dropdown>
         </b-nav-item>
       </b-nav>
@@ -143,30 +128,24 @@
 </template>
 
 <script lang="ts">
-    import {Component, Vue, Watch} from "vue-property-decorator";
+  import {Component, Mixins, Vue, Watch} from "vue-property-decorator";
     import appState, {Building, ProductDefinition, Result} from "@/store/app";
     import {BButton, BDropdown, BDropdownItem, BFormInput, BInputGroup, BNavForm} from "bootstrap-vue";
     import ProductResult from "@/components/ProductResult.vue";
     import Fraction from 'fraction.js/fraction';
     import {costsFilter, periodFilter} from "@/utils";
     import {TreeDataItem} from '@/../../tree-table-vue';
+    import ProductForm from '@/components/ProductForm.vue';
+    import Const from '@/mixins/Const.ts';
 
     @Component({
   components: {
-    ProductResult,
+    ProductResult, ProductForm,
     BButton, BNavForm, BInputGroup, BFormInput, BDropdown, BDropdownItem,
   },
 })
-export default class Home extends Vue {
-  readonly LANG_TOTAL = 'ui.fullscreenpanels.buildingproductionoverview.productinfo.viewport.content.productinfo.infoarea.columntitles.lastyearconsumption';
-  readonly LANG_SALEPRICE = 'datacategory.worldeventeffectproductprice.categoryname';
-  readonly LANG_DAYS = 'ui.windows._static_recipebookpanel.recipepanelarea.recipediagramarea.recipeproductiontimearea.producetimeamount';
-  readonly LANG_TARGETS = 'totalsalesviewmodel.budgetpanel.productcollectionname';
-  readonly LANG_BUILDINGS = 'ui.fullscreenpanels.budgetpanel.sidebar.scrollviewfilterarea.viewport.content.buildings.title.active.filtertext';
-  readonly LANG_BUILDINGCOST = 'datacategory.worldeventeffectbuildingcost.categoryname';
-  readonly LANG_MARKETVALUE = 'ui.fullscreenpanels.buildingproductionoverview.productinfo.viewport.content.productinfo.infoarea.columntitles.marketvalue';
-  // readonly LANG_DAYS = 'ui.windows._static_recipebookpanel.panel.recipepanelarea.recipediagramarea.recipeproductiontimearea.producetimeamount';
-  readonly LANG_AMOUNT = 'tooltipcanvas.producttooltip.content.amountneeded';
+export default class Home extends Mixins(Const) {
+
   get theme() { return appState.theme; }
   get recipes() { return appState.recipes; }
   get products() { return appState.products; }
@@ -304,9 +283,7 @@ export default class Home extends Vue {
     // appState.recalculate();
   }
 
-  targetAmount: number = 2;
-  targetDays: number = 15;
-  targetDemand: number = 150;
+  newTarget = { amount: 2, days: 15, demand: 1.5 };
 
   showSelect: boolean = false;
   showOptions: boolean = false;
@@ -340,8 +317,9 @@ export default class Home extends Vue {
             .reduce((total: number, ch: TreeDataItem) => total + this.sumChildrenCosts(ch), 0) : 0);
   }
 
-  async setTarget(prod: ProductDefinition) {
-    await appState.addTarget([prod, this.targetAmount, this.targetDays, this.targetDemand / 100]);
+  async addTarget(prod: ProductDefinition) {
+    console.log(this.newTarget);
+    await appState.addTarget([prod, this.newTarget.amount, this.newTarget.days, this.newTarget.demand]);
     // await appState.setTargetAmount(this.targetAmount); // per 15 days
     this.showSelect = false;
     // appState.recalculate();

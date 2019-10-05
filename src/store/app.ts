@@ -408,7 +408,11 @@ class AppState extends VuexModule implements IAppState {
 
     @Mutation
     private ADD_TARGET(t: Target) {
+      if ( this.targets.some(e => e.id === t.id ) ) {
+
+      } else {
         this.targets.push(t);
+      }
     }
 
     @Mutation
