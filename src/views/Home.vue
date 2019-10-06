@@ -46,31 +46,9 @@
     <h3>{{tt(LANG_TARGETS)}}</h3>
     <b-list-group>
       <b-list-group-item v-for="(t, i) in targets">
-        <b-button-group class="d-flex">
-          <b-button class="flex-fill w-100">{{tp(products[t.id])}}</b-button>
 
-          <b-input-group :prepend="tt(LANG_AMOUNT)" class="ml-1">
-            <b-form-input type="number" class="input-number" :value="t.amount"
-                          @input="changeTargetAmount(i, $event)"></b-form-input>
-          </b-input-group>
+          <ProductForm :key="i" :value="t" deletable="true" @input="updateTarget(i, $event)" @delete="removeTarget(i)"></ProductForm>
 
-          <b-input-group prepend="per" :append="tt(LANG_DAYS)" class="ml-1">
-            <b-form-input type="number" class="input-number" :value="t.days" @input="changeTargetDays(i, $event)"></b-form-input>
-          </b-input-group>
-
-          <b-input-group append="%" class="ml-1">
-            <b-form-input type="number" :value="t.demand * 100" min="0" class="input-number"
-                          placeholder="demand"
-                          @input="changeTargetDemand(i, $event)"></b-form-input>
-          </b-input-group>
-
-
-          <b-input-group :prepend="tt(LANG_SALEPRICE)" append="$">
-            <b-form-input readonly :value="productPrice(t.id) * t.demand | cost"></b-form-input>
-          </b-input-group>
-
-          <b-button-close variant="danger" size="lg" @click="removeTarget(i)"></b-button-close>
-        </b-button-group>
       </b-list-group-item>
     </b-list-group>
 
@@ -329,17 +307,10 @@ export default class Home extends Mixins(Const) {
     appState.removeTarget(i);
   }
 
-  changeTargetAmount(tid: number, amount: string) {
-    appState.setTargetAmount([tid, parseInt(amount)]);
+  updateTarget(tid: number, value: any) {
+    console.log(value);
+    appState.setTarget([tid, value]);
   }
-
-  changeTargetDays(tid: number, amount: string) {
-    appState.setTargetDays([tid, parseInt(amount)]);
-  }
-
-    changeTargetDemand(tid: number, d: string) {
-      appState.setTargetDemand([tid, parseInt(d) / 100]);
-    }
 
   onTechSwitch(tech: string, value: boolean) {
     appState.switchTech([tech, value]);

@@ -1,6 +1,6 @@
 <template>
 
-  <div class="d-flex">
+  <b-button-group class="d-flex">
     <b-button v-if="value.id !== undefined" :size="size" class="flex-fill w-100">{{tp(products[value.id])}}</b-button>
     <b-button v-else :size="size" variant="primary" v-b-toggle.recipe-select>+</b-button>
 
@@ -27,7 +27,13 @@
                     :value="value.demand * 100"
                     @input="updateTarget('demand', parseInt($event)/100)" ></b-form-input>
     </b-input-group>
-  </div>
+
+    <b-input-group v-if="value.id !== undefined" :prepend="tt(LANG_SALEPRICE)" append="$">
+      <b-form-input readonly :value="productPrice(value.id) * value.demand | cost"></b-form-input>
+    </b-input-group>
+
+    <b-button-close v-if="deletable" variant="danger" size="lg" @click="$emit('delete')"></b-button-close>
+  </b-button-group>
 </template>
 
 <script lang="ts">
@@ -43,6 +49,9 @@
 
     get tp() { return appState.tp; }
     get tt() { return appState.t; }
+    get products() { return appState.products; }
+
+    get productPrice() { return (prodId: number): number => Math.round(appState.productPrice(prodId)); }
 
     updateTarget(field: string, value: any) {
       this.$emit('input', {

@@ -357,21 +357,15 @@ class AppState extends VuexModule implements IAppState {
         return id;
     }
 
-    @Action({ commit: 'SET_TARGET_AMOUNT', rawError: true})
-    public setTargetAmount([id, am]: [number, number]) {
-        return [id, am > 0 ? am : 0];
+    @Action({ commit: 'SET_TARGET', rawError: true})
+    public setTarget([id, t]: [number, Target]) {
+        return [id, {
+          ...t,
+          amount: Math.max(0, t.amount),
+          days: Math.max(1, t.days),
+          demand: Math.max( 0.01, t.demand),
+        }];
     }
-
-    @Action({ commit: 'SET_TARGET_DAYS', rawError: true})
-    public setTargetDays([id, am]: [number, number]) {
-        return [id, am > 1 ? am : 1];
-    }
-
-    @Action({commit: 'SET_TARGET_DEMAND', rawError: true})
-    public setTargetDemand([id, d]: [number, number]) {
-        return [id, d > 0.01 ? d : 0.01];
-    }
-
 
     @Action({commit: 'SET_PRODUCTOPTIONS'})
     public setProductOptions(args: [number, number]) { return args; }
@@ -420,9 +414,7 @@ class AppState extends VuexModule implements IAppState {
         this.targets.splice(i, 1);
     }
 
-    @Mutation private SET_TARGET_AMOUNT([tid, n]: [number, number]) { this.targets[tid].amount = n; }
-    @Mutation private SET_TARGET_DAYS([tid, n]: [number, number]) { this.targets[tid].days = n; }
-    @Mutation private SET_TARGET_DEMAND([tid, d]: [number, number]) { this.targets[tid].demand = d; }
+    @Mutation private SET_TARGET([tid, t]: [number, Target]) { this.targets.splice(tid, 1, t); }
 
     @Mutation private SET_LOCALE(data: {[key: string]: string}) { this.locale = data; }
     @Mutation private SET_LANG(lang: string) { this.language = lang; }
