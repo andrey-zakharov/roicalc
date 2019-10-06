@@ -402,8 +402,9 @@ class AppState extends VuexModule implements IAppState {
 
     @Mutation
     private ADD_TARGET(t: Target) {
-      if ( this.targets.some(e => e.id === t.id ) ) {
-
+      const exists = this.targets.findIndex(e => e.id === t.id );
+      if ( exists !== -1 ) {
+        this.targets.splice(exists, 1, t);
       } else {
         this.targets.push(t);
       }
