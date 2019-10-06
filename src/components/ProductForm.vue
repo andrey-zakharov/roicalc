@@ -43,9 +43,9 @@
 
   @Component
   export default class ProductForm extends Mixins(Const) {
-    @Prop() value: Target;
-    @Prop( {default: false }) deletable!: boolean;
-    @Prop( {default: 'md'} ) size: 'sm' | 'md' | 'lg';
+    @Prop({ required: true }) value!: Target;
+    @Prop({ default: false }) deletable!: boolean;
+    @Prop({ default: 'md' }) size!: 'sm' | 'md' | 'lg';
 
     get tp() { return appState.tp; }
     get tt() { return appState.t; }
