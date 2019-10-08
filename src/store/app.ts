@@ -189,16 +189,17 @@ class AppState extends VuexModule implements IAppState {
         const recipe = this.productRecipe(prodId);
 
         const recipeResult = recipe.result.find((r) => r.id === prodId)!;
+        const recipeDays = this.useSimpleRecipes ? Math.max(15, Math.round( recipe.gameDays / 15 ) * 15) : recipe.gameDays;
 
         // how many recipes we need to
         // console.log(targetAmount * recipe.gameDays / recipeResult.amount / targetDays, targetAmount, recipe.gameDays, recipeResult.amount, targetDays);
         const numRecipes = (typeof targetAmount === 'number' ? new Fraction(targetAmount) : targetAmount)
-            .mul(recipe.gameDays).div(recipeResult.amount).div(targetDays);
+            .mul(recipeDays).div(recipeResult.amount).div(targetDays);
 
         flow[recipe.id] = numRecipes;
 
         for ( const src of recipe.ingredients ) {
-            const sourcesFlow = this.flow(src.id, numRecipes.mul(src.amount), recipe.gameDays);
+            const sourcesFlow = this.flow(src.id, numRecipes.mul(src.amount), recipeDays);
             for (const srcId in sourcesFlow) {
                 flow[srcId] = (flow[srcId] || new Fraction(0)).add(sourcesFlow[srcId]);
             }
@@ -389,6 +390,10 @@ class AppState extends VuexModule implements IAppState {
     setTheme(theme: string) {
         return theme;
     }
+
+    @Action({commit: 'SET_SIMPLERECIPES'})
+    updateSimpleRecipes(v: boolean) { return v; }
+
     // M U T A T I O N S
 
     @Mutation private SET_PRODS(v: ProductDefinition[]) { this.products = Object.freeze(v); }
@@ -421,6 +426,7 @@ class AppState extends VuexModule implements IAppState {
     @Mutation private SET_LANG(lang: string) { this.language = lang; }
     @Mutation private SET_TECH([tech, v]: [string, boolean]) { Vue.set(this.technologies, tech, v); }
     @Mutation private SET_THEME(v: string) { this.theme = v; }
+    @Mutation private SET_SIMPLERECIPES(v: boolean) { this.useSimpleRecipes = v; }
 
 }
 

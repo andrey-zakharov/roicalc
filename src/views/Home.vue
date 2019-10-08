@@ -21,6 +21,8 @@
     </b-navbar>
 
     <b-collapse id="recipe-options" v-model="showOptions">
+      <b-form-checkbox :checked="useSimpleRecipes" @input="updateSimpleRecipes($event)" switch size="lg" button-variant="primary"></b-form-checkbox>
+
       <b-form-group v-for="(recid, pid) in options" :label="tp(products[pid])" :key="pid">
         <b-form-radio-group buttons button-variant="outline-primary" :checked="recid" @input="setProductRecipe(pid, $event)">
           <b-form-radio v-for="rid in products[pid].recipes" :value="rid">{{tb(buildings[recipes[rid].building])}}</b-form-radio>
@@ -88,7 +90,7 @@
         {{displayCost(scope) | cost}}
       </template>
     </tree-table>
-    <!--ul>
+    <!--ul>this.toggleStatus('Fold', row, rowIndex);
       <li v-for="(c, ci) in productCategories" v-if="Object.keys(resultOf(c.name)).length > 0" :key="c.name">
         <h2>{{c.categoryName}}</h2>
         <ul>
@@ -139,6 +141,7 @@ export default class Home extends Mixins(Const) {
               .reduce<Result>((obj: Result, key: number): Result => { obj[key] = appState.result[key]; return obj }, {})
     }
   }
+
   get techs() { return appState.technologies; }
 
   get language() { return appState.language; }
@@ -146,10 +149,15 @@ export default class Home extends Mixins(Const) {
 
   get productPrice() { return (prodId: number): number => Math.round(appState.productPrice(prodId)); }
   get totalProductPrices() {
+// console.log(Object.keys(appState.result).map(id=> appState.recipes[id]));
     return appState.targets.reduce((total, target) => {
       return total + appState.productPrice(target.id) * target.demand * target.amount / target.days;
     }, 0);
   }
+
+  get buildingsFlow() { return (recId: number ) => {
+    appState.recipes[recId].result.map(res=> res.amount )
+  }}
 
   get building() { return (recipeId: number): Building =>
       appState.recipes[recipeId].requiredModules.length ?
@@ -237,6 +245,8 @@ export default class Home extends Mixins(Const) {
   get tb() { return appState.tb; }
   get ttech() { return appState.ttech; }
 
+  get useSimpleRecipes() { return appState.useSimpleRecipes; }
+
   calcSummary(data: any, column: any, columnIndex: number) {
     if ( column.key === 'name') { return appState.t(this.LANG_TOTAL); }
     const total = data.reduce((t: number, row: any) => t + (parseInt(row['cost']) || 0), 0);
@@ -296,7 +306,6 @@ export default class Home extends Mixins(Const) {
   }
 
   async addTarget(prod: ProductDefinition) {
-    console.log(this.newTarget);
     await appState.addTarget([prod, this.newTarget.amount, this.newTarget.days, this.newTarget.demand]);
     // await appState.setTargetAmount(this.targetAmount); // per 15 days
     this.showSelect = false;
@@ -308,7 +317,6 @@ export default class Home extends Mixins(Const) {
   }
 
   updateTarget(tid: number, value: any) {
-    console.log(value);
     appState.setTarget([tid, value]);
   }
 
@@ -318,6 +326,10 @@ export default class Home extends Mixins(Const) {
 
   themeChanged(v: string) {
     appState.setTheme(v);
+  }
+
+  updateSimpleRecipes( v: boolean ) {
+    appState.updateSimpleRecipes(v);
   }
 
 }
