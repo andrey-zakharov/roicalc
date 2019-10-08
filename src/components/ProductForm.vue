@@ -2,7 +2,7 @@
 
   <b-button-group class="d-flex">
     <b-button v-if="value.id !== undefined" :size="size" class="flex-fill w-100">{{tp(products[value.id])}}</b-button>
-    <b-button v-else :size="size" variant="primary" v-b-toggle.recipe-select>+</b-button>
+    <b-button v-else :size="size" variant="primary" v-b-toggle.recipe-select id="add-button">+</b-button>
 
     <b-input-group :size="size" class="ml-1" :prepend="tt(LANG_AMOUNT)">
       <b-form-input class="input-number" type="number" ref="amount" placeholder="amount"
@@ -61,6 +61,6 @@
   }
 </script>
 
-<style lang="scss" scoped>
-
+<style lang="scss">
+  #add-button { font-size: 3.5rem; padding: 0 1rem;  line-height: 0.5; }
 </style>

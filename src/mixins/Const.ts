@@ -12,4 +12,7 @@ export default class COnst extends Vue {
   readonly LANG_MARKETVALUE = 'ui.fullscreenpanels.buildingproductionoverview.productinfo.viewport.content.productinfo.infoarea.columntitles.marketvalue';
   // readonly LANG_DAYS = 'ui.windows._static_recipebookpanel.panel.recipepanelarea.recipediagramarea.recipeproductiontimearea.producetimeamount';
   readonly LANG_AMOUNT = 'tooltipcanvas.producttooltip.content.amountneeded';
+  readonly LANG_SETTINGS = 'mainmenu.wrapper.navigation.main.settingslink';
+  readonly LANG_SIMPLE_RECIPES = 'difficultyoptionbool.easychains.displayname';
+  readonly LANG_SIMPLE_RECIPES_DESC = 'difficultyoptionbool.easychains.description';
 }

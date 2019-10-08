@@ -7,7 +7,7 @@
 
         <ProductForm size="lg" v-model="newTarget"></ProductForm>
 
-        <b-button v-b-toggle.recipe-options  size="lg"  class="ml-1" variant="outline-primary">options</b-button>
+        <b-button v-b-toggle.recipe-options  size="lg"  class="ml-1" variant="outline-primary">{{tt(LANG_SETTINGS)}}</b-button>
       </b-nav-form>
       <b-nav-form>
         <b-radio-group :options="['light', 'dark']" buttons button-variant="outline-primary"
@@ -21,7 +21,9 @@
     </b-navbar>
 
     <b-collapse id="recipe-options" v-model="showOptions">
-      <b-form-checkbox :checked="useSimpleRecipes" @input="updateSimpleRecipes($event)" switch size="lg" button-variant="primary"></b-form-checkbox>
+      <b-form-checkbox :checked="useSimpleRecipes" @input="updateSimpleRecipes($event)" switch size="lg"
+                       :title="tt(LANG_SIMPLE_RECIPES_DESC)"
+                       button-variant="primary">{{tt(LANG_SIMPLE_RECIPES)}}</b-form-checkbox>
 
       <b-form-group v-for="(recid, pid) in options" :label="tp(products[pid])" :key="pid">
         <b-form-radio-group buttons button-variant="outline-primary" :checked="recid" @input="setProductRecipe(pid, $event)">
@@ -78,7 +80,7 @@
             { title: tt(LANG_MARKETVALUE), key: 'flow' },
             { title: tt(LANG_BUILDINGCOST) + ', $', key: 'cost', type: 'template', template: 'cost' },
           ]"
-          :is-fold="true"
+          :is-fold="false"
           :selectable="false"
           :expand-type="false"
           :show-summary = "true"
