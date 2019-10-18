@@ -1,101 +1,126 @@
 [ {
-    "name": "BoatDepot", "uiOrder": 0,
+    "name": "BoatDepot", 
+    "uiOrder": 0,
     "categoryName": "Boat Depot",
     "parentCategory": "LogisticsBuildings"
 }, {
-    "name": "CoastalGatherers", "uiOrder": 0,
+    "name": "CoastalGatherers", 
+    "uiOrder": 0,
     "categoryName": "Coastal Gatherers",
     "parentCategory": "GathererBuildings"
 }, {
-    "name": "CoastHarvester", "uiOrder": 0,
+    "name": "CoastHarvester", 
+    "uiOrder": 0,
     "categoryName": "",
     "parentCategory": "Harvester"
 }, {
-    "name": "Commercial", "uiOrder": 0,
+    "name": "Commercial", 
+    "uiOrder": 0,
     "categoryName": "Commercial",
     "parentCategory": ""
 }, {
-    "name": "Factories", "uiOrder": 0,
+    "name": "Factories", 
+    "uiOrder": 0,
     "categoryName": "Factories",
     "parentCategory": ""
 }, {
-    "name": "Farms", "uiOrder": 0,
+    "name": "Farms", 
+    "uiOrder": 0,
     "categoryName": "Farms",
     "parentCategory": ""
 }, {
-    "name": "Field", "uiOrder": 0,
+    "name": "Field", 
+    "uiOrder": 0,
     "categoryName": "Field",
     "parentCategory": ""
 }, {
-    "name": "GathererBuildings", "uiOrder": 0,
+    "name": "GathererBuildings", 
+    "uiOrder": 0,
     "categoryName": "GATHERERS",
     "parentCategory": ""
 }, {
-    "name": "Harvester", "uiOrder": 0,
+    "name": "Harvester", 
+    "uiOrder": 0,
     "categoryName": "Harvester",
     "parentCategory": ""
 }, {
-    "name": "LandGatherers", "uiOrder": 0,
+    "name": "LandGatherers", 
+    "uiOrder": 0,
     "categoryName": "Land-Based Gatherers",
     "parentCategory": "GathererBuildings"
 }, {
-    "name": "LogisticsBuildings", "uiOrder": 0,
+    "name": "LogisticsBuildings", 
+    "uiOrder": 0,
     "categoryName": "Logistics Buildings",
     "parentCategory": ""
 }, {
-    "name": "OffshoreGatherers", "uiOrder": 0,
+    "name": "OffshoreGatherers", 
+    "uiOrder": 0,
     "categoryName": "Offshore Gatherers",
     "parentCategory": "GathererBuildings"
 }, {
-    "name": "Residential", "uiOrder": 0,
+    "name": "Residential", 
+    "uiOrder": 0,
     "categoryName": "Residential",
     "parentCategory": ""
 }, {
-    "name": "State", "uiOrder": 0,
+    "name": "State", 
+    "uiOrder": 0,
     "categoryName": "State",
     "parentCategory": ""
 }, {
-    "name": "TownCenter", "uiOrder": 0,
+    "name": "TownCenter", 
+    "uiOrder": 0,
     "categoryName": "Town Center",
     "parentCategory": ""
 }, {
-    "name": "TrainTerminal", "uiOrder": 0,
+    "name": "TrainTerminal", 
+    "uiOrder": 0,
     "categoryName": "Train Terminal",
     "parentCategory": "LogisticsBuildings"
 }, {
-    "name": "TruckDepot", "uiOrder": 0,
+    "name": "TruckDepot", 
+    "uiOrder": 0,
     "categoryName": "Truck Depot",
     "parentCategory": "LogisticsBuildings"
 }, {
-    "name": "ZeppelinStation", "uiOrder": 0,
+    "name": "ZeppelinStation", 
+    "uiOrder": 0,
     "categoryName": "Zeppelin Station",
     "parentCategory": "LogisticsBuildings"
 }, {
-    "name": "Headquarters", "uiOrder": 0,
+    "name": "Headquarters", 
+    "uiOrder": 0,
     "categoryName": "Headquarters",
     "parentCategory": ""
 }, {
-    "name": "Prototype Factories", "uiOrder": 0,
+    "name": "Prototype Factories", 
+    "uiOrder": 0,
     "categoryName": "Prototype Factories",
     "parentCategory": "HeavyIndustry"
 }, {
-    "name": "RuralIndustry", "uiOrder": 0,
+    "name": "RuralIndustry", 
+    "uiOrder": 0,
     "categoryName": "Rural Industry",
     "parentCategory": "Factories"
 }, {
-    "name": "Warehouse", "uiOrder": 0,
+    "name": "Warehouse", 
+    "uiOrder": 0,
     "categoryName": "Warehouse",
     "parentCategory": "LogisticsBuildings"
 }, {
-    "name": "PollutionManagement", "uiOrder": 0,
+    "name": "PollutionManagement", 
+    "uiOrder": 0,
     "categoryName": "Pollution Management",
     "parentCategory": ""
 }, {
-    "name": "LightIndustry", "uiOrder": 1,
+    "name": "LightIndustry", 
+    "uiOrder": 1,
     "categoryName": "Light Industry",
     "parentCategory": "Factories"
 }, {
-    "name": "HeavyIndustry", "uiOrder": 2,
+    "name": "HeavyIndustry", 
+    "uiOrder": 2,
     "categoryName": "Heavy Industry",
     "parentCategory": "Factories"
 }] 
