@@ -40,8 +40,8 @@
     <b-collapse id="recipe-select" v-model="showSelect">
       <b-nav>
         <b-nav-item v-for="(c, i) in productCategories" :key="c.name" >
-          <b-dropdown :text="tpc(c.name) || c.categoryName" variant="outline-primary" lazy menu-class="columns">
-            <b-dropdown-item v-for="(p, ip) in productsOf(c.name)" :key="p.name" @click="addTarget(p)">{{tp(p)}}</b-dropdown-item>
+          <b-dropdown :text="tpc(c.name) || c.categoryName" variant="outline-primary" lazy :menu-class="[ productsOf(c.name).length > 10 ? 'columns' :'']">
+            <b-dropdown-item v-for="(p, ip) in productsOf(c.name)" :key="p.name" @click="addTarget(p)" :title="tp(p)">{{tp(p)}}</b-dropdown-item>
           </b-dropdown>
         </b-nav-item>
       </b-nav>
@@ -315,6 +315,25 @@ export default class Home extends Mixins(Const) {
 <style lang="scss">
   .input-number { max-width: 4em;}
   table { font-size: 150%; }
+  .columns {
+    column-count: 3;
+  }
+/*  .columns.dropdown-menu.show {
+    display: flex;
+    flex-wrap: wrap;
+    width: 305px;
+    padding: 20px 6px;
+  }
+
+  .columns .dropdown-item {
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border: 2px solid rgb(200, 124, 13);
+    margin: 8px 6px;
+  }*/
+
   /*.columns.show {*/
     /*display: flex;*/
     /*flex-flow: wrap column;*/
