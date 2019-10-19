@@ -915,7 +915,7 @@
     "name": "WaterGatherer",
     "displayName": "WATER SIPHON",
     "description": "The Water Siphon uses Harvesters to collect units of Water from any body of Water on the map.", 
-    "baseCost": 150000,
+    "baseCost": 125000,
     "category": "CoastalGatherers",
     "svgIcon": "tool-gatherer-water-siphon-small",
     "constructionBarIcon": "ui-building-gatherer-watersiphon",
@@ -926,14 +926,14 @@
         "monthlyUpkeep": "buildingCost * 0.025",
         "minUpkeep": 0.25,
         "buildingCostPercentage": 0.025,
-        "totalMonthlyUpkeep": 3750
+        "totalMonthlyUpkeep": 3125
     }
     
 }, {
     "name": "WaterHarvester",
     "displayName": "WATER PUMP",
     "description": "", 
-    "baseCost": 100000,
+    "baseCost": 75000,
     "category": "CoastHarvester",
     "svgIcon": "",
     "constructionBarIcon": "",
@@ -941,7 +941,7 @@
     "tags": [ "Module"] ,
     "availableRecipes": []
     
-    ,"moduleUpkeep": 2500
+    ,"moduleUpkeep": 1875
 }, {
     "name": "WheatField",
     "displayName": "WHEAT FIELD",
@@ -1551,7 +1551,7 @@
     "name": "WaterWellHarvester",
     "displayName": "WATER WELL HARVESTER",
     "description": "", 
-    "baseCost": 75000,
+    "baseCost": 100000,
     "category": "Harvester",
     "svgIcon": "",
     "constructionBarIcon": "",
@@ -1559,7 +1559,7 @@
     "tags": [ "Module"] ,
     "availableRecipes": []
     
-    ,"moduleUpkeep": 1875
+    ,"moduleUpkeep": 2500
 }, {
     "name": "WaterTower",
     "displayName": "IRRIGATION TOWER",
@@ -1582,7 +1582,7 @@
     "name": "WaterWell",
     "displayName": "WATER WELL",
     "description": "The Water Well uses Harvesters to collect units of Water from underground.", 
-    "baseCost": 125000,
+    "baseCost": 150000,
     "category": "LandGatherers",
     "svgIcon": "tool-gatherer-water-well-small",
     "constructionBarIcon": "ui-building-gatherer-water-well",
@@ -1593,7 +1593,7 @@
         "monthlyUpkeep": "buildingCost * 0.025",
         "minUpkeep": 0.25,
         "buildingCostPercentage": 0.025,
-        "totalMonthlyUpkeep": 3125
+        "totalMonthlyUpkeep": 3750
     }
     
 }, {
