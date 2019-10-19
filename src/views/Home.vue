@@ -1,6 +1,6 @@
 <template>
-
   <div>
+    <header class="sticky-top">
     <!--<b-dropdown size="lg" :text="targetProduct">-->
     <b-navbar>
       <b-nav-form class="flex-fill">
@@ -55,55 +55,31 @@
 
       </b-list-group-item>
     </b-list-group>
+    </header>
 
-
-    <!--<option v-for="(p, i) in products" :key="i">{{p.name}}</option>-->
-    <!--</b-dropdown>-->
-    <!--select>
-      <option v-for="(r, i) in recipes" :key="i">{{r.name}}</option>
-    </select>
-
-
-    <h3>categories</h3>
-    {{categories}}
-
-    <h3>products</h3>
-    <ul>
-      <li v-for="p in products">{{p}}</li>
-    </ul-->
-    <h1>result</h1>
-    <tree-table
-          :data = "treeItems"
-          :columns="[
-            { title: tt(LANG_BUILDINGS), key:'name' },
-            // { title: 'recipes', key: 'flow', width: '100px' },
-            { title: tt(LANG_MARKETVALUE), key: 'flow' },
-            { title: tt(LANG_BUILDINGCOST) + ', $', key: 'cost', type: 'template', template: 'cost' },
-          ]"
-          :is-fold="false"
-          :selectable="false"
-          :expand-type="false"
-          :show-summary = "true"
-          :summary-method="calcSummary"
-          empty-text="no results"
-          sum-text="Total"
-    >
-      <template slot="cost" scope="scope">
-        {{displayCost(scope) | cost}}
-      </template>
-    </tree-table>
-    <!--ul>this.toggleStatus('Fold', row, rowIndex);
-      <li v-for="(c, ci) in productCategories" v-if="Object.keys(resultOf(c.name)).length > 0" :key="c.name">
-        <h2>{{c.categoryName}}</h2>
-        <ul>
-          <li v-for="(v, k) in resultOf(c.name)" :key="k"><ProductResult :recipeId="k" :flow="v"></ProductResult> = 1</li>
-        </ul>
-      </li>
-
-    </ul-->
-
-    <!--h3>opts</h3>
-    {{options}}-->
+    <main>
+      <h1>Result</h1>
+      <tree-table
+            :data = "treeItems"
+            :columns="[
+              { title: tt(LANG_BUILDINGS), key:'name' },
+              // { title: 'recipes', key: 'flow', width: '100px' },
+              { title: tt(LANG_MARKETVALUE), key: 'flow' },
+              { title: tt(LANG_BUILDINGCOST) + ', $', key: 'cost', type: 'template', template: 'cost' },
+            ]"
+            :is-fold="false"
+            :selectable="false"
+            :expand-type="false"
+            :show-summary = "true"
+            :summary-method="calcSummary"
+            empty-text="no results"
+            sum-text="Total"
+      >
+        <template slot="cost" scope="scope">
+          {{displayCost(scope) | cost}}
+        </template>
+      </tree-table>
+    </main>
 </div>
 
 
