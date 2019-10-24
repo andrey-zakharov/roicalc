@@ -15,4 +15,5 @@ export default class COnst extends Vue {
   readonly LANG_SETTINGS = 'mainmenu.wrapper.navigation.main.settingslink';
   readonly LANG_SIMPLE_RECIPES = 'difficultyoptionbool.easychains.displayname';
   readonly LANG_SIMPLE_RECIPES_DESC = 'difficultyoptionbool.easychains.description';
+  readonly LANG_BUDGET = 'ui.fullscreenpanels.budgetpanel.sidebar.scrollviewfilterarea.viewport.content.totalbudget.category.active.filtertext';
 }

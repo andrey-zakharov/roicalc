@@ -59,7 +59,7 @@
     </header>
 
     <main>
-      <h1>Result</h1>
+      <h3>{{tt(LANG_BUDGET)}}</h3>
       <tree-table
             :data = "treeItems"
             :columns="[
