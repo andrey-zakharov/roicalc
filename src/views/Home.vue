@@ -323,7 +323,7 @@ export default class Home extends Mixins(Const) {
 </script>
 <style lang="scss">
   .input-number { max-width: 4em;}
-  table { font-size: 150%; }
+  table { font-size: 120%; }
   .columns {
     column-count: 3;
   }
