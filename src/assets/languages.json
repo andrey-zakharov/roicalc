@@ -1,33 +1,23 @@
 [ {
-    "keycode": "en-US",
-    "name": "langdata_gamedata_en-us",
-    "displayName": "English",
-    "langName": "lang_en-US"
-}, {
     "keycode": "de-DE",
     "name": "langdata_gamedata_de-de",
     "displayName": "Deutsch",
     "langName": "lang_de-DE"
 }, {
-    "keycode": "ru-RU",
-    "name": "langdata_gamedata_ru-ru",
-    "displayName": "Pусский",
-    "langName": "lang_ru-RU"
-}, {
-    "keycode": "zh-Hans",
-    "name": "langdata_gamedata_zh-hans",
-    "displayName": "中文",
-    "langName": "lang_zh-Hans"
-}, {
-    "keycode": "fr-FR",
-    "name": "langdata_gamedata_fr-fr",
-    "displayName": "Français",
-    "langName": "lang_fr-FR"
+    "keycode": "en-US",
+    "name": "langdata_gamedata_en-us",
+    "displayName": "English",
+    "langName": "lang_en-US"
 }, {
     "keycode": "es-ES",
     "name": "langdata_gamedata_es-es",
     "displayName": "Español",
     "langName": "lang_es-ES"
+}, {
+    "keycode": "fr-FR",
+    "name": "langdata_gamedata_fr-fr",
+    "displayName": "Français",
+    "langName": "lang_fr-FR"
 }, {
     "keycode": "it-IT",
     "name": "langdata_gamedata_it-it",
@@ -38,4 +28,14 @@
     "name": "langdata_gamedata_pt-br",
     "displayName": "Português",
     "langName": "lang_pt-BR"
+}, {
+    "keycode": "ru-RU",
+    "name": "langdata_gamedata_ru-ru",
+    "displayName": "Pусский",
+    "langName": "lang_ru-RU"
+}, {
+    "keycode": "zh-Hans",
+    "name": "langdata_gamedata_zh-hans",
+    "displayName": "中文",
+    "langName": "lang_zh-Hans"
 }] 

@@ -8,4 +8,4 @@ export interface IRootState {
 }
 
 
-export default new Vuex.Store<IRootState>({});
+export default new Vuex.Store<IRootState>({ strict: true });

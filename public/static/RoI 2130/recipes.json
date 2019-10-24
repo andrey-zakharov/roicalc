@@ -1,0 +1,1126 @@
+[ {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Actuators Recipe",
+        "displayName": "Actuators",
+        "description": "Actuators Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Titanium", "amount": 1 }, { "productName": "Gold", "amount": 1 }],
+        "result": [{ "productName": "Actuators", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "2130-icn-product-actuators"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Antibacterial Pill Recipe",
+        "displayName": "Antibacterial Pill",
+        "description": "Antibacterial Pill Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Antibacterial Solution", "amount": 2 }, { "productName": "Silica", "amount": 1 }],
+        "result": [{ "productName": "Antibacterial Pill", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-pill-antibacterial"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Antibacterial Solution Recipe",
+        "displayName": "Antibacterial Solution",
+        "description": "Antibacterial Solution Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Microbial Culture", "amount": 1 }, { "productName": "Tholins", "amount": 1 }, { "productName": "Hyper Bacterial Culture", "amount": 1 }],
+        "result": [{ "productName": "Antibacterial Solution", "amount": 1 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-solution-antibacterial"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Antiviral Pill Recipe",
+        "displayName": "Antiviral Pill",
+        "description": "Antiviral Pill Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Antiviral Solution", "amount": 2 }, { "productName": "Silica", "amount": 1 }],
+        "result": [{ "productName": "Antiviral Pill", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-pill-antiviral"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Antiviral Solution Recipe",
+        "displayName": "Antiviral Solution",
+        "description": "Antiviral Solution Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Microbial Culture", "amount": 1 }, { "productName": "Tholins", "amount": 1 }, { "productName": "K1ll-411 Virus Culture", "amount": 1 }],
+        "result": [{ "productName": "Antiviral Solution", "amount": 1 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-solution-antiviral"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Auxiliary-Arm Attachment Recipe",
+        "displayName": "Auxiliary-Arm Attachment",
+        "description": "Auxiliary-Arm Attachment Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Cyberlimb Mechanism", "amount": 1 }, { "productName": "Nuclear Power Cells", "amount": 1 }],
+        "result": [{ "productName": "Auxiliary-Arm Extension", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-actuator-arm-attachment"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Binary Quark Gate",
+        "displayName": "Binary Quark Gate",
+        "description": "Binary Quark Gate (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Quartz Solution", "amount": 2 }, { "productName": "Synthetic Resin", "amount": 1 }],
+        "result": [{ "productName": "Binary Quark Gate", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-binary-quark-gate"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Bio Memory Cells",
+        "displayName": "Bio Memory Cells",
+        "description": "Bio Memory Cells (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Thermoplastic", "amount": 2 }, { "productName": "Tholin Gel", "amount": 3 }],
+        "result": [{ "productName": "Bio Memory Cells", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-bio-memory-cells"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "BioLEDs Recipe",
+        "displayName": "BioLEDs",
+        "description": "BioLEDs Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Thorium", "amount": 2 }, { "productName": "Cellulose Algae", "amount": 2 }],
+        "result": [{ "productName": "BioLEDs", "amount": 1 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-bio-leds"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Blue Gamma Laser Recipe",
+        "displayName": "Blue Gamma Laser",
+        "description": "Blue Gamma Laser Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Blue Quartz Crystal", "amount": 2 }, { "productName": "BioLEDs", "amount": 2 }, { "productName": "Steel Cases", "amount": 1 }],
+        "result": [{ "productName": "Blue Gamma Laser", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-laser-blue-gamma"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Blue Quartz Crystal",
+        "displayName": "Blue Quartz Crystal",
+        "description": "Blue Quartz Crystal (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Polymers", "amount": 2 }, { "productName": "Quartz Solution", "amount": 1 }, { "productName": "Silica", "amount": 1 }],
+        "result": [{ "productName": "Blue Quartz Crystal", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-quartz-crystal-blue"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Bone Growth Material Recipe",
+        "displayName": "Bone Growth Material",
+        "description": "Bone Growth Material Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Regenerative Solution", "amount": 2 }, { "productName": "High Fiber Tissue", "amount": 1 }],
+        "result": [{ "productName": "Bone Growth Material", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-bone-growth-material"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Carbon Fibers Tow",
+        "displayName": "Carbon Fibers Tow",
+        "description": "Carbon Fibers Tow (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Thermoplastic", "amount": 3 }, { "productName": "Synthetic Resin", "amount": 2 }],
+        "result": [{ "productName": "Carbon Fibers Tow", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-carbon-fiber-tow"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Carbos Tissue",
+        "displayName": "Carbos Tissue",
+        "description": "Carbos Tissue (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "CarbosTissueField" }],
+        "ingredients": [{ "productName": "Cellulose Algae", "amount": 2 }],
+        "result": [{ "productName": "Carbos Tissue", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-tissue-carbos"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Cellulose Algae",
+        "displayName": "Cellulose Algae",
+        "description": "Cellulose Algae (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "CelluloseAlgaeField" }],
+        "ingredients": [],
+        "result": [{ "productName": "Cellulose Algae", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "2130-icn-product-algae-cellulose"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Collector Bot Recipe",
+        "displayName": "Collector Bot",
+        "description": "Collector Bot Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 40,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Red Quartz Crystal", "amount": 1 }, { "productName": "Light Robot Frame", "amount": 1 }, { "productName": "Nuclear Power Cells", "amount": 1 }],
+        "result": [{ "productName": "Collector Bot", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-robot-collector"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Complete Meal Paste Recipe",
+        "displayName": "Complete Meal Paste",
+        "description": "Complete Meal Paste Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Lean Protein Tissue", "amount": 1 }, { "productName": "High Fiber Tissue", "amount": 1 }, { "productName": "Carbos Tissue", "amount": 1 }],
+        "result": [{ "productName": "Complete Meal Paste", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-complete-meal-paste"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Concentrated Vitamns",
+        "displayName": "Concentrated Vitamns",
+        "description": "Concentrated Vitamns (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "ConcentratedVitaminsField" }],
+        "ingredients": [{ "productName": "Cellulose Algae", "amount": 2 }],
+        "result": [{ "productName": "Concentrated Vitamns", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-concentrated-vitamins"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Coolant",
+        "displayName": "Coolant",
+        "description": "Coolant (ProjectAutomata.Recipe)",
+        "gameDays": 20,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Polymers", "amount": 2 }],
+        "result": [{ "productName": "Coolant", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "2130-icn-product-coolant"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Cyberlimb Mechanism Recipe",
+        "displayName": "Cyberlimb Mechanism",
+        "description": "Cyberlimb Mechanism Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Actuators", "amount": 1 }, { "productName": "Steel Struts", "amount": 1 }],
+        "result": [{ "productName": "Cyberlimb Mechanism", "amount": 1 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-cyberlimb-mechanism"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Energy Rich Tissue",
+        "displayName": "Energy Rich Tissue",
+        "description": "Energy Rich Tissue (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "EnergyRichTissueField" }],
+        "ingredients": [{ "productName": "Primordial Algae", "amount": 2 }],
+        "result": [{ "productName": "Energy Rich Tissue", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-tissue-energy-rich"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Gold Recipe",
+        "displayName": "Gold",
+        "description": "Gold Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 15,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "GoldMineHarvester" }],
+        "ingredients": [],
+        "result": [{ "productName": "Gold", "amount": 1 }],
+        "tier": 0,
+        "svgIcon": "2130-icn-product-gold"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Gold Wire Recipe",
+        "displayName": "Gold Wire",
+        "description": "Gold Wire Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 20,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Gold", "amount": 2 }],
+        "result": [{ "productName": "Gold Wire", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "2130-icn-product-gold-wire"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Grav Field Generator Recipe",
+        "displayName": "Grav Field Generator",
+        "description": "Grav Field Generator Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Quartz Solution", "amount": 2 }, { "productName": "Titanium Cases", "amount": 1 }],
+        "result": [{ "productName": "Grav Field Generator", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-grav-field-generator"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Green Quartz Crystal",
+        "displayName": "Green Quartz Crystal",
+        "description": "Green Quartz Crystal (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Polymers", "amount": 2 }, { "productName": "Quartz Solution", "amount": 1 }, { "productName": "Silica", "amount": 1 }],
+        "result": [{ "productName": "Green Quartz Crystal", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-quartz-crystal-green"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Green Subatomic Laser Recipe",
+        "displayName": "Green Subatomic Laser",
+        "description": "Green Subatomic Laser Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Green Quartz Crystal", "amount": 2 }, { "productName": "BioLEDs", "amount": 1 }, { "productName": "Steel Cases", "amount": 1 }],
+        "result": [{ "productName": "Green Subatomic Laser", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-laser-green-subatomic"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Heavy Construction Bot Recipe",
+        "displayName": "Heavy Construction Bot",
+        "description": "Heavy Construction Bot Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Green Quartz Crystal", "amount": 1 }, { "productName": "Nuclear Power Cells", "amount": 1 }, { "productName": "Heavy Robot Frame", "amount": 1 }],
+        "result": [{ "productName": "Heavy Construction Bot", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-robot-heavy-construction"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Heavy Lifting Cyberleg Recipe",
+        "displayName": "Heavy Lifring Cyberleg",
+        "description": "Heavy Lifting Cyberleg Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Cyberlimb Mechanism", "amount": 1 }, { "productName": "Nuclear Power Cells", "amount": 1 }, { "productName": "Titanium Struts", "amount": 1 }],
+        "result": [{ "productName": "Heavy Lifting Cyberleg", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-heavylifting-cyberleg"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Heavy Mover Bot Recipe",
+        "displayName": "Heavy Mover Bot",
+        "description": "Heavy Mover Bot Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Nuclear Power Cells", "amount": 1 }, { "productName": "Grav Field Generator", "amount": 1 }, { "productName": "Heavy Robot Frame", "amount": 1 }],
+        "result": [{ "productName": "Heavy Mover Bot", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-robot-heavy-mover"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Heavy Robot Frame Recipe",
+        "displayName": "Heavy Robot Frame",
+        "description": "Heavy Robot Frame Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Actuators", "amount": 1 }, { "productName": "Titanium", "amount": 1 }],
+        "result": [{ "productName": "Heavy Robot Frame", "amount": 1 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-robot-heavy-frame"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "High Fiber Tissue",
+        "displayName": "High Fiber Tissue",
+        "description": "High Fiber Tissue (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "HighFiberTissueField" }],
+        "ingredients": [{ "productName": "Cellulose Algae", "amount": 1 }, { "productName": "Primordial Algae", "amount": 1 }],
+        "result": [{ "productName": "High Fiber Tissue", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-tissue-high-fiber"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Hodagrium Recipe",
+        "displayName": "Hodagrium",
+        "description": "Hodagrium Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Titanium", "amount": 1 }, { "productName": "Steel2130", "amount": 1 }, { "productName": "Gold", "amount": 1 }],
+        "result": [{ "productName": "Hodagrium", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "2130-icn-product-hodagrium"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Hyper Bacterial Culture",
+        "displayName": "Hyper Bacterial Culture",
+        "description": "Hyper Bacterial Culture (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "HyperBacterialCultureField" }],
+        "ingredients": [],
+        "result": [{ "productName": "Hyper Bacterial Culture", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "2130-icn-product-culture-bacterial"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "K1ll-411 Virus Culture",
+        "displayName": "K1ll-411 Virus Culture",
+        "description": "K1ll-411 Virus Culture (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "Kill-411VirusCultureField" }],
+        "ingredients": [],
+        "result": [{ "productName": "K1ll-411 Virus Culture", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "2130-icn-product-culture-virus"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Laser Control System",
+        "displayName": "Laser Control System",
+        "description": "Laser Control System (ProjectAutomata.Recipe)",
+        "gameDays": 120,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Verteron Particle Infuser", "amount": 1 }, { "productName": "StructuralDisassembler", "amount": 1 }, { "productName": "Nuclear Power Cells", "amount": 1 }],
+        "result": [{ "productName": "Laser Control System", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-thorium-laser-control-system"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Lean Protein Tissue",
+        "displayName": "Lean Protein Tissue",
+        "description": "Lean Protein Tissue (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "LeanProteinTissueField" }],
+        "ingredients": [{ "productName": "Primordial Algae", "amount": 2 }],
+        "result": [{ "productName": "Lean Protein Tissue", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-tissue-lean-protein"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Light Construction Bot Recipe",
+        "displayName": "Light Construction Bot",
+        "description": "Light Construction Bot Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 40,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Green Quartz Crystal", "amount": 1 }, { "productName": "Light Robot Frame", "amount": 1 }, { "productName": "Nuclear Power Cells", "amount": 1 }],
+        "result": [{ "productName": "Light Construction Bot", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-robot-light-construction"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Light Robot Frame Recipe",
+        "displayName": "Light Robot Frame",
+        "description": "Light Robot Frame Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Actuators", "amount": 1 }, { "productName": "MicroChips", "amount": 1 }, { "productName": "Steel Struts", "amount": 1 }],
+        "result": [{ "productName": "Light Robot Frame", "amount": 1 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-robot-light-frame"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Medi-Bot Recipe",
+        "displayName": "Medi-Bot",
+        "description": "Medi-Bot Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Blue Quartz Crystal", "amount": 1 }, { "productName": "Light Robot Frame", "amount": 1 }, { "productName": "Regenerative Solution", "amount": 1 }],
+        "result": [{ "productName": "Medi-Bot", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-robot-medic"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Microbial Culture Recipe",
+        "displayName": "Microbial Culture",
+        "description": "Microbial Culture Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Polymers", "amount": 1 }, { "productName": "Silica", "amount": 1 }],
+        "result": [{ "productName": "Microbial Culture", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "2130-icn-product-culture-microbial"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "MicroChips Recipe",
+        "displayName": "Microchips",
+        "description": "MicroChips Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Silica", "amount": 1 }, { "productName": "Gold", "amount": 1 }],
+        "result": [{ "productName": "MicroChips", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "2130-icn-product-microchips"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Microfilament Frame",
+        "displayName": "Microfilament Frame",
+        "description": "Microfilament Frame (ProjectAutomata.Recipe)",
+        "gameDays": 120,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Carbon Fibers Tow", "amount": 2 }, { "productName": "Grav Field Generator", "amount": 2 }, { "productName": "Titanium Struts", "amount": 1 }],
+        "result": [{ "productName": "Microfilament Frame", "amount": 1 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-microfilament-frame"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Nanochips Recipe",
+        "displayName": "Nanochips",
+        "description": "Nanochips Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "MicroChips", "amount": 2 }, { "productName": "Binary Quark Gate", "amount": 2 }, { "productName": "Thermoplastic", "amount": 1 }],
+        "result": [{ "productName": "Nanochips", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-nanochips"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Neural Connectors",
+        "displayName": "Neural Connectors",
+        "description": "Neural Connectors (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Thermoplastic", "amount": 3 }, { "productName": "Gold Wire", "amount": 2 }],
+        "result": [{ "productName": "Neural Connectors", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-neural-connectors"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Neural Interface",
+        "displayName": "Neural Interface",
+        "description": "Neural Interface (ProjectAutomata.Recipe)",
+        "gameDays": 60,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Blue Gamma Laser", "amount": 1 }, { "productName": "Neural Connectors", "amount": 1 }, { "productName": "Bio Memory Cells", "amount": 1 }],
+        "result": [{ "productName": "Neural Interface", "amount": 1 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-neural-interface"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Nuclear Power Cells Recipe",
+        "displayName": "Nuclear Power Cells",
+        "description": "Nuclear Power Cells Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Thorium Rods", "amount": 1 }, { "productName": "Hodagrium", "amount": 1 }],
+        "result": [{ "productName": "Nuclear Power Cells", "amount": 1 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-nuclear-power-cell"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Organ Replacement",
+        "displayName": "Organ Replacement",
+        "description": "Organ Replacement (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Regenerative Solution", "amount": 2 }, { "productName": "Lean Protein Tissue", "amount": 1 }],
+        "result": [{ "productName": "Organ Replacements", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-organ-replacement"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "PolymerRecipe",
+        "displayName": "Polymer",
+        "description": "PolymerRecipe (ProjectAutomata.Recipe)",
+        "gameDays": 10,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "PolymerHarvester" }],
+        "ingredients": [],
+        "result": [{ "productName": "Polymers", "amount": 1 }],
+        "tier": 0,
+        "svgIcon": "2130-icn-product-polymers"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Primordial Algae",
+        "displayName": "Primordial Algae",
+        "description": "Primordial Algae (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "PrimordialAlgaeField" }],
+        "ingredients": [],
+        "result": [{ "productName": "Primordial Algae", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "2130-icn-product-algae-primordial"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Quantum Matrix",
+        "displayName": "Quantum Matrix",
+        "description": "Quantum Matrix (ProjectAutomata.Recipe)",
+        "gameDays": 120,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Neural Interface", "amount": 1 }, { "productName": "Theta Raw Processor", "amount": 1 }],
+        "result": [{ "productName": "Quantum Matrix", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-quantum-matrix"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Quartz Solution",
+        "displayName": "Quartz Solution",
+        "description": "Quartz Solution (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Silica", "amount": 1 }, { "productName": "Polymers", "amount": 1 }],
+        "result": [{ "productName": "Quartz Solution", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "2130-icn-product-solution-quartz"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Red Anti-Matter Laser Recipe",
+        "displayName": "Red- Anti-Matter Laser",
+        "description": "Red Anti-Matter Laser Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Red Quartz Crystal", "amount": 2 }, { "productName": "BioLEDs", "amount": 2 }, { "productName": "Steel Cases", "amount": 1 }],
+        "result": [{ "productName": "Red Anti-Matter Laser", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-laser-red-antimatter"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Red Quartz Crystal",
+        "displayName": "Red Quartz Crystal",
+        "description": "Red Quartz Crystal (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Polymers", "amount": 2 }, { "productName": "Quartz Solution", "amount": 1 }, { "productName": "Silica", "amount": 1 }],
+        "result": [{ "productName": "Red Quartz Crystal", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-quartz-crystal-red"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Regen Gel Recipe",
+        "displayName": "Regen Gel",
+        "description": "Regen Gel Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Regenerative Solution", "amount": 2 }, { "productName": "Silica", "amount": 1 }],
+        "result": [{ "productName": "Regen Gel", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-regen-gel"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Regenerative Solution Recipe",
+        "displayName": "Regenerative Solution",
+        "description": "Regenerative Solution Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Microbial Culture", "amount": 1 }, { "productName": "Tholins", "amount": 1 }, { "productName": "Primordial Algae", "amount": 1 }],
+        "result": [{ "productName": "Regenerative Solution", "amount": 1 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-solution-regenerative"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Replicator 5000",
+        "displayName": "Replicator 5000",
+        "description": "Replicator 5000 (ProjectAutomata.Recipe)",
+        "gameDays": 360,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Quantum Matrix", "amount": 1 }, { "productName": "Microfilament Frame", "amount": 1 }, { "productName": "Laser Control System", "amount": 1 }],
+        "result": [{ "productName": "Replicator 5000", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-replicator-5000"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "ScavengerRecipe",
+        "displayName": "Steel",
+        "description": "ScavengerRecipe (ProjectAutomata.Recipe)",
+        "gameDays": 15,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "RuinHarvester" }],
+        "ingredients": [],
+        "result": [{ "productName": "Steel2130", "amount": 1 }],
+        "tier": 0,
+        "svgIcon": "recipe-steel-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Silica Recipe",
+        "displayName": "Silica",
+        "description": "Silica Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 10,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "SilicaHarvester" }],
+        "ingredients": [],
+        "result": [{ "productName": "Silica", "amount": 1 }],
+        "tier": 0,
+        "svgIcon": "2130-icn-product-silica"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Steel Cases Recipe",
+        "displayName": "Steel Cases",
+        "description": "Steel Cases Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Steel2130", "amount": 2 }],
+        "result": [{ "productName": "Steel Cases", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "2130-icn-product-steel-cases"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Steel Struts Recipe",
+        "displayName": "Steel Struts",
+        "description": "Steel Struts Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Steel2130", "amount": 3 }],
+        "result": [{ "productName": "Steel Struts", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "2130-icn-product-steel-struts"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "StructuralDissemblerRecipe",
+        "displayName": "Structural Disassembler",
+        "description": "StructuralDissemblerRecipe (ProjectAutomata.Recipe)",
+        "gameDays": 60,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Red Anti-Matter Laser", "amount": 1 }, { "productName": "Auxiliary-Arm Extension", "amount": 1 }],
+        "result": [{ "productName": "StructuralDisassembler", "amount": 1 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-extradimensional-deconstructor"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Superconductor Recipe",
+        "displayName": "Superconductor",
+        "description": "Superconductor Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Hodagrium", "amount": 1 }, { "productName": "Coolant", "amount": 1 }],
+        "result": [{ "productName": "Superconductor", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-superconductor"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Synthetic Resin",
+        "displayName": "Synthetic Resin",
+        "description": "Synthetic Resin (ProjectAutomata.Recipe)",
+        "gameDays": 20,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Silica", "amount": 2 }],
+        "result": [{ "productName": "Synthetic Resin", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "2130-icn-product-synthetic-resin"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Thermoplastic",
+        "displayName": "Thermoplastic",
+        "description": "Thermoplastic (ProjectAutomata.Recipe)",
+        "gameDays": 20,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Silica", "amount": 2 }, { "productName": "Cellulose Algae", "amount": 3 }],
+        "result": [{ "productName": "Thermoplastic", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-thermo-plastic"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Theta Raw Processor",
+        "displayName": "Theta Raw Processor",
+        "description": "Theta Raw Processor (ProjectAutomata.Recipe)",
+        "gameDays": 60,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Superconductor", "amount": 1 }, { "productName": "Nanochips", "amount": 1 }],
+        "result": [{ "productName": "Theta Raw Processor", "amount": 1 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-theta-raw-processor"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Tholin Gel",
+        "displayName": "Tholin Gel",
+        "description": "Tholin Gel (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Tholins", "amount": 2 }, { "productName": "Silica", "amount": 1 }],
+        "result": [{ "productName": "Tholin Gel", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-tholin-gel"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Tholins",
+        "displayName": "Tholins",
+        "description": "Tholins (ProjectAutomata.Recipe)",
+        "gameDays": 20,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Polymers", "amount": 1 }, { "productName": "Primordial Algae", "amount": 1 }],
+        "result": [{ "productName": "Tholins", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "2130-icn-product-tholins"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Thorium Recipe",
+        "displayName": "Thorium",
+        "description": "Thorium Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 15,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "ThoriumMineHarvester" }],
+        "ingredients": [],
+        "result": [{ "productName": "Thorium", "amount": 1 }],
+        "tier": 0,
+        "svgIcon": "2130-icn-product-thorium"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Thorium Rods Recipe",
+        "displayName": "Thorium Rods",
+        "description": "Thorium Rods Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Thorium", "amount": 2 }],
+        "result": [{ "productName": "Thorium Rods", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "2130-icn-product-thorium-rods"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Titanium Cases Recipe",
+        "displayName": "Titanium Cases",
+        "description": "Titanium Cases Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Titanium", "amount": 1 }],
+        "result": [{ "productName": "Titanium Cases", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "2130-icn-product-titanium-cases"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Titanium Recipe",
+        "displayName": "Titanium",
+        "description": "Titanium Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 15,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "TitaniumHarvester" }],
+        "ingredients": [],
+        "result": [{ "productName": "Titanium", "amount": 1 }],
+        "tier": 0,
+        "svgIcon": "2130-icn-product-titanium"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Titanium Struts Recipe",
+        "displayName": "Titanium Struts",
+        "description": "Titanium Struts Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Titanium", "amount": 1 }],
+        "result": [{ "productName": "Titanium Struts", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "2130-icn-product-titanium-struts"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Utility Cyberarm Recipe",
+        "displayName": "Utility Cyberarm",
+        "description": "Utility Cyberarm Recipe (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Cyberlimb Mechanism", "amount": 1 }, { "productName": "Blue Quartz Crystal", "amount": 1 }],
+        "result": [{ "productName": "Utility Cyberarm", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-utility-cyberarm"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Verteron Particle Infuser",
+        "displayName": "Verteron Particle Infuser",
+        "description": "Verteron Particle Infuser (ProjectAutomata.Recipe)",
+        "gameDays": 60,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Green Subatomic Laser", "amount": 1 }, { "productName": "Auxiliary-Arm Extension", "amount": 1 }],
+        "result": [{ "productName": "Verteron Particle Infuser", "amount": 1 }],
+        "tier": 2,
+        "svgIcon": "2130-icn-product-verteron-particle-infuser"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Workers Meal Bar",
+        "displayName": "Worker's Meal Bar",
+        "description": "Workers Meal Bar (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Lean Protein Tissue", "amount": 1 }, { "productName": "Energy Rich Tissue", "amount": 1 }, { "productName": "Carbos Tissue", "amount": 1 }],
+        "result": [{ "productName": "Worker Meal Bar", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "2130-icn-product-workers-meal-bar"
+    }
+}] 

@@ -1,6 +1,6 @@
 <template>
 
-  <b-button-group class="d-flex">
+  <b-button-group class="d-flex" v-if="value !== undefined">
     <b-button v-if="value.id !== undefined" :size="size" class="flex-fill w-100">{{tp(products[value.id])}}</b-button>
     <b-button v-else :size="size" variant="primary" v-b-toggle.recipe-select id="add-button">+</b-button>
 

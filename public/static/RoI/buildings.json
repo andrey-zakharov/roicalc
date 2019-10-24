@@ -1,0 +1,1728 @@
+[ {
+    "name": "Headquarters",
+    "displayName": "Штаб-квартира",
+    "description": "Штаб-квартира — это центр управления вашим бизнесом, древом технологий, кредитами и контрактами.", 
+    "baseCost": 0,
+    "category": "Headquarters",
+    "svgIcon": "icn-hq-target (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-HQ-base (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-hq-base (UnityEngine.Sprite)",
+    "tags": [ ] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "State",
+    "displayName": "Государство",
+    "description": "", 
+    "baseCost": 0,
+    "category": "State",
+    "svgIcon": "tool-building-state (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-town-center (UnityEngine.Sprite)",
+    "tags": [ ] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "T1TownCentre",
+    "displayName": "Региональный центр",
+    "description": "", 
+    "baseCost": 0,
+    "category": "TownCenter",
+    "svgIcon": "icn-budget-subcat-settlement (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "bldg-bg-title-set-regional (UnityEngine.Sprite)",
+    "tags": [ ] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "T2TownCentre",
+    "displayName": "Городской центр",
+    "description": "", 
+    "baseCost": 0,
+    "category": "TownCenter",
+    "svgIcon": "icn-budget-subcat-settlement (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "bldg-bg-title-set-towncenter1 (UnityEngine.Sprite)",
+    "tags": [ ] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "T3TownCentre",
+    "displayName": "Городской центр",
+    "description": "", 
+    "baseCost": 0,
+    "category": "TownCenter",
+    "svgIcon": "icn-budget-subcat-settlement (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-town-center (UnityEngine.Sprite)",
+    "tags": [ ] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "WarehouseLogistical",
+    "displayName": "СКЛАД",
+    "description": "Склады используются в качестве центральных узлов для распределения продукции между зданиями в радиусе их действия или между другими складами с помощью запросов инфраструктуры.", 
+    "baseCost": 150000,
+    "category": "Warehouse",
+    "svgIcon": "2130-icn-bldg-logi-warehouse (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "2130-ui-conbar-logi-warehouse (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-logi-warehouse (UnityEngine.Sprite)",
+    "tags": [ "Logistics"] ,
+    "availableRecipes": []
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0,
+        "totalMonthlyUpkeep": 0
+    }
+    
+}, {
+    "name": "WarehouseLogisticalMirrored",
+    "displayName": "СКЛАД",
+    "description": "Склады используются в качестве центральных узлов для распределения продукции между зданиями в радиусе их действия или между другими складами с помощью запросов инфраструктуры.", 
+    "baseCost": 150000,
+    "category": "Warehouse",
+    "svgIcon": "2130-icn-bldg-logi-warehouse (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "2130-ui-conbar-logi-warehouse-mirrored (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-logi-warehouse (UnityEngine.Sprite)",
+    "tags": [ "Logistics"] ,
+    "availableRecipes": []
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0,
+        "totalMonthlyUpkeep": 0
+    }
+    
+}, {
+    "name": "AirPurifier",
+    "displayName": "Очиститель воздуха",
+    "description": "Очистители воздуха используют воду, добытую водными станциями или скважинами, для очистки окружающей территории от загрязнения.", 
+    "baseCost": 125000,
+    "category": "PollutionManagement",
+    "svgIcon": "tool-gatherer-gas-pump-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-pollution-air-purifier (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-pol-air-purifier (UnityEngine.Sprite)",
+    "tags": [ "PollutionManagement"] ,
+    "availableRecipes": []
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 3125
+    }
+    
+}, {
+    "name": "ApplesField",
+    "displayName": "ПОЛЕ ЯБЛОК",
+    "description": "", 
+    "baseCost": 100000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 2500
+}, {
+    "name": "Automotive Factory",
+    "displayName": "АВТОЗАВОД",
+    "description": "Автозаводы используют продукцию других секторов промышленности для производства компонентов, используемых в прототипах автомобиля на автосборочном заводе.", 
+    "baseCost": 2500000,
+    "category": "HeavyIndustry",
+    "svgIcon": "tool-factory-automotive-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-factory-car-mechanical (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-fac-car-mechanical (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["InteriorBody", "ExteriorBody", "BodyChassis", "Axles", "CombustionEngine", "RollingChassis"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 62500
+    }
+    
+}, {
+    "name": "BerryField",
+    "displayName": "ПОЛЯ ЯГОД",
+    "description": "", 
+    "baseCost": 125000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 3125
+}, {
+    "name": "Bookstore",
+    "displayName": "Книжный магазин",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "icn-shop-book-store (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "bldg-bg-title-shop-books (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "BreweryFactory",
+    "displayName": "ПИВОВАРНЯ И ВИННЫЙ ЗАВОД",
+    "description": "Пивоварни и винные заводы используют продукцию различных ферм для производства таких алкогольных напитков как пиво и водка, а также биотоплива.", 
+    "baseCost": 600000,
+    "category": "LightIndustry",
+    "svgIcon": "tool-factory-brewery-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-factory-brewery (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-fac-brewery (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["Yeast", "HardCider", "Beer", "Brandy", "Vodka", "Wine", "Biofuel", "GrainWhiskey"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 15000
+    }
+    
+}, {
+    "name": "CarStore",
+    "displayName": "МАГАЗИН ЗАПАСНЫХ ЧАСТЕЙ",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "icn-shop-car-parts (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "bldg-bg-title-shop-carparts (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-shop-car-parts (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "ChemicalScrubber",
+    "displayName": "Химический очиститель",
+    "description": "Химические очистители используют химикаты, производимые на нефтехимическом заводе, для очистки окружающей территории от загрязнения.", 
+    "baseCost": 325000,
+    "category": "PollutionManagement",
+    "svgIcon": "tool-factory-chemical-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-pollution-chemical-scrubber (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-pol-chemical-scrubber (UnityEngine.Sprite)",
+    "tags": [ "PollutionManagement"] ,
+    "availableRecipes": []
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 8125
+    }
+    
+}, {
+    "name": "ChickenField",
+    "displayName": "ПОЛЕ С КУРИЦАМИ",
+    "description": "", 
+    "baseCost": 150000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 3750
+}, {
+    "name": "ChocolateField",
+    "displayName": "ПОЛЕ С КАКАО-БОБАМИ",
+    "description": "", 
+    "baseCost": 125000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 3125
+}, {
+    "name": "ClothingStore",
+    "displayName": "Магазин одежды",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "icn-shop-tailor-store (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "bldg-bg-title-shop-clothes (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "CoalGatherer",
+    "displayName": "УГОЛЬНАЯ ШАХТА",
+    "description": "Угольная шахта с помощью сборщиков позволяет добывать уголь из месторождений угля на клетках земли в различных местах на карте.", 
+    "baseCost": 225000,
+    "category": "LandGatherers",
+    "svgIcon": "tool-gatherer-coal-mine-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-gatherer-coalmine (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-gath-coal (UnityEngine.Sprite)",
+    "tags": [ "PrebuiltGatherer", "Gatherer", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["CoalMine"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 5625
+    }
+    
+}, {
+    "name": "CoalMineHarvester",
+    "displayName": "УГОЛЬНЫЙ СБОРЩИК",
+    "description": "", 
+    "baseCost": 175000,
+    "category": "Harvester",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 4375
+}, {
+    "name": "ComputerFactory",
+    "displayName": "КОМПЬЮТЕРНЫЙ МЕГАЗАВОД",
+    "description": "Компьютерный мегазавод использует продукцию других фабрик для производства прототипа первого компьютера.", 
+    "baseCost": 50000000,
+    "category": "Prototype Factories",
+    "svgIcon": "tool-proto-computer-small (1) (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-proto-computer (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-proto-computer (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["First Computer"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 1250000
+    }
+    
+}, {
+    "name": "ConstructionStore",
+    "displayName": "Строительные товары",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "icn-shop-construction (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "bldg-bg-title-shop-construction (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "CopperGatherer",
+    "displayName": "МЕДНЫЙ РУДНИК",
+    "description": "Медный рудник с помощью сборщиков позволяет добывать медь из месторождений меди на клетках земли в различных местах на карте.", 
+    "baseCost": 225000,
+    "category": "LandGatherers",
+    "svgIcon": "tool-gatherer-copper-mine-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-gatherer-coppermine (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-gath-copper (UnityEngine.Sprite)",
+    "tags": [ "PrebuiltGatherer", "Gatherer", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["CopperMine"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 5625
+    }
+    
+}, {
+    "name": "CopperMineHarvester",
+    "displayName": "МЕДНЫЙ СБОРЩИК",
+    "description": "", 
+    "baseCost": 175000,
+    "category": "Harvester",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 4375
+}, {
+    "name": "CottonField",
+    "displayName": "ХЛОПКОВОЕ ПОЛЕ",
+    "description": "", 
+    "baseCost": 125000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 3125
+}, {
+    "name": "CowField",
+    "displayName": "ПОЛЕ С КОРОВАМИ",
+    "description": "", 
+    "baseCost": 150000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 3750
+}, {
+    "name": "CropFarm",
+    "displayName": "ПОСЕВНАЯ ФЕРМА",
+    "description": "Посевная ферма позволяет вам использовать поля для выращивания пшеницы, хмеля, картофеля и овощей.", 
+    "baseCost": 125000,
+    "category": "Farms",
+    "svgIcon": "tool-farm-crop-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-farm-crop (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-farm-crop (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Farm", "Industrial", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["Wheat", "Potatoes", "Vegetables", "Hops"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 3125
+    }
+    
+}, {
+    "name": "DinerStore",
+    "displayName": "Закусочная",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "icn-shop-diner (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "bldg-bg-title-shop-diner (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "DinnerFactory",
+    "displayName": "ПРОДУКТОВЫЙ МЕГАЗАВОД",
+    "description": "Продуктовый мегазавод использует продукцию других фабрик для производства прототипа ужина с курицей.", 
+    "baseCost": 50000000,
+    "category": "Prototype Factories",
+    "svgIcon": "tool-proto-dinner-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-proto-dinner (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-proto-dinner (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["Premade Dinner"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 1250000
+    }
+    
+}, {
+    "name": "DrinksFactory",
+    "displayName": "ЗАВОД НАПИТКОВ",
+    "description": "Заводы напитков используют продукцию различных ферм для производства пищевых продуктов, таких как ягодные и яблочные смузи и апельсиновая вода.", 
+    "baseCost": 650000,
+    "category": "RuralIndustry",
+    "svgIcon": "tool-factory-drinks-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-factory-drinks (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-fac-drinks (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["SodaWater", "OrangeJuice", "AppleSmoothie", "OrangeSoda", "BerrySmoothie", "GrapeJuice"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 16250
+    }
+    
+}, {
+    "name": "ElectronicsFactory",
+    "displayName": "Фабрика товаров для дома",
+    "description": "Фабрики товаров для дома используют продукцию тяжелой промышленности для производства бытовой техники, такой как кухонные плиты и телефоны.", 
+    "baseCost": 500000,
+    "category": "HeavyIndustry",
+    "svgIcon": "tool-factory-home-goods-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-factory-homegoods (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-fac-home-goods (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["Diodes", "Stovetop", "Oven", "Radiator", "Telephone", "Refrigerator", "RadioReceiver", "LightBulb", "Capacitors", "Headlights", "Engine Block", "Binary Switcher", "Processor"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 12500
+    }
+    
+}, {
+    "name": "FarmersStore",
+    "displayName": "Фермерский рынок",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "icn-shop-farmers-market (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "bldg-bg-title-shop-farmers (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "Fire Station",
+    "displayName": "Пожарное депо",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Decoration", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "FishingGatherer",
+    "displayName": "ПРИЧАЛ РЫБАКА",
+    "description": "Причал рыбака с помощью сборщиков позволяет ловить рыбу из стай рыб в различных водоемах на карте.", 
+    "baseCost": 150000,
+    "category": "OffshoreGatherers",
+    "svgIcon": "tool-gatherer-fisherman-pier-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-gatherer-fishermanpier (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-gath-fisherman (UnityEngine.Sprite)",
+    "tags": [ "Gatherer", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["Fish"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 3750
+    }
+    
+}, {
+    "name": "FishNetHarvester",
+    "displayName": "ПРИЧАЛ РЫБАКА",
+    "description": "", 
+    "baseCost": 100000,
+    "category": "CoastHarvester",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 2500
+}, {
+    "name": "FurnitureStore",
+    "displayName": "Товары для дома",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "icn-shop-furniture-store (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "bldg-bg-title-shop-furniture (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "Gas Station",
+    "displayName": "Заправка",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Decoration", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "GasGatherer",
+    "displayName": "ГАЗОВАЯ ВЫШКА",
+    "description": "Газовая вышка с помощью сборщиков позволяет добывать газ из газовых месторождений на клетках земли в различных местах на карте.", 
+    "baseCost": 275000,
+    "category": "LandGatherers",
+    "svgIcon": "tool-gatherer-gas-pump-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-gatherer-gasdrill (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-gath-gas (UnityEngine.Sprite)",
+    "tags": [ "PrebuiltGatherer", "Gatherer", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["GasPump"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 6875
+    }
+    
+}, {
+    "name": "GasPumpHarvester",
+    "displayName": "ГАЗОВАЯ ВЫШКА-СБОРЩИК",
+    "description": "", 
+    "baseCost": 225000,
+    "category": "Harvester",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 5625
+}, {
+    "name": "GlassworksSmelter",
+    "displayName": "СТЕКЛО- И МЕТАЛЛОЗАВОД",
+    "description": "Стекло- и металлозаводы используют железо, песок и медь для производства продукции тяжелой промышленности, такой как сталь, стекло и медная проволока.", 
+    "baseCost": 600000,
+    "category": "HeavyIndustry",
+    "svgIcon": "tool-factory-glassworks-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-factory-glassworks (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-fac-glassworks (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["CopperWire", "Steel", "SteelBarrels", "Cans", "Glass", "Ceramics", "Bottles", "CopperTubing", "SteelFrame", "Glass Tubes", "Computer Memory", "Bricks", "Concrete"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 15000
+    }
+    
+}, {
+    "name": "GrapeField",
+    "displayName": "ВИНОГРАДНИК",
+    "description": "", 
+    "baseCost": 100000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 2500
+}, {
+    "name": "GroceryStore",
+    "displayName": "Гастроном",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "icn-shop-grocery-store (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "bldg-bg-title-shop-deli (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "HardwareStore",
+    "displayName": "Магазин хозтоваров",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "icn-shop-hardware (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "bldg-bg-title-shop-hardware (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "HopsField",
+    "displayName": "ПОЛЕ C ХМЕЛЕМ",
+    "description": "", 
+    "baseCost": 75000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 1875
+}, {
+    "name": "House_HeavyIndustrial_T1_1x1",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_HeavyIndustrial_T2_1x1",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_HeavyIndustrial_T2_2x1",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_HeavyIndustrial_T2_2x2",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_HeavyIndustrial_T3_2x1",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_HeavyIndustrial_T3_2x2",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_HeavyIndustrial_T3_3x2",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_HeavyIndustrial_T3_3x3",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_LightIndustrial_T1_1x1",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_LightIndustrial_T2_1x1",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_LightIndustrial_T2_2x1",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_LightIndustrial_T2_2x2",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_LightIndustrial_T3_2x1",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_LightIndustrial_T3_2x2",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_LightIndustrial_T3_3x2",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_LightIndustrial_T3_3x3",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_Rural_T1_1x1",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_Rural_T2_1x1",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_Rural_T3_2x2",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_Rural_T3_2x3",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_Rural_T3_3x2",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "House_Rural_T3_3x3",
+    "displayName": "Жилое здание",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "IronGatherer",
+    "displayName": "ЖЕЛЕЗНЫЙ РУДНИК",
+    "description": "Железный рудник с помощью сборщиков позволяет добывать железо из месторождений железа на клетках земли в различных местах на карте.", 
+    "baseCost": 225000,
+    "category": "LandGatherers",
+    "svgIcon": "tool-gatherer-iron-mine-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-gatherer-ironmine (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-gath-iron (UnityEngine.Sprite)",
+    "tags": [ "PrebuiltGatherer", "Gatherer", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["IronMine"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 5625
+    }
+    
+}, {
+    "name": "IronMineHarvester",
+    "displayName": "СБОРЩИК ЖЕЛЕЗНОЙ РУДЫ",
+    "description": "", 
+    "baseCost": 175000,
+    "category": "Harvester",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 4375
+}, {
+    "name": "IronmongeryStore",
+    "displayName": "Скобяные изделия",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "icn-shop-ironmongery (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "bldg-bg-title-shop-ironmongery (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "LiquorStore",
+    "displayName": "Винный магазин",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "icn-shop-liquor-store (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "bldg-bg-title-shop-liquor (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "LivestockFarm",
+    "displayName": "ЖИВОТНОВОДЧЕСКАЯ ФЕРМА",
+    "description": "Животноводческая ферма позволяет вам использовать поля для разведения кур, коров и овец.", 
+    "baseCost": 200000,
+    "category": "Farms",
+    "svgIcon": "tool-farm-livestock-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-farm-livestock (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-farm-livestock (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Farm", "Industrial", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["Chickens", "Cows", "Sheep"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 5000
+    }
+    
+}, {
+    "name": "LumberyardGatherer",
+    "displayName": "СКЛАД ЛЕСА",
+    "description": "Склад леса с помощью сборщиков позволяет заготавливать древесину в ближайших лесах. После рубки дерева на его месте будет посажен саженец.", 
+    "baseCost": 125000,
+    "category": "LandGatherers",
+    "svgIcon": "tool-gatherer-sawmill-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-gatherer-lumberyard (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-gath-lumber (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Gatherer", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["Lumberyard"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 3125
+    }
+    
+}, {
+    "name": "LumberyardHarvester",
+    "displayName": "СБОРЩИК НА СКЛАДЕ ЛЕСА",
+    "description": "", 
+    "baseCost": 75000,
+    "category": "Harvester",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 1875
+}, {
+    "name": "OilDrillHarvester",
+    "displayName": "НЕФТЯНАЯ ВЫШКА-СБОРЩИК",
+    "description": "", 
+    "baseCost": 225000,
+    "category": "Harvester",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 5625
+}, {
+    "name": "OilGatherer",
+    "displayName": "НЕФТЯНАЯ ВЫШКА",
+    "description": "Нефтяная вышка с помощью сборщиков позволяет добывать нефть из нефтяных месторождений на клетках земли в различных местах на карте.", 
+    "baseCost": 275000,
+    "category": "LandGatherers",
+    "svgIcon": "tool-gatherer-oil-drill-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-gatherer-oilrefinery (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-gath-oil (UnityEngine.Sprite)",
+    "tags": [ "PrebuiltGatherer", "Gatherer", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["OilDrill"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 6875
+    }
+    
+}, {
+    "name": "OilSeaGatherer",
+    "displayName": "НЕФТ. ВЫШКА НА ШЕЛЬФЕ",
+    "description": "Нефтяная вышка на шельфе с помощью сборщиков позволяет добывать нефть из нефтяных месторождений в различных водоемах на карте.", 
+    "baseCost": 275000,
+    "category": "OffshoreGatherers",
+    "svgIcon": "tool-gatherer-offshore-oil-rig-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-gatherer-offshore-oilrefinery (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-gath-oil-offshore (UnityEngine.Sprite)",
+    "tags": [ "Gatherer", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["OilDrillOffshore"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 6875
+    }
+    
+}, {
+    "name": "OilSeaHarvester",
+    "displayName": "СБОРЩИК ДЛЯ ДОБЫЧИ НЕФТИ",
+    "description": "", 
+    "baseCost": 225000,
+    "category": "CoastHarvester",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 5625
+}, {
+    "name": "OliveField",
+    "displayName": "ОЛИВКОВОЕ ПОЛЕ",
+    "description": "", 
+    "baseCost": 100000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 2500
+}, {
+    "name": "OrangesField",
+    "displayName": "ПОЛЕ АПЕЛЬСИНОВ",
+    "description": "", 
+    "baseCost": 100000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 2500
+}, {
+    "name": "OrchardFarm",
+    "displayName": "ФРУКТОВЫЙ САД",
+    "description": "Фруктовый сад позволяет вам использовать поля для выращивания яблок, винограда, апельсинов и производства резины.", 
+    "baseCost": 150000,
+    "category": "Farms",
+    "svgIcon": "tool-farm-orchard-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-farm-orchard (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-farm-orchard (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Farm", "Industrial", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["Apples", "Grapes", "Oranges", "RawRubber", "Olives"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 3750
+    }
+    
+}, {
+    "name": "PaperFactory",
+    "displayName": "БУМАЖНАЯ ФАБРИКА",
+    "description": "Бумажные фабрики используют древесину для производства продукции легкой промышленности, такой как тяжелая целлюлоза, рулоны бумаги и книги.", 
+    "baseCost": 650000,
+    "category": "LightIndustry",
+    "svgIcon": "tool-factory-paper-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-factory-papermill (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-fac-papermill (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["DeluxeBooks", "Paper Roll", "Newspapers", "Books", "PrintedPaper", "Ink", "Cardboard", "HeavyPulp", "Punch Cards", "ThinCardboard", "Dinner Container"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 16250
+    }
+    
+}, {
+    "name": "Park 1",
+    "displayName": "Парк",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Decoration", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "Park 2",
+    "displayName": "Парк",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Decoration", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "Park 3",
+    "displayName": "Парк",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Decoration", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "Park 4",
+    "displayName": "Парк",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Decoration", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "Park 5",
+    "displayName": "Парк",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Decoration", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "Park 6",
+    "displayName": "Парк",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Decoration", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "Park 7",
+    "displayName": "Парк",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Decoration", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "Park 8",
+    "displayName": "Парк",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Decoration", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "PetrochemicalFactory",
+    "displayName": "НЕФТЕХИМИЧЕСКИЙ ЗАВОД",
+    "description": "Нефтехимические заводы используют нефть и газ для производства продукции тяжелой промышленности, такой как пластик, шины и компьютерные интерфейсы.", 
+    "baseCost": 550000,
+    "category": "HeavyIndustry",
+    "svgIcon": "tool-factory-chemical-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-factory-petrochemical (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-fac-petro (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["Plastic", "Chemicals", "Paints", "RefinedOil", "Adhesive", "Rubber", "Tire", "RubberTubes", "Plastic Cutlery", "Buttons", "Interface"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 13750
+    }
+    
+}, {
+    "name": "PlantationFarm",
+    "displayName": "ПЛАНТАЦИЯ",
+    "description": "The Plantation Farm allows you to use fields to generate Berries, Cotton, Sugar and Cocoa.", 
+    "baseCost": 175000,
+    "category": "Farms",
+    "svgIcon": "tool-farm-plantation-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-farm-plantation (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-farm-plantation (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Farm", "Industrial", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["Berries", "Cotton", "Cocoas", "SugarCane"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 4375
+    }
+    
+}, {
+    "name": "Police Station",
+    "displayName": "Полицейский участок",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Decoration", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "PotatoField",
+    "displayName": "КАРТОФЕЛЬНОЕ ПОЛЕ",
+    "description": "", 
+    "baseCost": 75000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 1875
+}, {
+    "name": "PreservationFactory",
+    "displayName": "ФАБРИКА КОНСЕРВОВ",
+    "description": "Фабрики консервов используют различные продукты для производства других пищевых продуктов, таких как суп, баранина в банках и куриный суп.", 
+    "baseCost": 550000,
+    "category": "RuralIndustry",
+    "svgIcon": "tool-factory-preservation-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-factory-preservation (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-fac-preservation (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["Soup", "ChickenSoup", "CannedFish", "CannedMutton", "BagOfChips"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 13750
+    }
+    
+}, {
+    "name": "Public Library",
+    "displayName": "Общественная библиотека",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Decoration", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "RubberField",
+    "displayName": "ПОЛЕ КАУЧУКОВОГО ДЕРЕВА",
+    "description": "", 
+    "baseCost": 100000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 2500
+}, {
+    "name": "Rural School",
+    "displayName": "Школа",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Decoration", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "SandGatherer",
+    "displayName": "МЕСТО СБОРА ПЕСКА",
+    "description": "Место сбора песка с помощью сборщиков позволяет добывать песок из клеток на берегу любого водяного источника на карте.", 
+    "baseCost": 125000,
+    "category": "CoastalGatherers",
+    "svgIcon": "tool-gatherer-sand-collector-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-gatherer-sandcollector (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-gath-sand (UnityEngine.Sprite)",
+    "tags": [ "Gatherer", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["Sand"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 3125
+    }
+    
+}, {
+    "name": "SandHarvester",
+    "displayName": "СБОРЩИК ПЕСКА",
+    "description": "", 
+    "baseCost": 75000,
+    "category": "CoastHarvester",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 1875
+}, {
+    "name": "SheepField",
+    "displayName": "ПОЛЕ С ОВЦАМИ",
+    "description": "", 
+    "baseCost": 150000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 3750
+}, {
+    "name": "ShowroomStore",
+    "displayName": "Выставочный зал",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "icn-shop-prototype (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "bldg-bg-title-shop-car-parts (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "SugarField",
+    "displayName": "ПОЛЕ САХАРА",
+    "description": "", 
+    "baseCost": 125000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 3125
+}, {
+    "name": "ToyFactory",
+    "displayName": "ФАБРИКА ИГРУШЕК",
+    "description": "Фабрика игрушек использует различные продукты, такие как хлопок и древесина, чтобы производить различные игрушки — мягкие игрушки, игрушечные железные дороги и шарики.", 
+    "baseCost": 600000,
+    "category": "LightIndustry",
+    "svgIcon": "tool-factory-toys-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-factory-toy (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-fac-toys (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["Fluff", "Toy Furniture", "WoodenTrain", "Toy Train Set", "Doll", "TeddyBear", "Marbles", "Dollhouse"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 15000
+    }
+    
+}, {
+    "name": "ToyStore",
+    "displayName": "Магазин игрушек",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "icn-shop-toys (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "bldg-bg-title-shop-toys (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "VegetableField",
+    "displayName": "ПОЛЕ С ОВОЩАМИ",
+    "description": "", 
+    "baseCost": 75000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 1875
+}, {
+    "name": "WaterTower",
+    "displayName": "ВОДОНАПОРНАЯ БАШНЯ",
+    "description": "Водонапорные башни собирают и распределяют воду для зданий, которым она нужна, без использования дорог и грузовиков.", 
+    "baseCost": 150000,
+    "category": "Farms",
+    "svgIcon": "WaterTowerIcon (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "WaterTowerConBarTex (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "WaterTowerHeaderTex (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Farm", "Industrial", "Recipe User", "Module Owner"] ,
+    "availableRecipes": []
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 3750
+    }
+    
+}, {
+    "name": "WaterTreatmentPlant",
+    "displayName": "ВОДООЧИСТИТЕЛЬНАЯ СТАНЦИЯ",
+    "description": "Водоочистительные станции используют песок, добываемый в месте сбора песка, для очистки водных клеток от загрязнения.", 
+    "baseCost": 175000,
+    "category": "PollutionManagement",
+    "svgIcon": "tool-gatherer-water-siphon-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-pollution-water-treatment (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-pol-water-treatment (UnityEngine.Sprite)",
+    "tags": [ "PollutionManagement"] ,
+    "availableRecipes": []
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 4375
+    }
+    
+}, {
+    "name": "WaterWell",
+    "displayName": "ВОДЯНАЯ СКВАЖИНА",
+    "description": "Водная скважина с помощью сборщиков позволяет добывать воду из-под земли.", 
+    "baseCost": 150000,
+    "category": "LandGatherers",
+    "svgIcon": "tool-gatherer-water-well-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-gatherer-water-well (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "WaterTowerHeaderTex (UnityEngine.Sprite)",
+    "tags": [ "Gatherer", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["WaterWell"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 3750
+    }
+    
+}, {
+    "name": "WaterWellHarvester",
+    "displayName": "СБОРЩИК ВОДЯНОЙ СКВАЖИНЫ",
+    "description": "", 
+    "baseCost": 100000,
+    "category": "Harvester",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 2500
+}, {
+    "name": "WheatField",
+    "displayName": "ПШЕНИЧНОЕ ПОЛЕ",
+    "description": "", 
+    "baseCost": 75000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 1875
+}, {
+    "name": "AssemblyFactory",
+    "displayName": "АВТОМОБИЛЬНЫЙ МЕГАЗАВОД",
+    "description": "Автомобильные мегазаводы используют различную продукцию других автозаводов для производства прототипа автомобиля.", 
+    "baseCost": 50000000,
+    "category": "Prototype Factories",
+    "svgIcon": "tool-proto-car-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-factory-car-assembly (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-fac-car-assembly (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["CarPrototype"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 1250000
+    }
+    
+}, {
+    "name": "WaterGatherer",
+    "displayName": "ВОДНАЯ СТАНЦИЯ",
+    "description": "Водная станция с помощью сборщиков позволяет добывать воду из любого водяного источника на карте.", 
+    "baseCost": 125000,
+    "category": "CoastalGatherers",
+    "svgIcon": "tool-gatherer-water-siphon-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-gatherer-watersiphon (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-gath-water (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Gatherer", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["Water"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 3125
+    }
+    
+}, {
+    "name": "WaterHarvester",
+    "displayName": "ВОДЯНОЙ НАСОС",
+    "description": "", 
+    "baseCost": 75000,
+    "category": "CoastHarvester",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 1875
+}, {
+    "name": "FoodFactory",
+    "displayName": "ПИЩЕКОМБИНАТ",
+    "description": "Пищекомбинаты используют продукцию различных ферм для производства пищевых продуктов, таких как мука, тушеная говядина и жареная курица.", 
+    "baseCost": 550000,
+    "category": "RuralIndustry",
+    "svgIcon": "tool-factory-food-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-factory-food (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-fac-food (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["Cheese", "Flour", "HardCiderDonuts", "BerryPie", "Pizza", "Burgers", "ChocolateBar", "ChocolateCake", "BeefStew", "Waffles", "Olive Oil", "Cooked Vegetables", "Fried Chicken", "Chicken Dinner", "Fish and Chips", "Dough"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 13750
+    }
+    
+}, {
+    "name": "TextileFactory",
+    "displayName": "ТЕКСТИЛЬНАЯ ФАБРИКА",
+    "description": "Текстильные фабрики используют продукцию различных ферм, например хлопок и ягоды, для производства изделий из ткани, таких как легкая ткань и рабочая одежда.", 
+    "baseCost": 450000,
+    "category": "LightIndustry",
+    "svgIcon": "tool-factory-textile-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-factory-textile (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-fac-textile (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["Fibers", "Dye", "LightFabric", "HeavyFabric", "WinterClothes", "WorkClothes", "SummerClothes", "InteriorLining", "Napkins", "Quilt"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 11250
+    }
+    
+}, {
+    "name": "FurnitureFactory",
+    "displayName": "ПЛОТНИЦКИЙ ЦЕНТР",
+    "description": "Плотницкие мастерские используют древесину для производства различной строительной продукции, такой как деревянные доски, мебельные каркасы и офисная мебель.", 
+    "baseCost": 650000,
+    "category": "LightIndustry",
+    "svgIcon": "tool-factory-furniture-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-factory-carpentry-center (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-fac-carpentry (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["WoodenPlanks", "WoodenBarrel", "FurnitureBase(S)", "FurnitureBase(L)", "LeatherFurniture", "OfficeFurniture", "PlasticFurniture", "CarSeat", "Wall Panels", "Reinforced Wall", "Couch"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 16250
+    }
+    
+}, {
+    "name": "ZeppelinLogistical",
+    "displayName": "Поле дирижаблей",
+    "description": "Станции дирижаблей используют дирижабли для перевозки продуктов по карте. Для дирижаблей не нужны дороги — они перемещаются по воздуху.", 
+    "baseCost": 450000,
+    "category": "ZeppelinStation",
+    "svgIcon": "2130-icn-bldg-logi-dropship-pad (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-station-zeppelin (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-log-zeppelin (UnityEngine.Sprite)",
+    "tags": [ "Logistics"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 11250
+}, {
+    "name": "TrainLogistical",
+    "displayName": "Ж/Д терминал",
+    "description": "Ж/Д-терминалы, соединенные железнодорожными путями, используют поезда для перемещения большого количество продуктов между складами на карте.", 
+    "baseCost": 450000,
+    "category": "TrainTerminal",
+    "svgIcon": "2130-icn-bldg-logi-train-station (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-station-train (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-log-train (UnityEngine.Sprite)",
+    "tags": [ "Logistics"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 11250
+}, {
+    "name": "ShippingLogistical",
+    "displayName": "Стоянка лодок",
+    "description": "Стоянки лодок отправляют корабли по водным путям для перемещения огромного количества продуктов на другие стоянки лодок.", 
+    "baseCost": 450000,
+    "category": "BoatDepot",
+    "svgIcon": "2130-icn-bldg-logi-cargo-docks (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-station-boatdock (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-log-boat (UnityEngine.Sprite)",
+    "tags": [ "Logistics"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 11250
+}] 

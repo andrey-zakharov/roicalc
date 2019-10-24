@@ -2,7 +2,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Adhesive",
-        "displayName": "Adhesive",
+        "displayName": "Клей",
         "description": "Adhesive (ProjectAutomata.Recipe)",
         "gameDays": 35,
         "excludeInRecipeGraph": false,
@@ -17,7 +17,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Apples",
-        "displayName": "Apples",
+        "displayName": "Яблоки",
         "description": "Apples (ProjectAutomata.Recipe)",
         "gameDays": 30,
         "excludeInRecipeGraph": false,
@@ -32,7 +32,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "AppleSmoothie",
-        "displayName": "Apple Smoothie",
+        "displayName": "Яблочный смузи",
         "description": "AppleSmoothie (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -47,7 +47,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Axles",
-        "displayName": "Axles",
+        "displayName": "Оси",
         "description": "Axles (ProjectAutomata.Recipe)",
         "gameDays": 60,
         "excludeInRecipeGraph": false,
@@ -62,7 +62,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "BagOfChips",
-        "displayName": "Bag of Chips",
+        "displayName": "Пакетик чипсов",
         "description": "BagOfChips (ProjectAutomata.Recipe)",
         "gameDays": 35,
         "excludeInRecipeGraph": false,
@@ -77,7 +77,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "BeefStew",
-        "displayName": "Beef Stew",
+        "displayName": "Тушеная говядина",
         "description": "BeefStew (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -92,7 +92,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Beer",
-        "displayName": "Beer",
+        "displayName": "Пиво",
         "description": "Beer (ProjectAutomata.Recipe)",
         "gameDays": 35,
         "excludeInRecipeGraph": false,
@@ -107,7 +107,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Berries",
-        "displayName": "Berries",
+        "displayName": "Ягоды",
         "description": "Berries (ProjectAutomata.Recipe)",
         "gameDays": 30,
         "excludeInRecipeGraph": false,
@@ -122,7 +122,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "BerryPie",
-        "displayName": "Berry Pie",
+        "displayName": "Ягодный пирог",
         "description": "BerryPie (ProjectAutomata.Recipe)",
         "gameDays": 40,
         "excludeInRecipeGraph": false,
@@ -137,7 +137,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "BerrySmoothie",
-        "displayName": "Berry Smoothie",
+        "displayName": "Ягодный смузи",
         "description": "BerrySmoothie (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -151,8 +151,23 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
+        "name": "Binary Switcher",
+        "displayName": "Переключатель",
+        "description": "Binary Switcher (ProjectAutomata.Recipe)",
+        "gameDays": 120,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Steel", "amount": 1 }, { "productName": "Diodes", "amount": 1 }, { "productName": "FurnitureBase(S)", "amount": 1 }],
+        "result": [{ "productName": "Binary Switcher", "amount": 1 }],
+        "tier": 2,
+        "svgIcon": "recipe-binary-switch-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
         "name": "Biofuel",
-        "displayName": "Biofuel",
+        "displayName": "Биотопливо",
         "description": "Biofuel (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -167,7 +182,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "BodyChassis",
-        "displayName": "Body Chassis",
+        "displayName": "Шасси кузова",
         "description": "BodyChassis (ProjectAutomata.Recipe)",
         "gameDays": 120,
         "excludeInRecipeGraph": false,
@@ -182,7 +197,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Books",
-        "displayName": "Books",
+        "displayName": "Книги",
         "description": "Books (ProjectAutomata.Recipe)",
         "gameDays": 35,
         "excludeInRecipeGraph": false,
@@ -197,7 +212,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Bottles",
-        "displayName": "Bottles",
+        "displayName": "Бутылки",
         "description": "Bottles (ProjectAutomata.Recipe)",
         "gameDays": 30,
         "excludeInRecipeGraph": false,
@@ -212,7 +227,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Brandy",
-        "displayName": "Brandy",
+        "displayName": "Бренди",
         "description": "Brandy (ProjectAutomata.Recipe)",
         "gameDays": 45,
         "excludeInRecipeGraph": false,
@@ -226,8 +241,23 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
+        "name": "Bricks",
+        "displayName": "Кирпичи",
+        "description": "Bricks (ProjectAutomata.Recipe)",
+        "gameDays": 15,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Sand", "amount": 2 }, { "productName": "Water", "amount": 1 }],
+        "result": [{ "productName": "Bricks", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "recipe-bricks-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
         "name": "Burgers",
-        "displayName": "Burgers",
+        "displayName": "Бургеры",
         "description": "Burgers (ProjectAutomata.Recipe)",
         "gameDays": 40,
         "excludeInRecipeGraph": false,
@@ -241,8 +271,23 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
+        "name": "Buttons",
+        "displayName": "Кнопки",
+        "description": "Buttons (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Plastic", "amount": 2 }, { "productName": "CopperWire", "amount": 1 }],
+        "result": [{ "productName": "Buttons", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "recipe-button-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
         "name": "CannedFish",
-        "displayName": "Canned Fish",
+        "displayName": "Рыбные консервы",
         "description": "CannedFish (ProjectAutomata.Recipe)",
         "gameDays": 40,
         "excludeInRecipeGraph": false,
@@ -257,7 +302,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "CannedMutton",
-        "displayName": "Canned Mutton",
+        "displayName": "Баранина в банках",
         "description": "CannedMutton (ProjectAutomata.Recipe)",
         "gameDays": 35,
         "excludeInRecipeGraph": false,
@@ -272,7 +317,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Cans",
-        "displayName": "Cans",
+        "displayName": "Банки",
         "description": "Cans (ProjectAutomata.Recipe)",
         "gameDays": 35,
         "excludeInRecipeGraph": false,
@@ -286,23 +331,23 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
-        "name": "RawRubber",
-        "displayName": "Raw Rubber",
-        "description": "RawRubber (ProjectAutomata.Recipe)",
-        "gameDays": 30,
+        "name": "Capacitors",
+        "displayName": "Конденсатор",
+        "description": "Capacitors (ProjectAutomata.Recipe)",
+        "gameDays": 40,
         "excludeInRecipeGraph": false,
         "waterResources": false,
-        "requiredModules": [{ "buildingName": "RubberField" }],
-        "ingredients": [{ "productName": "Water", "amount": 1 }],
-        "result": [{ "productName": "RawRubber", "amount": 2 }],
-        "tier": 0,
-        "svgIcon": "product-raw-rubber-small"
+        "requiredModules": [],
+        "ingredients": [{ "productName": "CopperWire", "amount": 1 }, { "productName": "Cans", "amount": 1 }, { "productName": "Ceramics", "amount": 1 }],
+        "result": [{ "productName": "Capacitors", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "recipe-capacitor-small"
     }
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Cardboard",
-        "displayName": "Cardboard",
+        "displayName": "Картон",
         "description": "Cardboard (ProjectAutomata.Recipe)",
         "gameDays": 30,
         "excludeInRecipeGraph": false,
@@ -317,7 +362,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "CarPrototype",
-        "displayName": "Car Prototype",
+        "displayName": "Прототип автомобиля",
         "description": "CarPrototype (ProjectAutomata.Recipe)",
         "gameDays": 360,
         "excludeInRecipeGraph": false,
@@ -332,7 +377,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "CarSeat",
-        "displayName": "Car Seat",
+        "displayName": "Автомоб. сиденье",
         "description": "CarSeat (ProjectAutomata.Recipe)",
         "gameDays": 35,
         "excludeInRecipeGraph": false,
@@ -347,7 +392,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Ceramics",
-        "displayName": "Ceramics",
+        "displayName": "Керамика",
         "description": "Ceramics (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -362,7 +407,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Cheese",
-        "displayName": "Cheese",
+        "displayName": "Сыр",
         "description": "Cheese (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -377,7 +422,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Chemicals",
-        "displayName": "Chemicals",
+        "displayName": "Химикаты",
         "description": "Chemicals (ProjectAutomata.Recipe)",
         "gameDays": 20,
         "excludeInRecipeGraph": false,
@@ -391,8 +436,23 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
+        "name": "Chicken Dinner",
+        "displayName": "Ужин с курицей",
+        "description": "Chicken Dinner (ProjectAutomata.Recipe)",
+        "gameDays": 180,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Fried Chicken", "amount": 1 }, { "productName": "Cooked Vegetables", "amount": 1 }, { "productName": "OrangeSoda", "amount": 1 }],
+        "result": [{ "productName": "Chicken Dinner", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "recipe-dinner-chicken-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
         "name": "Chickens",
-        "displayName": "Chickens",
+        "displayName": "Куры",
         "description": "Chickens (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -407,7 +467,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "ChickenSoup",
-        "displayName": "Chicken Soup",
+        "displayName": "Куриный суп",
         "description": "ChickenSoup (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -422,7 +482,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "ChocolateBar",
-        "displayName": "Chocolate Bar",
+        "displayName": "Шоколад. батончик",
         "description": "ChocolateBar (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -437,7 +497,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "ChocolateCake",
-        "displayName": "Chocolate Cake",
+        "displayName": "Шоколадный торт",
         "description": "ChocolateCake (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -452,7 +512,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "CoalMine",
-        "displayName": "Coal",
+        "displayName": "Уголь",
         "description": "CoalMine (ProjectAutomata.Recipe)",
         "gameDays": 15,
         "excludeInRecipeGraph": false,
@@ -467,7 +527,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Cocoas",
-        "displayName": "Cocoas",
+        "displayName": "Какао",
         "description": "Cocoas (ProjectAutomata.Recipe)",
         "gameDays": 30,
         "excludeInRecipeGraph": false,
@@ -482,7 +542,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "CombustionEngine",
-        "displayName": "Combustion Engine",
+        "displayName": "Двигатель внутр. сгорания",
         "description": "CombustionEngine (ProjectAutomata.Recipe)",
         "gameDays": 60,
         "excludeInRecipeGraph": false,
@@ -496,8 +556,53 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
+        "name": "Computer Memory",
+        "displayName": "Компьютерная память",
+        "description": "Computer Memory (ProjectAutomata.Recipe)",
+        "gameDays": 180,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Glass Tubes", "amount": 2 }, { "productName": "Capacitors", "amount": 2 }, { "productName": "RubberTubes", "amount": 1 }],
+        "result": [{ "productName": "Computer Memory", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "recipe-memory-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Concrete",
+        "displayName": "Бетон",
+        "description": "Concrete (ProjectAutomata.Recipe)",
+        "gameDays": 20,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Sand", "amount": 2 }, { "productName": "Water", "amount": 2 }],
+        "result": [{ "productName": "Concrete", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "recipe-concrete-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Cooked Vegetables",
+        "displayName": "Приготовленные овощи",
+        "description": "Cooked Vegetables (ProjectAutomata.Recipe)",
+        "gameDays": 90,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Vegetables", "amount": 2 }, { "productName": "Potato", "amount": 2 }, { "productName": "Olive Oil", "amount": 1 }],
+        "result": [{ "productName": "Cooked Vegetables", "amount": 1 }],
+        "tier": 2,
+        "svgIcon": "recipe-vegetables-cooked-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
         "name": "CopperMine",
-        "displayName": "Copper",
+        "displayName": "Медь",
         "description": "CopperMine (ProjectAutomata.Recipe)",
         "gameDays": 15,
         "excludeInRecipeGraph": false,
@@ -512,7 +617,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "CopperTubing",
-        "displayName": "Copper Tubing",
+        "displayName": "Медные трубки",
         "description": "CopperTubing (ProjectAutomata.Recipe)",
         "gameDays": 15,
         "excludeInRecipeGraph": false,
@@ -527,7 +632,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "CopperWire",
-        "displayName": "Copper Wire",
+        "displayName": "Медная проволока",
         "description": "CopperWire (ProjectAutomata.Recipe)",
         "gameDays": 15,
         "excludeInRecipeGraph": false,
@@ -542,7 +647,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Cotton",
-        "displayName": "Cotton",
+        "displayName": "Хлопок",
         "description": "Cotton (ProjectAutomata.Recipe)",
         "gameDays": 30,
         "excludeInRecipeGraph": false,
@@ -557,7 +662,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Cows",
-        "displayName": "Cows",
+        "displayName": "Коровы",
         "description": "Cows (ProjectAutomata.Recipe)",
         "gameDays": 35,
         "excludeInRecipeGraph": false,
@@ -572,7 +677,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "DeluxeBooks",
-        "displayName": "Deluxe Books",
+        "displayName": "Роскошные книги",
         "description": "DeluxeBooks (ProjectAutomata.Recipe)",
         "gameDays": 35,
         "excludeInRecipeGraph": false,
@@ -586,8 +691,23 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
+        "name": "Dinner Container",
+        "displayName": "Ланч-бокс",
+        "description": "Dinner Container (ProjectAutomata.Recipe)",
+        "gameDays": 180,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "ThinCardboard", "amount": 2 }, { "productName": "Plastic Cutlery", "amount": 2 }, { "productName": "Napkins", "amount": 1 }],
+        "result": [{ "productName": "Dinner Container", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "recipe-dinner-container-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
         "name": "Diodes",
-        "displayName": "Diodes",
+        "displayName": "Диоды",
         "description": "Diodes (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -601,8 +721,38 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
+        "name": "Doll",
+        "displayName": "Кукла",
+        "description": "Doll (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Fluff", "amount": 1 }, { "productName": "LightFabric", "amount": 1 }],
+        "result": [{ "productName": "Doll", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "recipe-doll-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Dollhouse",
+        "displayName": "Кукольный домик",
+        "description": "Dollhouse (ProjectAutomata.Recipe)",
+        "gameDays": 45,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Doll", "amount": 1 }, { "productName": "FurnitureBase(S)", "amount": 1 }, { "productName": "Toy Furniture", "amount": 2 }],
+        "result": [{ "productName": "Dollhouse", "amount": 2 }],
+        "tier": 3,
+        "svgIcon": "recipe-doll-house-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
         "name": "Dough",
-        "displayName": "Dough",
+        "displayName": "Тесто",
         "description": "Dough (ProjectAutomata.Recipe)",
         "gameDays": 30,
         "excludeInRecipeGraph": false,
@@ -617,7 +767,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Dye",
-        "displayName": "Dye",
+        "displayName": "Краситель",
         "description": "Dye (ProjectAutomata.Recipe)",
         "gameDays": 20,
         "excludeInRecipeGraph": false,
@@ -631,8 +781,23 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
+        "name": "Engine Block",
+        "displayName": "Блок двигателя",
+        "description": "Engine Block (ProjectAutomata.Recipe)",
+        "gameDays": 40,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Radiator", "amount": 2 }, { "productName": "Steel", "amount": 2 }],
+        "result": [{ "productName": "Engine Block", "amount": 2 }],
+        "tier": 3,
+        "svgIcon": "recipe-engine-block-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
         "name": "ExteriorBody",
-        "displayName": "Exterior Body",
+        "displayName": "Внешний кузов",
         "description": "ExteriorBody (ProjectAutomata.Recipe)",
         "gameDays": 60,
         "excludeInRecipeGraph": false,
@@ -647,7 +812,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Fibers",
-        "displayName": "Fibers",
+        "displayName": "Волокна",
         "description": "Fibers (ProjectAutomata.Recipe)",
         "gameDays": 20,
         "excludeInRecipeGraph": false,
@@ -661,8 +826,23 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
+        "name": "First Computer",
+        "displayName": "Первый компьютер",
+        "description": "First Computer (ProjectAutomata.Recipe)",
+        "gameDays": 360,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Interface", "amount": 1 }, { "productName": "Processor", "amount": 1 }, { "productName": "Computer Memory", "amount": 3 }],
+        "result": [{ "productName": "First Computer", "amount": 1 }],
+        "tier": 0,
+        "svgIcon": "recipe-computer-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
         "name": "Fish",
-        "displayName": "Fish",
+        "displayName": "Рыба",
         "description": "Fish (ProjectAutomata.Recipe)",
         "gameDays": 10,
         "excludeInRecipeGraph": false,
@@ -676,8 +856,23 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
+        "name": "Fish and Chips",
+        "displayName": "Рыба с картофелем",
+        "description": "Fish and Chips (ProjectAutomata.Recipe)",
+        "gameDays": 45,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Fish", "amount": 3 }, { "productName": "BagOfChips", "amount": 2 }],
+        "result": [{ "productName": "Fish and Chips", "amount": 2 }],
+        "tier": 3,
+        "svgIcon": "recipe-fish-chips-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
         "name": "Flour",
-        "displayName": "Flour",
+        "displayName": "Мука",
         "description": "Flour (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -691,8 +886,38 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
+        "name": "Fluff",
+        "displayName": "Набивка",
+        "description": "Fluff (ProjectAutomata.Recipe)",
+        "gameDays": 15,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Cotton", "amount": 1 }],
+        "result": [{ "productName": "Fluff", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "recipe-stuffing-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Fried Chicken",
+        "displayName": "Жареная курица",
+        "description": "Fried Chicken (ProjectAutomata.Recipe)",
+        "gameDays": 90,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "ChickenMeat", "amount": 3 }, { "productName": "Flour", "amount": 1 }, { "productName": "Olive Oil", "amount": 1 }],
+        "result": [{ "productName": "Fried Chicken", "amount": 1 }],
+        "tier": 2,
+        "svgIcon": "recipe-chicken-fried-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
         "name": "FurnitureBase(L)",
-        "displayName": "Furniture Base (L)",
+        "displayName": "Мебельный каркас (Б)",
         "description": "FurnitureBase(L) (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -707,7 +932,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "FurnitureBase(S)",
-        "displayName": "Furniture Base (S)",
+        "displayName": "Мебельный каркас (М)",
         "description": "FurnitureBase(S) (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -722,7 +947,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "GasPump",
-        "displayName": "Gas",
+        "displayName": "Газ",
         "description": "GasPump (ProjectAutomata.Recipe)",
         "gameDays": 15,
         "excludeInRecipeGraph": false,
@@ -737,7 +962,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Glass",
-        "displayName": "Glass",
+        "displayName": "Стекло",
         "description": "Glass (ProjectAutomata.Recipe)",
         "gameDays": 15,
         "excludeInRecipeGraph": false,
@@ -751,8 +976,38 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
+        "name": "Glass Tubes",
+        "displayName": "Пробирки",
+        "description": "Glass Tubes (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Glass", "amount": 3 }],
+        "result": [{ "productName": "Glass Tubes", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "recipe-glass-tubes-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "GrainWhiskey",
+        "displayName": "Зерновой виски",
+        "description": "GrainWhiskey (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Wheat", "amount": 3 }, { "productName": "WoodenBarrel", "amount": 1 }, { "productName": "Yeast", "amount": 1 }],
+        "result": [{ "productName": "GrainWhiskey", "amount": 2 }],
+        "tier": 3,
+        "svgIcon": "recipe-whiskey-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
         "name": "GrapeJuice",
-        "displayName": "Grape Juice ",
+        "displayName": "Виноградный сок",
         "description": "GrapeJuice (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -767,7 +1022,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Grapes",
-        "displayName": "Grapes",
+        "displayName": "Виноград",
         "description": "Grapes (ProjectAutomata.Recipe)",
         "gameDays": 30,
         "excludeInRecipeGraph": false,
@@ -782,7 +1037,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "HardCider",
-        "displayName": "Hard Cider",
+        "displayName": "Крепкий сидр",
         "description": "HardCider (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -797,7 +1052,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Headlights",
-        "displayName": "Headlights",
+        "displayName": "Фары",
         "description": "Headlights (ProjectAutomata.Recipe)",
         "gameDays": 40,
         "excludeInRecipeGraph": false,
@@ -812,7 +1067,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "HeavyFabric",
-        "displayName": "Heavy Fabric",
+        "displayName": "Тяжелая ткань",
         "description": "HeavyFabric (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -827,7 +1082,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "HeavyPulp",
-        "displayName": "Heavy Pulp",
+        "displayName": "Тяжелая целлюлоза",
         "description": "HeavyPulp (ProjectAutomata.Recipe)",
         "gameDays": 20,
         "excludeInRecipeGraph": false,
@@ -842,7 +1097,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Hops",
-        "displayName": "Hops",
+        "displayName": "Хмель",
         "description": "Hops (ProjectAutomata.Recipe)",
         "gameDays": 35,
         "excludeInRecipeGraph": false,
@@ -857,7 +1112,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Ink",
-        "displayName": "Ink",
+        "displayName": "Чернила",
         "description": "Ink (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -871,8 +1126,23 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
+        "name": "Interface",
+        "displayName": "Интерфейс",
+        "description": "Interface (ProjectAutomata.Recipe)",
+        "gameDays": 180,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Buttons", "amount": 1 }, { "productName": "Punch Cards", "amount": 1 }, { "productName": "OfficeFurniture", "amount": 1 }],
+        "result": [{ "productName": "Interface", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "recipe-interface-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
         "name": "InteriorBody",
-        "displayName": "Interior Body",
+        "displayName": "Детали салона",
         "description": "InteriorBody (ProjectAutomata.Recipe)",
         "gameDays": 60,
         "excludeInRecipeGraph": false,
@@ -887,7 +1157,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "InteriorLining",
-        "displayName": "Interior Lining",
+        "displayName": "Внутренняя облицовка",
         "description": "InteriorLining (ProjectAutomata.Recipe)",
         "gameDays": 40,
         "excludeInRecipeGraph": false,
@@ -902,7 +1172,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "IronMine",
-        "displayName": "Iron",
+        "displayName": "Железо",
         "description": "IronMine (ProjectAutomata.Recipe)",
         "gameDays": 15,
         "excludeInRecipeGraph": false,
@@ -917,7 +1187,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "LeatherFurniture",
-        "displayName": "Leather Furniture",
+        "displayName": "Кожаная мебель",
         "description": "LeatherFurniture (ProjectAutomata.Recipe)",
         "gameDays": 35,
         "excludeInRecipeGraph": false,
@@ -932,7 +1202,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "LightBulb",
-        "displayName": "Light Bulbs",
+        "displayName": "Лампочки",
         "description": "LightBulb (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -947,7 +1217,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "LightFabric",
-        "displayName": "Light Fabric",
+        "displayName": "Легкая ткань",
         "description": "LightFabric (ProjectAutomata.Recipe)",
         "gameDays": 30,
         "excludeInRecipeGraph": false,
@@ -962,7 +1232,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Lumberyard",
-        "displayName": "Wood",
+        "displayName": "Древесина",
         "description": "Lumberyard (ProjectAutomata.Recipe)",
         "gameDays": 10,
         "excludeInRecipeGraph": false,
@@ -976,8 +1246,38 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
+        "name": "Marbles",
+        "displayName": "Шарики",
+        "description": "Marbles (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Glass", "amount": 2 }, { "productName": "Dye", "amount": 1 }],
+        "result": [{ "productName": "Marbles", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "recipe-marbles-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Napkins",
+        "displayName": "Салфетки",
+        "description": "Napkins (ProjectAutomata.Recipe)",
+        "gameDays": 45,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "LightFabric", "amount": 3 }],
+        "result": [{ "productName": "Napkins", "amount": 2 }],
+        "tier": 3,
+        "svgIcon": "recipe-napkins-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
         "name": "Newspapers",
-        "displayName": "Newspapers",
+        "displayName": "Газеты",
         "description": "Newspapers (ProjectAutomata.Recipe)",
         "gameDays": 40,
         "excludeInRecipeGraph": false,
@@ -992,7 +1292,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "OfficeFurniture",
-        "displayName": "Office Furniture",
+        "displayName": "Офисная мебель",
         "description": "OfficeFurniture (ProjectAutomata.Recipe)",
         "gameDays": 45,
         "excludeInRecipeGraph": false,
@@ -1007,7 +1307,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "OilDrill",
-        "displayName": "Oil",
+        "displayName": "Нефть",
         "description": "OilDrill (ProjectAutomata.Recipe)",
         "gameDays": 15,
         "excludeInRecipeGraph": false,
@@ -1022,7 +1322,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "OilDrillOffshore",
-        "displayName": "Oil",
+        "displayName": "Нефть",
         "description": "OilDrillOffshore (ProjectAutomata.Recipe)",
         "gameDays": 15,
         "excludeInRecipeGraph": false,
@@ -1036,8 +1336,38 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
+        "name": "Olive Oil",
+        "displayName": "Оливковое масло",
+        "description": "Olive Oil (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Olives", "amount": 2 }],
+        "result": [{ "productName": "Olive Oil", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "recipe-olive-oil-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Olives",
+        "displayName": "Оливки",
+        "description": "Olives (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "OliveField" }],
+        "ingredients": [{ "productName": "Water", "amount": 1 }],
+        "result": [{ "productName": "Olives", "amount": 2 }],
+        "tier": 0,
+        "svgIcon": "recipe-olive-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
         "name": "OrangeJuice",
-        "displayName": "Orange Juice",
+        "displayName": "Апельсиновый сок",
         "description": "OrangeJuice (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -1052,7 +1382,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Oranges",
-        "displayName": "Oranges",
+        "displayName": "Апельсины",
         "description": "Oranges (ProjectAutomata.Recipe)",
         "gameDays": 30,
         "excludeInRecipeGraph": false,
@@ -1067,7 +1397,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "OrangeSoda",
-        "displayName": "Orange Soda",
+        "displayName": "Апельсиновая вода",
         "description": "OrangeSoda (ProjectAutomata.Recipe)",
         "gameDays": 40,
         "excludeInRecipeGraph": false,
@@ -1082,7 +1412,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Oven",
-        "displayName": "Oven",
+        "displayName": "Духовка",
         "description": "Oven (ProjectAutomata.Recipe)",
         "gameDays": 40,
         "excludeInRecipeGraph": false,
@@ -1097,7 +1427,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Paints",
-        "displayName": "Paints",
+        "displayName": "Краски",
         "description": "Paints (ProjectAutomata.Recipe)",
         "gameDays": 35,
         "excludeInRecipeGraph": false,
@@ -1112,7 +1442,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Paper Roll",
-        "displayName": "Paper Roll",
+        "displayName": "Рулон бумаги",
         "description": "Paper Roll (ProjectAutomata.Recipe)",
         "gameDays": 20,
         "excludeInRecipeGraph": false,
@@ -1127,7 +1457,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Pizza",
-        "displayName": "Pizza",
+        "displayName": "Пицца",
         "description": "Pizza (ProjectAutomata.Recipe)",
         "gameDays": 35,
         "excludeInRecipeGraph": false,
@@ -1142,7 +1472,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Plastic",
-        "displayName": "Plastic",
+        "displayName": "Пластик",
         "description": "Plastic (ProjectAutomata.Recipe)",
         "gameDays": 20,
         "excludeInRecipeGraph": false,
@@ -1156,8 +1486,23 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
+        "name": "Plastic Cutlery",
+        "displayName": "Пластиковая посуда",
+        "description": "Plastic Cutlery (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Plastic", "amount": 3 }],
+        "result": [{ "productName": "Plastic Cutlery", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "recipe-cutlery-plastic-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
         "name": "PlasticFurniture",
-        "displayName": "Plastic Furniture",
+        "displayName": "Пластиковая мебель",
         "description": "PlasticFurniture (ProjectAutomata.Recipe)",
         "gameDays": 45,
         "excludeInRecipeGraph": false,
@@ -1172,7 +1517,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Potatoes",
-        "displayName": "Potatoes",
+        "displayName": "Картофель",
         "description": "Potatoes (ProjectAutomata.Recipe)",
         "gameDays": 35,
         "excludeInRecipeGraph": false,
@@ -1186,503 +1531,8 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
-        "name": "PrintedPaper",
-        "displayName": "Printed Paper",
-        "description": "PrintedPaper (ProjectAutomata.Recipe)",
-        "gameDays": 30,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Paper Roll", "amount": 2 }, { "productName": "Ink", "amount": 1 }],
-        "result": [{ "productName": "PrintedPaper", "amount": 2 }],
-        "tier": 2,
-        "svgIcon": "recipe-paper-printed-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Radiator",
-        "displayName": "Radiator",
-        "description": "Radiator (ProjectAutomata.Recipe)",
-        "gameDays": 25,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Steel", "amount": 1 }, { "productName": "CopperTubing", "amount": 2 }],
-        "result": [{ "productName": "Radiator", "amount": 2 }],
-        "tier": 2,
-        "svgIcon": "recipe-radiator-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "RadioReceiver",
-        "displayName": "Radio Receiver",
-        "description": "RadioReceiver (ProjectAutomata.Recipe)",
-        "gameDays": 40,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Diodes", "amount": 2 }, { "productName": "FurnitureBase(S)", "amount": 1 }],
-        "result": [{ "productName": "RadioReceiver", "amount": 2 }],
-        "tier": 3,
-        "svgIcon": "recipe-radio-receiver-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "RefinedOil",
-        "displayName": "Refined Oil",
-        "description": "RefinedOil (ProjectAutomata.Recipe)",
-        "gameDays": 20,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Oil", "amount": 3 }],
-        "result": [{ "productName": "RefinedOil", "amount": 2 }],
-        "tier": 1,
-        "svgIcon": "recipe-refined-oil-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Refrigerator",
-        "displayName": "Refrigerator",
-        "description": "Refrigerator (ProjectAutomata.Recipe)",
-        "gameDays": 30,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "CopperTubing", "amount": 2 }, { "productName": "Steel", "amount": 1 }, { "productName": "Gas", "amount": 1 }],
-        "result": [{ "productName": "Refrigerator", "amount": 2 }],
-        "tier": 2,
-        "svgIcon": "recipe-refrigerator-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "RollingChassis",
-        "displayName": "Rolling Chassis",
-        "description": "RollingChassis (ProjectAutomata.Recipe)",
-        "gameDays": 120,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Axles", "amount": 1 }, { "productName": "CombustionEngine", "amount": 1 }],
-        "result": [{ "productName": "RollingChassis", "amount": 1 }],
-        "tier": 3,
-        "svgIcon": "recipe-car-rolling-chassis-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Rubber",
-        "displayName": "Rubber",
-        "description": "Rubber (ProjectAutomata.Recipe)",
-        "gameDays": 20,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "RawRubber", "amount": 2 }],
-        "result": [{ "productName": "Rubber", "amount": 2 }],
-        "tier": 1,
-        "svgIcon": "recipe-rubber-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "RubberTubes",
-        "displayName": "Rubber Tubes",
-        "description": "RubberTubes (ProjectAutomata.Recipe)",
-        "gameDays": 35,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Rubber", "amount": 3 }],
-        "result": [{ "productName": "RubberTubes", "amount": 2 }],
-        "tier": 2,
-        "svgIcon": "recipe-rubber-tubes-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Sand",
-        "displayName": "Sand",
-        "description": "Sand (ProjectAutomata.Recipe)",
-        "gameDays": 10,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [{ "buildingName": "SandHarvester" }],
-        "ingredients": [],
-        "result": [{ "productName": "Sand", "amount": 1 }],
-        "tier": 0,
-        "svgIcon": "product-sand-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Sheep",
-        "displayName": "Sheep",
-        "description": "Sheep (ProjectAutomata.Recipe)",
-        "gameDays": 30,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [{ "buildingName": "SheepField" }],
-        "ingredients": [{ "productName": "Water", "amount": 1 }, { "productName": "Wheat", "amount": 1 }],
-        "result": [{ "productName": "Mutton", "amount": 1 }, { "productName": "Wool", "amount": 2 }],
-        "tier": 1,
-        "svgIcon": "product-sheep-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "SodaWater",
-        "displayName": "Soda Water",
-        "description": "SodaWater (ProjectAutomata.Recipe)",
-        "gameDays": 25,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Sugar", "amount": 1 }, { "productName": "Water", "amount": 1 }],
-        "result": [{ "productName": "SodaWater", "amount": 2 }],
-        "tier": 1,
-        "svgIcon": "recipe-soda-water-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Soup",
-        "displayName": "Soup",
-        "description": "Soup (ProjectAutomata.Recipe)",
-        "gameDays": 15,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Vegetables", "amount": 1 }, { "productName": "Water", "amount": 1 }],
-        "result": [{ "productName": "Soup", "amount": 2 }],
-        "tier": 1,
-        "svgIcon": "recipe-soup-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Steel",
-        "displayName": "Steel",
-        "description": "Steel (ProjectAutomata.Recipe)",
-        "gameDays": 20,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "IronOre", "amount": 2 }, { "productName": "Coal", "amount": 1 }],
-        "result": [{ "productName": "Steel", "amount": 2 }],
-        "tier": 1,
-        "svgIcon": "recipe-steel-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "SteelBarrels",
-        "displayName": "Steel Barrels",
-        "description": "SteelBarrels (ProjectAutomata.Recipe)",
-        "gameDays": 25,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Steel", "amount": 2 }],
-        "result": [{ "productName": "SteelBarrel", "amount": 2 }],
-        "tier": 2,
-        "svgIcon": "recipe-steel-barrels-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "SteelFrame",
-        "displayName": "Steel Frame",
-        "description": "SteelFrame (ProjectAutomata.Recipe)",
-        "gameDays": 35,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Steel", "amount": 3 }],
-        "result": [{ "productName": "SteelFrame", "amount": 2 }],
-        "tier": 2,
-        "svgIcon": "recipe-steel-frame-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Stovetop",
-        "displayName": "Stovetop",
-        "description": "Stovetop (ProjectAutomata.Recipe)",
-        "gameDays": 25,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Steel", "amount": 2 }, { "productName": "CopperTubing", "amount": 1 }],
-        "result": [{ "productName": "Stovetop", "amount": 2 }],
-        "tier": 2,
-        "svgIcon": "recipe-stove-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "SugarCane",
-        "displayName": "Sugarcane",
-        "description": "SugarCane (ProjectAutomata.Recipe)",
-        "gameDays": 30,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [{ "buildingName": "SugarField" }],
-        "ingredients": [{ "productName": "Water", "amount": 1 }],
-        "result": [{ "productName": "Sugar", "amount": 2 }],
-        "tier": 0,
-        "svgIcon": "product-sugar-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "SummerClothes",
-        "displayName": "Summer Clothes",
-        "description": "SummerClothes (ProjectAutomata.Recipe)",
-        "gameDays": 45,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "LightFabric", "amount": 2 }, { "productName": "Dye", "amount": 2 }],
-        "result": [{ "productName": "SummerClothes", "amount": 2 }],
-        "tier": 3,
-        "svgIcon": "recipe-clothes-summer-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Telephone",
-        "displayName": "Telephone",
-        "description": "Telephone (ProjectAutomata.Recipe)",
-        "gameDays": 40,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Diodes", "amount": 2 }, { "productName": "Plastic", "amount": 2 }],
-        "result": [{ "productName": "Telephone", "amount": 2 }],
-        "tier": 3,
-        "svgIcon": "recipe-radio-telephone-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Tire",
-        "displayName": "Tire",
-        "description": "Tire (ProjectAutomata.Recipe)",
-        "gameDays": 35,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Rubber", "amount": 3 }],
-        "result": [{ "productName": "Tire", "amount": 2 }],
-        "tier": 2,
-        "svgIcon": "recipe-tires-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Vegetables",
-        "displayName": "Vegetables",
-        "description": "Vegetables (ProjectAutomata.Recipe)",
-        "gameDays": 35,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [{ "buildingName": "VegetableField" }],
-        "ingredients": [{ "productName": "Water", "amount": 1 }],
-        "result": [{ "productName": "Vegetables", "amount": 2 }],
-        "tier": 0,
-        "svgIcon": "product-vegetables-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Vodka",
-        "displayName": "Vodka",
-        "description": "Vodka (ProjectAutomata.Recipe)",
-        "gameDays": 35,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Potato", "amount": 3 }, { "productName": "Yeast", "amount": 1 }, { "productName": "WoodenBarrel", "amount": 1 }],
-        "result": [{ "productName": "Vodka", "amount": 2 }],
-        "tier": 3,
-        "svgIcon": "recipe-vodka-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Water",
-        "displayName": "Water",
-        "description": "Water (ProjectAutomata.Recipe)",
-        "gameDays": 10,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [{ "buildingName": "WaterHarvester" }],
-        "ingredients": [],
-        "result": [{ "productName": "Water", "amount": 1 }],
-        "tier": 0,
-        "svgIcon": "product-water-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Wheat",
-        "displayName": "Wheat",
-        "description": "Wheat (ProjectAutomata.Recipe)",
-        "gameDays": 35,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [{ "buildingName": "WheatField" }],
-        "ingredients": [{ "productName": "Water", "amount": 1 }],
-        "result": [{ "productName": "Wheat", "amount": 2 }],
-        "tier": 0,
-        "svgIcon": "product-wheat-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Wine",
-        "displayName": "Wine",
-        "description": "Wine (ProjectAutomata.Recipe)",
-        "gameDays": 25,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Grapes", "amount": 2 }],
-        "result": [{ "productName": "Wine", "amount": 2 }],
-        "tier": 1,
-        "svgIcon": "recipe-wine-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "WinterClothes",
-        "displayName": "Winter Clothes",
-        "description": "WinterClothes (ProjectAutomata.Recipe)",
-        "gameDays": 35,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "HeavyFabric", "amount": 2 }, { "productName": "Wool", "amount": 2 }],
-        "result": [{ "productName": "WinterClothes", "amount": 2 }],
-        "tier": 3,
-        "svgIcon": "recipe-clothes-winter-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "WoodenBarrel",
-        "displayName": "Wooden Barrels",
-        "description": "WoodenBarrel (ProjectAutomata.Recipe)",
-        "gameDays": 25,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "WoodenPlanks", "amount": 2 }],
-        "result": [{ "productName": "WoodenBarrel", "amount": 2 }],
-        "tier": 2,
-        "svgIcon": "recipe-barrel-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "WoodenPlanks",
-        "displayName": "Wooden Planks",
-        "description": "WoodenPlanks (ProjectAutomata.Recipe)",
-        "gameDays": 20,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Wood", "amount": 3 }],
-        "result": [{ "productName": "WoodenPlanks", "amount": 2 }],
-        "tier": 1,
-        "svgIcon": "recipe-wooden-planks-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "WorkClothes",
-        "displayName": "Work Clothes",
-        "description": "WorkClothes (ProjectAutomata.Recipe)",
-        "gameDays": 35,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "HeavyFabric", "amount": 2 }, { "productName": "Leather", "amount": 2 }],
-        "result": [{ "productName": "WorkClothes", "amount": 2 }],
-        "tier": 3,
-        "svgIcon": "recipe-clothes-work-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Yeast",
-        "displayName": "Yeast",
-        "description": "Yeast (ProjectAutomata.Recipe)",
-        "gameDays": 20,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Water", "amount": 1 }, { "productName": "Sugar", "amount": 1 }],
-        "result": [{ "productName": "Yeast", "amount": 2 }],
-        "tier": 1,
-        "svgIcon": "recipe-yeast-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Waffles",
-        "displayName": "Waffles",
-        "description": "Waffles (ProjectAutomata.Recipe)",
-        "gameDays": 40,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Sugar", "amount": 1 }, { "productName": "Dough", "amount": 2 }],
-        "result": [{ "productName": "Waffles", "amount": 2 }],
-        "tier": 3,
-        "svgIcon": "recipe-waffles-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "GrainWhiskey",
-        "displayName": "Grain Whiskey",
-        "description": "GrainWhiskey (ProjectAutomata.Recipe)",
-        "gameDays": 35,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Wheat", "amount": 3 }, { "productName": "WoodenBarrel", "amount": 1 }, { "productName": "Yeast", "amount": 1 }],
-        "result": [{ "productName": "GrainWhiskey", "amount": 2 }],
-        "tier": 3,
-        "svgIcon": "recipe-whiskey-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "First Computer",
-        "displayName": "First Computer",
-        "description": "First Computer (ProjectAutomata.Recipe)",
-        "gameDays": 360,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Interface", "amount": 1 }, { "productName": "Processor", "amount": 1 }, { "productName": "Computer Memory", "amount": 3 }],
-        "result": [{ "productName": "First Computer", "amount": 1 }],
-        "tier": 0,
-        "svgIcon": "recipe-computer-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
         "name": "Premade Dinner",
-        "displayName": "Premade Dinner",
+        "displayName": "Готовый ужин",
         "description": "Premade Dinner (ProjectAutomata.Recipe)",
         "gameDays": 360,
         "excludeInRecipeGraph": false,
@@ -1696,143 +1546,23 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
-        "name": "Olive Oil",
-        "displayName": "Olive Oil",
-        "description": "Olive Oil (ProjectAutomata.Recipe)",
-        "gameDays": 25,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Olives", "amount": 2 }],
-        "result": [{ "productName": "Olive Oil", "amount": 2 }],
-        "tier": 1,
-        "svgIcon": "recipe-olive-oil-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Fried Chicken",
-        "displayName": "Fried Chicken",
-        "description": "Fried Chicken (ProjectAutomata.Recipe)",
-        "gameDays": 90,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "ChickenMeat", "amount": 3 }, { "productName": "Flour", "amount": 1 }, { "productName": "Olive Oil", "amount": 1 }],
-        "result": [{ "productName": "Fried Chicken", "amount": 1 }],
-        "tier": 2,
-        "svgIcon": "recipe-chicken-fried-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Cooked Vegetables",
-        "displayName": "Cooked Vegetables",
-        "description": "Cooked Vegetables (ProjectAutomata.Recipe)",
-        "gameDays": 90,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Vegetables", "amount": 2 }, { "productName": "Potato", "amount": 2 }, { "productName": "Olive Oil", "amount": 1 }],
-        "result": [{ "productName": "Cooked Vegetables", "amount": 1 }],
-        "tier": 2,
-        "svgIcon": "recipe-vegetables-cooked-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Chicken Dinner",
-        "displayName": "Chicken Dinner",
-        "description": "Chicken Dinner (ProjectAutomata.Recipe)",
-        "gameDays": 180,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Fried Chicken", "amount": 1 }, { "productName": "Cooked Vegetables", "amount": 1 }, { "productName": "OrangeSoda", "amount": 1 }],
-        "result": [{ "productName": "Chicken Dinner", "amount": 1 }],
-        "tier": 3,
-        "svgIcon": "recipe-dinner-chicken-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Capacitors",
-        "displayName": "Capacitors",
-        "description": "Capacitors (ProjectAutomata.Recipe)",
-        "gameDays": 40,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "CopperWire", "amount": 1 }, { "productName": "Cans", "amount": 1 }, { "productName": "Ceramics", "amount": 1 }],
-        "result": [{ "productName": "Capacitors", "amount": 2 }],
-        "tier": 2,
-        "svgIcon": "recipe-capacitor-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Computer Memory",
-        "displayName": "Computer Memory",
-        "description": "Computer Memory (ProjectAutomata.Recipe)",
-        "gameDays": 180,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Glass Tubes", "amount": 2 }, { "productName": "Capacitors", "amount": 2 }, { "productName": "RubberTubes", "amount": 1 }],
-        "result": [{ "productName": "Computer Memory", "amount": 1 }],
-        "tier": 3,
-        "svgIcon": "recipe-memory-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Glass Tubes",
-        "displayName": "Glass Tubes",
-        "description": "Glass Tubes (ProjectAutomata.Recipe)",
+        "name": "PrintedPaper",
+        "displayName": "Печатная бумага",
+        "description": "PrintedPaper (ProjectAutomata.Recipe)",
         "gameDays": 30,
         "excludeInRecipeGraph": false,
         "waterResources": false,
         "requiredModules": [],
-        "ingredients": [{ "productName": "Glass", "amount": 3 }],
-        "result": [{ "productName": "Glass Tubes", "amount": 2 }],
+        "ingredients": [{ "productName": "Paper Roll", "amount": 2 }, { "productName": "Ink", "amount": 1 }],
+        "result": [{ "productName": "PrintedPaper", "amount": 2 }],
         "tier": 2,
-        "svgIcon": "recipe-glass-tubes-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Binary Switcher",
-        "displayName": "Binary Switcher",
-        "description": "Binary Switcher (ProjectAutomata.Recipe)",
-        "gameDays": 120,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Steel", "amount": 1 }, { "productName": "Diodes", "amount": 1 }, { "productName": "FurnitureBase(S)", "amount": 1 }],
-        "result": [{ "productName": "Binary Switcher", "amount": 1 }],
-        "tier": 2,
-        "svgIcon": "recipe-binary-switch-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Engine Block",
-        "displayName": "Engine Block",
-        "description": "Engine Block (ProjectAutomata.Recipe)",
-        "gameDays": 40,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Radiator", "amount": 2 }, { "productName": "Steel", "amount": 2 }],
-        "result": [{ "productName": "Engine Block", "amount": 2 }],
-        "tier": 3,
-        "svgIcon": "recipe-engine-block-small"
+        "svgIcon": "recipe-paper-printed-small"
     }
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Processor",
-        "displayName": "Processor",
+        "displayName": "Процессор",
         "description": "Processor (ProjectAutomata.Recipe)",
         "gameDays": 180,
         "excludeInRecipeGraph": false,
@@ -1847,7 +1577,7 @@
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Punch Cards",
-        "displayName": "Punch Cards",
+        "displayName": "Перфокарты",
         "description": "Punch Cards (ProjectAutomata.Recipe)",
         "gameDays": 45,
         "excludeInRecipeGraph": false,
@@ -1861,128 +1591,83 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
-        "name": "Interface",
-        "displayName": "Interface",
-        "description": "Interface (ProjectAutomata.Recipe)",
-        "gameDays": 180,
+        "name": "Radiator",
+        "displayName": "Радиатор",
+        "description": "Radiator (ProjectAutomata.Recipe)",
+        "gameDays": 25,
         "excludeInRecipeGraph": false,
         "waterResources": false,
         "requiredModules": [],
-        "ingredients": [{ "productName": "Buttons", "amount": 1 }, { "productName": "Punch Cards", "amount": 1 }, { "productName": "OfficeFurniture", "amount": 1 }],
-        "result": [{ "productName": "Interface", "amount": 1 }],
-        "tier": 3,
-        "svgIcon": "recipe-interface-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Plastic Cutlery",
-        "displayName": "Plastic Cutlery",
-        "description": "Plastic Cutlery (ProjectAutomata.Recipe)",
-        "gameDays": 35,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Plastic", "amount": 3 }],
-        "result": [{ "productName": "Plastic Cutlery", "amount": 2 }],
+        "ingredients": [{ "productName": "Steel", "amount": 1 }, { "productName": "CopperTubing", "amount": 2 }],
+        "result": [{ "productName": "Radiator", "amount": 2 }],
         "tier": 2,
-        "svgIcon": "recipe-cutlery-plastic-small"
+        "svgIcon": "recipe-radiator-small"
     }
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
-        "name": "Dinner Container",
-        "displayName": "Dinner Container",
-        "description": "Dinner Container (ProjectAutomata.Recipe)",
-        "gameDays": 180,
+        "name": "RadioReceiver",
+        "displayName": "Радиоприемник",
+        "description": "RadioReceiver (ProjectAutomata.Recipe)",
+        "gameDays": 40,
         "excludeInRecipeGraph": false,
         "waterResources": false,
         "requiredModules": [],
-        "ingredients": [{ "productName": "ThinCardboard", "amount": 2 }, { "productName": "Plastic Cutlery", "amount": 2 }, { "productName": "Napkins", "amount": 1 }],
-        "result": [{ "productName": "Dinner Container", "amount": 1 }],
+        "ingredients": [{ "productName": "Diodes", "amount": 2 }, { "productName": "FurnitureBase(S)", "amount": 1 }],
+        "result": [{ "productName": "RadioReceiver", "amount": 2 }],
         "tier": 3,
-        "svgIcon": "recipe-dinner-container-small"
+        "svgIcon": "recipe-radio-receiver-small"
     }
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
-        "name": "Olives",
-        "displayName": "Olives",
-        "description": "Olives (ProjectAutomata.Recipe)",
+        "name": "RawRubber",
+        "displayName": "Каучук",
+        "description": "RawRubber (ProjectAutomata.Recipe)",
         "gameDays": 30,
         "excludeInRecipeGraph": false,
         "waterResources": false,
-        "requiredModules": [{ "buildingName": "OliveField" }],
+        "requiredModules": [{ "buildingName": "RubberField" }],
         "ingredients": [{ "productName": "Water", "amount": 1 }],
-        "result": [{ "productName": "Olives", "amount": 2 }],
+        "result": [{ "productName": "RawRubber", "amount": 2 }],
         "tier": 0,
-        "svgIcon": "recipe-olive-small"
+        "svgIcon": "product-raw-rubber-small"
     }
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
-        "name": "Buttons",
-        "displayName": "Buttons",
-        "description": "Buttons (ProjectAutomata.Recipe)",
-        "gameDays": 30,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Plastic", "amount": 2 }, { "productName": "CopperWire", "amount": 1 }],
-        "result": [{ "productName": "Buttons", "amount": 2 }],
-        "tier": 2,
-        "svgIcon": "recipe-button-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "ThinCardboard",
-        "displayName": "Thin Cardboard",
-        "description": "ThinCardboard (ProjectAutomata.Recipe)",
-        "gameDays": 45,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Cardboard", "amount": 3 }],
-        "result": [{ "productName": "ThinCardboard", "amount": 2 }],
-        "tier": 3,
-        "svgIcon": "recipe-cardboard-thin-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Napkins",
-        "displayName": "Napkins",
-        "description": "Napkins (ProjectAutomata.Recipe)",
-        "gameDays": 45,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "LightFabric", "amount": 3 }],
-        "result": [{ "productName": "Napkins", "amount": 2 }],
-        "tier": 3,
-        "svgIcon": "recipe-napkins-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Concrete",
-        "displayName": "Concrete",
-        "description": "Concrete (ProjectAutomata.Recipe)",
+        "name": "RefinedOil",
+        "displayName": "Рафинированное масло",
+        "description": "RefinedOil (ProjectAutomata.Recipe)",
         "gameDays": 20,
         "excludeInRecipeGraph": false,
         "waterResources": false,
         "requiredModules": [],
-        "ingredients": [{ "productName": "Sand", "amount": 2 }, { "productName": "Water", "amount": 2 }],
-        "result": [{ "productName": "Concrete", "amount": 2 }],
+        "ingredients": [{ "productName": "Oil", "amount": 3 }],
+        "result": [{ "productName": "RefinedOil", "amount": 2 }],
         "tier": 1,
-        "svgIcon": "recipe-concrete-small"
+        "svgIcon": "recipe-refined-oil-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Refrigerator",
+        "displayName": "Холодильник",
+        "description": "Refrigerator (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "CopperTubing", "amount": 2 }, { "productName": "Steel", "amount": 1 }, { "productName": "Gas", "amount": 1 }],
+        "result": [{ "productName": "Refrigerator", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "recipe-refrigerator-small"
     }
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "Reinforced Wall",
-        "displayName": "Reinforced Wall",
+        "displayName": "Укрепленная стена",
         "description": "Reinforced Wall (ProjectAutomata.Recipe)",
         "gameDays": 45,
         "excludeInRecipeGraph": false,
@@ -1996,128 +1681,203 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
-        "name": "Wall Panels",
-        "displayName": "Wall Panels",
-        "description": "Wall Panels (ProjectAutomata.Recipe)",
+        "name": "RollingChassis",
+        "displayName": "Ходовая часть",
+        "description": "RollingChassis (ProjectAutomata.Recipe)",
+        "gameDays": 120,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Axles", "amount": 1 }, { "productName": "CombustionEngine", "amount": 1 }],
+        "result": [{ "productName": "RollingChassis", "amount": 1 }],
+        "tier": 3,
+        "svgIcon": "recipe-car-rolling-chassis-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Rubber",
+        "displayName": "Резина",
+        "description": "Rubber (ProjectAutomata.Recipe)",
+        "gameDays": 20,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "RawRubber", "amount": 2 }],
+        "result": [{ "productName": "Rubber", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "recipe-rubber-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "RubberTubes",
+        "displayName": "Резиновые трубки",
+        "description": "RubberTubes (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Rubber", "amount": 3 }],
+        "result": [{ "productName": "RubberTubes", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "recipe-rubber-tubes-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Sand",
+        "displayName": "Песок",
+        "description": "Sand (ProjectAutomata.Recipe)",
+        "gameDays": 10,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "SandHarvester" }],
+        "ingredients": [],
+        "result": [{ "productName": "Sand", "amount": 1 }],
+        "tier": 0,
+        "svgIcon": "product-sand-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Sheep",
+        "displayName": "Овцы",
+        "description": "Sheep (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "SheepField" }],
+        "ingredients": [{ "productName": "Water", "amount": 1 }, { "productName": "Wheat", "amount": 1 }],
+        "result": [{ "productName": "Mutton", "amount": 1 }, { "productName": "Wool", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "product-sheep-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "SodaWater",
+        "displayName": "Содовая",
+        "description": "SodaWater (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
         "waterResources": false,
         "requiredModules": [],
-        "ingredients": [{ "productName": "WoodenPlanks", "amount": 1 }, { "productName": "CopperTubing", "amount": 1 }],
-        "result": [{ "productName": "Wall Panels", "amount": 1 }],
-        "tier": 2,
-        "svgIcon": "recipe-wall-panels-small"
+        "ingredients": [{ "productName": "Sugar", "amount": 1 }, { "productName": "Water", "amount": 1 }],
+        "result": [{ "productName": "SodaWater", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "recipe-soda-water-small"
     }
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
-        "name": "Bricks",
-        "displayName": "Bricks",
-        "description": "Bricks (ProjectAutomata.Recipe)",
+        "name": "Soup",
+        "displayName": "Суп",
+        "description": "Soup (ProjectAutomata.Recipe)",
         "gameDays": 15,
         "excludeInRecipeGraph": false,
         "waterResources": false,
         "requiredModules": [],
-        "ingredients": [{ "productName": "Sand", "amount": 2 }, { "productName": "Water", "amount": 1 }],
-        "result": [{ "productName": "Bricks", "amount": 2 }],
+        "ingredients": [{ "productName": "Vegetables", "amount": 1 }, { "productName": "Water", "amount": 1 }],
+        "result": [{ "productName": "Soup", "amount": 2 }],
         "tier": 1,
-        "svgIcon": "recipe-bricks-small"
+        "svgIcon": "recipe-soup-small"
     }
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
-        "name": "WaterWell",
-        "displayName": "Water",
-        "description": "WaterWell (ProjectAutomata.Recipe)",
-        "gameDays": 15,
+        "name": "Steel",
+        "displayName": "Сталь",
+        "description": "Steel (ProjectAutomata.Recipe)",
+        "gameDays": 20,
         "excludeInRecipeGraph": false,
         "waterResources": false,
-        "requiredModules": [{ "buildingName": "WaterWellHarvester" }],
-        "ingredients": [],
-        "result": [{ "productName": "Water", "amount": 1 }],
-        "tier": 0,
-        "svgIcon": "product-water-small"
+        "requiredModules": [],
+        "ingredients": [{ "productName": "IronOre", "amount": 2 }, { "productName": "Coal", "amount": 1 }],
+        "result": [{ "productName": "Steel", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "recipe-steel-small"
     }
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
-        "name": "Fish and Chips",
-        "displayName": "Fish and Chips",
-        "description": "Fish and Chips (ProjectAutomata.Recipe)",
+        "name": "SteelBarrels",
+        "displayName": "Стальные бочки",
+        "description": "SteelBarrels (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Steel", "amount": 2 }],
+        "result": [{ "productName": "SteelBarrel", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "recipe-steel-barrels-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "SteelFrame",
+        "displayName": "Стальные рамы",
+        "description": "SteelFrame (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Steel", "amount": 3 }],
+        "result": [{ "productName": "SteelFrame", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "recipe-steel-frame-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Stovetop",
+        "displayName": "Плита",
+        "description": "Stovetop (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Steel", "amount": 2 }, { "productName": "CopperTubing", "amount": 1 }],
+        "result": [{ "productName": "Stovetop", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "recipe-stove-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "SugarCane",
+        "displayName": "Сахарный тростник",
+        "description": "SugarCane (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "SugarField" }],
+        "ingredients": [{ "productName": "Water", "amount": 1 }],
+        "result": [{ "productName": "Sugar", "amount": 2 }],
+        "tier": 0,
+        "svgIcon": "product-sugar-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "SummerClothes",
+        "displayName": "Летняя одежда",
+        "description": "SummerClothes (ProjectAutomata.Recipe)",
         "gameDays": 45,
         "excludeInRecipeGraph": false,
         "waterResources": false,
         "requiredModules": [],
-        "ingredients": [{ "productName": "Fish", "amount": 3 }, { "productName": "BagOfChips", "amount": 2 }],
-        "result": [{ "productName": "Fish and Chips", "amount": 2 }],
+        "ingredients": [{ "productName": "LightFabric", "amount": 2 }, { "productName": "Dye", "amount": 2 }],
+        "result": [{ "productName": "SummerClothes", "amount": 2 }],
         "tier": 3,
-        "svgIcon": "recipe-fish-chips-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Fluff",
-        "displayName": "Stuffing",
-        "description": "Fluff (ProjectAutomata.Recipe)",
-        "gameDays": 15,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Cotton", "amount": 1 }],
-        "result": [{ "productName": "Fluff", "amount": 2 }],
-        "tier": 1,
-        "svgIcon": "recipe-stuffing-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Toy Furniture",
-        "displayName": "Toy Furniture",
-        "description": "Toy Furniture (ProjectAutomata.Recipe)",
-        "gameDays": 20,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Wood", "amount": 1 }],
-        "result": [{ "productName": "Toy Furniture", "amount": 2 }],
-        "tier": 1,
-        "svgIcon": "recipe-toy-furniture-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "WoodenTrain",
-        "displayName": "Wooden Train",
-        "description": "WoodenTrain (ProjectAutomata.Recipe)",
-        "gameDays": 20,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Wood", "amount": 2 }],
-        "result": [{ "productName": "Wooden Train", "amount": 2 }],
-        "tier": 1,
-        "svgIcon": "recipe-wooden-train-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Toy Train Set",
-        "displayName": "Toy Train Set",
-        "description": "Toy Train Set (ProjectAutomata.Recipe)",
-        "gameDays": 30,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Wooden Train", "amount": 2 }, { "productName": "Steel", "amount": 1 }],
-        "result": [{ "productName": "Toy Train Set", "amount": 2 }],
-        "tier": 2,
-        "svgIcon": "recipe-train-set-small"
+        "svgIcon": "recipe-clothes-summer-small"
     }
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
         "name": "TeddyBear",
-        "displayName": "Teddy Bear",
+        "displayName": "Медвежонок",
         "description": "TeddyBear (ProjectAutomata.Recipe)",
         "gameDays": 25,
         "excludeInRecipeGraph": false,
@@ -2131,46 +1891,331 @@
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
-        "name": "Doll",
-        "displayName": "Doll",
-        "description": "Doll (ProjectAutomata.Recipe)",
-        "gameDays": 35,
+        "name": "Telephone",
+        "displayName": "Телефон",
+        "description": "Telephone (ProjectAutomata.Recipe)",
+        "gameDays": 40,
         "excludeInRecipeGraph": false,
         "waterResources": false,
         "requiredModules": [],
-        "ingredients": [{ "productName": "Fluff", "amount": 1 }, { "productName": "LightFabric", "amount": 1 }],
-        "result": [{ "productName": "Doll", "amount": 2 }],
-        "tier": 2,
-        "svgIcon": "recipe-doll-small"
+        "ingredients": [{ "productName": "Diodes", "amount": 2 }, { "productName": "Plastic", "amount": 2 }],
+        "result": [{ "productName": "Telephone", "amount": 2 }],
+        "tier": 3,
+        "svgIcon": "recipe-radio-telephone-small"
     }
 }, {
     "type": "ProjectAutomata.Recipe",
     "object": {
-        "name": "Marbles",
-        "displayName": "Marbles",
-        "description": "Marbles (ProjectAutomata.Recipe)",
-        "gameDays": 35,
-        "excludeInRecipeGraph": false,
-        "waterResources": false,
-        "requiredModules": [],
-        "ingredients": [{ "productName": "Glass", "amount": 2 }, { "productName": "Dye", "amount": 1 }],
-        "result": [{ "productName": "Marbles", "amount": 2 }],
-        "tier": 2,
-        "svgIcon": "recipe-marbles-small"
-    }
-}, {
-    "type": "ProjectAutomata.Recipe",
-    "object": {
-        "name": "Dollhouse",
-        "displayName": "Doll House",
-        "description": "Dollhouse (ProjectAutomata.Recipe)",
+        "name": "ThinCardboard",
+        "displayName": "Тонкий картон",
+        "description": "ThinCardboard (ProjectAutomata.Recipe)",
         "gameDays": 45,
         "excludeInRecipeGraph": false,
         "waterResources": false,
         "requiredModules": [],
-        "ingredients": [{ "productName": "Doll", "amount": 1 }, { "productName": "FurnitureBase(S)", "amount": 1 }, { "productName": "Toy Furniture", "amount": 2 }],
-        "result": [{ "productName": "Dollhouse", "amount": 2 }],
+        "ingredients": [{ "productName": "Cardboard", "amount": 3 }],
+        "result": [{ "productName": "ThinCardboard", "amount": 2 }],
         "tier": 3,
-        "svgIcon": "recipe-doll-house-small"
+        "svgIcon": "recipe-cardboard-thin-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Tire",
+        "displayName": "Шины",
+        "description": "Tire (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Rubber", "amount": 3 }],
+        "result": [{ "productName": "Tire", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "recipe-tires-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Toy Furniture",
+        "displayName": "Кукольная мебель",
+        "description": "Toy Furniture (ProjectAutomata.Recipe)",
+        "gameDays": 20,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Wood", "amount": 1 }],
+        "result": [{ "productName": "Toy Furniture", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "recipe-toy-furniture-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Toy Train Set",
+        "displayName": "Игрушечная железная дорога",
+        "description": "Toy Train Set (ProjectAutomata.Recipe)",
+        "gameDays": 30,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Wooden Train", "amount": 2 }, { "productName": "Steel", "amount": 1 }],
+        "result": [{ "productName": "Toy Train Set", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "recipe-train-set-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Vegetables",
+        "displayName": "Овощи",
+        "description": "Vegetables (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "VegetableField" }],
+        "ingredients": [{ "productName": "Water", "amount": 1 }],
+        "result": [{ "productName": "Vegetables", "amount": 2 }],
+        "tier": 0,
+        "svgIcon": "product-vegetables-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Vodka",
+        "displayName": "Водка",
+        "description": "Vodka (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Potato", "amount": 3 }, { "productName": "Yeast", "amount": 1 }, { "productName": "WoodenBarrel", "amount": 1 }],
+        "result": [{ "productName": "Vodka", "amount": 2 }],
+        "tier": 3,
+        "svgIcon": "recipe-vodka-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Waffles",
+        "displayName": "Вафли",
+        "description": "Waffles (ProjectAutomata.Recipe)",
+        "gameDays": 40,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Sugar", "amount": 1 }, { "productName": "Dough", "amount": 2 }],
+        "result": [{ "productName": "Waffles", "amount": 2 }],
+        "tier": 3,
+        "svgIcon": "recipe-waffles-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Wall Panels",
+        "displayName": "Настенные панели",
+        "description": "Wall Panels (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "WoodenPlanks", "amount": 1 }, { "productName": "CopperTubing", "amount": 1 }],
+        "result": [{ "productName": "Wall Panels", "amount": 1 }],
+        "tier": 2,
+        "svgIcon": "recipe-wall-panels-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "WaterWell",
+        "displayName": "Вода",
+        "description": "WaterWell (ProjectAutomata.Recipe)",
+        "gameDays": 15,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "WaterWellHarvester" }],
+        "ingredients": [],
+        "result": [{ "productName": "Water", "amount": 1 }],
+        "tier": 0,
+        "svgIcon": "product-water-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Wheat",
+        "displayName": "Пшеница",
+        "description": "Wheat (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "WheatField" }],
+        "ingredients": [{ "productName": "Water", "amount": 1 }],
+        "result": [{ "productName": "Wheat", "amount": 2 }],
+        "tier": 0,
+        "svgIcon": "product-wheat-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Wine",
+        "displayName": "Вино",
+        "description": "Wine (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Grapes", "amount": 2 }],
+        "result": [{ "productName": "Wine", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "recipe-wine-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "WinterClothes",
+        "displayName": "Зимняя одежда",
+        "description": "WinterClothes (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "HeavyFabric", "amount": 2 }, { "productName": "Wool", "amount": 2 }],
+        "result": [{ "productName": "WinterClothes", "amount": 2 }],
+        "tier": 3,
+        "svgIcon": "recipe-clothes-winter-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "WoodenBarrel",
+        "displayName": "Деревянные бочки",
+        "description": "WoodenBarrel (ProjectAutomata.Recipe)",
+        "gameDays": 25,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "WoodenPlanks", "amount": 2 }],
+        "result": [{ "productName": "WoodenBarrel", "amount": 2 }],
+        "tier": 2,
+        "svgIcon": "recipe-barrel-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "WoodenPlanks",
+        "displayName": "Доски",
+        "description": "WoodenPlanks (ProjectAutomata.Recipe)",
+        "gameDays": 20,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Wood", "amount": 3 }],
+        "result": [{ "productName": "WoodenPlanks", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "recipe-wooden-planks-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "WoodenTrain",
+        "displayName": "Деревянный поезд",
+        "description": "WoodenTrain (ProjectAutomata.Recipe)",
+        "gameDays": 20,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Wood", "amount": 2 }],
+        "result": [{ "productName": "Wooden Train", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "recipe-wooden-train-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "WorkClothes",
+        "displayName": "Рабочая одежда",
+        "description": "WorkClothes (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "HeavyFabric", "amount": 2 }, { "productName": "Leather", "amount": 2 }],
+        "result": [{ "productName": "WorkClothes", "amount": 2 }],
+        "tier": 3,
+        "svgIcon": "recipe-clothes-work-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Yeast",
+        "displayName": "Дрожжи",
+        "description": "Yeast (ProjectAutomata.Recipe)",
+        "gameDays": 20,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Water", "amount": 1 }, { "productName": "Sugar", "amount": 1 }],
+        "result": [{ "productName": "Yeast", "amount": 2 }],
+        "tier": 1,
+        "svgIcon": "recipe-yeast-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Water",
+        "displayName": "Вода",
+        "description": "Water (ProjectAutomata.Recipe)",
+        "gameDays": 10,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [{ "buildingName": "WaterHarvester" }],
+        "ingredients": [],
+        "result": [{ "productName": "Water", "amount": 1 }],
+        "tier": 0,
+        "svgIcon": "product-water-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Quilt",
+        "displayName": "Летняя одежда",
+        "description": "Quilt (ProjectAutomata.Recipe)",
+        "gameDays": 40,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "LightFabric", "amount": 2 }, { "productName": "Cotton", "amount": 2 }],
+        "result": [{ "productName": "Quilt", "amount": 2 }],
+        "tier": 3,
+        "svgIcon": "recipe-quilt-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "Couch",
+        "displayName": "Диван",
+        "description": "Couch (ProjectAutomata.Recipe)",
+        "gameDays": 45,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Furniture Base (L)", "amount": 1 }, { "productName": "HeavyFabric", "amount": 2 }, { "productName": "Cotton", "amount": 2 }],
+        "result": [{ "productName": "Couch", "amount": 2 }],
+        "tier": 3,
+        "svgIcon": "recipe-couch-small"
+    }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "HardCiderDonuts",
+        "displayName": "Пончики с сидром",
+        "description": "HardCiderDonuts (ProjectAutomata.Recipe)",
+        "gameDays": 35,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "HardCider", "amount": 1 }, { "productName": "Dough", "amount": 2 }],
+        "result": [{ "productName": "HardCiderDonuts", "amount": 2 }],
+        "tier": 3,
+        "svgIcon": "recipe-hard-cider-donut-small"
     }
 }] 

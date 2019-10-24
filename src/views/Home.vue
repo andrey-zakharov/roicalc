@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="!loading">
     <header class="sticky-top">
     <!--<b-dropdown size="lg" :text="targetProduct">-->
     <b-navbar>
@@ -10,6 +10,7 @@
         <b-button v-b-toggle.recipe-options  size="lg"  class="ml-1" variant="outline-primary">{{tt(LANG_SETTINGS)}}</b-button>
       </b-nav-form>
       <b-nav-form>
+        <b-radio-group :options="['RoI', 'RoI 2130']" :checked="module" @input="changeModule"></b-radio-group>
         <b-radio-group :options="['light', 'dark']" buttons button-variant="outline-primary"
                        :checked="theme" @input="themeChanged"></b-radio-group>
         <b-form-select :value="language.toLowerCase()"
@@ -105,6 +106,7 @@
 export default class Home extends Mixins(Const) {
 
   get theme() { return appState.theme; }
+  get module() { return appState.module; }
   get recipes() { return appState.recipes; }
   get products() { return appState.products; }
   get buildings() { return appState.buildings; }
@@ -253,15 +255,13 @@ export default class Home extends Mixins(Const) {
 
   showSelect: boolean = false;
   showOptions: boolean = false;
+  private loading = true;
 
   async created() {
-    await appState.loadAssets();
+    this.loading = true;
     await appState.setLocale(appState.language);
-  }
-
-  mounted() {
-
-    // appState.recalculate();
+    await appState.loadAssets();
+    this.loading = false;
   }
 
   displayCost(scope: any) {
@@ -274,8 +274,17 @@ export default class Home extends Mixins(Const) {
     return scope.row.cost;
   }
 
-  changeLocale(locale: string) {
-    appState.setLocale(locale);
+  async changeLocale(locale: string) {
+    this.loading = true;
+    await appState.setLocale(locale);
+    this.loading = false;
+  }
+
+  async changeModule(module: 'RoI' | 'RoI 2130') {
+    this.loading = true;
+    await appState.setModule(module);
+    this.loading = false;
+
   }
 
   private sumChildrenCosts(item: TreeDataItem): number {

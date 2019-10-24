@@ -1,9 +1,5 @@
 import {Action, getModule, Module, Mutation, MutationAction, VuexModule} from 'vuex-module-decorators';
 import store from './index';
-import prods from '@/assets/prods.json';
-import recipes from '@/assets/recipes.json';
-import prodCats from '@/assets/productCategories.json';
-import buildings from '@/assets/buildings.json';
 import languages from '@/assets/languages.json';
 import {Vue} from 'vue-property-decorator';
 import Fraction from 'fraction.js/fraction';
@@ -108,6 +104,7 @@ class AppState extends VuexModule implements IAppState {
     };
 
     public theme = 'dark';
+    public module: string = 'RoI'; //
 
     public targets: Target[] = [{id: 1, amount: 2, days: 15, demand: 1.5}];
     public products: Readonly<ProductDefinition[]> = [];
@@ -116,9 +113,9 @@ class AppState extends VuexModule implements IAppState {
     public locale: { [key: string]: string } = {};
     public productCategories: ProductCategory[] = [];
     public get productsWithOptions() { return this.products.filter((p) => p.recipes.length > 1); }
-    public language = languages.some((l) => l.keycode.toLowerCase() === navigator.language.toLowerCase()) ? navigator.language : 'en-us';
+    public language = languages.some((l: any) => l.keycode.toLowerCase() === navigator.language.toLowerCase()) ? navigator.language : 'en-us';
     get productCategory() { return (prodId: number) =>
-        this.productCategories.find((cat) => cat.name === this.products[prodId].productCategory);
+        this.productCategories.find(cat => cat.name === this.products[prodId].productCategory);
     }
 
     get languages() { return languages; }
@@ -263,7 +260,7 @@ class AppState extends VuexModule implements IAppState {
             'return ' + this.products[productId].price);
 
         return priceFunction(ingredientsValue, upkeep, recipe.gameDays, totalOutput, result.amount) *
-            (onlyValue ? 1 : this.productCategory(productId)!.priceMultiplier);
+            (onlyValue ? 1 : (this.productCategory(productId)!.priceMultiplier || 1));
     }}
 
     get ingredientsValue() { return (recipe: Recipe) =>
@@ -274,24 +271,29 @@ class AppState extends VuexModule implements IAppState {
     @Action({rawError: true})
     public async loadAssets() {
 
+        const prods = (await axios.get(`static/${this.module}/prods.json`)).data;
+        const recipes = (await axios.get(`static/${this.module}/recipes.json`)).data;
+        const prodCats = (await axios.get(`static/${this.module}/productCategories.json`)).data;
+        const buildings = (await axios.get(`static/${this.module}/buildings.json`)).data;
+
         // normalize JSON
         const _recs: Recipe[] = [];
         const _prods: ProductDefinition[] = [];
         // const _cats: string[] = [];
-        prodCats.sort((a, b) => a.uiOrder - b.uiOrder);
+        prodCats.sort((a: any, b: any) => a.uiOrder - b.uiOrder);
 
-        buildings.forEach((b, bid) => {
+        buildings.forEach((b: any, bid: number) => {
             (b as any as Building).id = bid;
             (b as any as Building).availableRecipes =
                 (b.availableRecipes as string[]).map((recName: string): number =>
-                    recipes.findIndex((r) => r.object.name === recName));
+                    recipes.findIndex((r: any) => r.object.name === recName));
         });
 
-        prods.map((o) => o.object).forEach((p, pid) => {
+        prods.map((o: any) => o.object).forEach((p: any, pid: number) => {
 
             if ( !p.productCategory ) {
                 // try to get by tier
-                const rec = recipes.find((r) => r.object.result.some((res) => res.productName === p.name));
+                const rec = recipes.find((r: any) => r.object.result.some((res: any) => res.productName === p.name));
                 if ( rec ) {
                     p.productCategory = 'Row' + rec.object.tier;
                 }
@@ -309,14 +311,14 @@ class AppState extends VuexModule implements IAppState {
             _prods.push(p as any as ProductDefinition);
         });
 
-        recipes.map((o) => o.object).forEach((r, rid) => {
+        recipes.map((o: any) => o.object).forEach((r: any, rid: number) => {
 
-            (r as any as Recipe).ingredients = r.ingredients.map((i) => Object.freeze({
+            (r as any as Recipe).ingredients = r.ingredients.map((i: any) => Object.freeze({
                 id: _prods.findIndex((p) => p.name === i.productName ),
                 amount: i.amount,
             }));
 
-            (r as any as Recipe).result = r.result.map((i) => Object.freeze({
+            (r as any as Recipe).result = r.result.map((i: any) => Object.freeze({
                 id: _prods.findIndex((p) => p.name === i.productName ),
                 amount: i.amount,
             } ) );
@@ -328,7 +330,7 @@ class AppState extends VuexModule implements IAppState {
             });
 
             (r as any as Recipe).building =
-                buildings.findIndex((b) => (b as any as Building).availableRecipes.some((ar) => ar === rid));
+                buildings.findIndex((b: any) => (b as any as Building).availableRecipes.some((ar) => ar === rid));
             _recs.push(Object.freeze((r as any as Recipe)));
         });
 
@@ -340,8 +342,8 @@ class AppState extends VuexModule implements IAppState {
 
         // default options
         const _opts: {[k: number]: number} = {};
-        this.productsWithOptions.forEach((p) => _opts[p.id] = p.recipes[0]);
-        // console.log(_opts);
+        _prods.filter((p) => p.recipes.length > 1).forEach((p) => _opts[p.id] = p.recipes[0]);
+        this.CLEAR_PRODUCTOPTIONS();
         for ( const pid in _opts ) {
             this.SET_PRODUCTOPTIONS([parseInt(pid), _opts[pid]]);
         }
@@ -373,14 +375,23 @@ class AppState extends VuexModule implements IAppState {
 
     @Action({ rawError: true })
     public async setLocale(loc: string) {
-        //lang-langdata_gamedata_it-it
-        const path = `static/lang/lang-langdata_gamedata_${loc.toLowerCase()}.json`;
-
-        const res = await axios.get(path);
+        // lang-langdata_gamedata_it-it
         const obj: {[key: string]: string} = {};
-        res.data.forEach((e: {key: string; value: string; } ) => obj[e.key] = e.value);
+
+        await Promise.all(['gamedata', 'scene', '2130'].map(async sec => {
+            const path = `static/lang/lang-langdata_${sec}_${loc.toLowerCase()}.json`;
+            const res = await axios.get(path);
+            res.data.forEach((e: {key: string; value: string; } ) => obj[e.key] = e.value);
+            return Promise.resolve();
+        }));
         this.SET_LOCALE(obj);
         this.SET_LANG(loc);
+    }
+
+    @Action({ rawError: true })
+    public async setModule(mod: 'RoI' | 'RoI 2130') {
+        this.SET_MODULE(mod);
+        return this.loadAssets();
     }
 
     @Action({commit: 'SET_TECH'})
@@ -401,6 +412,7 @@ class AppState extends VuexModule implements IAppState {
     @Mutation private SET_BUILDINGS(v: Building[]) { this.buildings = Object.freeze(v); }
     // @Mutation private SET_CATS(v: any) { this.categories = Object.freeze(v); }
     @Mutation private SET_PRODCATS(v: any) { this.productCategories = Object.freeze(v); }
+    @Mutation private CLEAR_PRODUCTOPTIONS() { Vue.set(this, 'productOptions', {} ); }
     @Mutation private SET_PRODUCTOPTIONS([prodId, recipeId]: [number, number]) {
         Vue.set(this.productOptions, prodId, recipeId);
     }
@@ -427,6 +439,7 @@ class AppState extends VuexModule implements IAppState {
     @Mutation private SET_TECH([tech, v]: [string, boolean]) { Vue.set(this.technologies, tech, v); }
     @Mutation private SET_THEME(v: string) { this.theme = v; }
     @Mutation private SET_SIMPLERECIPES(v: boolean) { this.useSimpleRecipes = v; }
+    @Mutation private SET_MODULE(mod: string) { this.module = mod; }
 
 }
 

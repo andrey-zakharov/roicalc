@@ -1,56 +1,56 @@
 [ {
     "name": "RawResources", 
     "uiOrder": 1000,
-    "categoryName": "Raw Resources",
+    "categoryName": "Сырьевые ресурсы",
     "parentCategory": "",
     "priceMultiplier": 1.9,
     "growthMultiplier": 1
 }, {
     "name": "FarmProduce", 
     "uiOrder": 2000,
-    "categoryName": "Farm Produce",
+    "categoryName": "Экологические продукты",
     "parentCategory": "",
-    "priceMultiplier": 2.8,
+    "priceMultiplier": 3.65,
     "growthMultiplier": 1
 }, {
     "name": "Livestock", 
     "uiOrder": 3000,
-    "categoryName": "Livestock",
+    "categoryName": "Скот",
     "parentCategory": "",
     "priceMultiplier": 2.6,
     "growthMultiplier": 1
 }, {
     "name": "Row1", 
     "uiOrder": 4000,
-    "categoryName": "Tier1",
+    "categoryName": "Ступень1",
     "parentCategory": "",
-    "priceMultiplier": 2.6,
+    "priceMultiplier": 3.5,
     "growthMultiplier": 2
 }, {
     "name": "Row2", 
     "uiOrder": 5000,
-    "categoryName": "Tier2",
+    "categoryName": "Ступень2",
     "parentCategory": "",
-    "priceMultiplier": 2.4,
+    "priceMultiplier": 3,
     "growthMultiplier": 3
 }, {
     "name": "Row3", 
     "uiOrder": 6000,
-    "categoryName": "Tier3",
+    "categoryName": "Ступень3",
     "parentCategory": "",
-    "priceMultiplier": 2.2,
+    "priceMultiplier": 2.1,
     "growthMultiplier": 4
 }, {
     "name": "Components", 
     "uiOrder": 7000,
-    "categoryName": "Components",
+    "categoryName": "Компоненты",
     "parentCategory": "",
     "priceMultiplier": 1.8,
     "growthMultiplier": 1
 }, {
     "name": "PrototypeProducts", 
     "uiOrder": 8000,
-    "categoryName": "Prototypes",
+    "categoryName": "Прототипы",
     "parentCategory": "",
     "priceMultiplier": 1.5,
     "growthMultiplier": 1
