@@ -1,4 +1,6 @@
 <template>
+  <transition mode="out-in" name="fade">
+  <img v-if="loading" src="@/assets/loading.gif"/>
   <div v-if="!loading">
     <header class="sticky-top">
     <!--<b-dropdown size="lg" :text="targetProduct">-->
@@ -58,31 +60,32 @@
     </b-list-group>
     </header>
 
-    <main>
-      <h3>{{tt(LANG_BUDGET)}}</h3>
-      <tree-table
-            :data = "treeItems"
-            :columns="[
-              { title: tt(LANG_BUILDINGS), key:'name' },
-              // { title: 'recipes', key: 'flow', width: '100px' },
-              { title: tt(LANG_MARKETVALUE), key: 'flow' },
-              { title: tt(LANG_BUILDINGCOST) + ', $', key: 'cost', type: 'template', template: 'cost' },
-            ]"
-            :is-fold="false"
-            :selectable="false"
-            :expand-type="false"
-            :show-summary = "true"
-            :summary-method="calcSummary"
-            empty-text="no results"
-            sum-text="Total"
-      >
-        <template slot="cost" scope="scope">
-          {{displayCost(scope) | cost}}
-        </template>
-      </tree-table>
-    </main>
-</div>
 
+    <h3>{{tt(LANG_BUDGET)}}</h3>
+    <tree-table
+          :data = "treeItems"
+          :columns="[
+            { title: tt(LANG_BUILDINGS), key:'name' },
+            // { title: 'recipes', key: 'flow', width: '100px' },
+            { title: tt(LANG_MARKETVALUE), key: 'flow' },
+            { title: tt(LANG_BUILDINGCOST) + ', $', key: 'cost', type: 'template', template: 'cost' },
+          ]"
+          :is-fold="false"
+          :selectable="false"
+          :expand-type="false"
+          :show-summary = "true"
+          :summary-method="calcSummary"
+          empty-text="no results"
+          sum-text="Total"
+    >
+      <template slot="cost" scope="scope">
+        {{displayCost(scope) | cost}}
+      </template>
+    </tree-table>
+
+
+  </div>
+  </transition>
 
 </template>
 
@@ -326,6 +329,13 @@ export default class Home extends Mixins(Const) {
   table { font-size: 120%; }
   .columns {
     column-count: 3;
+  }
+
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .25s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {
+    opacity: 0;
   }
 /*  .columns.dropdown-menu.show {
     display: flex;
