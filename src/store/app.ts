@@ -234,8 +234,7 @@ class AppState extends VuexModule implements IAppState {
       const ti = targets.findIndex(t_ => t_.amount > 0 );
       let t = targets[ti];
       const r = this.flow(t.id, t.amount, t.days);
-      console.log('flow for', targets.map(tt=>`${tt.id} ${tt.amount} / ${tt.days}`), r);
-
+      // console.log('flow for', targets.map(tt=>`${tt.id} ${tt.amount} / ${tt.days}`), r);
 
       for (const srcId in r) {
         result[srcId] = (result[srcId] || new Fraction(0)).add(r[srcId]);

@@ -32,7 +32,7 @@
       <b-form-input readonly :value="productPrice(value.id) * value.demand | cost"></b-form-input>
     </b-input-group>
 
-    <b-button-close v-if="deletable" variant="danger" size="lg" @click="$emit('delete')"></b-button-close>
+    <b-button-close class="ml-1 text-monospace" v-if="deletable" variant="danger" size="lg" @click="$emit('delete')"></b-button-close>
   </b-button-group>
 </template>
 
