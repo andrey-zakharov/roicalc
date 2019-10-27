@@ -230,16 +230,20 @@ class AppState extends VuexModule implements IAppState {
 
     const targets =  [ ...this.targets ].map((o) => ({...o}));
     const result: Result = {};
-    while ( targets.some((t) => t.amount > 0 )) {
-      const ti = targets.findIndex((t) => t.amount > 0 );
+    while ( targets.some(t => t.amount > 0 )) {
+      const ti = targets.findIndex(t_ => t_.amount > 0 );
       let t = targets[ti];
       const r = this.flow(t.id, t.amount, t.days);
+      console.log('flow for', targets.map(tt=>`${tt.id} ${tt.amount} / ${tt.days}`), r);
+
+
       for (const srcId in r) {
         result[srcId] = (result[srcId] || new Fraction(0)).add(r[srcId]);
+
         this.recipes[srcId].result.forEach((recRes) => {
-          const sti = targets.findIndex((t) => t.id === recRes.id);
+          const sti = targets.findIndex(t_ => t_.id === recRes.id);
           if (sti !== -1) {
-            targets[sti].amount -= result[srcId].valueOf();
+            targets[sti].amount -=  result[srcId].mul(targets[sti].days).mul(recRes.amount).div(this.recipes[srcId].gameDays).valueOf();
           }
         });
       }
