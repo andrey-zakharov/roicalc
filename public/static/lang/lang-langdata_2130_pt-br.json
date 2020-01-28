@@ -128,7 +128,7 @@
 {"key":"recipe.antiviralsolutionrecipe.title","value":"Solução antiviral"}, 
 {"key":"recipe.auxiliary-armattachmentrecipe.title","value":"Extensão de braço auxiliar"}, 
 {"key":"recipe.binaryquarkgate.title","value":"Porta de quark binário"}, 
-{"key":"recipe.bioledsrecipe.title","value":"Cultura microbiológica"}, 
+{"key":"recipe.bioledsrecipe.title","value":"BioLEDs"}, 
 {"key":"recipe.bioluminescentalgae.title","value":"Alga bioluminescente"}, 
 {"key":"recipe.biomemorycells.title","value":"Células de memória biológica"}, 
 {"key":"recipe.bluegammalaserrecipe.title","value":"Laser de gama azul"}, 
@@ -178,8 +178,6 @@
 {"key":"recipe.regenerativesolutionrecipe.title","value":"Solução regenerativa"}, 
 {"key":"recipe.regengelrecipe.title","value":"Gel regenerativo"}, 
 {"key":"recipe.replicator5000.title","value":"Replicador 5000"}, 
-{"key":"recipe.scavengerrecipe.title","value":"Aço"}, 
-{"key":"recipe.silicarecipe.title","value":"Sílica"}, 
 {"key":"recipe.steelcasesrecipe.title","value":"Contêiner de aço"}, 
 {"key":"recipe.steelstrutsrecipe.title","value":"Estruturas de aço"}, 
 {"key":"recipe.structuraldissemblerrecipe.title","value":"Desmontador estrutural"}, 
@@ -204,4 +202,6 @@
 {"key":"techtreegenericunlock.zeppelincapacity.description","value":"Aumenta em 3 a capacidade das naves de carga."}, 
 {"key":"techtreegenericunlock.zeppelincapacity.unlockname","value":"#ERROR!"}, 
 {"key":"techtreegenericunlock.zeppelinspeed+25%.description","value":"Aumenta 25% a velocidade das naves de carga."}, 
-{"key":"techtreegenericunlock.zeppelinspeed+25%.unlockname","value":"#ERROR!"}] 
+{"key":"techtreegenericunlock.zeppelinspeed+25%.unlockname","value":"#ERROR!"}, 
+{"key":"recipe.scavengerrecipe.title","value":"Aço"}, 
+{"key":"recipe.silicarecipe.title","value":"Sílica"}] 

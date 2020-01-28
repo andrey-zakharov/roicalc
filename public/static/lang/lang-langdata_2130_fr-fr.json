@@ -128,7 +128,7 @@
 {"key":"recipe.antiviralsolutionrecipe.title","value":"Solution antivirale"}, 
 {"key":"recipe.auxiliary-armattachmentrecipe.title","value":"Extension de bras auxiliaire"}, 
 {"key":"recipe.binaryquarkgate.title","value":"Portail de quark binaire"}, 
-{"key":"recipe.bioledsrecipe.title","value":"Culture microbienne"}, 
+{"key":"recipe.bioledsrecipe.title","value":"BioLED"}, 
 {"key":"recipe.bioluminescentalgae.title","value":"Algue bioluminescente"}, 
 {"key":"recipe.biomemorycells.title","value":"Cellules à mémoire biologique"}, 
 {"key":"recipe.bluegammalaserrecipe.title","value":"Laser gamma bleu"}, 
@@ -178,8 +178,6 @@
 {"key":"recipe.regenerativesolutionrecipe.title","value":"Solution régénérative"}, 
 {"key":"recipe.regengelrecipe.title","value":"Gel régénératif"}, 
 {"key":"recipe.replicator5000.title","value":"Réplicateur 5000"}, 
-{"key":"recipe.scavengerrecipe.title","value":"Acier"}, 
-{"key":"recipe.silicarecipe.title","value":"Silice"}, 
 {"key":"recipe.steelcasesrecipe.title","value":"Boîtiers en acier"}, 
 {"key":"recipe.steelstrutsrecipe.title","value":"Supports en acier"}, 
 {"key":"recipe.structuraldissemblerrecipe.title","value":"Désassembleur structurel"}, 
@@ -204,4 +202,6 @@
 {"key":"techtreegenericunlock.zeppelincapacity.description","value":"Ajoute 3 unités de capacité des vaisseaux."}, 
 {"key":"techtreegenericunlock.zeppelincapacity.unlockname","value":"+3 à la capacité des vaisseaux"}, 
 {"key":"techtreegenericunlock.zeppelinspeed+25%.description","value":"Ajoute 25 % à la vitesse des vaisseaux."}, 
-{"key":"techtreegenericunlock.zeppelinspeed+25%.unlockname","value":"+25 % vitesse des vaisseaux"}] 
+{"key":"techtreegenericunlock.zeppelinspeed+25%.unlockname","value":"+25 % vitesse des vaisseaux"}, 
+{"key":"recipe.scavengerrecipe.title","value":"Acier"}, 
+{"key":"recipe.silicarecipe.title","value":"Silice"}] 

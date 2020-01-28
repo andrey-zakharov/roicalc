@@ -128,7 +128,7 @@
 {"key":"recipe.antiviralsolutionrecipe.title","value":"Soluzione antivirale"}, 
 {"key":"recipe.auxiliary-armattachmentrecipe.title","value":"Estensione braccio ausiliario"}, 
 {"key":"recipe.binaryquarkgate.title","value":"Portale binario di quark"}, 
-{"key":"recipe.bioledsrecipe.title","value":"Coltura microbica"}, 
+{"key":"recipe.bioledsrecipe.title","value":"BioLED"}, 
 {"key":"recipe.bioluminescentalgae.title","value":"Alghe bioluminescenti"}, 
 {"key":"recipe.biomemorycells.title","value":"Cellule di memoria biologica"}, 
 {"key":"recipe.bluegammalaserrecipe.title","value":"Laser gamma blu"}, 
@@ -178,8 +178,6 @@
 {"key":"recipe.regenerativesolutionrecipe.title","value":"Soluzione rigenerante"}, 
 {"key":"recipe.regengelrecipe.title","value":"Gel rigenerante"}, 
 {"key":"recipe.replicator5000.title","value":"Replicatore 5000"}, 
-{"key":"recipe.scavengerrecipe.title","value":"Acciaio"}, 
-{"key":"recipe.silicarecipe.title","value":"Silice"}, 
 {"key":"recipe.steelcasesrecipe.title","value":"Contenitori d'acciaio"}, 
 {"key":"recipe.steelstrutsrecipe.title","value":"Puntoni in acciaio"}, 
 {"key":"recipe.structuraldissemblerrecipe.title","value":"Disassemblatore strutturale"}, 
@@ -204,4 +202,6 @@
 {"key":"techtreegenericunlock.zeppelincapacity.description","value":"Aumenta la capacità della navetta di 3 unità."}, 
 {"key":"techtreegenericunlock.zeppelincapacity.unlockname","value":"+3 capacità navetta"}, 
 {"key":"techtreegenericunlock.zeppelinspeed+25%.description","value":"Aumenta del 25% la velocità della navetta."}, 
-{"key":"techtreegenericunlock.zeppelinspeed+25%.unlockname","value":"+25% velocità navetta"}] 
+{"key":"techtreegenericunlock.zeppelinspeed+25%.unlockname","value":"+25% velocità navetta"}, 
+{"key":"recipe.scavengerrecipe.title","value":"Acciaio"}, 
+{"key":"recipe.silicarecipe.title","value":"Silice"}] 

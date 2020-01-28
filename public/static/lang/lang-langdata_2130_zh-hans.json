@@ -128,7 +128,7 @@
 {"key":"recipe.antiviralsolutionrecipe.title","value":"抗病毒溶液"}, 
 {"key":"recipe.auxiliary-armattachmentrecipe.title","value":"机械辅助臂附件"}, 
 {"key":"recipe.binaryquarkgate.title","value":"二进制夸克门"}, 
-{"key":"recipe.bioledsrecipe.title","value":"微生物培养物"}, 
+{"key":"recipe.bioledsrecipe.title","value":"生物发光二极管"}, 
 {"key":"recipe.bioluminescentalgae.title","value":"生物发光藻类"}, 
 {"key":"recipe.biomemorycells.title","value":"生物存储单元"}, 
 {"key":"recipe.bluegammalaserrecipe.title","value":"蓝色伽玛激光"}, 
@@ -178,8 +178,6 @@
 {"key":"recipe.regenerativesolutionrecipe.title","value":"再生溶液"}, 
 {"key":"recipe.regengelrecipe.title","value":"再生凝胶"}, 
 {"key":"recipe.replicator5000.title","value":"复制器 5000"}, 
-{"key":"recipe.scavengerrecipe.title","value":"钢"}, 
-{"key":"recipe.silicarecipe.title","value":"二氧化硅"}, 
 {"key":"recipe.steelcasesrecipe.title","value":"钢制箱子"}, 
 {"key":"recipe.steelstrutsrecipe.title","value":"钢制支柱"}, 
 {"key":"recipe.structuraldissemblerrecipe.title","value":"结构拆解器"}, 
@@ -204,4 +202,6 @@
 {"key":"techtreegenericunlock.zeppelincapacity.description","value":"为空降船增加 3 个单位的容量。"}, 
 {"key":"techtreegenericunlock.zeppelincapacity.unlockname","value":"+3 空降船容量"}, 
 {"key":"techtreegenericunlock.zeppelinspeed+25%.description","value":"空降船速度增加 25%。"}, 
-{"key":"techtreegenericunlock.zeppelinspeed+25%.unlockname","value":"+25% 空降船速度"}] 
+{"key":"techtreegenericunlock.zeppelinspeed+25%.unlockname","value":"+25% 空降船速度"}, 
+{"key":"recipe.scavengerrecipe.title","value":"钢"}, 
+{"key":"recipe.silicarecipe.title","value":"二氧化硅"}] 
