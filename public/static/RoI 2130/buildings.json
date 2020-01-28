@@ -449,7 +449,7 @@
 }, {
     "name": "PolymerGatherer",
     "displayName": "POLYMER GATHERER",
-    "description": "The Polymer Gatherer uses Harvesters to collect units of Polymers.", 
+    "description": "The Polymer Gatherer uses coastal harvesters to collect Polymers from polluted waters.", 
     "baseCost": 125000,
     "category": "OffshoreGatherers",
     "svgIcon": "2130-icn-bldg-gath-water-siphon (SVGImporter.SVGAsset)",
@@ -764,4 +764,43 @@
     "availableRecipes": []
     
     ,"moduleUpkeep": 11250
+}, {
+    "name": "2130TownCenterT2",
+    "displayName": "Town Center",
+    "description": "", 
+    "baseCost": 0,
+    "category": "TownCenter",
+    "svgIcon": "2130-icn-bldg-shop (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-town-center (UnityEngine.Sprite)",
+    "tags": [ ] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "2130House_1x1_Heavy_T0",
+    "displayName": "Residential Complex",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "2130House_1x1_Heavy_T1",
+    "displayName": "Residential Complex",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
 }] 

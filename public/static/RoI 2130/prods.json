@@ -756,7 +756,7 @@
     "type": "ProjectAutomata.ProductDefinition",
     "object": {
         "name": "Steel Struts",
-        "displayName": "Steel Struds",
+        "displayName": "Steel Struts",
         "category": "productCategories",
         "productCategory": "Row1",
         "endGameProduct": false,
