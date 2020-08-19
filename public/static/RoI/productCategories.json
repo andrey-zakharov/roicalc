@@ -8,7 +8,7 @@
 }, {
     "name": "FarmProduce", 
     "uiOrder": 2000,
-    "categoryName": "Экологические продукты",
+    "categoryName": "Продукты с фермы",
     "parentCategory": "",
     "priceMultiplier": 2.8,
     "growthMultiplier": 1

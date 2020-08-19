@@ -2218,4 +2218,19 @@
         "tier": 3,
         "svgIcon": "recipe-hard-cider-donut-small"
     }
+}, {
+    "type": "ProjectAutomata.Recipe",
+    "object": {
+        "name": "EasterEggs",
+        "displayName": "Easter Eggs",
+        "description": "EasterEggs (ProjectAutomata.Recipe)",
+        "gameDays": 40,
+        "excludeInRecipeGraph": false,
+        "waterResources": false,
+        "requiredModules": [],
+        "ingredients": [{ "productName": "Paint", "amount": 1 }, { "productName": "Plastic", "amount": 2 }],
+        "result": [{ "productName": "EasterEggs", "amount": 2 }],
+        "tier": 3,
+        "svgIcon": "recipe-easter-eggs-small"
+    }
 }] 

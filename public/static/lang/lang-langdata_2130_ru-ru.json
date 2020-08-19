@@ -178,6 +178,8 @@
 {"key":"recipe.regenerativesolutionrecipe.title","value":"Регенерирующий раствор"}, 
 {"key":"recipe.regengelrecipe.title","value":"Регенерирующий гель"}, 
 {"key":"recipe.replicator5000.title","value":"«Репликатор 5000»"}, 
+{"key":"recipe.scavengerrecipe.title","value":"Сталь"}, 
+{"key":"recipe.silicarecipe.title","value":"Кремний"}, 
 {"key":"recipe.steelcasesrecipe.title","value":"Стальные ящики"}, 
 {"key":"recipe.steelstrutsrecipe.title","value":"Стальные стойки"}, 
 {"key":"recipe.structuraldissemblerrecipe.title","value":"Структурный дизассемблер"}, 
@@ -202,6 +204,4 @@
 {"key":"techtreegenericunlock.zeppelincapacity.description","value":"Добавляет 3 ед. вместимости посадочным шлюпкам."}, 
 {"key":"techtreegenericunlock.zeppelincapacity.unlockname","value":"#ERROR!"}, 
 {"key":"techtreegenericunlock.zeppelinspeed+25%.description","value":"Добавляет 25 % скорости посадочным шлюпкам."}, 
-{"key":"techtreegenericunlock.zeppelinspeed+25%.unlockname","value":"#ERROR!"}, 
-{"key":"recipe.scavengerrecipe.title","value":"Сталь"}, 
-{"key":"recipe.silicarecipe.title","value":"Кремний"}] 
+{"key":"techtreegenericunlock.zeppelinspeed+25%.unlockname","value":"#ERROR!"}] 

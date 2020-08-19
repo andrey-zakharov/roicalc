@@ -178,6 +178,8 @@
 {"key":"recipe.regenerativesolutionrecipe.title","value":"再生溶液"}, 
 {"key":"recipe.regengelrecipe.title","value":"再生凝胶"}, 
 {"key":"recipe.replicator5000.title","value":"复制器 5000"}, 
+{"key":"recipe.scavengerrecipe.title","value":"钢"}, 
+{"key":"recipe.silicarecipe.title","value":"二氧化硅"}, 
 {"key":"recipe.steelcasesrecipe.title","value":"钢制箱子"}, 
 {"key":"recipe.steelstrutsrecipe.title","value":"钢制支柱"}, 
 {"key":"recipe.structuraldissemblerrecipe.title","value":"结构拆解器"}, 
@@ -202,6 +204,4 @@
 {"key":"techtreegenericunlock.zeppelincapacity.description","value":"为空降船增加 3 个单位的容量。"}, 
 {"key":"techtreegenericunlock.zeppelincapacity.unlockname","value":"+3 空降船容量"}, 
 {"key":"techtreegenericunlock.zeppelinspeed+25%.description","value":"空降船速度增加 25%。"}, 
-{"key":"techtreegenericunlock.zeppelinspeed+25%.unlockname","value":"+25% 空降船速度"}, 
-{"key":"recipe.scavengerrecipe.title","value":"钢"}, 
-{"key":"recipe.silicarecipe.title","value":"二氧化硅"}] 
+{"key":"techtreegenericunlock.zeppelinspeed+25%.unlockname","value":"+25% 空降船速度"}] 

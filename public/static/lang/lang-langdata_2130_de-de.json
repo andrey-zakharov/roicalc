@@ -178,6 +178,8 @@
 {"key":"recipe.regenerativesolutionrecipe.title","value":"Regenerative Lösung"}, 
 {"key":"recipe.regengelrecipe.title","value":"Regeneratives Gel"}, 
 {"key":"recipe.replicator5000.title","value":"Replikator 5000"}, 
+{"key":"recipe.scavengerrecipe.title","value":"Stahl"}, 
+{"key":"recipe.silicarecipe.title","value":"Silica"}, 
 {"key":"recipe.steelcasesrecipe.title","value":"Stahlgehäuse"}, 
 {"key":"recipe.steelstrutsrecipe.title","value":"Stahlstreben"}, 
 {"key":"recipe.structuraldissemblerrecipe.title","value":"Struktureller Zerleger"}, 
@@ -202,6 +204,4 @@
 {"key":"techtreegenericunlock.zeppelincapacity.description","value":"Füge Lieferschiffen 3 Kapazität hinzu."}, 
 {"key":"techtreegenericunlock.zeppelincapacity.unlockname","value":"+3 Lieferschiff-Kapazität"}, 
 {"key":"techtreegenericunlock.zeppelinspeed+25%.description","value":"Füge Lieferschiffen 25 % Geschwindigkeit hinzu."}, 
-{"key":"techtreegenericunlock.zeppelinspeed+25%.unlockname","value":"+25 % Lieferschiff-Geschwindigkeit"}, 
-{"key":"recipe.scavengerrecipe.title","value":"Stahl"}, 
-{"key":"recipe.silicarecipe.title","value":"Silica"}] 
+{"key":"techtreegenericunlock.zeppelinspeed+25%.unlockname","value":"+25 % Lieferschiff-Geschwindigkeit"}] 

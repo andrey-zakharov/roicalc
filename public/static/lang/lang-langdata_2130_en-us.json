@@ -156,7 +156,7 @@
 {"key":"recipe.antibacterialsolutionrecipe.title","value":"Antibacterial Solution"}, 
 {"key":"recipe.antiviralpillrecipe.title","value":"Antiviral Pill"}, 
 {"key":"recipe.antiviralsolutionrecipe.title","value":"Antiviral Solution"}, 
-{"key":"recipe.auxiliary-armattachmentrecipe.title","value":"Auxiliary-Arm Attachment"}, 
+{"key":"recipe.auxiliary-armattachmentrecipe.title","value":"Auxiliary-Arm Extension"}, 
 {"key":"recipe.binaryquarkgate.title","value":"Binary Quark Gate"}, 
 {"key":"recipe.bioledsrecipe.title","value":"BioLEDs"}, 
 {"key":"recipe.bioluminescentalgae.title","value":"Bioluminescent Algae"}, 
@@ -208,6 +208,8 @@
 {"key":"recipe.regenerativesolutionrecipe.title","value":"Regenerative Solution"}, 
 {"key":"recipe.regengelrecipe.title","value":"Regen Gel"}, 
 {"key":"recipe.replicator5000.title","value":"Replicator 5000"}, 
+{"key":"recipe.scavengerrecipe.title","value":"Steel"}, 
+{"key":"recipe.silicarecipe.title","value":"Silica"}, 
 {"key":"recipe.steelcasesrecipe.title","value":"Steel Cases"}, 
 {"key":"recipe.steelstrutsrecipe.title","value":"Steel Struts"}, 
 {"key":"recipe.structuraldissemblerrecipe.title","value":"Structural Disassembler"}, 
@@ -232,6 +234,4 @@
 {"key":"techtreegenericunlock.zeppelincapacity.description","value":"Add 3 Capacity to Drop Ships."}, 
 {"key":"techtreegenericunlock.zeppelincapacity.unlockname","value":"+3 Drop Ship Capacity"}, 
 {"key":"techtreegenericunlock.zeppelinspeed+25%.description","value":"Add 25% Speed to Drop Ships."}, 
-{"key":"techtreegenericunlock.zeppelinspeed+25%.unlockname","value":"+25% Drop Ship Speed"}, 
-{"key":"recipe.scavengerrecipe.title","value":"Steel"}, 
-{"key":"recipe.silicarecipe.title","value":"Silica"}] 
+{"key":"techtreegenericunlock.zeppelinspeed+25%.unlockname","value":"+25% Drop Ship Speed"}] 

@@ -19,7 +19,7 @@
     "category": "State",
     "svgIcon": "tool-building-state (SVGImporter.SVGAsset)",
     "constructionBarIcon": "",
-    "buildingPanelHeaderImage": "2130-bldg-bg-title-town-center (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-set-towncenter2 (UnityEngine.Sprite)",
     "tags": [ ] ,
     "availableRecipes": []
     
@@ -58,7 +58,7 @@
     "category": "TownCenter",
     "svgIcon": "icn-budget-subcat-settlement (SVGImporter.SVGAsset)",
     "constructionBarIcon": "",
-    "buildingPanelHeaderImage": "2130-bldg-bg-title-town-center (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-set-towncenter2 (UnityEngine.Sprite)",
     "tags": [ ] ,
     "availableRecipes": []
     
@@ -69,9 +69,9 @@
     "description": "Склады используются в качестве центральных узлов для распределения продукции между зданиями в радиусе их действия или между другими складами с помощью запросов инфраструктуры.", 
     "baseCost": 150000,
     "category": "Warehouse",
-    "svgIcon": "2130-icn-bldg-logi-warehouse (SVGImporter.SVGAsset)",
-    "constructionBarIcon": "2130-ui-conbar-logi-warehouse (UnityEngine.Sprite)",
-    "buildingPanelHeaderImage": "2130-bldg-bg-title-logi-warehouse (UnityEngine.Sprite)",
+    "svgIcon": "tool-station-warehouse-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-station-warehouse (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-log-warehouse (UnityEngine.Sprite)",
     "tags": [ "Logistics"] ,
     "availableRecipes": []
     ,"upkeep": {
@@ -87,9 +87,9 @@
     "description": "Склады используются в качестве центральных узлов для распределения продукции между зданиями в радиусе их действия или между другими складами с помощью запросов инфраструктуры.", 
     "baseCost": 150000,
     "category": "Warehouse",
-    "svgIcon": "2130-icn-bldg-logi-warehouse (SVGImporter.SVGAsset)",
-    "constructionBarIcon": "2130-ui-conbar-logi-warehouse-mirrored (UnityEngine.Sprite)",
-    "buildingPanelHeaderImage": "2130-bldg-bg-title-logi-warehouse (UnityEngine.Sprite)",
+    "svgIcon": "tool-station-warehouse-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-station-warehouse-mirrored (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-log-warehouse (UnityEngine.Sprite)",
     "tags": [ "Logistics"] ,
     "availableRecipes": []
     ,"upkeep": {
@@ -1469,7 +1469,7 @@
     "constructionBarIcon": "ui-building-factory-toy (UnityEngine.Sprite)",
     "buildingPanelHeaderImage": "bldg-bg-title-fac-toys (UnityEngine.Sprite)",
     "tags": [ "Factory", "Industrial", "Recipe User"] ,
-    "availableRecipes": ["Fluff", "Toy Furniture", "WoodenTrain", "Toy Train Set", "Doll", "TeddyBear", "Marbles", "Dollhouse"]
+    "availableRecipes": ["Fluff", "Toy Furniture", "WoodenTrain", "Toy Train Set", "Doll", "TeddyBear", "Marbles", "Dollhouse", "EasterEggs"]
     ,"upkeep": {
         "monthlyUpkeep": "buildingCost * 0.025",
         "minUpkeep": 0.25,
@@ -1692,7 +1692,7 @@
     "description": "Станции дирижаблей используют дирижабли для перевозки продуктов по карте. Для дирижаблей не нужны дороги — они перемещаются по воздуху.", 
     "baseCost": 450000,
     "category": "ZeppelinStation",
-    "svgIcon": "2130-icn-bldg-logi-dropship-pad (SVGImporter.SVGAsset)",
+    "svgIcon": "tool-station-zeppelin-small (SVGImporter.SVGAsset)",
     "constructionBarIcon": "ui-building-station-zeppelin (UnityEngine.Sprite)",
     "buildingPanelHeaderImage": "bldg-bg-title-log-zeppelin (UnityEngine.Sprite)",
     "tags": [ "Logistics"] ,
@@ -1705,7 +1705,7 @@
     "description": "Ж/Д-терминалы, соединенные железнодорожными путями, используют поезда для перемещения большого количество продуктов между складами на карте.", 
     "baseCost": 450000,
     "category": "TrainTerminal",
-    "svgIcon": "2130-icn-bldg-logi-train-station (SVGImporter.SVGAsset)",
+    "svgIcon": "tool-station-train-small (SVGImporter.SVGAsset)",
     "constructionBarIcon": "ui-building-station-train (UnityEngine.Sprite)",
     "buildingPanelHeaderImage": "bldg-bg-title-log-train (UnityEngine.Sprite)",
     "tags": [ "Logistics"] ,
@@ -1718,7 +1718,7 @@
     "description": "Стоянки лодок отправляют корабли по водным путям для перемещения огромного количества продуктов на другие стоянки лодок.", 
     "baseCost": 450000,
     "category": "BoatDepot",
-    "svgIcon": "2130-icn-bldg-logi-cargo-docks (SVGImporter.SVGAsset)",
+    "svgIcon": "tool-station-boat-small (SVGImporter.SVGAsset)",
     "constructionBarIcon": "ui-building-station-boatdock (UnityEngine.Sprite)",
     "buildingPanelHeaderImage": "bldg-bg-title-log-boat (UnityEngine.Sprite)",
     "tags": [ "Logistics"] ,

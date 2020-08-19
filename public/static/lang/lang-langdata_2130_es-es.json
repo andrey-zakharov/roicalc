@@ -178,6 +178,8 @@
 {"key":"recipe.regenerativesolutionrecipe.title","value":"Solución regeneradora"}, 
 {"key":"recipe.regengelrecipe.title","value":"Gel regenerador"}, 
 {"key":"recipe.replicator5000.title","value":"Copiador 5000"}, 
+{"key":"recipe.scavengerrecipe.title","value":"Acero"}, 
+{"key":"recipe.silicarecipe.title","value":"Sílice"}, 
 {"key":"recipe.steelcasesrecipe.title","value":"Contenedores de acero"}, 
 {"key":"recipe.steelstrutsrecipe.title","value":"Puntales de acero"}, 
 {"key":"recipe.structuraldissemblerrecipe.title","value":"Desensamblador estructural"}, 
@@ -202,6 +204,4 @@
 {"key":"techtreegenericunlock.zeppelincapacity.description","value":"Incrementa la capacidad de las naves de envío directo en 3 unidades."}, 
 {"key":"techtreegenericunlock.zeppelincapacity.unlockname","value":"#ERROR!"}, 
 {"key":"techtreegenericunlock.zeppelinspeed+25%.description","value":"Incrementa la velocidad de las naves de envío directo en un 25 %."}, 
-{"key":"techtreegenericunlock.zeppelinspeed+25%.unlockname","value":"#ERROR!"}, 
-{"key":"recipe.scavengerrecipe.title","value":"Acero"}, 
-{"key":"recipe.silicarecipe.title","value":"Sílice"}] 
+{"key":"techtreegenericunlock.zeppelinspeed+25%.unlockname","value":"#ERROR!"}] 
