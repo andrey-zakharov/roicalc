@@ -1,0 +1,121 @@
+[ {
+    "name": "BoatDepot", 
+    "uiOrder": 0,
+    "categoryName": "Стоянка лодок",
+    "parentCategory": "WarehouseModule"
+}, {
+    "name": "CoastalGatherers", 
+    "uiOrder": 0,
+    "categoryName": "Приемщики (берег)",
+    "parentCategory": "GathererBuildings"
+}, {
+    "name": "CoastHarvester", 
+    "uiOrder": 0,
+    "categoryName": "",
+    "parentCategory": "Harvester"
+}, {
+    "name": "Commercial", 
+    "uiOrder": 0,
+    "categoryName": "Магазины",
+    "parentCategory": ""
+}, {
+    "name": "Factories", 
+    "uiOrder": 0,
+    "categoryName": "Фабрики",
+    "parentCategory": ""
+}, {
+    "name": "Farms", 
+    "uiOrder": 0,
+    "categoryName": "Фермы",
+    "parentCategory": ""
+}, {
+    "name": "Field", 
+    "uiOrder": 0,
+    "categoryName": "Поле",
+    "parentCategory": ""
+}, {
+    "name": "GathererBuildings", 
+    "uiOrder": 0,
+    "categoryName": "ПРИЕМЩИКИ",
+    "parentCategory": ""
+}, {
+    "name": "Harvester", 
+    "uiOrder": 0,
+    "categoryName": "Сборщик",
+    "parentCategory": ""
+}, {
+    "name": "Headquarters", 
+    "uiOrder": 0,
+    "categoryName": "Штаб-квартира",
+    "parentCategory": ""
+}, {
+    "name": "LandGatherers", 
+    "uiOrder": 0,
+    "categoryName": "Приемщики (земля)",
+    "parentCategory": "GathererBuildings"
+}, {
+    "name": "LogisticsBuildings", 
+    "uiOrder": 0,
+    "categoryName": "Здания инфраструктуры",
+    "parentCategory": ""
+}, {
+    "name": "OffshoreGatherers", 
+    "uiOrder": 0,
+    "categoryName": "Приемщики (шельф)",
+    "parentCategory": "GathererBuildings"
+}, {
+    "name": "PollutionManagement", 
+    "uiOrder": 0,
+    "categoryName": "Контроль загрязнения",
+    "parentCategory": ""
+}, {
+    "name": "Prototype Factories", 
+    "uiOrder": 0,
+    "categoryName": "Фабрики прототипов",
+    "parentCategory": "HeavyIndustry"
+}, {
+    "name": "Residential", 
+    "uiOrder": 0,
+    "categoryName": "Жилье",
+    "parentCategory": ""
+}, {
+    "name": "RuralIndustry", 
+    "uiOrder": 0,
+    "categoryName": "Сельское хозяйство",
+    "parentCategory": "Factories"
+}, {
+    "name": "State", 
+    "uiOrder": 0,
+    "categoryName": "Государство",
+    "parentCategory": ""
+}, {
+    "name": "TownCenter", 
+    "uiOrder": 0,
+    "categoryName": "Городской центр",
+    "parentCategory": ""
+}, {
+    "name": "TrainTerminal", 
+    "uiOrder": 0,
+    "categoryName": "Ж/Д терминал",
+    "parentCategory": "WarehouseModule"
+}, {
+    "name": "Warehouse", 
+    "uiOrder": 0,
+    "categoryName": "Склад",
+    "parentCategory": "LogisticsBuildings"
+}, {
+    "name": "ZeppelinStation", 
+    "uiOrder": 0,
+    "categoryName": "Станция дирижаблей",
+    "parentCategory": "WarehouseModule"
+}, {
+    "name": "LightIndustry", 
+    "uiOrder": 1,
+    "categoryName": "Легкая пром-ть",
+    "parentCategory": "Factories"
+}, {
+    "name": "HeavyIndustry", 
+    "uiOrder": 2,
+    "categoryName": "Тяжелая пром-ть",
+    "parentCategory": "Factories"
+}] 

@@ -1,0 +1,1964 @@
+[ {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Adhesive",
+        "displayName": "Клей",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-adhesive-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Apples",
+        "displayName": "Яблоки",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-apple-small",
+        "tags": [ "Basic", "FarmersMarket", "Food"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "AppleSmoothie",
+        "displayName": "Яблочный смузи",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-apple-smoothie-small",
+        "tags": [ "Food", "GroceryStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Axles",
+        "displayName": "Оси",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": true,
+        "disableContracts": false,
+        "svgIcon": "recipe-axles-small",
+        "tags": [ "CarStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "BagOfChips",
+        "displayName": "Пакетик чипсов",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-chips-small",
+        "tags": [ "Food", "GroceryStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Beef",
+        "displayName": "Говядина",
+        "category": "productCategories",
+        "productCategory": "Livestock",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "product-meat-beef-small",
+        "tags": [ "Basic", "FarmersMarket", "Food"] ,
+        "price": "((((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)) * (recipeOutput - productOutput)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "BeefStew",
+        "displayName": "Тушеная говядина",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-beef-stew-small",
+        "tags": [ "Diner"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Beer",
+        "displayName": "Пиво",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-beer-small",
+        "tags": [ "Alcohol", "LiquorStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Berries",
+        "displayName": "Ягоды",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-berries-small",
+        "tags": [ "Basic", "FarmersMarket", "Food"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "BerryPie",
+        "displayName": "Ягодный пирог",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-berry-pie-small",
+        "tags": [ "Diner"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "BerrySmoothie",
+        "displayName": "Ягодный смузи",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-berry-smoothie-small",
+        "tags": [ "Diner"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Binary Switcher",
+        "displayName": "Переключатель",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": true,
+        "disableContracts": true,
+        "svgIcon": "recipe-binary-switch-small",
+        "tags": [ "CarStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Biofuel",
+        "displayName": "Биотопливо",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-biofuel-small",
+        "tags": [ "CarStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "BodyChassis",
+        "displayName": "Шасси кузова",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": true,
+        "disableContracts": false,
+        "svgIcon": "recipe-car-body-chassis-small",
+        "tags": [ ] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Books",
+        "displayName": "Книги",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-book-small",
+        "tags": [ "Literature", "BookStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Bottles",
+        "displayName": "Бутылки",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-bottles-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Brandy",
+        "displayName": "Бренди",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-brandy-small",
+        "tags": [ "Alcohol", "LiquorStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Bricks",
+        "displayName": "Кирпичи",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-bricks-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Burgers",
+        "displayName": "Бургеры",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-hamburger-small",
+        "tags": [ "Food", "Diner"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Buttons",
+        "displayName": "Кнопки",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-button-small",
+        "tags": [ "Ironmongery"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "CannedFish",
+        "displayName": "Рыбные консервы",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-canned-fish-small",
+        "tags": [ "Food", "GroceryStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "CannedMutton",
+        "displayName": "Баранина в банках",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-canned-mutton-small",
+        "tags": [ "Food", "GroceryStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Cans",
+        "displayName": "Банки",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-tin-cans-small",
+        "tags": [ "Ironmongery"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Capacitors",
+        "displayName": "Конденсатор",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-capacitor-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Car",
+        "displayName": "Прототип автомобиля",
+        "category": "productCategories",
+        "productCategory": "PrototypeProducts",
+        "endGameProduct": true,
+        "disableContracts": true,
+        "svgIcon": "recipe-car-small",
+        "tags": [ "Showroom"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Cardboard",
+        "displayName": "Картон",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-cardboard-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "CarSeat",
+        "displayName": "Автомоб. сиденье",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-car-seats",
+        "tags": [ "CarStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Ceramics",
+        "displayName": "Керамика",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-ceramic-small",
+        "tags": [ "Ironmongery"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Cheese",
+        "displayName": "Сыр",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-cheese-small",
+        "tags": [ "Food", "GroceryStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Chemicals",
+        "displayName": "Химикаты",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-chemicals-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Chicken Dinner",
+        "displayName": "Ужин с курицей",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": true,
+        "disableContracts": true,
+        "svgIcon": "recipe-dinner-chicken-small",
+        "tags": [ ] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "ChickenMeat",
+        "displayName": "Куриное мясо",
+        "category": "productCategories",
+        "productCategory": "Livestock",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "product-meat-chicken-small",
+        "tags": [ "Basic", "FarmersMarket", "Food"] ,
+        "price": "((((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)) * (recipeOutput - productOutput)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "ChickenSoup",
+        "displayName": "Куриный суп",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-soup-chicken-small",
+        "tags": [ "Food", "Diner"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "ChocolateBar",
+        "displayName": "Шоколад. батончик",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-chocolate-small",
+        "tags": [ "Food", "GroceryStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "ChocolateCake",
+        "displayName": "Шоколадный торт",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-chocolate-cake-small",
+        "tags": [ "Food", "Diner"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Coal",
+        "displayName": "Уголь",
+        "category": "productCategories",
+        "productCategory": "RawResources",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-coal-small",
+        "tags": [ "Basic", "Hardware"] ,
+        "price": "upkeep / ((3 * recipeOutput) * (30 / recipeDays))"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Cocoa",
+        "displayName": "Какао",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-cocoa-small",
+        "tags": [ "Basic", "FarmersMarket", "Food"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "CombustionEngine",
+        "displayName": "Двигатель внутр. сгорания",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": true,
+        "disableContracts": false,
+        "svgIcon": "recipe-car-combustion-engine-small",
+        "tags": [ "CarStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Computer Memory",
+        "displayName": "Компьютерная память",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": true,
+        "disableContracts": true,
+        "svgIcon": "recipe-memory-small",
+        "tags": [ ] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Concrete",
+        "displayName": "Бетон",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-concrete-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Cooked Vegetables",
+        "displayName": "Приготовленные овощи",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": true,
+        "disableContracts": true,
+        "svgIcon": "recipe-vegetables-cooked-small",
+        "tags": [ "Diner"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Copper",
+        "displayName": "Медь",
+        "category": "productCategories",
+        "productCategory": "RawResources",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-copper-small",
+        "tags": [ "Basic", "ConstructionGoods"] ,
+        "price": "upkeep / ((3 * recipeOutput) * (30 / recipeDays))"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "CopperTubing",
+        "displayName": "Медные трубки",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-copper-tubing-small",
+        "tags": [ "Ironmongery"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "CopperWire",
+        "displayName": "Медная проволока",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-electric-wire-small",
+        "tags": [ "Ironmongery"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Cotton",
+        "displayName": "Хлопок",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-cotton-small",
+        "tags": [ "Basic", "Hardware"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "DeluxeBooks",
+        "displayName": "Роскошные книги",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-deluxe-books-small",
+        "tags": [ "Literature", "BookStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Dinner Container",
+        "displayName": "Ланч-бокс",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": true,
+        "disableContracts": true,
+        "svgIcon": "recipe-dinner-container-small",
+        "tags": [ ] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Diodes",
+        "displayName": "Диоды",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-diodes-small",
+        "tags": [ "Ironmongery"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Doll",
+        "displayName": "Кукла",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-doll-small",
+        "tags": [ "Toy"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Dollhouse",
+        "displayName": "Кукольный домик",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-doll-house-small",
+        "tags": [ "Toy"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Dough",
+        "displayName": "Тесто",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-dough-small",
+        "tags": [ "Food", "GroceryStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Dye",
+        "displayName": "Краситель",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-dye-small",
+        "tags": [ "Clothing"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Eggs",
+        "displayName": "Яйца",
+        "category": "productCategories",
+        "productCategory": "Livestock",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "product-egg-small",
+        "tags": [ "Basic", "FarmersMarket", "Food"] ,
+        "price": "((((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)) * (recipeOutput - productOutput)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Engine Block",
+        "displayName": "Блок двигателя",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-engine-block-small",
+        "tags": [ "CarStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "ExteriorBody",
+        "displayName": "Внешний кузов",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": true,
+        "disableContracts": false,
+        "svgIcon": "recipe-car-exterior-body-small",
+        "tags": [ "CarStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Fibers",
+        "displayName": "Волокна",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-fibers-small",
+        "tags": [ "Clothing"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "First Computer",
+        "displayName": "Первый компьютер",
+        "category": "productCategories",
+        "productCategory": "PrototypeProducts",
+        "endGameProduct": true,
+        "disableContracts": true,
+        "svgIcon": "recipe-computer-small",
+        "tags": [ "Showroom"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Fish",
+        "displayName": "Рыба",
+        "category": "productCategories",
+        "productCategory": "RawResources",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-fish-small",
+        "tags": [ "Basic", "FarmersMarket", "Food"] ,
+        "price": "upkeep / ((3 * recipeOutput) * (30 / recipeDays))"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Fish and Chips",
+        "displayName": "Рыба с картофелем",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-fish-chips-small",
+        "tags": [ "Food", "Diner"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Flour",
+        "displayName": "Мука",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-flour-small",
+        "tags": [ "Food", "GroceryStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Fluff",
+        "displayName": "Набивка",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-stuffing-small",
+        "tags": [ "Toy"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Fried Chicken",
+        "displayName": "Жареная курица",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": true,
+        "disableContracts": true,
+        "svgIcon": "recipe-chicken-fried-small",
+        "tags": [ "Diner"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Furniture Base (L)",
+        "displayName": "Мебельный каркас (Б)",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-furniture-base-large-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "FurnitureBase(S)",
+        "displayName": "Мебельный каркас (М)",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-furniture-base-small-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Gas",
+        "displayName": "Газ",
+        "category": "productCategories",
+        "productCategory": "RawResources",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-gas-small",
+        "tags": [ "Basic", "Hardware"] ,
+        "price": "upkeep / ((3 * recipeOutput) * (30 / recipeDays))"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Glass",
+        "displayName": "Стекло",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-glass-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Glass Tubes",
+        "displayName": "Пробирки",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-glass-tubes-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "GrainWhiskey",
+        "displayName": "Зерновой виски",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-whiskey-small",
+        "tags": [ "Alcohol", "LiquorStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "GrapeJuice",
+        "displayName": "Виноградный сок",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-grape-juice-small",
+        "tags": [ "Diner"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Grapes",
+        "displayName": "Виноград",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-grape-small",
+        "tags": [ "Basic", "FarmersMarket", "Food"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "HardCider",
+        "displayName": "Крепкий сидр",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-cider-small",
+        "tags": [ "Alcohol", "LiquorStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Headlights",
+        "displayName": "Фары",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-headlights-small",
+        "tags": [ "CarStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "HeavyFabric",
+        "displayName": "Тяжелая ткань",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-fabric-heavy-small",
+        "tags": [ "Clothing"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "HeavyPulp",
+        "displayName": "Тяжелая целлюлоза",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-heavy-pulp-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Hops",
+        "displayName": "Хмель",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-hops-small",
+        "tags": [ "Basic", "FarmersMarket"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Ink",
+        "displayName": "Чернила",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-ink-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Interface",
+        "displayName": "Интерфейс",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": true,
+        "disableContracts": true,
+        "svgIcon": "recipe-interface-small",
+        "tags": [ ] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "InteriorBody",
+        "displayName": "Детали салона",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": true,
+        "disableContracts": false,
+        "svgIcon": "recipe-car-interior-body-small",
+        "tags": [ "CarStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "InteriorLining",
+        "displayName": "Внутренняя облицовка",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-interior-lining-small",
+        "tags": [ "CarStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "IronOre",
+        "displayName": "Железная руда",
+        "category": "productCategories",
+        "productCategory": "RawResources",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-iron-ore-small",
+        "tags": [ "Basic", "ConstructionGoods"] ,
+        "price": "upkeep / ((3 * recipeOutput) * (30 / recipeDays))"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Leather",
+        "displayName": "Кожа",
+        "category": "productCategories",
+        "productCategory": "Livestock",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "product-leather-small",
+        "tags": [ "Basic", "HardwareShop", "Hardware"] ,
+        "price": "((((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)) * (recipeOutput - productOutput)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "LeatherFurniture",
+        "displayName": "Кожаная мебель",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-furniture-leather-small",
+        "tags": [ "Furniture", "HomeGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "LightBulb",
+        "displayName": "Лампочки",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-light-bulbs-small",
+        "tags": [ "HomeGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "LightFabric",
+        "displayName": "Легкая ткань",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-fabric-light-small",
+        "tags": [ "Clothing"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Marbles",
+        "displayName": "Шарики",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-marbles-small",
+        "tags": [ "Toy"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Milk",
+        "displayName": "Молоко",
+        "category": "productCategories",
+        "productCategory": "Livestock",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "product-milk-small",
+        "tags": [ "Basic", "FarmersMarket", "Food"] ,
+        "price": "((((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)) * (recipeOutput - productOutput)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Mutton",
+        "displayName": "Баранина",
+        "category": "productCategories",
+        "productCategory": "Livestock",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "product-meat-mutton-small",
+        "tags": [ "Basic", "FarmersMarket", "Food"] ,
+        "price": "((((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)) * (recipeOutput - productOutput)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Napkins",
+        "displayName": "Салфетки",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-napkins-small",
+        "tags": [ "Clothing", "ClothingStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Newspapers",
+        "displayName": "Газеты",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-newspaper-small",
+        "tags": [ "Literature", "BookStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "OfficeFurniture",
+        "displayName": "Офисная мебель",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-furniture-office-small",
+        "tags": [ "Furniture", "HomeGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Oil",
+        "displayName": "Нефть",
+        "category": "productCategories",
+        "productCategory": "RawResources",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-oil-small",
+        "tags": [ "Basic", "Hardware"] ,
+        "price": "upkeep / ((3 * recipeOutput) * (30 / recipeDays))"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Olive Oil",
+        "displayName": "Оливковое масло",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-olive-oil-small",
+        "tags": [ "Food", "GroceryStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Olives",
+        "displayName": "Оливки",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "recipe-olive-small",
+        "tags": [ "Basic", "FarmersMarket", "Food"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "OrangeJuice",
+        "displayName": "Апельсиновый сок",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-juice-small",
+        "tags": [ "Food", "GroceryStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Oranges",
+        "displayName": "Апельсины",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-orange-small",
+        "tags": [ "Basic", "FarmersMarket", "Food"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "OrangeSoda",
+        "displayName": "Апельсиновая вода",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-soda-small",
+        "tags": [ "Food", "Diner"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Oven",
+        "displayName": "Духовка",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-oven-small",
+        "tags": [ "HomeGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Paint",
+        "displayName": "Краска",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-paint-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Paper Roll",
+        "displayName": "Рулон бумаги",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-parchment-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Pizza",
+        "displayName": "Пицца",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-pizza-small",
+        "tags": [ "Food", "Diner"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Plastic",
+        "displayName": "Пластик",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-plastic-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Plastic Cutlery",
+        "displayName": "Пластиковая посуда",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-cutlery-plastic-small",
+        "tags": [ "HomeGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "PlasticFurniture",
+        "displayName": "Пластиковая мебель",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-furniture-plastic-small",
+        "tags": [ "Furniture", "HomeGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Potato",
+        "displayName": "Картофель",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-potatoes-small",
+        "tags": [ "Basic", "FarmersMarket", "Food"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Premade Dinner",
+        "displayName": "Готовый ужин",
+        "category": "productCategories",
+        "productCategory": "PrototypeProducts",
+        "endGameProduct": true,
+        "disableContracts": true,
+        "svgIcon": "recipe-dinner-premade-small",
+        "tags": [ "Showroom"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "PrintedPaper",
+        "displayName": "Печатная бумага",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-paper-printed-small",
+        "tags": [ "BookStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Processor",
+        "displayName": "Процессор",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": true,
+        "disableContracts": true,
+        "svgIcon": "recipe-processor-small",
+        "tags": [ ] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Punch Cards",
+        "displayName": "Перфокарты",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-punch-card-small",
+        "tags": [ "BookStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Radiator",
+        "displayName": "Радиатор",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-radiator-small",
+        "tags": [ "HomeGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "RadioReceiver",
+        "displayName": "Радиоприемник",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-radio-receiver-small",
+        "tags": [ "HomeGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "RawRubber",
+        "displayName": "Каучук",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-raw-rubber-small",
+        "tags": [ "Hardware"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "RefinedOil",
+        "displayName": "Рафинированное масло",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-refined-oil-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Refrigerator",
+        "displayName": "Холодильник",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-refrigerator-small",
+        "tags": [ "HomeGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Reinforced Wall",
+        "displayName": "Укрепленная стена",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-reinforced-walls-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "RollingChassis",
+        "displayName": "Ходовая часть",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": true,
+        "disableContracts": false,
+        "svgIcon": "recipe-car-rolling-chassis-small",
+        "tags": [ ] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Rubber",
+        "displayName": "Резина",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-rubber-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "RubberTubes",
+        "displayName": "Резиновые трубки",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-rubber-tubes-small",
+        "tags": [ "CarStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Sand",
+        "displayName": "Песок",
+        "category": "productCategories",
+        "productCategory": "RawResources",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-sand-small",
+        "tags": [ "Basic", "Hardware", "AvailableWithWater"] ,
+        "price": "upkeep / ((3 * recipeOutput) * (30 / recipeDays))"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "SodaWater",
+        "displayName": "Содовая",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-soda-water-small",
+        "tags": [ "Food", "Diner"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Soup",
+        "displayName": "Суп",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-soup-small",
+        "tags": [ "Food", "GroceryStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Steel",
+        "displayName": "Сталь",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-steel-small",
+        "tags": [ "Ironmongery"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "SteelBarrel",
+        "displayName": "Стальные бочки",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-steel-barrels-small",
+        "tags": [ "Ironmongery"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "SteelFrame",
+        "displayName": "Стальные рамы",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-steel-frame-small",
+        "tags": [ "CarStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Stovetop",
+        "displayName": "Плита",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-stove-small",
+        "tags": [ "HomeGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Sugar",
+        "displayName": "Сахар",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-sugar-small",
+        "tags": [ "Basic", "FarmersMarket", "Food"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "SummerClothes",
+        "displayName": "Летняя одежда",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-clothes-summer-small",
+        "tags": [ "Clothing", "ClothingStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Teddy Bear",
+        "displayName": "Медвежонок",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-teddy-bear-small",
+        "tags": [ "Toy"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Telephone",
+        "displayName": "Телефон",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-radio-telephone-small",
+        "tags": [ "HomeGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "ThinCardboard",
+        "displayName": "Тонкий картон",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-cardboard-thin-small",
+        "tags": [ "BookStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Tire",
+        "displayName": "Шины",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-tires-small",
+        "tags": [ "CarStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Toy Furniture",
+        "displayName": "Кукольная мебель",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-toy-furniture-small",
+        "tags": [ "Toy"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Toy Train Set",
+        "displayName": "Игрушечная железная дорога",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-train-set-small",
+        "tags": [ "Toy"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Vegetables",
+        "displayName": "Овощи",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-vegetables-small",
+        "tags": [ "Basic", "FarmersMarket", "Food"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Vodka",
+        "displayName": "Водка",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-vodka-small",
+        "tags": [ "Alcohol", "LiquorStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Waffles",
+        "displayName": "Вафли",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-waffles-small",
+        "tags": [ "Diner"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Wall Panels",
+        "displayName": "Настенные панели",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-wall-panels-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Wheat",
+        "displayName": "Пшеница",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-wheat-small",
+        "tags": [ "Basic", "FarmersMarket", "Food"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Wine",
+        "displayName": "Вино",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-wine-small",
+        "tags": [ "Alcohol", "LiquorStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "WinterClothes",
+        "displayName": "Зимняя одежда",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-clothes-winter-small",
+        "tags": [ "Clothing", "ClothingStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Wood",
+        "displayName": "Древесина",
+        "category": "productCategories",
+        "productCategory": "RawResources",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-wood-small",
+        "tags": [ "Basic", "Hardware"] ,
+        "price": "upkeep / ((3 * recipeOutput) * (30 / recipeDays))"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Wooden Train",
+        "displayName": "Деревянный поезд",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-wooden-train-small",
+        "tags": [ "Toy"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "WoodenBarrel",
+        "displayName": "Деревянные бочки",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-barrel-small",
+        "tags": [ "HomeGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "WoodenPlanks",
+        "displayName": "Доски",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-wooden-planks-small",
+        "tags": [ "ConstructionGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Wool",
+        "displayName": "Шерсть",
+        "category": "productCategories",
+        "productCategory": "Livestock",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "product-wool-small",
+        "tags": [ "Basic", "Hardware"] ,
+        "price": "((((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)) * (recipeOutput - productOutput)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "WorkClothes",
+        "displayName": "Рабочая одежда",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-clothes-work-small",
+        "tags": [ "Clothing", "ClothingStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Yeast",
+        "displayName": "Дрожжи",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-yeast-small",
+        "tags": [ "Food", "GroceryStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Water",
+        "displayName": "Вода",
+        "category": "productCategories",
+        "productCategory": "RawResources",
+        "endGameProduct": false,
+        "disableContracts": true,
+        "svgIcon": "product-water-small",
+        "tags": [ "Basic", "AvailableWithWater"] ,
+        "price": "upkeep / ((3 * recipeOutput) * (30 / recipeDays))"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Quilt",
+        "displayName": "Стеганое одеяло",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-quilt-small",
+        "tags": [ "ClothingStore"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Couch",
+        "displayName": "Диван",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-couch-small",
+        "tags": [ "Furniture", "HomeGoods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "HardCiderDonuts",
+        "displayName": "Пончики с сидром",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-hard-cider-donut-small",
+        "tags": [ "Food"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "EasterEggs",
+        "displayName": "Easter Eggs",
+        "category": "",
+        "productCategory": "",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-easter-eggs-small",
+        "tags": [ "Toy"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }] 

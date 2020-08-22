@@ -1,0 +1,806 @@
+[ {
+    "name": "Headquarters",
+    "displayName": "Штаб-квартира",
+    "description": "Штаб-квартира — это центр управления вашим бизнесом, древом технологий, кредитами и контрактами.", 
+    "baseCost": 0,
+    "category": "Headquarters",
+    "svgIcon": "icn-hq-target (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-HQ-base (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-hq-base (UnityEngine.Sprite)",
+    "tags": [ ] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "State",
+    "displayName": "Государство",
+    "description": "", 
+    "baseCost": 0,
+    "category": "State",
+    "svgIcon": "tool-building-state (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "bldg-bg-title-set-towncenter2 (UnityEngine.Sprite)",
+    "tags": [ ] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "T1TownCentre",
+    "displayName": "Региональный центр",
+    "description": "", 
+    "baseCost": 0,
+    "category": "TownCenter",
+    "svgIcon": "icn-budget-subcat-settlement (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "bldg-bg-title-set-regional (UnityEngine.Sprite)",
+    "tags": [ ] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "T2TownCentre",
+    "displayName": "Городской центр",
+    "description": "", 
+    "baseCost": 0,
+    "category": "TownCenter",
+    "svgIcon": "icn-budget-subcat-settlement (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "bldg-bg-title-set-towncenter1 (UnityEngine.Sprite)",
+    "tags": [ ] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "T3TownCentre",
+    "displayName": "Городской центр",
+    "description": "", 
+    "baseCost": 0,
+    "category": "TownCenter",
+    "svgIcon": "icn-budget-subcat-settlement (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "bldg-bg-title-set-towncenter2 (UnityEngine.Sprite)",
+    "tags": [ ] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "WarehouseLogistical",
+    "displayName": "СКЛАД",
+    "description": "Склады используются в качестве центральных узлов для распределения продукции между зданиями в радиусе их действия или между другими складами с помощью запросов инфраструктуры.", 
+    "baseCost": 150000,
+    "category": "Warehouse",
+    "svgIcon": "tool-station-warehouse-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-station-warehouse (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-log-warehouse (UnityEngine.Sprite)",
+    "tags": [ "Logistics"] ,
+    "availableRecipes": []
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0,
+        "totalMonthlyUpkeep": 0
+    }
+    
+}, {
+    "name": "WarehouseLogisticalMirrored",
+    "displayName": "СКЛАД",
+    "description": "Склады используются в качестве центральных узлов для распределения продукции между зданиями в радиусе их действия или между другими складами с помощью запросов инфраструктуры.", 
+    "baseCost": 150000,
+    "category": "Warehouse",
+    "svgIcon": "tool-station-warehouse-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-station-warehouse-mirrored (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "bldg-bg-title-log-warehouse (UnityEngine.Sprite)",
+    "tags": [ "Logistics"] ,
+    "availableRecipes": []
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0,
+        "totalMonthlyUpkeep": 0
+    }
+    
+}, {
+    "name": "2130House_1x1_T0",
+    "displayName": "Residential Complex",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "2130House_1x1_T1",
+    "displayName": "Residential Complex",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "2130SettlementAirScrubber",
+    "displayName": "Air Scrubber",
+    "description": "The Air Scrubber is used to clean the pollution from the surrounding area, for a high upkeep.", 
+    "baseCost": 125000,
+    "category": "Residential",
+    "svgIcon": "2130-icn-cat-pollution (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "2130-ui-conbar-pollution (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-pollution (UnityEngine.Sprite)",
+    "tags": [ ] ,
+    "availableRecipes": []
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 3125
+    }
+    
+}, {
+    "name": "Advanced Components Factory",
+    "displayName": "ADVANCED COMPONENTS FACTORY",
+    "description": "The Advanced Components Factory uses Products from other industries to make Components to make the Replicator 5000 Prototype in the Replicator Megafactory.", 
+    "baseCost": 2500000,
+    "category": "HeavyIndustry",
+    "svgIcon": "2130-icn-bldg-fact-components-advanced (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "2130-ui-conbar-fact-advanced-components (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-fac-advancedcomponents (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["Microfilament Frame", "Neural Interface", "Theta Raw Processor", "Quantum Matrix", "Verteron Particle Infuser", "StructuralDissemblerRecipe", "Laser Control System", "Green Subatomic Laser Recipe"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 62500
+    }
+    
+}, {
+    "name": "Advanced Components Shop",
+    "displayName": "Advanced Components Shop",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "2130-icn-bldg-shop-advanced-components (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-shop-advanced-components (UnityEngine.Sprite)",
+    "tags": [ "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "Assorted Goods",
+    "displayName": "Assorted Goods",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "2130-icn-bldg-shop-assorted-goods (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-shop-assorted-goods (UnityEngine.Sprite)",
+    "tags": [ "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "BasicComponentsFactory",
+    "displayName": "BASIC COMPONENTS FACTORY",
+    "description": "The Basic Components Factory uses Steel and Titanium to make Light  Industrial Products like Titanium Cases, Grav Field Generator, and various lasers. ", 
+    "baseCost": 525000,
+    "category": "HeavyIndustry",
+    "svgIcon": "2130-icn-bldg-fact-components-basic (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "2130-ui-conbar-fact-basiccomponents (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-fac-basicomponents (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["MicroChips Recipe", "Titanium Cases Recipe", "Hodagrium Recipe", "Thorium Rods Recipe", "Steel Cases Recipe", "Superconductor Recipe", "Grav Field Generator Recipe", "Nuclear Power Cells Recipe", "Nanochips Recipe", "Blue Gamma Laser Recipe", "Red Anti-Matter Laser Recipe", "Green Subatomic Laser Recipe"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 13125
+    }
+    
+}, {
+    "name": "CarbosTissueField",
+    "displayName": "Carbos Tissue Field",
+    "description": "", 
+    "baseCost": 300000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 7500
+}, {
+    "name": "CelluloseAlgaeField",
+    "displayName": "Cellulose Algae Field",
+    "description": "", 
+    "baseCost": 200000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 5000
+}, {
+    "name": "ConcentratedVitaminsField",
+    "displayName": "Concentrated Vitamins Field",
+    "description": "", 
+    "baseCost": 300000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 7500
+}, {
+    "name": "Cultivation Farm",
+    "displayName": "CULTIVATION FARM",
+    "description": "The Cultivation Farm allows you to use fields to generate Cellulose Algae, Promordial Algae, and Bioluminescent Algae.", 
+    "baseCost": 300000,
+    "category": "Farms",
+    "svgIcon": "2130-icn-bldg-farm-cultivation (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "2130-ui-conbar-farm-cultivation (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-farm-cultivation (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Farm", "Industrial", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["Cellulose Algae", "Primordial Algae", "K1ll-411 Virus Culture", "Hyper Bacterial Culture"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 7500
+    }
+    
+}, {
+    "name": "EnergyRichTissueField",
+    "displayName": "Energy Rich Tissue Field",
+    "description": "", 
+    "baseCost": 300000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 7500
+}, {
+    "name": "Fabrication Shop",
+    "displayName": "Fabrication Shop",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "2130-icn-bldg-shop-fabrication (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-shop-fabrication (UnityEngine.Sprite)",
+    "tags": [ "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "GoldGatherer",
+    "displayName": "GOLD MINE",
+    "description": "The Gold Mine uses Harvesters to collect units of Gold from Gold deposits placed on Land tiles across the map. ", 
+    "baseCost": 225000,
+    "category": "LandGatherers",
+    "svgIcon": "2130-icn-bldg-gath-mine-gold (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "2130-ui-conbar-gath-gold-mine (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-gath-goldmine (UnityEngine.Sprite)",
+    "tags": [ "PrebuiltGatherer", "Gatherer", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["Gold Recipe"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 5625
+    }
+    
+}, {
+    "name": "GoldMineHarvester",
+    "displayName": "GOLD MINE HARVESTER",
+    "description": "", 
+    "baseCost": 175000,
+    "category": "Harvester",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "2130-bg-techtree (UnityEngine.Sprite)",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 4375
+}, {
+    "name": "HighFiberTissueField",
+    "displayName": "High Fiber Tissue Field",
+    "description": "", 
+    "baseCost": 300000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 7500
+}, {
+    "name": "HyperBacterialCultureField",
+    "displayName": "Hyper Bacterial Culture Field",
+    "description": "", 
+    "baseCost": 200000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 5000
+}, {
+    "name": "Kill-411VirusCultureField",
+    "displayName": "Kill-411 Virus Culture Field",
+    "description": "", 
+    "baseCost": 200000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 5000
+}, {
+    "name": "LeanProteinTissueField",
+    "displayName": "Lean Protein Tissue Field",
+    "description": "", 
+    "baseCost": 300000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 7500
+}, {
+    "name": "MedicalFactory",
+    "displayName": "MEDICAL FACILITY",
+    "description": "The Medical Facility uses Algae to make Life Industry Products like Microbial Culture, Regenerative Solution, and various Food Items. ", 
+    "baseCost": 600000,
+    "category": "LightIndustry",
+    "svgIcon": "2130-icn-bldg-fact-medical (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "2130-ui-conbar-fact-medical (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-fac-medical (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["Microbial Culture Recipe", "BioLEDs Recipe", "Antiviral Solution Recipe", "Antibacterial Solution Recipe", "Regenerative Solution Recipe", "Antiviral Pill Recipe", "Antibacterial Pill Recipe", "Regen Gel Recipe", "Complete Meal Paste Recipe", "Bone Growth Material Recipe", "Organ Replacement", "Workers Meal Bar"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 15000
+    }
+    
+}, {
+    "name": "Nutrient Center",
+    "displayName": "Nutrient Center",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "2130-icn-bldg-shop-nutrient-center (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-shop-nutrient (UnityEngine.Sprite)",
+    "tags": [ "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "Parts Shop",
+    "displayName": "Parts Shop",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "2130-icn-bldg-shop-parts (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-shop-parts (UnityEngine.Sprite)",
+    "tags": [ "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "Pharmacy",
+    "displayName": "Pharmacy",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "2130-icn-bldg-shop-pharmacy (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-shop-pharmacy (UnityEngine.Sprite)",
+    "tags": [ "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "Polymer & Materials Factory",
+    "displayName": "MATERIALS FACTORY",
+    "description": "The Materials Factory uses Polymers and Silica to make Heavy Industrial Products like Tholins, Thermoplastic, and Bio Memory Cells. ", 
+    "baseCost": 500000,
+    "category": "HeavyIndustry",
+    "svgIcon": "2130-icn-bldg-fact-polymer-materials (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "2130-ui-conbar-fact-materials (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-fac-polymer-materials (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["Tholins", "Coolant", "Quartz Solution", "Synthetic Resin", "Thermoplastic", "Tholin Gel", "Binary Quark Gate", "Red Quartz Crystal", "Green Quartz Crystal", "Blue Quartz Crystal", "Bio Memory Cells", "Carbon Fibers Tow", "Neural Connectors"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 12500
+    }
+    
+}, {
+    "name": "PolymerGatherer",
+    "displayName": "POLYMER GATHERER",
+    "description": "The Polymer Gatherer uses coastal harvesters to collect Polymers from polluted waters.", 
+    "baseCost": 125000,
+    "category": "OffshoreGatherers",
+    "svgIcon": "2130-icn-bldg-gath-water-siphon (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "2130-ui-conbar-gath-water-siphon (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-gath-watersiphon (UnityEngine.Sprite)",
+    "tags": [ "Gatherer", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["PolymerRecipe"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 3125
+    }
+    
+}, {
+    "name": "PolymerHarvester",
+    "displayName": "POLYMER HARVESTER",
+    "description": "", 
+    "baseCost": 75000,
+    "category": "Harvester",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "2130-bg-techtree (UnityEngine.Sprite)",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 1875
+}, {
+    "name": "PrimordialAlgaeField",
+    "displayName": "Primordial Algae Field",
+    "description": "", 
+    "baseCost": 200000,
+    "category": "Field",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 5000
+}, {
+    "name": "Replicator Megafactory",
+    "displayName": "REPLICATOR MEGAFACTORY",
+    "description": "The Replicator Megafactory uses various Products made in the Advanced Components Factory to make the Replicator 5000 Prototype.", 
+    "baseCost": 50000000,
+    "category": "Prototype Factories",
+    "svgIcon": "2130-icn-bldg-fact-mega (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "2130-ui-conbar-fact-mega (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-fac-mega (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["Replicator 5000"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 1250000
+    }
+    
+}, {
+    "name": "Robotics Shop",
+    "displayName": "Robotics Shop",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "2130-icn-bldg-shop-robotics (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-shop-robotics (UnityEngine.Sprite)",
+    "tags": [ "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "RoboticsFactory",
+    "displayName": "ROBOTICS FACTORY",
+    "description": "The Robotics Factory uses various parts to make Heavy Industry Products like Actuators, Cyberlimb Mechanism, and various robots. ", 
+    "baseCost": 450000,
+    "category": "HeavyIndustry",
+    "svgIcon": "2130-icn-bldg-fact-robotics (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "2130-ui-conbar-fact-robotics (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-fac-robotics (UnityEngine.Sprite)",
+    "tags": [ "Factory", "Industrial", "Recipe User"] ,
+    "availableRecipes": ["Steel Struts Recipe", "Gold Wire Recipe", "Actuators Recipe", "Titanium Struts Recipe", "Light Robot Frame Recipe", "Cyberlimb Mechanism Recipe", "Heavy Robot Frame Recipe", "Light Construction Bot Recipe", "Medi-Bot Recipe", "Collector Bot Recipe", "Auxiliary-Arm Attachment Recipe", "Utility Cyberarm Recipe", "Heavy Lifting Cyberleg Recipe", "Heavy Construction Bot Recipe", "Heavy Mover Bot Recipe"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 11250
+    }
+    
+}, {
+    "name": "RuinGatherer",
+    "displayName": "RUIN SCAVENGER",
+    "description": "The Ruin Scavenger uses Harvesters to collect units of Steel from Ruins placed across the map. ", 
+    "baseCost": 225000,
+    "category": "LandGatherers",
+    "svgIcon": "2130-icn-bldg-gath-scavenger-facility (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "2130-ui-conbar-gath-scavenger (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-gath-scavenger (UnityEngine.Sprite)",
+    "tags": [ "Gatherer", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["ScavengerRecipe"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 5625
+    }
+    
+}, {
+    "name": "RuinHarvester",
+    "displayName": "RUIN HARVESTER",
+    "description": "", 
+    "baseCost": 175000,
+    "category": "Harvester",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "2130-bg-techtree (UnityEngine.Sprite)",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 4375
+}, {
+    "name": "SilicaGatherer",
+    "displayName": "SILICA COLLECTOR",
+    "description": "The Silica Collector uses Harvesters to collect units of Silica from coastlines across the map. ", 
+    "baseCost": 175000,
+    "category": "LandGatherers",
+    "svgIcon": "2130-icn-bldg-gath-silica-collector (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "2130-ui-conbar-gath-silica (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-gath-silica (UnityEngine.Sprite)",
+    "tags": [ "Gatherer", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["Silica Recipe"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 4375
+    }
+    
+}, {
+    "name": "SilicaHarvester",
+    "displayName": "SILICA HARVESTER",
+    "description": "", 
+    "baseCost": 125000,
+    "category": "CoastHarvester",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "2130-bg-techtree (UnityEngine.Sprite)",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 3125
+}, {
+    "name": "ThoriumGatherer",
+    "displayName": "THORIUM MINE",
+    "description": "The Thorium Mine uses Harvesters to collect units of Thorium from Thorium deposits placed on Land tiles across the map. ", 
+    "baseCost": 225000,
+    "category": "LandGatherers",
+    "svgIcon": "2130-icn-bldg-gath-mine-thorium (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "2130-ui-conbar-gath-thorium-mine (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-gath-thoriummine (UnityEngine.Sprite)",
+    "tags": [ "PrebuiltGatherer", "Gatherer", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["Thorium Recipe"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 5625
+    }
+    
+}, {
+    "name": "ThoriumMineHarvester",
+    "displayName": "THORIUM MINE HARVESTER",
+    "description": "", 
+    "baseCost": 175000,
+    "category": "Harvester",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-gath-thoriummine (UnityEngine.Sprite)",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 4375
+}, {
+    "name": "TitaniumGatherer",
+    "displayName": "TITANIUM MINE",
+    "description": "The Titanium Mine uses Harvesters to collect units of Titanium from Titanium deposits placed on Land tiles across the map. ", 
+    "baseCost": 225000,
+    "category": "LandGatherers",
+    "svgIcon": "2130-icn-bldg-gath-mine-titanium (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "2130-ui-conbar-gath-titanium-mine (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-gath-titaniummine (UnityEngine.Sprite)",
+    "tags": [ "PrebuiltGatherer", "Gatherer", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["Titanium Recipe"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 5625
+    }
+    
+}, {
+    "name": "TitaniumHarvester",
+    "displayName": "TITANIUM MINE HARVESTER",
+    "description": "", 
+    "baseCost": 175000,
+    "category": "Harvester",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "2130-bg-techtree (UnityEngine.Sprite)",
+    "tags": [ "Module"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 4375
+}, {
+    "name": "Vat Farm",
+    "displayName": "VAT FARM",
+    "description": "The Vat Farm allows you to use fields to generate High Fiber Tissue, Lean Protean Tissue, and Carbos Tissue.", 
+    "baseCost": 400000,
+    "category": "Farms",
+    "svgIcon": "2130-icn-bldg-farm-vat (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "2130-ui-conbar-farm-vat (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-farm-vat (UnityEngine.Sprite)",
+    "tags": [ "AiHintAffectedByPollution", "Farm", "Industrial", "Recipe User", "Module Owner"] ,
+    "availableRecipes": ["High Fiber Tissue", "Lean Protein Tissue", "Carbos Tissue", "Energy Rich Tissue", "Concentrated Vitamns"]
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 10000
+    }
+    
+}, {
+    "name": "2130Showroom",
+    "displayName": "Showroom",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Commercial",
+    "svgIcon": "2130-icn-bldg-shop-showroom (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-shop-showroom (UnityEngine.Sprite)",
+    "tags": [ "Shop"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "2130AirScrubber",
+    "displayName": "Air Scrubber",
+    "description": "The Air Scrubber is used to clean the pollution from the surrounding area, for a high upkeep.", 
+    "baseCost": 125000,
+    "category": "PollutionManagement",
+    "svgIcon": "2130-icn-cat-pollution (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "2130-ui-conbar-pollution (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-pollution (UnityEngine.Sprite)",
+    "tags": [ "PollutionManagement"] ,
+    "availableRecipes": []
+    ,"upkeep": {
+        "monthlyUpkeep": "buildingCost * 0.025",
+        "minUpkeep": 0.25,
+        "buildingCostPercentage": 0.025,
+        "totalMonthlyUpkeep": 3125
+    }
+    
+}, {
+    "name": "2130TownCenter",
+    "displayName": "Town Center",
+    "description": "", 
+    "baseCost": 0,
+    "category": "TownCenter",
+    "svgIcon": "2130-icn-bldg-shop (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-town-center (UnityEngine.Sprite)",
+    "tags": [ ] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "Drop Ship Logistical",
+    "displayName": "Drop Ship Pad",
+    "description": "Drop Ship Pads use Drop Ships to move Products across the map. No need for any network connections, Drop Ships float over everything.", 
+    "baseCost": 450000,
+    "category": "ZeppelinStation",
+    "svgIcon": "2130-icn-bldg-logi-dropship-pad (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-station-zeppelin (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-logi-dropship (UnityEngine.Sprite)",
+    "tags": [ "Logistics"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 11250
+}, {
+    "name": "MagLev Logistical",
+    "displayName": "MagLev Terminal",
+    "description": "MagLev Terminals that are connected by MagLev Tracks use MagLevs to move a large number of Products from Warehouses across the map. ", 
+    "baseCost": 450000,
+    "category": "TrainTerminal",
+    "svgIcon": "2130-icn-bldg-logi-train-station (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-station-train (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-logi-maglev-terminal (UnityEngine.Sprite)",
+    "tags": [ "Logistics"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 11250
+}, {
+    "name": "Bulker Dock Logistical",
+    "displayName": "Bulker Dock",
+    "description": "Bulker Docks launch Bulkers onto bodies of water to move a massive amount of Products to other Bulker Docks. ", 
+    "baseCost": 450000,
+    "category": "BoatDepot",
+    "svgIcon": "tool-station-boat-small (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "ui-building-station-boatdock (UnityEngine.Sprite)",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-logi-boat-dock (UnityEngine.Sprite)",
+    "tags": [ "Logistics"] ,
+    "availableRecipes": []
+    
+    ,"moduleUpkeep": 11250
+}, {
+    "name": "2130TownCenterT2",
+    "displayName": "Town Center",
+    "description": "", 
+    "baseCost": 0,
+    "category": "TownCenter",
+    "svgIcon": "2130-icn-bldg-shop (SVGImporter.SVGAsset)",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "2130-bldg-bg-title-town-center (UnityEngine.Sprite)",
+    "tags": [ ] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "2130House_1x1_Heavy_T0",
+    "displayName": "Residential Complex",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}, {
+    "name": "2130House_1x1_Heavy_T1",
+    "displayName": "Residential Complex",
+    "description": "", 
+    "baseCost": 0,
+    "category": "Residential",
+    "svgIcon": "",
+    "constructionBarIcon": "",
+    "buildingPanelHeaderImage": "",
+    "tags": [ "Residential", "Urban"] ,
+    "availableRecipes": []
+    
+    
+}] 

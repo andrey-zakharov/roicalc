@@ -1,0 +1,976 @@
+[ {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Actuators",
+        "displayName": "Actuators",
+        "category": "productCategories",
+        "productCategory": "Row1",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-actuators",
+        "tags": [ "Parts Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Antibacterial Pill",
+        "displayName": "Antibacterial Pill",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-pill-antibacterial",
+        "tags": [ "Pharmacy"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Antibacterial Solution",
+        "displayName": "Antibacteriall Solution",
+        "category": "productCategories",
+        "productCategory": "Row2",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-solution-antibacterial",
+        "tags": [ "Pharmacy"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Antiviral Pill",
+        "displayName": "Antiviral Pill",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-pill-antiviral",
+        "tags": [ "Pharmacy"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Antiviral Solution",
+        "displayName": "Antiviral Solution",
+        "category": "productCategories",
+        "productCategory": "Row2",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-solution-antiviral",
+        "tags": [ "Pharmacy"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Auxiliary-Arm Extension",
+        "displayName": "Auxiliary-Arm Extension",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-actuator-arm-attachment",
+        "tags": [ "Robotics Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Binary Quark Gate",
+        "displayName": "Binary Quark Gate",
+        "category": "productCategories",
+        "productCategory": "Row2",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-binary-quark-gate",
+        "tags": [ "Fabrication Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Bio Memory Cells",
+        "displayName": "Bio Memory Cells",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-bio-memory-cells",
+        "tags": [ "Fabrication Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "BioLEDs",
+        "displayName": "BioLEDs",
+        "category": "productCategories",
+        "productCategory": "Row2",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-bio-leds",
+        "tags": [ "Pharmacy"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Blue Gamma Laser",
+        "displayName": "Blue Gamma Laser",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-laser-blue-gamma",
+        "tags": [ "Advanced Components Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Blue Quartz Crystal",
+        "displayName": "Blue Quartz Crystal",
+        "category": "productCategories",
+        "productCategory": "Row2",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-quartz-crystal-blue",
+        "tags": [ "Parts Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Bone Growth Material",
+        "displayName": "Bone Growth Matieral ",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-bone-growth-material",
+        "tags": [ "Pharmacy"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Carbon Fibers Tow",
+        "displayName": "Carbon Fibers Tow",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-carbon-fiber-tow",
+        "tags": [ "Fabrication Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Carbos Tissue",
+        "displayName": "Carbos Tissue",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-tissue-carbos",
+        "tags": [ "Nutrient Center"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Cellulose Algae",
+        "displayName": "Cellulose Algae",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-algae-cellulose",
+        "tags": [ "Nutrient Center"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Collector Bot",
+        "displayName": "Collector Bot",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-robot-collector",
+        "tags": [ "Robotics Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Complete Meal Paste",
+        "displayName": "Complete Meal Paste",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-complete-meal-paste",
+        "tags": [ "Nutrient Center"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Concentrated Vitamns",
+        "displayName": "Concentrated Vitamins",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-concentrated-vitamins",
+        "tags": [ "Pharmacy"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Coolant",
+        "displayName": "Coolant",
+        "category": "productCategories",
+        "productCategory": "Row1",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-coolant",
+        "tags": [ "2130GenericProductTag"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Cyberlimb Mechanism",
+        "displayName": "Cyberlimb Mechanism",
+        "category": "productCategories",
+        "productCategory": "Row2",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-cyberlimb-mechanism",
+        "tags": [ "Robotics Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Energy Rich Tissue",
+        "displayName": "Energy Rich Tissue",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-tissue-energy-rich",
+        "tags": [ "Nutrient Center"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Gold",
+        "displayName": "Gold",
+        "category": "productCategories",
+        "productCategory": "RawResources",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-gold",
+        "tags": [ "2130GenericProductTag", "Assorted Goods"] ,
+        "price": "upkeep / ((3 * recipeOutput) * (30 / recipeDays))"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Gold Wire",
+        "displayName": "Gold Wire",
+        "category": "productCategories",
+        "productCategory": "Row1",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-gold-wire",
+        "tags": [ "2130GenericProductTag", "Assorted Goods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Grav Field Generator",
+        "displayName": "Grav Field Generator",
+        "category": "productCategories",
+        "productCategory": "Row2",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-grav-field-generator",
+        "tags": [ "Advanced Components Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Green Quartz Crystal",
+        "displayName": "Green Quartz Crystal",
+        "category": "productCategories",
+        "productCategory": "Row2",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-quartz-crystal-green",
+        "tags": [ "Parts Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Green Subatomic Laser",
+        "displayName": "Green Subatomic Laser",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-laser-green-subatomic",
+        "tags": [ "Advanced Components Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Heavy Construction Bot",
+        "displayName": "Heavy Construction Bot",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-robot-heavy-construction",
+        "tags": [ "Robotics Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Heavy Lifting Cyberleg",
+        "displayName": "Heavy Lifting Cyberleg",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-heavylifting-cyberleg",
+        "tags": [ "Robotics Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Heavy Mover Bot",
+        "displayName": "Heavy Mover Bot",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-robot-heavy-mover",
+        "tags": [ "Robotics Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Heavy Robot Frame",
+        "displayName": "Heavy Robot Frame",
+        "category": "productCategories",
+        "productCategory": "Row2",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-robot-heavy-frame",
+        "tags": [ "Robotics Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "High Fiber Tissue",
+        "displayName": "High Fiber Tissue",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-tissue-high-fiber",
+        "tags": [ "Nutrient Center"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Hodagrium",
+        "displayName": "Hodagrium",
+        "category": "productCategories",
+        "productCategory": "Row1",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-hodagrium",
+        "tags": [ "Fabrication Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Hyper Bacterial Culture",
+        "displayName": "Hyper Bacterial Culture",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-culture-bacterial",
+        "tags": [ "Nutrient Center"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "K1ll-411 Virus Culture",
+        "displayName": "K1ll-411 Virus Culture",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-culture-virus",
+        "tags": [ "Nutrient Center"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Laser Control System",
+        "displayName": "Laser Control System",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-thorium-laser-control-system",
+        "tags": [ "Advanced Components Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Lean Protein Tissue",
+        "displayName": "Lean Protein Tissue",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-tissue-lean-protein",
+        "tags": [ "Nutrient Center"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Light Construction Bot",
+        "displayName": "Light Construction Bot",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-robot-light-construction",
+        "tags": [ "Robotics Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Light Robot Frame",
+        "displayName": "Light Robot Frame",
+        "category": "productCategories",
+        "productCategory": "Row2",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-robot-light-frame",
+        "tags": [ "Robotics Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Medi-Bot",
+        "displayName": "Medi-Bot",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-robot-medic",
+        "tags": [ "Robotics Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Microbial Culture",
+        "displayName": "Microbial Culture",
+        "category": "productCategories",
+        "productCategory": "Row1",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-culture-microbial",
+        "tags": [ "Pharmacy"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "MicroChips",
+        "displayName": "Micro Chips",
+        "category": "productCategories",
+        "productCategory": "Row1",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-microchips",
+        "tags": [ "Fabrication Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Microfilament Frame",
+        "displayName": "Microfilament Frame",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-microfilament-frame",
+        "tags": [ "Advanced Components Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Nanochips",
+        "displayName": "Nanochips",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-nanochips",
+        "tags": [ "Fabrication Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Neural Connectors",
+        "displayName": "Neural Connectors",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-neural-connectors",
+        "tags": [ "Fabrication Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Neural Interface",
+        "displayName": "Neural Interface",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-neural-interface",
+        "tags": [ "Advanced Components Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Nuclear Power Cells",
+        "displayName": "Nuclear Power Cells",
+        "category": "productCategories",
+        "productCategory": "Row2",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-nuclear-power-cell",
+        "tags": [ "Fabrication Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Organ Replacements",
+        "displayName": "Organ Replacements",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-organ-replacement",
+        "tags": [ "Pharmacy"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Polymers",
+        "displayName": "Polymers",
+        "category": "productCategories",
+        "productCategory": "RawResources",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-polymers",
+        "tags": [ "2130GenericProductTag", "Assorted Goods", "AvailableWithWater"] ,
+        "price": "upkeep / ((3 * recipeOutput) * (30 / recipeDays))"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Primordial Algae",
+        "displayName": "Primordial Algae",
+        "category": "productCategories",
+        "productCategory": "FarmProduce",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-algae-primordial",
+        "tags": [ "Nutrient Center"] ,
+        "price": "((ingredientsValue * 3) + ((upkeep / 30) * recipeDays)) / (recipeOutput * 3)"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Quantum Matrix",
+        "displayName": "Quantum Matrix",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-quantum-matrix",
+        "tags": [ "Advanced Components Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Quartz Solution",
+        "displayName": "Quartz Solution",
+        "category": "productCategories",
+        "productCategory": "Row1",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-solution-quartz",
+        "tags": [ "Parts Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Red Anti-Matter Laser",
+        "displayName": "Red Anti-Matter Laser",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-laser-red-antimatter",
+        "tags": [ "Advanced Components Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Red Quartz Crystal",
+        "displayName": "Red Quartz Crystal",
+        "category": "productCategories",
+        "productCategory": "Row2",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-quartz-crystal-red",
+        "tags": [ "Parts Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Regen Gel",
+        "displayName": "Regen Gel",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-regen-gel",
+        "tags": [ "Pharmacy"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Regenerative Solution",
+        "displayName": "Regenerative Solution",
+        "category": "productCategories",
+        "productCategory": "Row2",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-solution-regenerative",
+        "tags": [ "Pharmacy"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Replicator 5000",
+        "displayName": "Replicator 5000",
+        "category": "productCategories",
+        "productCategory": "PrototypeProducts",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-replicator-5000",
+        "tags": [ "Showroom"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Silica",
+        "displayName": "Silica",
+        "category": "productCategories",
+        "productCategory": "RawResources",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-silica",
+        "tags": [ "AvailableWithWater", "Assorted Goods", "2130GenericProductTag"] ,
+        "price": "upkeep / ((3 * recipeOutput) * (30 / recipeDays))"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Steel Cases",
+        "displayName": "Steel Cases",
+        "category": "productCategories",
+        "productCategory": "Row1",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-steel-cases",
+        "tags": [ "2130GenericProductTag", "Assorted Goods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Steel Struts",
+        "displayName": "Steel Struts",
+        "category": "productCategories",
+        "productCategory": "Row1",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-steel-struts",
+        "tags": [ "2130GenericProductTag", "Assorted Goods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Steel2130",
+        "displayName": "Steel",
+        "category": "productCategories",
+        "productCategory": "RawResources",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "recipe-steel-small",
+        "tags": [ "2130GenericProductTag", "Assorted Goods"] ,
+        "price": "upkeep / ((3 * recipeOutput) * (30 / recipeDays))"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "StructuralDisassembler",
+        "displayName": "Structural Disassembler",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-extradimensional-deconstructor",
+        "tags": [ "Advanced Components Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Superconductor",
+        "displayName": "Superconductor",
+        "category": "productCategories",
+        "productCategory": "Row2",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-superconductor",
+        "tags": [ "Fabrication Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Synthetic Resin",
+        "displayName": "Synthetic Resin",
+        "category": "productCategories",
+        "productCategory": "Row1",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-synthetic-resin",
+        "tags": [ "Parts Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Thermoplastic",
+        "displayName": "Thermoplastic",
+        "category": "productCategories",
+        "productCategory": "Row2",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-thermo-plastic",
+        "tags": [ "Parts Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Theta Raw Processor",
+        "displayName": "Theta Raw Processor",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-theta-raw-processor",
+        "tags": [ "Advanced Components Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Tholin Gel",
+        "displayName": "Tholin Gel",
+        "category": "productCategories",
+        "productCategory": "Row2",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-tholin-gel",
+        "tags": [ "Parts Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Tholins",
+        "displayName": "Tholins",
+        "category": "productCategories",
+        "productCategory": "Row1",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-tholins",
+        "tags": [ "Parts Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Thorium",
+        "displayName": "Thorium",
+        "category": "productCategories",
+        "productCategory": "RawResources",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-thorium",
+        "tags": [ "2130GenericProductTag", "Assorted Goods"] ,
+        "price": "upkeep / ((3 * recipeOutput) * (30 / recipeDays))"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Thorium Rods",
+        "displayName": "Thorium Rods",
+        "category": "productCategories",
+        "productCategory": "Row1",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-thorium-rods",
+        "tags": [ "Fabrication Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Titanium",
+        "displayName": "Titanium",
+        "category": "productCategories",
+        "productCategory": "RawResources",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-titanium",
+        "tags": [ "2130GenericProductTag", "Assorted Goods"] ,
+        "price": "upkeep / ((3 * recipeOutput) * (30 / recipeDays))"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Titanium Cases",
+        "displayName": "Titanium Cases",
+        "category": "productCategories",
+        "productCategory": "Row1",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-titanium-cases",
+        "tags": [ "2130GenericProductTag", "Assorted Goods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Titanium Struts",
+        "displayName": "Titanium Struts",
+        "category": "productCategories",
+        "productCategory": "Row1",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-titanium-struts",
+        "tags": [ "2130GenericProductTag", "Assorted Goods"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Utility Cyberarm",
+        "displayName": "Utility Cyberarm",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-utility-cyberarm",
+        "tags": [ "Robotics Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Verteron Particle Infuser",
+        "displayName": "Verteron Particle Infuser",
+        "category": "productCategories",
+        "productCategory": "Components",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-verteron-particle-infuser",
+        "tags": [ "Advanced Components Shop"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }, {
+    "type": "ProjectAutomata.ProductDefinition",
+    "object": {
+        "name": "Worker Meal Bar",
+        "displayName": "Workers Meal Bar",
+        "category": "productCategories",
+        "productCategory": "Row3",
+        "endGameProduct": false,
+        "disableContracts": false,
+        "svgIcon": "2130-icn-product-workers-meal-bar",
+        "tags": [ "Nutrient Center"] ,
+        "price": "(ingredientsValue + ((upkeep / 30) * recipeDays)) / recipeOutput"
+     }
+    }] 
