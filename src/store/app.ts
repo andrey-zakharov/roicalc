@@ -95,6 +95,8 @@ class AppState extends VuexModule implements IAppState {
     LivestockFarm: 'deforestation',
     OrchardFarm: '+2orchardfields',
     PlantationFarm: '+2plantationfields',
+    'Vat Farm': 'vatfarmfieldsa',
+    'Cultivation Farm': 'cultivationfarmfieldsa'
   };
 
   private static readonly TechsForCats: { [name: string]: string } = {
@@ -158,6 +160,9 @@ class AppState extends VuexModule implements IAppState {
     '+2orchardfields': true,
     '+2plantationfields': true,
     'deforestation': true,
+    // 2130
+    'cultivationfarmfieldsa': true,
+    'vatfarmfieldsa': true,
     // 'factoryefficiencyl1': false, // 25%
     // 'factoryefficiencyl2': false, // 50%
     // 'factoryefficiencyl3_l5': false, // 75%
