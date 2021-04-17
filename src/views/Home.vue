@@ -95,7 +95,7 @@
     import {BButton, BDropdown, BDropdownItem, BFormInput, BInputGroup, BNavForm} from "bootstrap-vue";
     import ProductResult from "@/components/ProductResult.vue";
     import Fraction from 'fraction.js/fraction';
-    import {costsFilter, periodFilter} from "@/utils";
+    import {costsFilter, periodFilter} from "@/utils/utils";
     import {TreeDataItem} from '@/../../tree-table-vue';
     import ProductForm from '@/components/ProductForm.vue';
     import Const from '@/mixins/Const.ts';

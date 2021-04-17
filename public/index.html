@@ -10,17 +10,24 @@
 
       gtag('config', 'G-X1PWB8G66H');
     </script>
+
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="*">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>Rise Of Industry Calculator</title>
+    <title>Loading «Rise of Industry» calculator...</title>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but roicalc doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
+    <style>
+      #app { width: 100% }
+    </style>
+    <div id="app" style="width:100%">
+      <img src="static/loading.gif" id="loading-placeholder"
+           title="Loading «Rise of Industry» calculator" style="margin:auto; width: 256px"/>
+    </div>
     <!-- built files will be auto injected -->
   </body>
 </html>

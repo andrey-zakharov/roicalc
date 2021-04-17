@@ -4,7 +4,7 @@ import router from './router';
 import store from './store';
 import BootstrapVue from 'bootstrap-vue';
 import TreeTable from 'tree-table-vue';
-import {costsFilter, periodFilter} from '@/utils';
+import {costsFilter, periodFilter} from '@/utils/utils';
 
 
 Vue.use(TreeTable);
