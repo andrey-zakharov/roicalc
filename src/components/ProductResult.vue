@@ -58,7 +58,7 @@
 </script>
 
 <style lang="scss">
-    @import '../vars.scss';
+    @import '../styles/vars';
     $bw: 100px;
     $bh: 100px;
     .building {

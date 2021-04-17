@@ -1,0 +1,7 @@
+$primary: rgb(200, 124, 13);
+.light {
+  @import '../../node_modules/bootstrap/scss/bootstrap';
+  @import '../../node_modules/bootstrap-vue/src/index';
+
+  header { background: $body-bg; }
+}

@@ -1,10 +1,10 @@
-@import './vars.scss';
+@import 'vars';
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  cursor: url('./assets/mouse_cursor.png'), default;
+  cursor: url('../assets/mouse_cursor.png'), default;
 }
 #app {
   text-align: center;

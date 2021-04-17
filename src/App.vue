@@ -1,7 +1,7 @@
 <style lang="scss">
-  @import './app.scss';
-  @import './light.scss';
-  @import './dark.scss';
+  @import 'styles/app';
+  @import 'styles/light';
+  @import 'styles/dark';
 </style>
 <template>
   <div id="app">
