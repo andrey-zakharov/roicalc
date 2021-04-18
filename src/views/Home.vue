@@ -14,7 +14,7 @@
       <b-nav-form>
         <b-radio-group :options="['RoI', 'RoI 2130']" :checked="module" @input="changeModule"></b-radio-group>
         <b-radio-group :options="['light', 'dark']" buttons button-variant="outline-primary"
-                       :checked="theme" @input="themeChanged"></b-radio-group>
+                       :checked="state.theme" @input="themeChanged"></b-radio-group>
         <b-form-select :value="language.toLowerCase()"
                        :options="languages.map((l) => ({text: l.displayName, value: l.keycode.toLowerCase()}))"
                        @input="changeLocale"
@@ -108,6 +108,7 @@
 })
 export default class Home extends Mixins(Const) {
 
+  get state() { return appState; }
   get theme() { return appState.theme; }
   get module() { return appState.module; }
   get recipes() { return appState.recipes; }
@@ -290,11 +291,6 @@ export default class Home extends Mixins(Const) {
 
   }
 
-  private sumChildrenCosts(item: TreeDataItem): number {
-    return (parseInt(item.cost) || 0) + (item.children ? item.children
-            .reduce((total: number, ch: TreeDataItem) => total + this.sumChildrenCosts(ch), 0) : 0);
-  }
-
   async addTarget(prod: ProductDefinition) {
     await appState.addTarget([prod, this.newTarget.amount, this.newTarget.days, this.newTarget.demand]);
     // await appState.setTargetAmount(this.targetAmount); // per 15 days
@@ -322,6 +318,10 @@ export default class Home extends Mixins(Const) {
     appState.updateSimpleRecipes(v);
   }
 
+  private sumChildrenCosts(item: TreeDataItem): number {
+    return (parseInt(item.cost) || 0) + (item.children ? item.children
+      .reduce((total: number, ch: TreeDataItem) => total + this.sumChildrenCosts(ch), 0) : 0);
+  }
 }
 </script>
 <style lang="scss">

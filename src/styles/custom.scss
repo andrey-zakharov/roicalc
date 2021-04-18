@@ -1,0 +1,16 @@
+// it should be in ProductResult css. but there no vars, so:
+
+  .form-control:disabled {
+    background-color: var(--theme-background);
+  }
+
+  // custom tree-table lib styles
+  .zk-table, .zk-table__footer-row, .zk-table__header-row, .input-group-text {
+    background-color: var(--theme-background);
+    color: var(--theme-on-surface)
+  }
+  .zk-table__body-row:not(:first-of-type) {
+    border-top: 1px solid var(--theme-secondary);
+  }
+
+

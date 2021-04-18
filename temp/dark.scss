@@ -1,0 +1,10 @@
+
+.dark {
+
+
+  @import '../node_modules/bootstrap/scss/bootstrap';
+  @import '../node_modules/bootstrap-vue/src/index';
+
+  header { background: $body-bg; }
+  @import "../src/styles/custom";
+}

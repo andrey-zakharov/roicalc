@@ -1,0 +1,19 @@
+
+$themes: (
+  light: (
+    --theme-primary: rgb(200, 124, 13),
+    --theme-secondary: #9b4dca,
+    --theme-surface: #fff,
+    --theme-background: #fafafa,
+    --theme-on-primary: #fff,
+    --theme-on-secondary: #fff,
+    --theme-on-surface: #000,
+  ),
+  dark: (
+    --theme-primary: rgb(200, 124, 13),
+    --theme-secondary: #6c757d,
+    --theme-background: #343a40,
+    --theme-surface: #222,
+    --theme-on-surface: #f8f9fa,
+  )
+)

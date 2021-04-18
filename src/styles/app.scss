@@ -1,11 +1,48 @@
+
 @import 'vars';
+@import '_mixins';
+@import 'themes';
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  cursor: url('../assets/mouse_cursor.png'), default;
+  //cursor: url('../assets/mouse_cursor.png'), default;
 }
+
 #app {
-  text-align: center;
+  text-align: center
 }
+
+// themify
+@each $name, $map in $themes {
+  .theme-#{$name} {
+    @include spread-map($map);
+
+    // bootstrap adapter
+    $theme-colors: (
+      "primary": map-get($map, --theme-primary),
+      "secondary": map-get($map, --theme-secondary),
+
+
+    );
+
+    $body-bg: map-get($map, --theme-background);
+    $body-color: map-get($map, --theme-primary);
+    $input-bg: map-get($map, --theme-background);
+    $input-color: map-get($map, --theme-primary);
+
+    $list-group-bg:                     map-get($map, --theme-surface);
+    $list-group-border-color:           rgba(map-get($map, --theme-on-surface), .125) !default;
+
+
+    @import '../../node_modules/bootstrap/scss/bootstrap';
+    @import '../../node_modules/bootstrap-vue/src/index';
+
+    header {
+      background: $body-bg;
+    }
+    @import "custom";
+  }
+}
+

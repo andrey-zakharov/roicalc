@@ -1,7 +1,6 @@
-<style lang="scss">
-  @import 'styles/app';
-  @import 'styles/light';
-  @import 'styles/dark';
+<!--suppress CssInvalidAtRule -->
+<style lang="sass">
+  @import "styles/app"
 </style>
 <template>
   <div id="app">
@@ -17,7 +16,7 @@
     get theme() { return appState.theme; }
     @Watch('theme')
     updateTheme() {
-      document.documentElement.className = appState.theme;
+      document.documentElement.className = "theme-" + appState.theme;
     }
     created() {
       this.updateTheme();
